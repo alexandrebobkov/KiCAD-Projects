@@ -480,7 +480,7 @@
         "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -533,6 +533,14 @@
       {
         "netclass": "power",
         "pattern": "VDC"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/DAC1"
+      },
+      {
+        "netclass": "signal",
+        "pattern": "/DAC2"
       }
     ]
   },
