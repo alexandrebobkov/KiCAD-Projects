@@ -8214,6 +8214,126 @@
 				)
 			)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:VDC"
 			(power)
 			(pin_names
@@ -8336,12 +8456,6 @@
 		)
 	)
 	(junction
-		(at 20.32 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0575ac73-dc12-4453-9bd8-9d8705341d8c")
-	)
-	(junction
 		(at 113.03 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8376,6 +8490,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33068641-7e75-48fc-a514-ac58a836a8a6")
+	)
+	(junction
+		(at 50.8 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33c8b2b7-50d4-48a1-8650-c596fdf7355a")
 	)
 	(junction
 		(at 361.95 223.52)
@@ -8552,6 +8672,12 @@
 		(uuid "b6349c70-d706-4a06-b8b7-5498898dadec")
 	)
 	(junction
+		(at 26.67 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8ec7d40-8e10-47a8-8da6-6c25f4687013")
+	)
+	(junction
 		(at 90.17 345.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8586,12 +8712,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dacbcafd-4839-4350-917e-c51735548370")
-	)
-	(junction
-		(at 26.67 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de24e15d-da59-441f-976b-6e3fe698eb01")
 	)
 	(junction
 		(at 563.88 104.14)
@@ -8845,6 +8965,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 19.05) (xy 50.8 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0192426b-7f62-408b-b3c3-c2944a565fa1")
+	)
+	(wire
+		(pts
 			(xy 59.69 67.31) (xy 59.69 64.77)
 		)
 		(stroke
@@ -9085,16 +9215,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 24.13) (xy 50.8 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dcc36e4-baa3-4ec4-ab77-c549b83e75b6")
-	)
-	(wire
-		(pts
 			(xy 160.02 106.68) (xy 162.56 106.68)
 		)
 		(stroke
@@ -9275,6 +9395,26 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 54.61) (xy 20.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15488e02-bc28-45fc-9a24-784a3edc69ce")
+	)
+	(wire
+		(pts
+			(xy 45.72 24.13) (xy 50.8 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15af1d92-b511-4995-837a-947431e8667e")
+	)
+	(wire
+		(pts
 			(xy 246.38 45.72) (xy 246.38 48.26)
 		)
 		(stroke
@@ -9292,16 +9432,6 @@
 			(type default)
 		)
 		(uuid "17ef4c07-82f3-4f9a-8c7b-0ba3cd4aa02c")
-	)
-	(wire
-		(pts
-			(xy 20.32 59.69) (xy 20.32 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "197d9af4-94f5-477b-b358-a7ce1a78b540")
 	)
 	(wire
 		(pts
@@ -9372,6 +9502,16 @@
 			(type default)
 		)
 		(uuid "1cee154e-840d-4b67-98f4-6b3f5690b8c1")
+	)
+	(wire
+		(pts
+			(xy 50.8 24.13) (xy 57.15 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf2dbcc-cc9e-41bf-8104-bb8b5f7b50a2")
 	)
 	(wire
 		(pts
@@ -9572,16 +9712,6 @@
 			(type default)
 		)
 		(uuid "270db970-825f-407e-80f7-5709beb056a6")
-	)
-	(wire
-		(pts
-			(xy 20.32 64.77) (xy 20.32 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "272b2d08-5921-4289-a487-6ced964839c7")
 	)
 	(bus
 		(pts
@@ -10322,6 +10452,26 @@
 			(type default)
 		)
 		(uuid "50a8f6a5-6a5f-426a-9245-129c37b8d6d4")
+	)
+	(wire
+		(pts
+			(xy 76.2 26.67) (xy 76.2 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51500c82-9aa7-4cec-8577-0be8129568ff")
+	)
+	(wire
+		(pts
+			(xy 67.31 26.67) (xy 76.2 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5193b9f8-66ab-44d3-826b-ef8f84012dcd")
 	)
 	(wire
 		(pts
@@ -11075,7 +11225,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 62.23) (xy 26.67 64.77)
+			(xy 35.56 62.23) (xy 35.56 64.77)
 		)
 		(stroke
 			(width 0)
@@ -11925,16 +12075,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 24.13) (xy 50.8 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afcdb1db-08ce-49c2-b440-2f55851c2744")
-	)
-	(wire
-		(pts
 			(xy 598.17 100.33) (xy 598.17 113.03)
 		)
 		(stroke
@@ -12122,16 +12262,6 @@
 			(type default)
 		)
 		(uuid "bb339a6a-83c9-4f79-9480-add62bc03fe7")
-	)
-	(wire
-		(pts
-			(xy 20.32 64.77) (xy 26.67 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb6eff28-2c4f-4bd1-9f2a-254b4e9a9ab6")
 	)
 	(wire
 		(pts
@@ -12492,6 +12622,16 @@
 			(type default)
 		)
 		(uuid "d92c19a4-a456-4fef-b31f-e12b6345d33c")
+	)
+	(wire
+		(pts
+			(xy 26.67 59.69) (xy 26.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da067498-eebc-47a8-af97-a89291d921bf")
 	)
 	(wire
 		(pts
@@ -13638,7 +13778,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 26.67 62.23 0)
+		(at 35.56 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13647,7 +13787,7 @@
 		(fields_autoplaced yes)
 		(uuid "04bd2a88-c659-4bff-80d7-5f2f3b24c8fa")
 		(property "Reference" "TP1"
-			(at 29.21 57.658 0)
+			(at 38.1 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13656,7 +13796,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 29.21 60.198 0)
+			(at 38.1 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13665,7 +13805,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 31.75 62.23 0)
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13674,7 +13814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 62.23 0)
+			(at 40.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13683,7 +13823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 62.23 0)
+			(at 35.56 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14059,7 +14199,7 @@
 	(symbol
 		(lib_name "VDC_1")
 		(lib_id "power:VDC")
-		(at 50.8 21.59 0)
+		(at 76.2 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14068,7 +14208,7 @@
 		(fields_autoplaced yes)
 		(uuid "16af6824-3e06-40c9-b299-22326b27de5f")
 		(property "Reference" "#PWR046"
-			(at 50.8 25.4 0)
+			(at 76.2 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14077,7 +14217,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 50.8 16.51 0)
+			(at 76.2 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14085,7 +14225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 21.59 0)
+			(at 76.2 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14094,7 +14234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 21.59 0)
+			(at 76.2 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14103,7 +14243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 50.8 21.59 0)
+			(at 76.2 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15153,6 +15293,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 20.32 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d97b30e-3e9a-4f64-b307-92e374b07fbf")
+		(property "Reference" "#PWR018"
+			(at 20.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 20.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e57be8a6-edff-429e-a084-1803518b8446")
+		)
+		(instances
+			(project "esp32-wroom-adapter-2"
+				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 69.85 64.77 270)
 		(unit 1)
@@ -15525,6 +15731,73 @@
 			(project "esp32-wroom-adapter-2"
 				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "VDC_1")
+		(lib_id "power:VDC")
+		(at 26.67 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45a6a8b9-6c7a-4039-a8d4-bb8813f3e15f")
+		(property "Reference" "#PWR048"
+			(at 26.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 26.67 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0792e3a-e9da-4949-9fa8-d256c55e8682")
+		)
+		(instances
+			(project "esp32-wroom-adapter-2"
+				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16210,6 +16483,72 @@
 			(project "esp32-wroom-adapter-2"
 				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 50.8 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61965d5d-074b-4e06-9d48-7cb9279709cb")
+		(property "Reference" "#PWR047"
+			(at 50.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 50.8 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7505694a-9675-4b01-9f00-7d991e5143da")
+		)
+		(instances
+			(project "esp32-wroom-adapter-2"
+				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -19624,6 +19963,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT_321")
+		(at 62.23 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b37c34d0-8701-45c6-a9ab-23e9bbbb01a6")
+		(property "Reference" "SW5"
+			(at 62.23 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 62.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 62.23 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 62.23 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39485c66-bbd9-4a3f-a89b-5aabb8350758")
+		)
+		(pin "2"
+			(uuid "9c4d605f-d59e-4e2d-95e6-69d476a0bbf5")
+		)
+		(pin "3"
+			(uuid "d7027a51-4b06-4a74-80c1-c22614319aee")
+		)
+		(instances
+			(project "esp32-wroom-adapter-2"
+				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 69.85 85.09 270)
 		(unit 1)
@@ -19946,72 +20356,6 @@
 			(project "esp32-wroom-adapter-2"
 				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 20.32 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c740e47d-764c-45bd-bd73-31aaca778efe")
-		(property "Reference" "#PWR018"
-			(at 20.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 20.32 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 20.32 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c6ba77f-922a-42ab-8ef0-d45d10cb1b30")
-		)
-		(instances
-			(project "esp32-wroom-adapter-2"
-				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
