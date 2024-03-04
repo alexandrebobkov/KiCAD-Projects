@@ -223,14 +223,234 @@
 			(uuid "9e70df4c-0b15-40c7-ae03-ff3af52b300c")
 		)
 	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "0f09e0c1-3798-48b9-9929-34936156f4c5")
+		(at 205.5 104.5)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "H4"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "910f67d0-da96-4c62-b5dd-eb9b15dfd034")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "0943127f-9231-4cb7-a40c-38b7778cb1f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31c9b6ad-756d-49c8-8445-b51eee418393")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "788d2071-23fc-4bde-bec0-b7c197acfad1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "473d7441-01e7-4272-b4ed-ad00d63630d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/4b6b26fb-8ca8-4509-b6aa-e6ddc27fafd3")
+		(sheetname "Root")
+		(sheetfile "esp32-wroom-socket-v2.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "c246deb4-0d74-4200-a37f-41524466006b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d57efc03-6b7a-49ba-a3fa-2bfe6ce671dc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "eb41ea19-a5c0-4427-ae3b-7a40b0f92594")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "02c9436a-eb1b-4ba9-aa4a-0afda8a96126")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "12ebc80b-a54a-46c9-8f5b-403d3715aa84")
+		(at 205.5 86.65)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "H1"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "c804dc25-4c2c-4d64-b8f1-e2cf441368bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "46872c9b-8310-44b9-97c8-e564e9f099ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b164cd4b-7022-4ee6-bbe2-dda1e77208d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "103becc9-0f2b-4ac8-a6c8-9d114c6f518e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73a33e8c-1750-441b-9728-74794e73700a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/c1981c6a-d76b-4704-8e4f-47691834d396")
+		(sheetname "Root")
+		(sheetfile "esp32-wroom-socket-v2.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "5afbe650-f3cd-4d7f-936b-de36289d5bd5")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "03aa3b9a-1610-4981-ac28-0207c4ea20cb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8e4c85e6-1533-4626-ae14-d95d87ca98dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4d32d1fb-8c90-4db5-8108-2b21a037e6c2")
+		)
+	)
 	(footprint "Alexander Footprints Library:LED_2.5mm"
 		(layer "F.Cu")
 		(uuid "201a6668-3c72-4c65-b3b5-02723a262d7a")
 		(at 177.8 99.06 90)
 		(descr "LED 2.5mm")
 		(tags "LED")
-		(property "Reference" "D2"
-			(at -0.762 -3.2258 90)
+		(property "Reference" "PROG"
+			(at -0.19 -0.05 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7d289a4a-66f6-48e1-81a2-607fb3d77e5f")
@@ -245,7 +465,7 @@
 		(property "Value" "LED"
 			(at 0 1 90)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "f94f0066-155a-4eae-975d-c12594eaf93c")
 			(effects
 				(font
@@ -295,18 +515,6 @@
 		(sheetname "Root")
 		(sheetfile "esp32-wroom-socket-v2.kicad_sch")
 		(attr through_hole)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "162fa3c1-1aa0-4fc3-86b2-a20ccd461433")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at -2.54 -2.54 90)
 			(size 1.524 1.524)
@@ -330,234 +538,14 @@
 			(uuid "2e2a8b9a-4180-4a63-9ee4-1c5224949e6b")
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
-		(layer "F.Cu")
-		(uuid "21e4d29a-5cec-4c0b-b284-f82f146bde7e")
-		(at 202.25 100.8)
-		(descr "Mounting Hole 2.2mm, no annular, M2")
-		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "H3"
-			(at 0 -3.2 0)
-			(layer "F.SilkS")
-			(uuid "558ba227-7af9-4053-b49d-6950d057d6eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 0 3.2 0)
-			(layer "F.Fab")
-			(uuid "2c593395-560a-4d2f-8f4b-d490000fad79")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "97572eb5-8f10-43fb-acc9-dc050cedcfd8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d174fb9-6720-469e-81b5-0af930878316")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7398144c-1654-497f-9626-7e8eb23373dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/2ed95d61-59cd-4262-86fd-b205c72d6a53")
-		(sheetname "Root")
-		(sheetfile "esp32-wroom-socket-v2.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 2.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "81470b66-f41a-4d87-9075-5db3d3d82cef")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "68ca3506-2d86-496f-b023-17a864c280c2")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "1bf3f16f-dfe6-4395-ba92-18faaf330df8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "ffd8afaa-f917-4d5f-a2e3-3575138a0fb8")
-		)
-	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
-		(layer "F.Cu")
-		(uuid "2c64d7be-c03a-4847-b72d-7bc7e3062412")
-		(at 202.25 94.85)
-		(descr "Mounting Hole 2.2mm, no annular, M2")
-		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "H2"
-			(at 0 -3.2 0)
-			(layer "F.SilkS")
-			(uuid "4e305ce3-1f7d-4a5f-828f-2f98efe0e64d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 0 3.2 0)
-			(layer "F.Fab")
-			(uuid "92b97fa5-56e9-4d86-87c0-943ecb4f1a02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b678dae5-1689-4ca8-833e-97bdcb8bf991")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6588c4e9-bcc0-4c2c-b740-e8c396250142")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f11c6603-6972-4233-b6dc-dfbe900deb69")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/b26ff60c-4390-4711-8063-28984f6bf748")
-		(sheetname "Root")
-		(sheetfile "esp32-wroom-socket-v2.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 2.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "0710c2eb-fed1-4a95-bc12-eea0921ba52e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "92a13c87-940f-4e0b-ad1e-9a55eda8f66b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "74ecf2b2-1779-4a83-8bd6-c819fe980782")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "95b4969f-4f23-4dcc-9026-378fe1359529")
-		)
-	)
 	(footprint "Alexander Footprints Library:LED_2.5mm"
 		(layer "F.Cu")
 		(uuid "44d44eb4-8008-41c9-8f20-a9b5c05242a2")
 		(at 147.32 109.22)
 		(descr "LED 2.5mm")
 		(tags "LED")
-		(property "Reference" "D1"
-			(at -1.27 -9.017 0)
+		(property "Reference" "PWR"
+			(at -4.82 -9.97 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "bf128e00-34b6-46da-a976-ac8e6eedc2fe")
@@ -570,9 +558,9 @@
 			)
 		)
 		(property "Value" "LED"
-			(at -2.54 -12.7 0)
+			(at -3.82 -10.72 0)
 			(unlocked yes)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "f8626af0-6e98-4fc2-9c93-3942f0fd16a4")
 			(effects
 				(font
@@ -623,19 +611,6 @@
 		(sheetname "Root")
 		(sheetfile "esp32-wroom-socket-v2.kicad_sch")
 		(attr through_hole)
-		(fp_text user "${REFERENCE}"
-			(at -2.54 -12.7 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8c0cc49c-9b96-44a5-808c-1e00227435d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify left top)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at -2.54 -10.16)
 			(size 1.524 1.524)
@@ -661,14 +636,14 @@
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
-		(uuid "87dfedcb-d233-403d-beba-ebe1eb93b31e")
-		(at 202.25 106.75)
+		(uuid "95ffb578-be64-4cec-9e11-d55fa4c029e7")
+		(at 205.5 92.6)
 		(descr "Mounting Hole 2.2mm, no annular, M2")
 		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "H4"
+		(property "Reference" "H2"
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
-			(uuid "7625cc4b-1b72-46a6-84b9-64deafd068fa")
+			(uuid "da0ec24c-dc9f-48f4-bc44-1cd2804c4f98")
 			(effects
 				(font
 					(size 1 1)
@@ -679,7 +654,7 @@
 		(property "Value" "MountingHole_Pad_MP"
 			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "69018258-7c67-49b6-83e9-6d7699d414c2")
+			(uuid "88df0baa-8b4e-4137-a1d0-702dab3588f1")
 			(effects
 				(font
 					(size 1 1)
@@ -692,7 +667,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "187247b5-3091-4082-b6a8-aab564c566c2")
+			(uuid "75b9ba8a-8cc8-433b-92d8-b70df46faf70")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,7 +679,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2e5dfca-de81-4319-ac62-3e23dd68e45c")
+			(uuid "da81eff1-adaf-4967-bf5c-1a014f6f68ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +691,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2666983-5e3d-414e-bdc7-4aeb0ed637a3")
+			(uuid "10c8531e-d60c-4160-ba53-1131ecfac567")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +699,7 @@
 			)
 		)
 		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/4b6b26fb-8ca8-4509-b6aa-e6ddc27fafd3")
+		(path "/b26ff60c-4390-4711-8063-28984f6bf748")
 		(sheetname "Root")
 		(sheetfile "esp32-wroom-socket-v2.kicad_sch")
 		(attr exclude_from_pos_files)
@@ -737,7 +712,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "7d22ee7b-6973-46c6-ab81-f31c037cae8b")
+			(uuid "d801f03a-be81-4a27-a34e-facaed2343e3")
 		)
 		(fp_circle
 			(center 0 0)
@@ -748,12 +723,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "630507a5-61fd-45d5-a127-8f3cd3f25431")
+			(uuid "5c6293aa-b6df-4459-8b22-7817538dd4b6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "e8e79c84-4c85-4e33-aaf1-719b7861a746")
+			(uuid "e473759b-b91a-4f59-8f23-c99cdc0aa1bd")
 			(effects
 				(font
 					(size 1 1)
@@ -766,7 +741,7 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "6074db7b-6f77-42ec-b9ab-78bf9b6a4c74")
+			(uuid "632ff8c7-8ab5-482e-bfdb-e594c4367abb")
 		)
 	)
 	(footprint "Alexander Footprints Library:ESP32-WROOM-Adapter-2"
@@ -778,6 +753,7 @@
 		(property "Reference" "U1"
 			(at -7.62 10.795 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "00e1f85b-3b1a-402b-a597-64a5b04bb839")
 			(effects
 				(font
@@ -1260,7 +1236,7 @@
 			(uuid "1504cb9b-f72a-4d9b-8909-c66aa22a7147")
 		)
 		(fp_text user "ESP32-WROOM-32D"
-			(at 0 17.653 0)
+			(at -0.02 18.85 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "8b1f91ef-b72b-44bc-84ad-54f8e43a5bdb")
@@ -2147,116 +2123,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
-		(layer "F.Cu")
-		(uuid "c9295826-a512-455d-b8d5-63858b1b487f")
-		(at 202.25 88.9)
-		(descr "Mounting Hole 2.2mm, no annular, M2")
-		(tags "mounting hole 2.2mm no annular m2")
-		(property "Reference" "H1"
-			(at 0 -3.2 0)
-			(layer "F.SilkS")
-			(uuid "33d11de5-340e-4374-a1ce-7b795dccf1bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_Pad_MP"
-			(at 0 3.2 0)
-			(layer "F.Fab")
-			(uuid "523bae74-eb51-4d71-a159-4324a4173346")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "11a126f0-2c6d-4281-98b7-21f58062dbef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75ebd254-2d5a-4e9a-a405-f73adb0fc0ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da903b88-1723-4552-a6ed-19a98deca43a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*Pad*")
-		(path "/c1981c6a-d76b-4704-8e4f-47691834d396")
-		(sheetname "Root")
-		(sheetfile "esp32-wroom-socket-v2.kicad_sch")
-		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 2.2 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "505baa46-335a-4c16-8ba8-f9919051440e")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 2.45 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "68b76e9e-fe27-4c33-931e-2588c81fb4ef")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "eabff158-336e-4541-8ed3-f63ce88e1cb2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 2.2 2.2)
-			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
-			(uuid "9ecd48d8-d6c4-4011-9f3a-4282d2e037ba")
-		)
-	)
 	(footprint "Button_Switch_SMD:SW_SPST_EVQPE1"
 		(layer "F.Cu")
 		(uuid "ddb5d655-3572-4a39-b456-e35936ca16e2")
@@ -2544,6 +2410,116 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(layer "F.Cu")
+		(uuid "e7c4bdef-c51a-4701-a8fd-2092ed618445")
+		(at 205.5 98.55)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "H3"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(uuid "a9579882-9de7-42c6-a28d-81e57560b484")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad_MP"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(uuid "dfe6d48b-7c16-4206-8cb8-b3b1029321ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfea478e-8a65-40f1-91a1-77106343a0d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebd885b2-f667-4640-bc03-d4c21fb9fc6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30ecca8c-362e-487f-b5f3-0fab919f2102")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*Pad*")
+		(path "/2ed95d61-59cd-4262-86fd-b205c72d6a53")
+		(sheetname "Root")
+		(sheetfile "esp32-wroom-socket-v2.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "7eb096ea-ca2e-458a-aafa-bcbc943aef59")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e1f0494c-08cb-430a-b057-d1cd420522a9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "0497c5f7-f324-4977-b855-8cd2c6b02f55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "dc6f43bc-b13e-4e5e-af27-6f7de27c9e39")
 		)
 	)
 	(gr_line
@@ -3231,7 +3207,7 @@
 		)
 	)
 	(gr_text "PRG"
-		(at 168.75 113 0)
+		(at 172 112.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "698d8014-b4db-496a-af14-b7000f6aa159")
 		(effects
@@ -3596,6 +3572,22 @@
 			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
+		(start 156.25 82.25)
+		(end 156.85 81.65)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "041df112-9d07-4210-b0ab-b3689e77eeb7")
+	)
+	(segment
+		(start 165.75 81.5)
+		(end 165.75 82.25)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "046a46df-642b-40eb-90b4-f80507c953e5")
+	)
+	(segment
 		(start 156.85 80.65)
 		(end 158.52 82.32)
 		(width 0.5)
@@ -3614,26 +3606,10 @@
 	(segment
 		(start 158.52 83.5)
 		(end 158.52 88.37)
-		(width 0.25)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "115b6b31-407c-4c36-baee-f808ad37038c")
-	)
-	(segment
-		(start 156.85 80.65)
-		(end 156.85 81.4)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "3160433e-acf7-416e-b594-44364f617ba2")
-	)
-	(segment
-		(start 156.85 81.4)
-		(end 156.5 81.75)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "316dae8d-1aea-46e1-8738-f98a5baf4a04")
 	)
 	(segment
 		(start 154.31 98.41)
@@ -3662,10 +3638,18 @@
 	(segment
 		(start 158.52 83.5)
 		(end 157.5 83.5)
-		(width 0.25)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "68d58d72-35b8-439f-8cc1-03be5b9e5efe")
+	)
+	(segment
+		(start 156.85 81.65)
+		(end 156.85 80.65)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "6f5f728c-fd9e-4bfe-9a64-455c5fd6e4b0")
 	)
 	(segment
 		(start 154.31 97.15)
@@ -3676,9 +3660,17 @@
 		(uuid "7bbc0d5f-43a8-4667-8cec-c7ca9569d643")
 	)
 	(segment
+		(start 166.6 80.65)
+		(end 165.75 81.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "908d61f6-ecf5-46f1-bf4a-e8981b8e0cfc")
+	)
+	(segment
 		(start 158.52 82.32)
 		(end 158.52 83.5)
-		(width 0.25)
+		(width 0.5)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "a9a9e633-9798-4e0f-a10b-66b865a86365")
@@ -3699,14 +3691,6 @@
 		(net 1)
 		(uuid "d01f0ef6-f0e6-443a-a7d8-c304f9552383")
 	)
-	(segment
-		(start 166.6 80.65)
-		(end 165.75 81.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "e1792414-b3bd-4461-a4ef-7c472ed480ae")
-	)
 	(via
 		(at 157.5 83.5)
 		(size 0.8)
@@ -3716,7 +3700,7 @@
 		(uuid "2b30c6ec-83d8-44e3-b052-99e560183941")
 	)
 	(via
-		(at 165.75 81.5)
+		(at 165.75 82.25)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -3732,7 +3716,7 @@
 		(uuid "bcca4811-24f5-4015-abcd-8634bd33323c")
 	)
 	(via
-		(at 156.5 81.75)
+		(at 156.25 82.25)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -3860,36 +3844,36 @@
 		(uuid "ef4d5d58-203b-43ff-945e-6f3520ac1fd7")
 	)
 	(segment
+		(start 144.78 86.36)
+		(end 146.04 85.1)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "4a950f08-dd26-4755-b659-4c50c59d5103")
+	)
+	(segment
+		(start 149.23 85.1)
+		(end 149.86 85.73)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "65d2a611-33a5-4241-88d3-d1873ce237ca")
+	)
+	(segment
 		(start 149.86 85.73)
 		(end 151.27 85.73)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 5)
-		(uuid "4bcb37aa-4d28-470c-9353-f9a75fa1c195")
+		(uuid "b58a7a2e-defa-4584-8983-cfc693d72695")
 	)
 	(segment
-		(start 149.38 85.25)
-		(end 149.86 85.73)
+		(start 146.04 85.1)
+		(end 149.23 85.1)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 5)
-		(uuid "5f59649e-f152-4d7d-9923-1f195a506f6b")
-	)
-	(segment
-		(start 144.78 86.36)
-		(end 145.89 85.25)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "80ff43dc-6252-4478-bc38-355c17a54bbe")
-	)
-	(segment
-		(start 145.89 85.25)
-		(end 149.38 85.25)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "95e1abff-dfb4-4f92-bd18-c30c49d0cf65")
+		(uuid "d5587e6b-32d3-4ec5-bb78-61dac1519f84")
 	)
 	(segment
 		(start 149.098 86.36)
