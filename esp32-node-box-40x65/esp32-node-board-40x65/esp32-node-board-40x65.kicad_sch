@@ -4726,12 +4726,6 @@
 		(uuid "92f472d1-0c7f-46d0-aa59-f11965c40be3")
 	)
 	(junction
-		(at 35.56 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e99e9a8-0006-460c-8c28-a0bea9a61d97")
-	)
-	(junction
 		(at 264.16 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4742,12 +4736,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a68e9bba-5841-4f77-a0f1-5bcbcc736525")
-	)
-	(junction
-		(at 35.56 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9483f73-392f-4706-a8a2-4baaeb6c6b1c")
 	)
 	(junction
 		(at 34.29 36.83)
@@ -4803,7 +4791,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 173.99) (xy 35.56 179.07)
+			(xy 35.56 173.99) (xy 35.56 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4940,16 +4928,6 @@
 			(type default)
 		)
 		(uuid "2684b5e8-b0fc-4af8-bc38-a7fb96822c71")
-	)
-	(wire
-		(pts
-			(xy 35.56 179.07) (xy 35.56 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27acc3ef-5701-4d48-b161-122657a61cfb")
 	)
 	(wire
 		(pts
@@ -5393,16 +5371,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 181.61) (xy 35.56 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b77b1ff-eea2-43a7-9876-9cb6969c2ba1")
-	)
-	(wire
-		(pts
 			(xy 25.4 176.53) (xy 36.83 176.53)
 		)
 		(stroke
@@ -5420,16 +5388,6 @@
 			(type default)
 		)
 		(uuid "6fbee638-119f-4919-af3e-e0816355c68a")
-	)
-	(wire
-		(pts
-			(xy 35.56 181.61) (xy 35.56 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7021acb3-e9da-45de-82e9-83faf9c5b23f")
 	)
 	(wire
 		(pts
@@ -5893,16 +5851,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 170.18) (xy 115.57 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c04ce41f-3892-453d-9b5d-de4fe13e6cdc")
-	)
-	(wire
-		(pts
 			(xy 165.1 68.58) (xy 170.18 68.58)
 		)
 		(stroke
@@ -5963,16 +5911,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 172.72) (xy 115.57 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d7d8c2-c2a3-4d41-9e29-6cc0562fe4da")
-	)
-	(wire
-		(pts
 			(xy 165.1 60.96) (xy 170.18 60.96)
 		)
 		(stroke
@@ -5980,6 +5918,16 @@
 			(type default)
 		)
 		(uuid "cd3418d6-03ba-449c-b530-7c647bf9e22e")
+	)
+	(wire
+		(pts
+			(xy 111.76 172.72) (xy 115.57 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6be979-b0d1-433a-b785-d3e179a9e451")
 	)
 	(wire
 		(pts
@@ -6093,6 +6041,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 170.18) (xy 115.57 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d4b3ea-1c46-4a83-9c53-17eaa8421981")
+	)
+	(wire
+		(pts
 			(xy 130.81 91.44) (xy 140.97 91.44)
 		)
 		(stroke
@@ -6190,16 +6148,6 @@
 			(type default)
 		)
 		(uuid "f1ce47d8-d458-4ed5-8246-8670d014a0c5")
-	)
-	(wire
-		(pts
-			(xy 35.56 179.07) (xy 36.83 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f527e010-ba09-410d-bb66-6dcefc114664")
 	)
 	(wire
 		(pts
@@ -6435,7 +6383,7 @@
 		(uuid "25117f72-c823-4c85-8bb7-c113868f59c8")
 	)
 	(label "3V3"
-		(at 115.57 172.72 0)
+		(at 115.57 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6754,7 +6702,7 @@
 		(uuid "8c23a21c-e2d1-4a2f-a6b8-e5723ad536dc")
 	)
 	(label "GND"
-		(at 115.57 170.18 0)
+		(at 115.57 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8558,7 +8506,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 35.56 184.15 0)
+		(at 35.56 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8567,7 +8515,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f9c8b6c-6b2f-47fb-a86d-6a7d738047db")
 		(property "Reference" "#PWR014"
-			(at 35.56 190.5 0)
+			(at 35.56 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8524,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 189.23 0)
+			(at 35.56 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +8533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 184.15 0)
+			(at 35.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8594,7 +8542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 184.15 0)
+			(at 35.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8603,7 +8551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 184.15 0)
+			(at 35.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8618,76 +8566,6 @@
 			(project "esp32-node-board-40x65"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 41.91 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d805e38-00bc-4132-8ee8-57b28e795ff8")
-		(property "Reference" "J10"
-			(at 43.18 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 43.18 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprints Library:Conn_Terminal_5mm"
-			(at 41.91 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9b0b48c-c647-4bad-bff5-bf0d4f1f5b36")
-		)
-		(pin "2"
-			(uuid "0d604976-9de1-4358-bb03-0b7de7a8460a")
-		)
-		(instances
-			(project "esp32-node-board-40x65"
-				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -8931,7 +8809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 215.9 160.02 0)
 			(effects
 				(font
@@ -9300,7 +9178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92"
 			(at 69.85 172.72 0)
 			(effects
 				(font
