@@ -4933,6 +4933,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 114.3) (xy 93.98 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295eb7ae-f1bf-4928-9b5a-8a516f45618a")
+	)
+	(wire
+		(pts
 			(xy 165.1 99.06) (xy 170.18 99.06)
 		)
 		(stroke
@@ -5923,6 +5933,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 111.76) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d389707e-b45d-4a0c-9472-271b5026cab7")
+	)
+	(wire
+		(pts
 			(xy 234.95 127) (xy 238.76 127)
 		)
 		(stroke
@@ -5990,6 +6010,16 @@
 			(type default)
 		)
 		(uuid "e1d4b3ea-1c46-4a83-9c53-17eaa8421981")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2cbd99c-4e57-4337-b2f4-ad9d4385f028")
 	)
 	(wire
 		(pts
@@ -6100,6 +6130,16 @@
 			(type default)
 		)
 		(uuid "f57ac1e3-7adb-4f30-aa42-ad63c083407c")
+	)
+	(wire
+		(pts
+			(xy 104.14 116.84) (xy 93.98 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd6e0d3b-615e-4efb-86a1-532bef74687d")
 	)
 	(wire
 		(pts
@@ -6478,6 +6518,17 @@
 		)
 		(uuid "45f67bef-cdb2-41b7-a9ec-b2cf1a174b33")
 	)
+	(label "ADC2_CH2"
+		(at 93.98 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c8826d7-4bc7-4013-a4f3-c2cdc5fc6d3e")
+	)
 	(label "SDA"
 		(at 170.18 83.82 0)
 		(fields_autoplaced yes)
@@ -6499,6 +6550,17 @@
 			(justify left bottom)
 		)
 		(uuid "517dd975-a42a-4b40-8fd0-9c0d80ba9f9e")
+	)
+	(label "ADC2_CH0"
+		(at 93.98 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5713c846-d6fa-490c-989d-b35d43161e97")
 	)
 	(label "SD_DATA3"
 		(at 130.81 93.98 0)
@@ -6587,6 +6649,17 @@
 			(justify left bottom)
 		)
 		(uuid "6c3e627e-afe5-4259-90ab-4929d19ee647")
+	)
+	(label "GND"
+		(at 93.98 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6eca09a5-1762-42fb-b54b-874991505b55")
 	)
 	(label "RTS"
 		(at 115.57 180.34 0)
@@ -6884,6 +6957,17 @@
 			(justify left bottom)
 		)
 		(uuid "c282f170-0e71-4651-8902-79dee170f497")
+	)
+	(label "ADC2_CH3"
+		(at 93.98 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2d04e98-fe7a-4e55-950a-28c8561fb4bf")
 	)
 	(label "GND"
 		(at 233.68 54.61 0)
@@ -7294,6 +7378,83 @@
 			(project "esp32-node-board-40x65"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 109.22 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "089f61a6-4e44-4138-b147-c457aafb8339")
+		(property "Reference" "J10"
+			(at 110.49 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ADC"
+			(at 110.49 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 109.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8ee8ff7-b8dc-4d26-b2e5-df37bcfe486d")
+		)
+		(pin "4"
+			(uuid "1a4a4d9b-b455-491d-ad23-23c8b91260c6")
+		)
+		(pin "3"
+			(uuid "2b6dc1d7-0ff7-4fd2-a7f5-01b2c0a65776")
+		)
+		(pin "1"
+			(uuid "85a6951b-8417-418e-978b-c5423c38da93")
+		)
+		(instances
+			(project "esp32-node-board-40x65"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
+					(reference "J10")
 					(unit 1)
 				)
 			)
