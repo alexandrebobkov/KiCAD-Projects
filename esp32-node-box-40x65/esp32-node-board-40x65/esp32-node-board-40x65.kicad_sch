@@ -7420,6 +7420,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 81.28) (xy 247.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734183c9-56b9-477f-b258-d3d1f7369004")
+	)
+	(wire
+		(pts
 			(xy 261.62 129.54) (xy 264.16 129.54)
 		)
 		(stroke
@@ -7687,6 +7697,16 @@
 			(type default)
 		)
 		(uuid "92df9b1a-e5b9-442d-b0a1-f6c28de67fc2")
+	)
+	(wire
+		(pts
+			(xy 241.3 78.74) (xy 247.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96971a1f-7516-4af9-8032-28063f63b010")
 	)
 	(wire
 		(pts
@@ -8692,6 +8712,17 @@
 		)
 		(uuid "346ee73f-4dcd-4f8b-85bc-49eef468ded9")
 	)
+	(label "SCL"
+		(at 241.3 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35e7372c-f540-471e-9ec1-72197be3ac14")
+	)
 	(label "SD_CLK"
 		(at 146.05 102.87 0)
 		(fields_autoplaced yes)
@@ -9252,6 +9283,17 @@
 			(justify left bottom)
 		)
 		(uuid "cec86e67-73e0-4f3f-877d-bcd88ccffb60")
+	)
+	(label "SDA"
+		(at 241.3 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf22f77c-b3d3-4265-8936-8697776a83cd")
 	)
 	(label "DAC1"
 		(at 185.42 97.79 0)
@@ -13436,6 +13478,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 			)
 		)
@@ -13689,7 +13732,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "f760a38e-a433-4ad4-a9e7-f2edf3183753")
 		(property "Reference" "J13"
