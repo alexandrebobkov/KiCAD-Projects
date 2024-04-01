@@ -150,7 +150,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 4.1 -2.42 -90)
+			(at -1.877399 2.25 -90)
 			(layer "F.SilkS")
 			(uuid "0d51f9a4-d552-4bfc-9dfb-79b640d4d804")
 			(effects
@@ -1275,7 +1275,7 @@
 		(descr "LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
-			(at 0 -2.28 0)
+			(at 2.4875 1.55 0)
 			(layer "F.SilkS")
 			(uuid "acefcf1d-b0ba-4d9f-9769-747833405e6c")
 			(effects
@@ -1283,6 +1283,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "LED"
@@ -1507,7 +1508,7 @@
 		(descr "ESP32-WROOM-Adapter")
 		(tags "ESP32-D0WD Espressif ESP32-WROOM")
 		(property "Reference" "J1"
-			(at -10.61 8.43 90)
+			(at 12.7 -10.04 90)
 			(layer "F.SilkS")
 			(uuid "d6511c35-ff88-4231-84dd-769f3aa726bd")
 			(effects
@@ -2000,16 +2001,16 @@
 			(uuid "0b94225b-a9f2-4291-a9c1-b6df13ff4236")
 		)
 		(fp_text user "ESP32-WROOM-32D"
-			(at -10.5 13.31 0)
+			(at 0 12.96 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "08bd367f-ffdb-4695-bea0-9d1bbe66a873")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.1)
+					(size 1.25 1)
+					(thickness 0.25)
+					(bold yes)
 				)
-				(justify left bottom)
 			)
 		)
 		(fp_text user "5 mm"
@@ -3020,7 +3021,8 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -3228,7 +3230,7 @@
 			(uuid "9bfad530-6eb4-436f-9de3-1f36bda415c8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 8.89 90)
+			(at 3.81 17.22 90)
 			(layer "F.Fab")
 			(uuid "c7b9c91c-4b47-4ed6-995a-d41ec2a9e137")
 			(effects
@@ -3431,7 +3433,7 @@
 		(uuid "39bcbb4e-06e0-4ea7-a1fe-70bdea66d04d")
 		(at 83.82 53.44)
 		(property "Reference" "J9"
-			(at 1.33 -1.49 90)
+			(at -0.02 2.81 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c5f5d075-b8d0-4f9b-8566-df354c3a7791")
@@ -3606,7 +3608,7 @@
 			(uuid "edb24df0-c06e-4acc-8cef-1895a7ca53c5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at -0.02 2.91 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2c6af803-1eb3-49eb-a7a2-ccde571c65f9")
@@ -3647,24 +3649,26 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U5"
-			(at 3.81 -2.33 -90)
+			(at 3.8 20.075 270)
 			(layer "F.SilkS")
 			(uuid "49c13c3a-b893-41e1-9b54-a75ee5f89245")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
 		(property "Value" "74LS595"
-			(at 3.81 20.11 -90)
+			(at 3.8 8.875 180)
 			(layer "F.Fab")
 			(uuid "ec143719-04db-47d4-93cd-502c43270f7d")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -3861,7 +3865,7 @@
 			(uuid "53d309a4-589f-44db-816a-fdb541c8c457")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 8.89 -90)
+			(at 3.8 0.875 -90)
 			(layer "F.Fab")
 			(uuid "b1bd4430-8088-4fb3-932c-88db6ee86bcb")
 			(effects
@@ -5463,7 +5467,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 4.05 -2.1 0)
+			(at 4.032599 1.902 90)
 			(layer "F.SilkS")
 			(uuid "ce0ae178-f858-44e9-a539-3216939aef6b")
 			(effects
@@ -6916,55 +6920,55 @@
 		(sheetfile "esp32-node-board-40x65.kicad_sch")
 		(attr through_hole)
 		(fp_text user "3V3"
-			(at 3.2 10.16 0)
+			(at 4.3 10.15 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0793b439-225f-480b-8873-f9c6e7e116b8")
 			(effects
 				(font
-					(size 0.8 1)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
 		)
 		(fp_text user "GND"
-			(at 3.3 7.46 0)
+			(at 4.3 7.65 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6eeac42d-5787-43cc-81f7-5381357be086")
 			(effects
 				(font
-					(size 0.8 1)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
 		)
 		(fp_text user "RXD"
-			(at 3 15.16 0)
+			(at 4.3 15.25 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "bc0556c2-0b48-490e-847b-e47f79958107")
 			(effects
 				(font
-					(size 0.8 1)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
 		)
 		(fp_text user "TXD"
-			(at 3.2 12.66 0)
+			(at 4.3 12.66 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "df5072ef-ff94-4cdb-91cb-431d5a9a5e1a")
 			(effects
 				(font
-					(size 0.8 1)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
 		)
 		(fp_text user "UART"
-			(at -1.2 6.16 90)
+			(at 0.1 19.25 90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "e70114f3-bc0b-4b2f-8088-4389a53f892b")
@@ -6974,7 +6978,6 @@
 					(thickness 0.2)
 					(bold yes)
 				)
-				(justify bottom)
 			)
 		)
 		(fp_text user "${REFERENCE}"
@@ -7041,7 +7044,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at -2.1 1.28 0)
+			(at 3.35 2.85 90)
 			(layer "F.SilkS")
 			(uuid "1998b863-5732-4b5f-a45a-ae43af6ac8d2")
 			(effects
@@ -8166,14 +8169,15 @@
 		(descr "Temperature, Humidity and Pressure sensor")
 		(tags "BME BMP 280 sensor")
 		(property "Reference" "U7"
-			(at 0 -0.6 90)
+			(at 13.9 0.7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "46c7867e-dac9-4ae3-b56c-f948c1702bc0")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -8343,7 +8347,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U4"
-			(at 2.54 -4.745 90)
+			(at -2.58 -3.27 0)
 			(layer "F.SilkS")
 			(uuid "2710914f-0fe8-4df0-b70f-4acca3e7db16")
 			(effects
@@ -8351,6 +8355,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "L7805"
@@ -8712,7 +8717,7 @@
 		(sheetfile "esp32-node-board-40x65.kicad_sch")
 		(attr through_hole)
 		(fp_text user "I2C"
-			(at 0.01 18.206 0)
+			(at 0.06 19.15 90)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "02158b84-a28a-4919-b0cc-5bc43f7f5834")
@@ -8722,53 +8727,52 @@
 					(thickness 0.2)
 					(bold yes)
 				)
-				(justify bottom)
 			)
 		)
 		(fp_text user "SCL"
-			(at -2.99 15.24 0)
+			(at -4.04 15.25 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1ce3d3b4-70d7-4509-8a26-786305b0a940")
 			(effects
 				(font
-					(size 0.8 1)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
 		)
 		(fp_text user "SDA"
-			(at -2.99 12.666 0)
+			(at -4.04 12.766 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7ac65c44-e0b8-44f6-8d8b-10a5b9128e9f")
 			(effects
 				(font
-					(size 0.8 1)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
 		)
 		(fp_text user "GND"
-			(at -2.99 7.666 0)
+			(at -4.04 7.65 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "927e75fe-8d4e-4664-9239-c427fbbf241c")
 			(effects
 				(font
-					(size 0.8 1)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
 		)
 		(fp_text user "Vcc"
-			(at -2.99 10.16 0)
+			(at -4.04 10.26 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a8deff34-b795-4fd4-b06a-34565ec4019c")
 			(effects
 				(font
-					(size 0.8 1)
+					(size 0.5 0.5)
 					(thickness 0.1)
 				)
 			)
@@ -8837,7 +8841,7 @@
 		(descr "LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
-			(at 0 -2.28 0)
+			(at 2.44 1.65 0)
 			(layer "F.SilkS")
 			(uuid "9ca882d1-6b4e-41a0-acbe-1e8fcdc390f9")
 			(effects
@@ -8845,6 +8849,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "LED"
@@ -9178,7 +9183,7 @@
 		(uuid "f9bcfb41-6a7e-4cda-96e6-c843dec14a01")
 		(at 83.82 63.6)
 		(property "Reference" "J8"
-			(at 0 -0.5 0)
+			(at 1.48 -0.85 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "efa27a9e-5593-4bcf-a3b8-5f0c936d3065")
@@ -10034,6 +10039,31 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ec6afba5-543e-4103-b31f-52ca0d324ee1")
+	)
+	(gr_text "74LS595"
+		(at 119.057143 52.95 0)
+		(layer "F.SilkS")
+		(uuid "e8ab402f-47ec-48ac-98b0-135c5bd5158d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "ULN2003"
+		(at 115.5 64.124 0)
+		(layer "F.SilkS")
+		(uuid "fb67b12d-4437-40fa-b394-a281640f414c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Copper Layer Count: "
 		(at 172.342857 28.793 0)
