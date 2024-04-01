@@ -614,6 +614,161 @@
 				)
 			)
 		)
+		(symbol "Alexander Symbol Library:BME(P)280"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BME(P)280"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Absolute Barometric Pressure Sensor"
+				(at 0 -21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C, SPI, pressure, temperature, sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Bosch*LGA*2x2.5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BME(P)280_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 5.08 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BME(P)280_1_1"
+				(pin power_in line
+					(at -1.27 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -1.27 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Alexander_Library_Symbols:Conn_I2C_01x04"
 			(pin_names
 				(offset 1.016) hide)
@@ -7665,6 +7820,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 67.31) (xy 256.54 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae64465d-3ad9-46de-8ac9-29c97b40c27e")
+	)
+	(wire
+		(pts
 			(xy 220.98 129.54) (xy 223.52 129.54)
 		)
 		(stroke
@@ -8062,6 +8227,16 @@
 			(type default)
 		)
 		(uuid "e8fd40a8-8182-4a67-a357-4def3dabe55f")
+	)
+	(wire
+		(pts
+			(xy 256.54 87.63) (xy 256.54 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb4106b8-267b-406c-b433-2c9d229d4631")
 	)
 	(wire
 		(pts
@@ -9571,6 +9746,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 256.54 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b933431-fae5-411d-a44a-039677885c8b")
+		(property "Reference" "#PWR022"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 256.54 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d597b423-67a9-417d-b64d-d05677123e2d")
+		)
+		(instances
+			(project "esp32-node-board-40x65"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 34.29 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9631,6 +9872,82 @@
 			(project "esp32-node-board-40x65"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander Symbol Library:BME(P)280")
+		(at 257.81 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15e692d8-c408-4439-b7db-3e783683b607")
+		(property "Reference" "U7"
+			(at 264.16 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BME(P)280"
+			(at 264.16 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:BME280_BMP280_I2C"
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Absolute Barometric Pressure Sensor"
+			(at 257.81 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4635a2a-f42e-4cc6-b383-2a54caa0988e")
+		)
+		(pin "3"
+			(uuid "7bcf6ac3-68de-4e30-8ea7-b9595732126e")
+		)
+		(pin "4"
+			(uuid "3f3d1fed-e6e4-4669-bf77-80fe8d748875")
+		)
+		(pin "2"
+			(uuid "79e27880-5e45-4b31-8c55-eb861b06a4cb")
+		)
+		(instances
+			(project "esp32-node-board-40x65"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9956,7 +10273,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3791c506-a906-4c1a-85f0-bd36cf4d1517")
@@ -11854,7 +12171,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "953d17a2-f7b9-43c8-b484-860ec1f3a3a1")
@@ -12361,7 +12678,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a973ffd9-d591-488f-956f-7fbe01f03387")
@@ -12594,7 +12911,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c16a5967-ffde-44ca-804e-fd259bf3d52f")
@@ -13023,7 +13340,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db216d0d-d5f6-457f-ba44-c7243ccae533")
@@ -13089,6 +13406,73 @@
 			(project "esp32-node-board-40x65"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_5")
+		(lib_id "power:GND")
+		(at 256.54 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df1f5605-7c6c-418d-98d9-60d5b6bc6c89")
+		(property "Reference" "#PWR021"
+			(at 256.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd86896a-08d7-4076-81b2-b2a51c1c997f")
+		)
+		(instances
+			(project "esp32-node-board-40x65"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
