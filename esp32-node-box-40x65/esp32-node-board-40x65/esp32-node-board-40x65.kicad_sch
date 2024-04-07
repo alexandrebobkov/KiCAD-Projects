@@ -8438,6 +8438,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 68.58) (xy 502.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d58e3bd-47d3-40ba-829b-3e359234134f")
+	)
+	(wire
+		(pts
 			(xy 243.84 119.38) (xy 246.38 119.38)
 		)
 		(stroke
@@ -9008,6 +9018,16 @@
 	)
 	(wire
 		(pts
+			(xy 511.81 55.88) (xy 511.81 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bffa97-7c47-48d9-9879-4edb5084e470")
+	)
+	(wire
+		(pts
 			(xy 151.13 161.29) (xy 154.94 161.29)
 		)
 		(stroke
@@ -9265,6 +9285,16 @@
 			(type default)
 		)
 		(uuid "82289dc8-afae-4ca9-b486-bd6777414ec7")
+	)
+	(wire
+		(pts
+			(xy 495.3 66.04) (xy 502.92 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fa7529-ccca-4bdc-bef1-51df3a121f00")
 	)
 	(wire
 		(pts
@@ -10128,6 +10158,16 @@
 	)
 	(wire
 		(pts
+			(xy 511.81 74.93) (xy 511.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd60c46-404b-490b-8e2a-a020019123d9")
+	)
+	(wire
+		(pts
 			(xy 129.54 102.87) (xy 129.54 106.68)
 		)
 		(stroke
@@ -10941,6 +10981,17 @@
 		)
 		(uuid "68fa23ec-d648-4fca-8b3e-bc7cb22fcd3c")
 	)
+	(label "SDA-2"
+		(at 495.3 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b1cd3f6-7002-4415-adce-0a35b0c798b6")
+	)
 	(label "GND"
 		(at 24.13 143.51 0)
 		(fields_autoplaced yes)
@@ -11325,6 +11376,17 @@
 			(justify left bottom)
 		)
 		(uuid "c2d04e98-fe7a-4e55-950a-28c8561fb4bf")
+	)
+	(label "SCL-2"
+		(at 495.3 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c46e3927-dd8a-4a2a-b4c2-74f3a4d0346d")
 	)
 	(label "GND"
 		(at 259.08 162.56 0)
@@ -12130,6 +12192,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 511.81 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ee07341-dd2e-4ac1-9fcd-3c1caf65539d")
+		(property "Reference" "#PWR032"
+			(at 511.81 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 511.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 511.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 511.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 511.81 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8686ac6-0fd2-4a74-afd7-8d98083e4e24")
+		)
+		(instances
+			(project "esp32-node-board-40x65"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alexander Symbol Library:BME(P)280")
 		(at 96.52 87.63 0)
 		(unit 1)
@@ -12402,6 +12530,82 @@
 			(project "esp32-node-board-40x65"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander Symbol Library:BME(P)280")
+		(at 513.08 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2249371d-93eb-4f1b-a845-1930d1de73b6")
+		(property "Reference" "U8"
+			(at 519.43 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BME(P)280"
+			(at 519.43 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:BME280_BMP280_I2C"
+			(at 513.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 513.08 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Absolute Barometric Pressure Sensor"
+			(at 513.08 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb9469a6-4a10-4a85-9995-45defd5f7545")
+		)
+		(pin "3"
+			(uuid "02253434-71d6-4695-9108-d46f9742df29")
+		)
+		(pin "4"
+			(uuid "8f767b18-241f-42f6-ba3f-a09d32808dbe")
+		)
+		(pin "2"
+			(uuid "9bc2bb5f-e7bf-4e19-a933-b6cccf9d5233")
+		)
+		(instances
+			(project "esp32-node-board-40x65"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -13600,6 +13804,73 @@
 			(project "esp32-node-board-40x65"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_2")
+		(lib_id "power:+5V")
+		(at 511.81 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47eb862c-fc5b-405b-ad0d-383f87f577a4")
+		(property "Reference" "#PWR031"
+			(at 511.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 511.81 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 511.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 511.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 511.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22b47e5a-c0cd-4a03-8fab-ab228b6e04e3")
+		)
+		(instances
+			(project "esp32-node-board-40x65"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
