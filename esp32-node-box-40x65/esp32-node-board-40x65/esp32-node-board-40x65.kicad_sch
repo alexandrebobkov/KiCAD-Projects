@@ -3532,22 +3532,21 @@
 				)
 			)
 		)
-		(symbol "Conn_I2C_01x04_1"
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "Conn_SPI_1"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SPI"
-				(at 0.508 -13.97 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3555,24 +3554,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "I2C connector, single row, 01x04"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3581,7 +3562,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "I2C Connector"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3590,7 +3571,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3599,10 +3580,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_I2C_01x04_1_1_1"
+			(symbol "Conn_SPI_1_1_1"
 				(polyline
 					(pts
-						(xy 1.27 -10.16) (xy 0.8636 -10.16)
+						(xy 1.27 5.08) (xy 0.8636 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -3614,7 +3595,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+						(xy 1.27 7.62) (xy 0.8636 7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -3626,7 +3607,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+						(xy 1.27 10.16) (xy 0.8636 10.16)
 					)
 					(stroke
 						(width 0.1524)
@@ -3638,7 +3619,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 12.7) (xy 0.8636 12.7)
 					)
 					(stroke
 						(width 0.1524)
@@ -3650,7 +3631,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 1.27 15.24) (xy 0.8636 15.24)
 					)
 					(stroke
 						(width 0.1524)
@@ -3662,7 +3643,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 17.78) (xy 0.8636 17.78)
 					)
 					(stroke
 						(width 0.1524)
@@ -3673,8 +3654,8 @@
 					)
 				)
 				(rectangle
-					(start 0.8636 -10.033)
-					(end 0 -10.287)
+					(start 0 10.287)
+					(end 0.8636 10.033)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -3684,8 +3665,8 @@
 					)
 				)
 				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
+					(start 0 12.827)
+					(end 0.8636 12.573)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -3695,8 +3676,8 @@
 					)
 				)
 				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+					(start 0.8636 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -3706,8 +3687,8 @@
 					)
 				)
 				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+					(start 0.8636 7.747)
+					(end 0 7.493)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -3717,8 +3698,8 @@
 					)
 				)
 				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
+					(start 0.8636 15.367)
+					(end 0 15.113)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -3728,8 +3709,8 @@
 					)
 				)
 				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
+					(start 0.8636 17.907)
+					(end 0 17.653)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -3738,8 +3719,8 @@
 						(type outline)
 					)
 				)
-				(pin power_out line
-					(at 5.08 -5.08 180)
+				(pin bidirectional line
+					(at 5.08 10.16 180)
 					(length 3.81)
 					(name "CSB"
 						(effects
@@ -3757,7 +3738,7 @@
 					)
 				)
 				(pin power_out line
-					(at 5.08 -10.16 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -3775,7 +3756,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 5.08 -2.54 180)
+					(at 5.08 12.7 180)
 					(length 3.81)
 					(name "SCL"
 						(effects
@@ -3793,7 +3774,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 5.08 0 180)
+					(at 5.08 15.24 180)
 					(length 3.81)
 					(name "SDA"
 						(effects
@@ -3810,8 +3791,8 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 5.08 -7.62 180)
+				(pin bidirectional line
+					(at 5.08 7.62 180)
 					(length 3.81)
 					(name "SDO"
 						(effects
@@ -3829,7 +3810,7 @@
 					)
 				)
 				(pin power_in line
-					(at 5.08 2.54 180)
+					(at 5.08 17.78 180)
 					(length 3.81)
 					(name "VCC"
 						(effects
@@ -17990,87 +17971,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_I2C_01x04_1")
-		(lib_id "Alexander_Library_Symbols:Conn_I2C_01x04")
-		(at 499.11 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3804fb69-dc97-402e-a2ce-b684bd5bd982")
-		(property "Reference" "J24"
-			(at 501.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SPI"
-			(at 501.65 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 499.11 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 500.38 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "I2C connector, single row, 01x04"
-			(at 499.11 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SDA"
-			(uuid "5be7d1a4-2062-4c3b-b73a-e71e5d335a4d")
-		)
-		(pin "Vcc"
-			(uuid "e7ddb52d-d3bc-414a-a891-82ba8214a434")
-		)
-		(pin "CSB"
-			(uuid "ab55de5c-e760-4ffe-b346-d8d8bb64989f")
-		)
-		(pin "GND"
-			(uuid "537cbfbc-1dea-45be-ab35-c9380c60f917")
-		)
-		(pin "SDO"
-			(uuid "fa6963f4-1d4f-4cb6-93a0-e5fcb940490d")
-		)
-		(pin "SCL"
-			(uuid "0b240c93-f21b-47a3-bff2-597872833963")
-		)
-		(instances
-			(project "esp32-node-board-40x65"
-				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
-					(reference "J24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 386.08 151.13 270)
 		(unit 1)
@@ -18133,6 +18033,87 @@
 			(project "esp32-node-board-40x65"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_SPI_1")
+		(lib_id "Alexander Symbol Library:Conn_SPI")
+		(at 499.11 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a07262a-8701-4c27-b6b8-9a1820980248")
+		(property "Reference" "J24"
+			(at 498.475 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 498.475 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 499.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 499.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "65a7573e-080a-4fcc-a89d-204814de8681")
+		)
+		(pin "SDO"
+			(uuid "344a4199-a82f-47be-8edf-21bfedc48dc7")
+		)
+		(pin "SCL"
+			(uuid "33291fd3-1612-41fb-857a-1b0b5a611eca")
+		)
+		(pin "CSB"
+			(uuid "99eb114c-f4c1-4202-95a1-56828fe5075c")
+		)
+		(pin "Vcc"
+			(uuid "f955cf27-ff36-4975-b644-64b6fa5dcefe")
+		)
+		(pin "SDA"
+			(uuid "058d3350-190b-448d-9e1f-028fa0b661ea")
+		)
+		(instances
+			(project "esp32-node-board-40x65"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -20844,7 +20825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alexander Footprint Library:BME280_BMP280_I2C"
 			(at 632.46 40.64 0)
 			(effects
 				(font
