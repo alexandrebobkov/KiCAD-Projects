@@ -9429,6 +9429,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 52.07) (xy 354.33 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d7d81a-0e97-4bbf-87f4-cc30e128a39b")
+	)
+	(wire
+		(pts
 			(xy 259.08 63.5) (xy 264.16 63.5)
 		)
 		(stroke
@@ -13152,6 +13162,17 @@
 			(justify left bottom)
 		)
 		(uuid "74d09184-fa63-4841-aef6-022eacd71ec0")
+	)
+	(label "5V"
+		(at 342.9 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74f9e671-b36c-4191-ab5d-edeaad0839ed")
 	)
 	(label "SCL"
 		(at 264.16 91.44 0)
@@ -19941,6 +19962,74 @@
 			(project "esp32-node-board-40x65"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_2")
+		(lib_id "power:+5V")
+		(at 354.33 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a64c928d-7afb-4f5c-bb78-15c6f0f4bab8")
+		(property "Reference" "#PWR039"
+			(at 350.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 358.14 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 354.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 354.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cf85f8a-d7c9-48e9-ae97-e1d71390da8e")
+		)
+		(instances
+			(project "esp32-node-board-40x65_telemetry"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
