@@ -1,1 +1,1 @@
-# ESP32-WROOM-32D Adapter
+# ESP32-WROOM-32D Socket Adapter
