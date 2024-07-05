@@ -1,6 +1,7 @@
 # ESP32-WROOM-32D Socket Adapter
 
-<p>To-do</p>
+<p>To-do:</p>
+
 - [ ] Programming switch
 - [ ] Power-on LED
 - [ ] Status LED
