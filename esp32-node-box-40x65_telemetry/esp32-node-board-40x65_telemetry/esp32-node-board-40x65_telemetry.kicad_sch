@@ -9335,12 +9335,6 @@
 		(uuid "5b48c7b1-1e2c-44f3-a432-219c181d3aae")
 	)
 	(junction
-		(at 388.62 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c7337f7-cea6-4f76-b3c0-90d95994ed1e")
-	)
-	(junction
 		(at 158.75 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9375,6 +9369,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92f472d1-0c7f-46d0-aa59-f11965c40be3")
+	)
+	(junction
+		(at 388.62 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9336fb1b-a725-4cb6-8f67-488d25ed43dd")
 	)
 	(junction
 		(at 237.49 144.78)
@@ -9689,6 +9689,16 @@
 			(type default)
 		)
 		(uuid "0a970ecf-75f6-4c86-8a5f-95daaeb11a0e")
+	)
+	(wire
+		(pts
+			(xy 388.62 22.86) (xy 398.78 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2576fe-3252-48f4-867b-80c28dec9eba")
 	)
 	(wire
 		(pts
@@ -10382,6 +10392,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 22.86) (xy 388.62 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4114dce9-63e2-4e7d-82d7-15e2c2932d4e")
+	)
+	(wire
+		(pts
 			(xy 234.95 53.34) (xy 224.79 53.34)
 		)
 		(stroke
@@ -10869,17 +10889,6 @@
 			(type default)
 		)
 		(uuid "6c00b66f-ea0b-42cf-b33e-e87211495a98")
-	)
-	(wire
-		(pts
-			(xy 388.62 22.86) (xy 398.78 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "6c75110b-24a2-48c2-aa30-3ccb71372b5c")
 	)
 	(wire
 		(pts
@@ -11503,17 +11512,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 22.86) (xy 388.62 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "a552544a-b05d-4f39-a7ea-21d364bb1c33")
-	)
-	(wire
-		(pts
 			(xy 572.77 116.84) (xy 580.39 116.84)
 		)
 		(stroke
@@ -11964,6 +11962,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 22.86) (xy 388.62 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb98b73e-ba83-4d18-96d1-4f7afc92079d")
+	)
+	(wire
+		(pts
 			(xy 259.08 66.04) (xy 264.16 66.04)
 		)
 		(stroke
@@ -12001,17 +12009,6 @@
 			(type default)
 		)
 		(uuid "cf6be979-b0d1-433a-b785-d3e179a9e451")
-	)
-	(wire
-		(pts
-			(xy 388.62 24.13) (xy 388.62 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d0a25aed-0b0d-4045-bf1f-9700360c2a4c")
 	)
 	(wire
 		(pts
@@ -14199,17 +14196,6 @@
 			(justify left bottom)
 		)
 		(uuid "e30908d8-a6ed-45df-ba7a-58ffca381f3e")
-	)
-	(label "5V"
-		(at 388.62 22.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e546e9c3-20a8-465a-8e14-43fb1a2a64cd")
 	)
 	(label "V1+"
 		(at 363.22 115.57 0)
@@ -18555,7 +18541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 403.86 25.4 0)
 			(effects
 				(font
