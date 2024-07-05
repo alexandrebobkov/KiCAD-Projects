@@ -3,7 +3,7 @@
 <p>To-do:</p>
 
 - [ ] Programming switch
-- [ ] #2
+- [ ] Systemt status and Power-on LEDs (#2)
 
 > [!CAUTION]
 > Do Not Use pins 17, 18, 19, 20, 21 & 22
