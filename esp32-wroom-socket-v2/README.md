@@ -3,8 +3,7 @@
 <p>To-do:</p>
 
 - [ ] Programming switch
-- [ ] Systemt status and Power-on LEDs (#2)
-- [ ] https://github.com/alexandrebobkov/KiCAD-Projects/issues/2
+- [ ] Systemt status and Power-on LEDs (https://github.com/alexandrebobkov/KiCAD-Projects/issues/2)
 
 > [!CAUTION]
 > Do Not Use pins 17, 18, 19, 20, 21 & 22
