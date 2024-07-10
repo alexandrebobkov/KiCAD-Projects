@@ -1526,7 +1526,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM1117DT-3.3"
+		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1538,7 +1538,7 @@
 					)
 				)
 			)
-			(property "Value" "LM1117DT-3.3"
+			(property "Value" "AMS1117-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1547,8 +1547,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1556,8 +1556,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1565,7 +1565,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1583,7 +1583,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?252*"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1592,7 +1592,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM1117DT-3.3_0_1"
+			(symbol "AMS1117-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -1605,7 +1605,7 @@
 					)
 				)
 			)
-			(symbol "LM1117DT-3.3_1_1"
+			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1915,77 +1915,6 @@
 			(justify left bottom)
 		)
 		(uuid "dafdf8a0-785c-4e2e-ac06-b365b3ca29c4")
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM1117DT-3.3")
-		(at 88.9 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d123f2e-5493-44e3-a827-b6b29e58f090")
-		(property "Reference" "U3"
-			(at 88.9 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1117DT-3.3"
-			(at 88.9 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
-			(at 88.9 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 88.9 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-252"
-			(at 88.9 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cca8e41f-d5f2-40cb-896e-cef92f51b52b")
-		)
-		(pin "1"
-			(uuid "abaf6f55-bada-409a-810c-a82c66ec819d")
-		)
-		(pin "3"
-			(uuid "89c352c4-3d25-4c7e-901e-8cbb6a95a0df")
-		)
-		(instances
-			(project ""
-				(path "/35bed2bf-13d9-43a3-a0a0-3970a0b740e4"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Alexander_Library_Symbols:ESP32-DevBoard")
@@ -2405,6 +2334,77 @@
 			(project ""
 				(path "/35bed2bf-13d9-43a3-a0a0-3970a0b740e4"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 88.9 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbf3bb98-a41c-42fb-989c-9cad74e71efd")
+		(property "Reference" "U4"
+			(at 88.9 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 88.9 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 88.9 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 91.44 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 88.9 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f02bb3b-46b4-4068-bc27-42f89817985b")
+		)
+		(pin "1"
+			(uuid "ad86c598-3968-454b-89fa-cf99b3198b42")
+		)
+		(pin "3"
+			(uuid "f8571335-d9f5-4a9f-bdb6-f62b3888dd34")
+		)
+		(instances
+			(project ""
+				(path "/35bed2bf-13d9-43a3-a0a0-3970a0b740e4"
+					(reference "U4")
 					(unit 1)
 				)
 			)
