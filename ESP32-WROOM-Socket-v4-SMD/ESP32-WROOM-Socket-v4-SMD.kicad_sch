@@ -1545,14 +1545,24 @@
 		)
 	)
 	(junction
-		(at 80.01 78.74)
+		(at 80.01 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "17000701-a019-4058-ab1e-432134b470c3")
+		(uuid "6699f498-792a-4933-b74d-9087227db51f")
 	)
 	(wire
 		(pts
-			(xy 80.01 88.9) (xy 80.01 99.06)
+			(xy 67.31 88.9) (xy 67.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18554cfa-6876-47cb-a3fb-5f7a0a6786d9")
+	)
+	(wire
+		(pts
+			(xy 80.01 88.9) (xy 80.01 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1572,23 +1582,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 133.35) (xy 134.62 137.16)
+			(xy 67.31 97.79) (xy 80.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687d33a5-8488-4a24-81a6-9caec111d098")
+	)
+	(wire
+		(pts
+			(xy 252.73 106.68) (xy 252.73 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72946547-34c1-4383-bcb8-03ee4b9cb227")
-	)
-	(wire
-		(pts
-			(xy 80.01 72.39) (xy 80.01 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "756573e2-bdde-4b4b-9351-41ad1cb1a28a")
 	)
 	(wire
 		(pts
@@ -1602,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 78.74) (xy 80.01 81.28)
+			(xy 80.01 72.39) (xy 80.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1642,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 72.39) (xy 67.31 78.74)
+			(xy 80.01 97.79) (xy 80.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d9acfc-eead-4e73-a78b-936d3e40e08e")
+	)
+	(wire
+		(pts
+			(xy 67.31 72.39) (xy 67.31 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1642,17 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 78.74) (xy 80.01 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e06c7dfb-2186-43bc-a736-fec332957b9f")
-	)
-	(wire
-		(pts
-			(xy 134.62 57.15) (xy 134.62 62.23)
+			(xy 252.73 30.48) (xy 252.73 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 67.31) (xy 152.4 67.31)
+			(xy 267.97 40.64) (xy 270.51 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1716,7 +1726,7 @@
 		(uuid "385861e3-0cda-4aef-879a-dc727046ee01")
 	)
 	(label "GND"
-		(at 134.62 137.16 90)
+		(at 252.73 110.49 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1727,7 +1737,7 @@
 		(uuid "609b3c53-49b4-4629-8e76-42f8ada1397c")
 	)
 	(label "3V3"
-		(at 134.62 57.15 270)
+		(at 252.73 30.48 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1749,7 +1759,7 @@
 		(uuid "74bcc937-8450-4611-9279-8c4b8e38b6eb")
 	)
 	(label "PRG"
-		(at 152.4 67.31 0)
+		(at 270.51 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1842,7 +1852,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-WROOM-32D")
-		(at 134.62 97.79 0)
+		(at 252.73 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1851,7 +1861,7 @@
 		(fields_autoplaced yes)
 		(uuid "2df1e165-0c7c-4ad2-bf6b-83f314e2ce26")
 		(property "Reference" "U1"
-			(at 136.8141 59.69 0)
+			(at 254.9241 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1870,7 @@
 			)
 		)
 		(property "Value" "ESP32-WROOM-32D"
-			(at 136.8141 62.23 0)
+			(at 254.9241 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,7 +1879,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Footprints Library:ESP32-WROOM-Adapter-2"
-			(at 151.13 132.08 0)
+			(at 269.24 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +1888,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf"
-			(at 127 96.52 0)
+			(at 245.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,7 +1897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 97.79 0)
+			(at 252.73 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,6 +2093,76 @@
 			(project "esp32-wroom-socket-v2"
 				(path "/b6a3c81b-cf0c-432f-80e1-65c551ea51bb"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f22c444-6faf-4eeb-b270-c8f955c869bb")
+		(property "Reference" "R2"
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alexander Footprints Library:R_2.5mm"
+			(at 65.532 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "011c5707-61a6-456d-ae4a-ae966ccc0686")
+		)
+		(pin "2"
+			(uuid "8ca66761-88a1-435e-85bf-2d992568155b")
+		)
+		(instances
+			(project "ESP32-WROOM-Socket-v4-SMD"
+				(path "/b6a3c81b-cf0c-432f-80e1-65c551ea51bb"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2660,7 +2740,7 @@
 			)
 		)
 		(instances
-			(project "esp32-wroom-socket-v2"
+			(project "ESP32-WROOM-Socket-v4-SMD"
 				(path "/b6a3c81b-cf0c-432f-80e1-65c551ea51bb"
 					(page "2")
 				)
