@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "4b23cfdb-59da-4c0c-b4c2-8eaa1414ec4e")
+	(uuid "0fad50ba-5df7-4e41-bfa9-2e5d7b86e8a7")
 	(paper "USLetter")
 	(title_block
 		(title "ESP32 Sensor Node")
@@ -1823,6 +1823,227 @@
 				)
 			)
 		)
+		(symbol "Alexander_Library_Symbols:Project_Box_Board_65x40"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Project_Box_Board_65x40"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Alexander Footprint Library:Board_65-40"
+				(at 0.762 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.762 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.2mm Diameter Mounting Holes Pads (M3)"
+				(at 0.762 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Project Box Board 65x40"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Project_Box_Board_65x40_0_1"
+				(circle
+					(center -11.43 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -11.43 -1.27)
+					(radius 1.7961)
+					(stroke
+						(width 2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 -1.27)
+					(radius 1.7961)
+					(stroke
+						(width 2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.81 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 3.81 -1.27)
+					(radius 1.7961)
+					(stroke
+						(width 2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.43 -1.27)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 11.43 -1.27)
+					(radius 1.7961)
+					(stroke
+						(width 2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Project_Box_Board_65x40_1_1"
+				(pin passive line
+					(at -11.43 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -6.35 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Conn_01x04_Pin_1"
 			(pin_names
 				(offset 1.016) hide)
@@ -3471,6 +3692,12 @@
 		)
 	)
 	(junction
+		(at 242.57 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dea9c4d-7dd9-4e12-a857-0f27c5c8bcc6")
+	)
+	(junction
 		(at 57.15 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3481,6 +3708,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72048c0f-d88a-46a6-b882-eee28673a3b3")
+	)
+	(junction
+		(at 250.19 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86c16721-78f9-4863-96b0-6729ccd43292")
 	)
 	(junction
 		(at 57.15 25.4)
@@ -3505,6 +3738,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9612cd6-cd1a-473f-a44f-2bc80e728f48")
+	)
+	(junction
+		(at 246.38 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8cd9c10-ddfc-405e-878f-752f5adbbc60")
 	)
 	(wire
 		(pts
@@ -3558,6 +3797,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 39.37) (xy 246.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161dbfad-0490-4cb9-b21d-1bbf210a4314")
+	)
+	(wire
+		(pts
 			(xy 29.21 76.2) (xy 40.64 76.2)
 		)
 		(stroke
@@ -3575,6 +3824,16 @@
 			(type default)
 		)
 		(uuid "21b25674-c3cf-47ea-8ecb-f37074f733a6")
+	)
+	(wire
+		(pts
+			(xy 257.81 35.56) (xy 250.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2300add1-53d4-4e91-bce6-dc438c4ff6cb")
 	)
 	(wire
 		(pts
@@ -3628,6 +3887,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 30.48) (xy 257.81 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42fac79a-af5a-492f-b608-5ee2f146bb06")
+	)
+	(wire
+		(pts
 			(xy 29.21 137.16) (xy 40.64 137.16)
 		)
 		(stroke
@@ -3648,7 +3917,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 46.99) (xy 215.9 52.07)
+			(xy 191.77 46.99) (xy 191.77 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3728,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 40.64) (xy 207.01 40.64)
+			(xy 175.26 40.64) (xy 182.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3825,6 +4094,16 @@
 			(type default)
 		)
 		(uuid "8461ec47-a970-48ce-9e1c-07e9292c2a0b")
+	)
+	(wire
+		(pts
+			(xy 242.57 30.48) (xy 242.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89659fac-a6e0-4281-a4e2-d2ffd9a7a21a")
 	)
 	(wire
 		(pts
@@ -3939,7 +4218,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 27.94) (xy 215.9 31.75)
+			(xy 191.77 27.94) (xy 191.77 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3976,6 +4255,16 @@
 			(type default)
 		)
 		(uuid "bd7cb485-93be-4da0-b2d2-b56af20105df")
+	)
+	(wire
+		(pts
+			(xy 250.19 35.56) (xy 246.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf34567f-0f45-4e62-85c2-1d77f99d894b")
 	)
 	(wire
 		(pts
@@ -4039,13 +4328,43 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 38.1) (xy 207.01 38.1)
+			(xy 242.57 35.56) (xy 246.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd49519-e703-4e05-9b58-4b5a270d18e8")
+	)
+	(wire
+		(pts
+			(xy 175.26 38.1) (xy 182.88 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e33c67ff-0f0b-4f1d-a1b9-83992e2eb382")
+	)
+	(wire
+		(pts
+			(xy 234.95 30.48) (xy 234.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5062155-23a2-4a6f-af2f-2642e68d1041")
+	)
+	(wire
+		(pts
+			(xy 250.19 30.48) (xy 250.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf652a9-1dd0-4fdf-8174-64d2ff7d72d7")
 	)
 	(wire
 		(pts
@@ -4107,8 +4426,18 @@
 		)
 		(uuid "fbe6b92c-6378-432e-9b3b-8c8837c2e024")
 	)
+	(wire
+		(pts
+			(xy 234.95 35.56) (xy 242.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe237d0f-e029-4a20-947c-bb9017405af5")
+	)
 	(label "SDA-2"
-		(at 199.39 40.64 0)
+		(at 175.26 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4317,7 +4646,7 @@
 		(uuid "b5c012fb-6908-4b46-9e98-e21a12e46d3b")
 	)
 	(label "SCL-2"
-		(at 199.39 38.1 0)
+		(at 175.26 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5028,7 +5357,7 @@
 	(symbol
 		(lib_name "+5V_2")
 		(lib_id "power:+5V")
-		(at 215.9 27.94 0)
+		(at 191.77 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5037,7 +5366,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b576acd-be20-42c5-b6be-e0a683c6310e")
 		(property "Reference" "#PWR031"
-			(at 215.9 31.75 0)
+			(at 191.77 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,7 +5375,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 215.9 22.86 0)
+			(at 191.77 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 27.94 0)
+			(at 191.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 27.94 0)
+			(at 191.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5401,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 215.9 27.94 0)
+			(at 191.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,6 +5490,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 246.38 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "535def3a-cbea-4652-8af4-5dbcdf8036a0")
+		(property "Reference" "#PWR045"
+			(at 246.38 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44e5c97a-edbd-4a67-9ecf-0778a690d555")
+		)
+		(instances
+			(project "esp32-node-board-40x65_telemetry"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 29.21 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5228,7 +5624,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 52.07 0)
+		(at 191.77 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5237,7 +5633,7 @@
 		(fields_autoplaced yes)
 		(uuid "67bf0436-a3b4-428a-9df6-8b6814c5c8b1")
 		(property "Reference" "#PWR032"
-			(at 215.9 58.42 0)
+			(at 191.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5642,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 57.15 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 52.07 0)
+			(at 191.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 52.07 0)
+			(at 191.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5668,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 52.07 0)
+			(at 191.77 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,6 +6027,80 @@
 			(project "esp32-node-board-40x65_telemetry"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf"
 					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander_Library_Symbols:Project_Box_Board_65x40")
+		(at 246.38 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba1e49a2-0564-4aba-88e6-8a98c9f322eb")
+		(property "Reference" "H3"
+			(at 246.38 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Project_Box_Board_65x40"
+			(at 246.38 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:Board_65-40"
+			(at 247.142 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.142 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Holes Pads (M3)"
+			(at 247.142 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "55a7aaef-3554-4fd0-b60a-6bde6cbc1644")
+		)
+		(pin "1"
+			(uuid "d4e673e4-6577-4e1a-8442-68bfd7483908")
+		)
+		(pin "2"
+			(uuid "acf936b7-4e84-4473-9474-23b1c6aea849")
+		)
+		(pin "4"
+			(uuid "e958541d-7559-4e89-aa6b-46e865306e23")
+		)
+		(instances
+			(project ""
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6008,7 +6478,7 @@
 	)
 	(symbol
 		(lib_id "Alexander Symbol Library:BME(P)280")
-		(at 217.17 41.91 0)
+		(at 193.04 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6017,7 +6487,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf769bdb-f145-412a-8b32-4282432a2705")
 		(property "Reference" "U8"
-			(at 223.52 38.0999 0)
+			(at 199.39 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6496,7 @@
 			)
 		)
 		(property "Value" "BME(P)280"
-			(at 223.52 40.6399 0)
+			(at 199.39 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6505,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Footprint Library:BME280_BMP280_I2C"
-			(at 217.17 59.69 0)
+			(at 193.04 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 41.91 0)
+			(at 193.04 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6523,7 @@
 			)
 		)
 		(property "Description" "Absolute Barometric Pressure Sensor"
-			(at 217.17 62.992 0)
+			(at 193.04 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
