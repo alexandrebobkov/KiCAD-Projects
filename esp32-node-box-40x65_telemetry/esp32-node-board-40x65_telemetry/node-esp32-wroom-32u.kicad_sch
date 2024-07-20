@@ -4706,6 +4706,142 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:AMS1117-5.0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-5.0"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-5.0_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-5.0_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:L7805"
 			(pin_names
 				(offset 0.254)
@@ -5076,12 +5212,6 @@
 		(uuid "0abe2344-4423-4613-b312-ac1ef970518b")
 	)
 	(junction
-		(at 60.96 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2310cebc-b53b-4b25-bcdd-076b72fee5c1")
-	)
-	(junction
 		(at 242.57 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5148,10 +5278,16 @@
 		(uuid "a5e9819e-a641-46f4-9ebe-983407d0c5a1")
 	)
 	(junction
-		(at 73.66 33.02)
+		(at 60.96 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9612cd6-cd1a-473f-a44f-2bc80e728f48")
+		(uuid "bd8bd6cd-58d6-4a8c-99b4-18333cb8b7e7")
+	)
+	(junction
+		(at 73.66 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be6557df-accd-420d-bd87-d69a0708781c")
 	)
 	(junction
 		(at 246.38 35.56)
@@ -5224,6 +5360,16 @@
 			(type default)
 		)
 		(uuid "0c247ed5-1dae-4450-a382-0980074969eb")
+	)
+	(wire
+		(pts
+			(xy 73.66 49.53) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e3850ac-8bdd-4d02-988d-e7c707a980d8")
 	)
 	(wire
 		(pts
@@ -5347,7 +5493,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 33.02) (xy 73.66 33.02)
+			(xy 87.63 49.53) (xy 73.66 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5434,6 +5580,16 @@
 			(type default)
 		)
 		(uuid "4de840fd-4a93-4104-9d68-38fa7a0fe261")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f448727-7acd-4189-94da-f34b999b988a")
 	)
 	(wire
 		(pts
@@ -5657,7 +5813,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 31.75) (xy 87.63 33.02)
+			(xy 87.63 31.75) (xy 87.63 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5684,6 +5840,16 @@
 			(type default)
 		)
 		(uuid "968167d5-e077-4460-8ea0-d690094ba251")
+	)
+	(wire
+		(pts
+			(xy 60.96 49.53) (xy 73.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99087c7e-9bf3-4704-ae60-5bc1b79ac182")
 	)
 	(wire
 		(pts
@@ -5735,16 +5901,6 @@
 			(type default)
 		)
 		(uuid "9f166f11-ebb8-4c1d-ba3d-9b74db1e2a82")
-	)
-	(wire
-		(pts
-			(xy 60.96 33.02) (xy 73.66 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0249d8b-9ebb-4bd2-baa1-6e275b7b2170")
 	)
 	(wire
 		(pts
@@ -5838,26 +5994,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 33.02) (xy 73.66 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6031f7-2fec-402a-8a42-64ad121a579e")
-	)
-	(wire
-		(pts
-			(xy 60.96 49.53) (xy 60.96 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd639bdb-8292-4b58-bf00-ac373250dfc9")
-	)
-	(wire
-		(pts
 			(xy 147.32 71.12) (xy 152.4 71.12)
 		)
 		(stroke
@@ -5918,6 +6054,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 31.75) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c5ed39-939d-4eed-8b8c-24cbd0b676e3")
+	)
+	(wire
+		(pts
 			(xy 80.01 154.94) (xy 72.39 154.94)
 		)
 		(stroke
@@ -5925,16 +6071,6 @@
 			(type default)
 		)
 		(uuid "c99fb251-1105-4cc4-89b5-d57bfe9836a4")
-	)
-	(wire
-		(pts
-			(xy 60.96 31.75) (xy 60.96 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce3f06fd-1b32-44d3-8d37-3c78b1c8b347")
 	)
 	(wire
 		(pts
@@ -7242,6 +7378,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AMS1117-5.0")
+		(at 73.66 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "345ffe0c-82a3-4f61-9eb7-61f060f4ff7c")
+		(property "Reference" "U11"
+			(at 73.66 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-5.0"
+			(at 73.66 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 73.66 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33b0d968-033c-4cc6-8fb8-588d95a76feb")
+		)
+		(pin "2"
+			(uuid "dc2e20bd-bf43-499b-81ec-6201b03328d4")
+		)
+		(pin "3"
+			(uuid "282215b1-fbbf-4207-9d5f-d20868282ec7")
+		)
+		(instances
+			(project ""
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 29.21 76.2 270)
 		(unit 1)
@@ -7781,6 +7988,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:L7805")
+		(at 118.11 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5edd0995-6100-4605-8289-8e8f610924a2")
+		(property "Reference" "U9"
+			(at 118.11 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L7805"
+			(at 118.11 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:LD1117"
+			(at 118.745 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheets/Voltage-Regulator_L7805.pdf"
+			(at 118.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage Regulator 1.5A Positive"
+			(at 118.11 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9879930-c787-4ae6-b749-39812853b505")
+		)
+		(pin "1"
+			(uuid "b244eb3d-e0ec-4849-8469-35c4a70e6bae")
+		)
+		(pin "3"
+			(uuid "50132c18-278f-41e4-9631-6e6c0c6970b3")
+		)
+		(instances
+			(project "esp32-node-board-40x65_telemetry"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_arduino-library:Arduino_Micro_Socket")
 		(at 86.36 105.41 0)
 		(unit 1)
@@ -8149,7 +8429,7 @@
 	(symbol
 		(lib_name "GND_7")
 		(lib_id "power:GND")
-		(at 73.66 36.83 0)
+		(at 60.96 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8158,7 +8438,7 @@
 		(fields_autoplaced yes)
 		(uuid "84c8698f-9a5e-4d3b-bb70-00a94b4b64a1")
 		(property "Reference" "#PWR035"
-			(at 73.66 43.18 0)
+			(at 60.96 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +8447,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 41.91 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8175,7 +8455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 36.83 0)
+			(at 60.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,7 +8464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 36.83 0)
+			(at 60.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,7 +8473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 36.83 0)
+			(at 60.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,79 +9625,6 @@
 			(project "esp32-node-board-40x65_telemetry"
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L7805")
-		(at 73.66 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7501c26-9414-40c2-b8b2-ce5d607d3ba1")
-		(property "Reference" "U9"
-			(at 73.66 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L7805"
-			(at 73.66 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Alexander Footprint Library:LD1117"
-			(at 74.295 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "datasheets/Voltage-Regulator_L7805.pdf"
-			(at 73.66 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage Regulator 1.5A Positive"
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "779046de-15cb-4045-9184-7a3368be4a8d")
-		)
-		(pin "1"
-			(uuid "f26617f6-efea-4f73-99b1-4cfb770e4630")
-		)
-		(pin "3"
-			(uuid "2a7764a9-82dc-421c-9a33-53e91db9ed3d")
-		)
-		(instances
-			(project "esp32-node-board-40x65_telemetry"
-				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf"
-					(reference "U9")
 					(unit 1)
 				)
 			)
