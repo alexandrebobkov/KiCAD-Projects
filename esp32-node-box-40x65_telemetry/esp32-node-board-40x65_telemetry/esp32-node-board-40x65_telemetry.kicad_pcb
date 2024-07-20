@@ -4718,164 +4718,6 @@
 			(uuid "96fb822d-6de3-4c3a-85dc-4827ac9a8f99")
 		)
 	)
-	(footprint "Alexander Footprint Library:SW_Slide-03_7.3x2.5x2.5_P2.54mm"
-		(layer "F.Cu")
-		(uuid "26871df0-9261-4289-9ebe-e65859eb3287")
-		(at 84 91.25)
-		(descr "Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf")
-		(tags "switch single-pole double-throw SPDT würth wurth")
-		(property "Reference" "J21"
-			(at 0 -2.54 0)
-			(layer "F.SilkS")
-			(uuid "2d47aceb-6415-4272-a0de-02643b8e66c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "PWR"
-			(at 0 3.81 0)
-			(layer "F.Fab")
-			(uuid "f5d18135-d828-4354-9b4a-679e0e08cc82")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Alexander Footprint Library:SW_Slide-03_7.3x2.5x2.5_P2.54mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76e5cd88-c21e-480e-885c-18010d46118e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e845caf4-ea99-47ea-91cf-3d114704718d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ea0e3bcb-45cd-4273-a77f-943c1e7b67ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf/b8d6ffdd-7d1b-4257-a175-24378dcfc07f")
-		(sheetname "ESP32-WROOM-32U Node")
-		(sheetfile "node-esp32-wroom-32u.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -4.11 -1.36)
-			(end 3.86 1.36)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "ba2aa13a-8a18-4bb3-b5d0-029056743112")
-		)
-		(fp_rect
-			(start -4.25 -1.5)
-			(end 4 1.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "46d82388-8dc0-4de8-83fd-d79ba1ee21ae")
-		)
-		(fp_rect
-			(start -4 -1.25)
-			(end 3.75 1.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "07243ed9-5842-4dab-a50b-e87b4fd45442")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.54 0)
-			(layer "F.Fab")
-			(uuid "88151c39-1db4-4da8-922c-43fc7b336dad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0)
-			(size 1.5 1.5)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 76 "Net-(J21-Pin_1)")
-			(pinfunction "Pin_1")
-			(pintype "passive")
-			(uuid "f7ecf21c-915d-4e8a-8c58-1ee338b7b47d")
-		)
-		(pad "2" thru_hole circle
-			(at -2.54 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 83 "Net-(D7-A)")
-			(pinfunction "Pin_2")
-			(pintype "passive")
-			(uuid "b0b0f53a-5988-459c-af04-a50f595c5427")
-		)
-		(pad "3" thru_hole circle
-			(at 2.54 0)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "d0bed46c-2e84-461d-a0fc-978cd2f4ceca")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "29975870-8925-4998-968f-5a5ddd7b7b5d")
@@ -4988,166 +4830,6 @@
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
 			(uuid "ded3bcc1-a179-4643-8b1a-21dab128ee60")
-		)
-	)
-	(footprint "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
-		(layer "F.Cu")
-		(uuid "39147047-ce75-425c-8b0e-a651b571c018")
-		(at 84 109.25 90)
-		(descr "Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf")
-		(tags "switch single-pole double-throw SPDT würth wurth")
-		(property "Reference" "SW1"
-			(at 0 -2.54 90)
-			(layer "F.SilkS")
-			(uuid "68482059-31d5-449d-b7b8-2663cae0f8bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 0 3.81 90)
-			(layer "F.Fab")
-			(uuid "69ea9d97-5dd2-4b9f-a7d8-ad02cfc1e6d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3f087b6-8401-4f96-a163-acc2cbc511c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c1af827-c306-4b88-ba48-8bd5410543f8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "43cb4d1c-111b-4987-aefd-963240fb88f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf/bafc4284-8151-4131-ab0a-459bfd75172a")
-		(sheetname "ESP32-WROOM-32U Node")
-		(sheetfile "node-esp32-wroom-32u.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -5.11 -1.36)
-			(end 5.11 1.36)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "fac8e6b5-6ff5-47b7-8ef3-fda8261ae6dd")
-		)
-		(fp_rect
-			(start -5.25 -1.5)
-			(end 5.25 1.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "4ee272d3-36c0-42d9-afe7-c662bee2b2e1")
-		)
-		(fp_rect
-			(start -5 -1.25)
-			(end 5 1.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "262c843e-fe7a-4b3c-8140-850171cd7410")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.54 90)
-			(layer "F.Fab")
-			(uuid "0c8cdbfd-4f2e-4cac-a70b-b9f5981cef02")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0 90)
-			(size 1.5 1.5)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 58 "/ESP32-WROOM-32U Node/VIN")
-			(pinfunction "COM")
-			(pintype "passive")
-			(uuid "d8bbb1b6-a768-49c4-acdc-86510436b091")
-		)
-		(pad "2" thru_hole circle
-			(at -2.54 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 89 "unconnected-(SW1-A-Pad2)")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "0640027d-be5a-44b4-a883-7bbe95fc97f4")
-		)
-		(pad "3" thru_hole circle
-			(at 2.54 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net 63 "/ESP32-WROOM-32U Node/VDC")
-			(pinfunction "B")
-			(pintype "passive")
-			(uuid "c6530ccf-e0f6-4dd3-9118-37b0322aeb85")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
 		)
 	)
 	(footprint "Alexander Footprints Library:Conn_Terminal_5mm"
@@ -7111,6 +6793,166 @@
 			(uuid "650487c6-164a-4388-aca4-3c249ba16d0f")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/FanPinHeader_1x04_P2.54mm_Vertical.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+		(layer "F.Cu")
+		(uuid "630a7fc7-4795-4771-bb73-48a134ff9874")
+		(at 84 108.79 90)
+		(descr "Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf")
+		(tags "switch single-pole double-throw SPDT würth wurth")
+		(property "Reference" "SW1"
+			(at 0 -2.54 90)
+			(layer "F.SilkS")
+			(uuid "55492444-bf67-43b3-b196-bcbf21d1e7f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 0 3.81 90)
+			(layer "F.Fab")
+			(uuid "553e76b0-a389-4e37-839e-3da915df03c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce34d5b0-7403-4434-bf14-c8393ef7ea18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffbe5184-8673-4ff7-a09e-6274356f766b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e288d93-a878-4bda-9f84-d3ba4bbb8fbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf/bafc4284-8151-4131-ab0a-459bfd75172a")
+		(sheetname "ESP32-WROOM-32U Node")
+		(sheetfile "node-esp32-wroom-32u.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -5.11 -1.36)
+			(end 5.11 1.36)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "25d78772-eeb3-4309-96ac-b9359cf9c1ab")
+		)
+		(fp_rect
+			(start -5.25 -1.5)
+			(end 5.25 1.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "3a5a86d7-675a-426b-a77f-cc129e4bd22c")
+		)
+		(fp_rect
+			(start -5 -1.25)
+			(end 5 1.25)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "89310f59-381e-4a85-8d21-08c7b7a8878c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.54 90)
+			(layer "F.Fab")
+			(uuid "652221ce-38d7-403f-9c3f-70754ac0b2ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0 90)
+			(size 1.5 1.5)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 58 "/ESP32-WROOM-32U Node/VIN")
+			(pinfunction "COM")
+			(pintype "passive")
+			(uuid "611a2299-f246-4790-ab91-60919d4fd69c")
+		)
+		(pad "2" thru_hole circle
+			(at -2.54 0 90)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 89 "unconnected-(SW1-A-Pad2)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "97f57a86-f9d2-45bf-b0cf-d0f799ddbbff")
+		)
+		(pad "3" thru_hole circle
+			(at 2.54 0 90)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 63 "/ESP32-WROOM-32U Node/VDC")
+			(pinfunction "B")
+			(pintype "passive")
+			(uuid "2fd8b407-95c7-48c8-aff6-27ef120b68c6")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9145,6 +8987,263 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "Alexander Footprint Library:PinSocket_1x02_P2.54"
+		(layer "F.Cu")
+		(uuid "9c9499b2-ea08-49a4-8a9e-371f4c67dbdd")
+		(at 82.815 96.5925)
+		(property "Reference" "J21"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8181e2a6-2066-4070-ba2c-dc3b6dc870c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "PWR"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "11513725-7f10-4c96-ab30-83c1a538c378")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:PinSocket_1x02_P2.54"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e8bdb7a-7a11-4e93-bfb9-6cd06c6184c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "826a0d4d-8b6b-48ff-a8ef-efd01c7c103e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6434c9ca-b278-46fe-a18e-0edf011a039c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf/b8d6ffdd-7d1b-4257-a175-24378dcfc07f")
+		(sheetname "ESP32-WROOM-32U Node")
+		(sheetfile "node-esp32-wroom-32u.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -0.12 -3.84)
+			(end -0.12 -1.24)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "886e12a6-2261-4598-a959-2480ffe611de")
+		)
+		(fp_line
+			(start -0.12 -3.84)
+			(end 2.54 -3.84)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b6006f8c-b85d-4e78-bcdb-fa4b36365e2b")
+		)
+		(fp_line
+			(start -0.12 -1.24)
+			(end 2.54 -1.24)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "15e0d8cb-d481-4c83-b4d5-6fd3598e62d5")
+		)
+		(fp_line
+			(start 1.21 -6.44)
+			(end 2.54 -6.44)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c04708bc-5511-41aa-9683-cf59bcad805b")
+		)
+		(fp_line
+			(start 2.54 -6.44)
+			(end 2.54 -5.11)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99149dc2-5e8e-484a-b98c-01ced041c98f")
+		)
+		(fp_line
+			(start 2.54 -3.84)
+			(end 2.54 -1.24)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ebf1aa61-077e-4917-a3c2-900408e363f3")
+		)
+		(fp_line
+			(start -0.59 -6.91)
+			(end 2.96 -6.91)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6808d451-2229-4812-8a45-d89a79adc4f6")
+		)
+		(fp_line
+			(start -0.59 -0.81)
+			(end -0.59 -6.91)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2c956f91-36a0-4e85-abb9-d5a6e0cb9109")
+		)
+		(fp_line
+			(start 2.96 -6.91)
+			(end 2.96 -0.81)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d9c05ddb-3bb3-46ba-b932-f9bc1de5cd4b")
+		)
+		(fp_line
+			(start 2.96 -0.81)
+			(end -0.59 -0.81)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0b33d5e8-1e77-4bf2-bf0b-caa93cc32234")
+		)
+		(fp_line
+			(start -0.06 -6.38)
+			(end 1.845 -6.38)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d3de69d4-bb68-455d-bd6b-66bb12169b9a")
+		)
+		(fp_line
+			(start -0.06 -1.3)
+			(end -0.06 -6.38)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5099c672-87eb-41d1-8ddd-b6980743b741")
+		)
+		(fp_line
+			(start 1.845 -6.38)
+			(end 2.48 -5.745)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c9ff011-ec9a-4e5e-9fd1-ab71e44ee065")
+		)
+		(fp_line
+			(start 2.48 -5.745)
+			(end 2.48 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d60f7d3-ff1f-487d-b81a-84991aee1f6b")
+		)
+		(fp_line
+			(start 2.48 -1.3)
+			(end -0.06 -1.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a7f935c1-f715-45e7-8556-1207bf4241d2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "48c795ec-722f-4636-b8d2-e21f0256c655")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 1.21 -5.11)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 76 "Net-(J21-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "f142baec-520b-4c3d-9088-f5340a75459f")
+		)
+		(pad "2" thru_hole oval
+			(at 1.21 -2.57)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 83 "Net-(D7-A)")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "1bacca0f-ca52-4232-8837-51dbdd2a2b71")
 		)
 	)
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
