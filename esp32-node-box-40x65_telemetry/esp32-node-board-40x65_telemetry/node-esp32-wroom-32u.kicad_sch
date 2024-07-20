@@ -5076,6 +5076,12 @@
 		(uuid "0abe2344-4423-4613-b312-ac1ef970518b")
 	)
 	(junction
+		(at 60.96 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2310cebc-b53b-4b25-bcdd-076b72fee5c1")
+	)
+	(junction
 		(at 242.57 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5106,10 +5112,10 @@
 		(uuid "86c16721-78f9-4863-96b0-6729ccd43292")
 	)
 	(junction
-		(at 57.15 25.4)
+		(at 60.96 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e8407ac-f9f3-43e6-a1d5-16f7549f5ae5")
+		(uuid "8c98397c-0d77-4384-819b-51238f24ed7d")
 	)
 	(junction
 		(at 135.89 105.41)
@@ -5158,12 +5164,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8cd9c10-ddfc-405e-878f-752f5adbbc60")
-	)
-	(junction
-		(at 57.15 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9d8bfb1-3f6f-4f51-8e46-0cd78afb97eb")
 	)
 	(wire
 		(pts
@@ -5234,6 +5234,16 @@
 			(type default)
 		)
 		(uuid "14b79f70-21ff-43e1-8223-3e87ed932a85")
+	)
+	(wire
+		(pts
+			(xy 60.96 25.4) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e542ad-db57-4777-9528-e8c2b72000d2")
 	)
 	(wire
 		(pts
@@ -5437,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 26.67) (xy 57.15 25.4)
+			(xy 60.96 26.67) (xy 60.96 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5527,16 +5537,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 25.4) (xy 66.04 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73d41353-d8ee-48ef-9336-1a6ecc0653ed")
-	)
-	(wire
-		(pts
 			(xy 87.63 158.75) (xy 95.25 158.75)
 		)
 		(stroke
@@ -5597,7 +5597,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 57.15 25.4)
+			(xy 54.61 25.4) (xy 60.96 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5664,26 +5664,6 @@
 			(type default)
 		)
 		(uuid "89659fac-a6e0-4281-a4e2-d2ffd9a7a21a")
-	)
-	(wire
-		(pts
-			(xy 57.15 33.02) (xy 73.66 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a2151d0-5647-45c3-8ce7-5ccef4e4f4de")
-	)
-	(wire
-		(pts
-			(xy 46.99 33.02) (xy 57.15 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e4eca7e-2cb7-442c-bcc8-59735ad1bc09")
 	)
 	(wire
 		(pts
@@ -5778,6 +5758,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 33.02) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0249d8b-9ebb-4bd2-baa1-6e275b7b2170")
+	)
+	(wire
+		(pts
 			(xy 120.65 62.23) (xy 124.46 62.23)
 		)
 		(stroke
@@ -5858,7 +5848,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 49.53) (xy 46.99 33.02)
+			(xy 60.96 49.53) (xy 60.96 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5938,7 +5928,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 31.75) (xy 57.15 33.02)
+			(xy 60.96 31.75) (xy 60.96 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6058,7 +6048,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 49.53) (xy 46.99 49.53)
+			(xy 29.21 49.53) (xy 60.96 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6210,7 +6200,7 @@
 		(uuid "28fda38e-20bb-48ba-9cc5-e38350b0375d")
 	)
 	(label "GND"
-		(at 46.99 33.02 0)
+		(at 44.45 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6309,7 +6299,7 @@
 		(uuid "54fa15e8-4ebd-49c4-94d2-e9bf6e95442d")
 	)
 	(label "VIN"
-		(at 57.15 25.4 0)
+		(at 60.96 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7029,7 +7019,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 57.15 29.21 0)
+		(at 60.96 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7038,7 +7028,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e399775-a054-424d-8ce8-feaaddaa529c")
 		(property "Reference" "C6"
-			(at 59.69 27.3939 0)
+			(at 63.5 27.3939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,7 +7037,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 59.69 29.9339 0)
+			(at 63.5 29.9339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +7046,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
-			(at 57.15 29.21 0)
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,7 +7055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 29.21 0)
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7064,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 29.21 0)
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
