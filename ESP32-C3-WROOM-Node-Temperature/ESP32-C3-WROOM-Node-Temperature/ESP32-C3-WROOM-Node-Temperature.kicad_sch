@@ -1896,7 +1896,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 81.28) (xy 57.15 88.9)
+			(xy 57.15 81.28) (xy 57.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1906,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 88.9) (xy 45.72 88.9)
+			(xy 36.83 91.44) (xy 45.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 88.9) (xy 53.34 88.9)
+			(xy 57.15 91.44) (xy 53.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2046,7 +2046,7 @@
 		(uuid "182fca7f-2dc4-4a7d-a4d0-7d2033dbaf79")
 	)
 	(label "GPIO10"
-		(at 36.83 88.9 0)
+		(at 36.83 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2168,7 +2168,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 88.9 270)
+		(at 49.53 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2177,14 +2177,6 @@
 		(fields_autoplaced yes)
 		(uuid "198a6ab2-dd54-47cf-bd96-6df6687d919c")
 		(property "Reference" "R1"
-			(at 49.53 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
 			(at 49.53 85.09 90)
 			(effects
 				(font
@@ -2192,8 +2184,16 @@
 				)
 			)
 		)
+		(property "Value" "R"
+			(at 49.53 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 49.53 87.122 90)
+			(at 49.53 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 88.9 0)
+			(at 49.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 88.9 0)
+			(at 49.53 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
