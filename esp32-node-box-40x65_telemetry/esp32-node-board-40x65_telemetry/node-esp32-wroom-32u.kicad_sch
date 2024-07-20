@@ -5423,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 34.29) (xy 134.62 38.1)
+			(xy 134.62 31.75) (xy 134.62 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5630,6 +5630,16 @@
 			(type default)
 		)
 		(uuid "5a6bcd5c-10b9-4396-8aa4-991c9da92aab")
+	)
+	(wire
+		(pts
+			(xy 137.16 31.75) (xy 137.16 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5b1591-6a79-417d-aab7-8d4dab8a8df3")
 	)
 	(wire
 		(pts
@@ -5941,16 +5951,6 @@
 			(type default)
 		)
 		(uuid "a3e5f669-63cf-4f08-b9f4-7885b3d99fb2")
-	)
-	(wire
-		(pts
-			(xy 137.16 34.29) (xy 137.16 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a589b189-c31b-47a3-b1ab-cf10ca7d603f")
 	)
 	(wire
 		(pts
@@ -6391,7 +6391,7 @@
 		(uuid "3b556f6a-828b-4418-a803-558eaacfcf8b")
 	)
 	(label "3V3"
-		(at 137.16 34.29 0)
+		(at 137.16 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6986,7 +6986,7 @@
 		(dnp no)
 		(uuid "2ce42a64-84ec-4e25-b44d-1d678238b302")
 		(property "Reference" "J20"
-			(at 139.3541 36.83 0)
+			(at 144.018 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,6 +7443,72 @@
 			(project ""
 				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 137.16 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35126196-10a0-498f-ad10-f13eb28c353d")
+		(property "Reference" "#PWR046"
+			(at 137.16 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 137.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a967dd5-0659-4925-b08c-ecc2baf9a112")
+		)
+		(instances
+			(project "esp32-node-board-40x65_telemetry"
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/dab1a116-6bbe-49e5-a398-9f75bdcbe4bf"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8983,16 +9049,15 @@
 	(symbol
 		(lib_name "+5V_2")
 		(lib_id "power:+5V")
-		(at 134.62 34.29 0)
+		(at 134.62 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bba0a15f-3a3a-4a20-8afa-c77210a833cd")
 		(property "Reference" "#PWR029"
-			(at 134.62 38.1 0)
+			(at 134.62 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,7 +9066,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 134.62 29.21 0)
+			(at 134.62 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,7 +9074,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 34.29 0)
+			(at 134.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,7 +9083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 34.29 0)
+			(at 134.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,7 +9092,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 134.62 34.29 0)
+			(at 134.62 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
