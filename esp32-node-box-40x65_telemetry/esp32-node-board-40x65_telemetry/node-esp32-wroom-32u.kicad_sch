@@ -5154,16 +5154,16 @@
 		(uuid "a9612cd6-cd1a-473f-a44f-2bc80e728f48")
 	)
 	(junction
-		(at 60.96 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf6f3abe-2026-4ff1-be0e-1e8fb1fcea77")
-	)
-	(junction
 		(at 246.38 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8cd9c10-ddfc-405e-878f-752f5adbbc60")
+	)
+	(junction
+		(at 60.96 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1f5296c-032f-4adf-9ef1-64ae02e94ae5")
 	)
 	(wire
 		(pts
@@ -5277,16 +5277,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 60.96 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fa4cd55-8387-4ece-a668-a2d20a73a0a3")
-	)
-	(wire
-		(pts
 			(xy 134.62 34.29) (xy 134.62 38.1)
 		)
 		(stroke
@@ -5344,16 +5334,6 @@
 			(type default)
 		)
 		(uuid "385915f8-df94-4253-87b6-14f91d97e109")
-	)
-	(wire
-		(pts
-			(xy 40.64 27.94) (xy 44.45 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ef6176-e083-4ca7-af3f-e85ee302dd1c")
 	)
 	(wire
 		(pts
@@ -5838,6 +5818,26 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 25.4) (xy 60.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af573e2e-80c4-4dd6-a77d-7cc062be44a0")
+	)
+	(wire
+		(pts
+			(xy 40.64 27.94) (xy 44.45 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af5f7929-9055-4f3d-9fb1-3a37407d5371")
+	)
+	(wire
+		(pts
 			(xy 73.66 33.02) (xy 73.66 36.83)
 		)
 		(stroke
@@ -6299,7 +6299,7 @@
 		(uuid "54fa15e8-4ebd-49c4-94d2-e9bf6e95442d")
 	)
 	(label "VIN"
-		(at 57.15 25.4 0)
+		(at 60.96 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8513,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Alexander Footprint Library:SW_Slide-03_7.3x2.5x2.5_P2.54mm"
 			(at 16.51 33.02 0)
 			(effects
 				(font
@@ -8631,16 +8631,16 @@
 	)
 	(symbol
 		(lib_id "Alexander_Library_Symbols:SW_SPDT")
-		(at 49.53 27.94 0)
+		(at 49.53 25.4 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bafc4284-8151-4131-ab0a-459bfd75172a")
 		(property "Reference" "SW1"
-			(at 49.53 19.05 0)
+			(at 49.53 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,15 +8648,15 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 49.53 21.59 0)
+			(at 49.53 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 49.53 27.94 0)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +8665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 35.56 0)
+			(at 49.53 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8674,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 49.53 27.94 0)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
