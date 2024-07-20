@@ -39,6 +39,45 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -1137,6 +1176,72 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ef329297-1671-4fb8-87e4-2c6943d70846")
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "5c5bf375-f3b9-47af-a53e-73f392d4257c")
+		(pts
+			(xy 113.7 96.6) (xy 177.8 96.6)
+		)
+		(height 19.8)
+		(gr_text "64.1000 mm"
+			(at 145.75 114.6 0)
+			(layer "Dwgs.User")
+			(uuid "5c5bf375-f3b9-47af-a53e-73f392d4257c")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "c1807518-1ad5-4535-9337-2afe64d8c30b")
+		(pts
+			(xy 175.8 98.6) (xy 175.8 58.3)
+		)
+		(height 23)
+		(gr_text "40.3000 mm"
+			(at 197 78.45 90)
+			(layer "Dwgs.User")
+			(uuid "c1807518-1ad5-4535-9337-2afe64d8c30b")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(zone
 		(net 3)
