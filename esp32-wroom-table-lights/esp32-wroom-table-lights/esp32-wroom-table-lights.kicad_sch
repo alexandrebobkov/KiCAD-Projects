@@ -498,6 +498,126 @@
 				)
 			)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -597,7 +717,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 85.09) (xy 81.28 88.9)
+			(xy 77.47 64.77) (xy 77.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e837f3-cf99-4aa4-b6cc-dc17ffd8b7d5")
+	)
+	(wire
+		(pts
+			(xy 78.74 102.87) (xy 78.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -606,7 +736,7 @@
 		(uuid "c8772eae-5c4c-43f0-87ea-ac4b2fa59d7e")
 	)
 	(label "GND"
-		(at 81.28 87.63 0)
+		(at 78.74 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -873,6 +1003,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 77.47 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cf9b6ac-4015-426b-8093-15415e6cf049")
+		(property "Reference" "#PWR06"
+			(at 77.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 77.47 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a69405b9-4933-4190-ad99-cb20aa4bbaf6")
+		)
+		(instances
+			(project "esp32-wroom-table-lights"
+				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
 		(at 74.93 20.32 0)
 		(unit 1)
@@ -938,7 +1133,7 @@
 	)
 	(symbol
 		(lib_id "Alexander_Library_Symbols:ESP32-C3-SuperMini")
-		(at 68.58 50.8 0)
+		(at 66.04 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -947,7 +1142,7 @@
 		(fields_autoplaced yes)
 		(uuid "93cdabc2-5353-4c62-9343-cb4db2cce156")
 		(property "Reference" "U1"
-			(at 83.4741 85.09 0)
+			(at 80.9341 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +1151,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 83.4741 86.36 0)
+			(at 80.9341 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +1160,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Footprint Library:ESP32-C3_SuperMini"
-			(at 55.88 50.8 0)
+			(at 53.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +1169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 50.8 0)
+			(at 53.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,7 +1178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 50.8 0)
+			(at 53.34 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1245,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 88.9 0)
+		(at 78.74 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1059,7 +1254,7 @@
 		(fields_autoplaced yes)
 		(uuid "a17f274a-8df0-498e-9b9b-d68f8b0fcc59")
 		(property "Reference" "#PWR01"
-			(at 81.28 95.25 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1263,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 93.98 0)
+			(at 78.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +1271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 88.9 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 88.9 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1289,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 88.9 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
