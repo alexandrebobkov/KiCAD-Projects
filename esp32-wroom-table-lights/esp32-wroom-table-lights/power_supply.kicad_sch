@@ -5,29 +5,28 @@
 	(uuid "90a6c2ce-f242-482f-b612-76ee61ad31b7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Alexander_Library_Symbols:AMS1117-5V"
-			(exclude_from_sim no)
+		(symbol "Alexander Symbol Library:AMS1117-3V3"
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 3.175 0)
+				(at 0 -0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AMS1117-5V"
-				(at 0 3.175 0)
+			(property "Value" "AMS1117-3V3"
+				(at -0.508 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
+			(property "Footprint" "Alexander Footprint Library:AMS1117 SOT-223"
+				(at 0 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,15 +35,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,7 +43,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "linear regulator ldo fixed positive obsolete"
+			(property "Description" "AMS1117"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AMS1117 3V3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,19 +61,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AMS1117-5V_0_1"
+			(symbol "AMS1117-3V3_0_1"
 				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+					(start -5.08 -8.89)
+					(end 5.08 -1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -84,11 +74,11 @@
 					)
 				)
 			)
-			(symbol "AMS1117-5V_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
+			(symbol "AMS1117-3V3_1_1"
+				(pin power_out line
+					(at 0 -11.43 90)
 					(length 2.54)
-					(name "GND"
+					(name "ADJ"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -104,7 +94,7 @@
 					)
 				)
 				(pin power_out line
-					(at 7.62 0 180)
+					(at 7.62 -3.81 180)
 					(length 2.54)
 					(name "VO"
 						(effects
@@ -122,7 +112,133 @@
 					)
 				)
 				(pin power_in line
-					(at -7.62 0 0)
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Alexander Symbol Library:AMS1117-5V"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-5V"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Alexander Footprint Library:AMS1117 SOT-223"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "AMS1117"
+				(at 0 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AMS1117 5V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-5V_0_1"
+				(rectangle
+					(start -5.08 -8.89)
+					(end 5.08 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-5V_1_1"
+				(pin power_out line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -3.81 0)
 					(length 2.54)
 					(name "VI"
 						(effects
@@ -716,146 +832,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Linear:LM78M05_TO220"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM78M05_TO220"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-220"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 500mA Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM78M05_TO220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM78M05_TO220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1966,77 +1942,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alexander_Library_Symbols:AMS1117-5V")
-		(at 72.39 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31b9d764-8362-44e0-937c-99c311e90a7c")
-		(property "Reference" "U3"
-			(at 72.39 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-5V"
-			(at 72.39 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 72.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223"
-			(at 72.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94e85106-c546-45c8-916d-0710f237886c")
-		)
-		(pin "3"
-			(uuid "e42b5dca-d461-4c46-914b-452021a4cb89")
-		)
-		(pin "2"
-			(uuid "150a968f-620d-478b-bf09-2029116d4211")
-		)
-		(instances
-			(project ""
-				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd/63843d8f-768b-4470-a351-37b52c877f9e"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 116.84 46.99 90)
 		(unit 1)
@@ -2515,14 +2420,15 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM78M05_TO220")
-		(at 72.39 36.83 0)
+		(lib_id "Alexander Symbol Library:AMS1117-3V3")
+		(at 72.39 33.02 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0dea2d8-b257-44e2-af2e-a996024da724")
+		(fields_autoplaced yes)
+		(uuid "b9f89055-5d9f-4d3e-b0f2-138ea298ae28")
 		(property "Reference" "U2"
 			(at 72.39 30.48 0)
 			(effects
@@ -2539,18 +2445,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 72.39 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
-			(at 72.39 38.1 0)
+		(property "Footprint" "Alexander Footprint Library:AMS1117 SOT-223"
+			(at 72.39 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,8 +2454,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 36.83 0)
+		(property "Datasheet" ""
+			(at 72.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AMS1117"
+			(at 72.39 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,16 +2473,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "23de0fb9-aa8f-42e1-9a84-cf87d041a4c4")
+			(uuid "a8b9caec-3eb2-4af9-a862-2d316e295dc4")
 		)
 		(pin "2"
-			(uuid "3268dc25-fd78-4894-9aa7-ddc0feb1ad7d")
+			(uuid "55c12aa6-3d6e-4969-83c7-53869232a99d")
 		)
 		(pin "3"
-			(uuid "09a65d26-9eac-4848-afd6-83a7aa5f79c8")
+			(uuid "a90c1d3f-fa75-4f7f-a1a0-d19ee1509e89")
 		)
 		(instances
-			(project "esp32-wroom-table-lights"
+			(project ""
 				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd/63843d8f-768b-4470-a351-37b52c877f9e"
 					(reference "U2")
 					(unit 1)
@@ -2714,6 +2619,77 @@
 			(project "esp32-wroom-table-lights"
 				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd/63843d8f-768b-4470-a351-37b52c877f9e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander Symbol Library:AMS1117-5V")
+		(at 72.39 53.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6687581-55df-4b41-bc60-380e89f19f47")
+		(property "Reference" "U3"
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-5V"
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:AMS1117 SOT-223"
+			(at 72.39 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AMS1117"
+			(at 72.39 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07a122f5-834f-46f8-912d-0453c8ed158b")
+		)
+		(pin "3"
+			(uuid "62fa98b7-dca3-42ab-8b06-133e05699932")
+		)
+		(pin "2"
+			(uuid "90b6ab61-c36a-49f9-b82f-3738acde8adc")
+		)
+		(instances
+			(project ""
+				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd/63843d8f-768b-4470-a351-37b52c877f9e"
+					(reference "U3")
 					(unit 1)
 				)
 			)
