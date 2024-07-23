@@ -1269,6 +1269,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 63.5) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29438862-7918-4318-9f64-bacbee0ae833")
+	)
+	(wire
+		(pts
 			(xy 58.42 82.55) (xy 63.5 82.55)
 		)
 		(stroke
@@ -1336,6 +1346,26 @@
 			(type default)
 		)
 		(uuid "a5c5192d-6bc9-4aa4-acee-6f09ea896efb")
+	)
+	(wire
+		(pts
+			(xy 139.7 102.87) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadddd7a-b11f-4116-9ad9-d768735db16f")
+	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40fa731-b57d-45ea-871e-731cf51aee5b")
 	)
 	(wire
 		(pts
@@ -1485,6 +1515,28 @@
 			)
 		)
 	)
+	(global_label "GPIO3"
+		(shape input)
+		(at 158.75 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77c40bdb-1173-49b5-b6d5-e89877ccc40e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC0"
 		(shape input)
 		(at 99.06 92.71 0)
@@ -1610,6 +1662,72 @@
 			(project "esp32-wroom-table-lights"
 				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
 					(reference "BRD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1689cc1b-e594-4023-b160-99c1698f912a")
+		(property "Reference" "#PWR012"
+			(at 139.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb65b6f8-4719-447d-9488-45f58e5eb665")
+		)
+		(instances
+			(project "esp32-wroom-table-lights"
+				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1853,6 +1971,118 @@
 			(project ""
 				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander Symbol Library:ESP32-C3-SuperMini")
+		(at 127 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39619d84-1315-4ba2-9e67-998109a2fb55")
+		(property "Reference" "U4"
+			(at 141.8941 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-C3 SuperMini"
+			(at 141.8941 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:ESP32-C3_SuperMini"
+			(at 113.284 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "274b649e-730a-4f6d-b17c-e80fd2114dbf")
+		)
+		(pin "9"
+			(uuid "edfb45a3-88b9-4854-939f-8ba9e8ae6490")
+		)
+		(pin "15"
+			(uuid "5dbf4cd6-2e0f-47d6-a692-3184c96ca003")
+		)
+		(pin "8"
+			(uuid "c26344f2-12b3-4278-b360-e022234d4b59")
+		)
+		(pin "7"
+			(uuid "5943f9aa-21d7-44ab-b2c0-395c5ccd9232")
+		)
+		(pin "2"
+			(uuid "718850a9-c816-4522-88db-f05f4f9f46d8")
+		)
+		(pin "6"
+			(uuid "bc7a929f-187a-48ec-87b4-721bf17c18e8")
+		)
+		(pin "1"
+			(uuid "7d61bd99-c94c-41a9-9493-e4c4a6f782a4")
+		)
+		(pin "12"
+			(uuid "92136b04-c9c4-4c83-8a7d-26bc48a5e0e3")
+		)
+		(pin "16"
+			(uuid "48c769e0-230b-430b-952d-2ff58d76d6aa")
+		)
+		(pin "10"
+			(uuid "7664a79b-bf67-4dce-b4f3-cc3ce605d678")
+		)
+		(pin "11"
+			(uuid "7f3dc108-00da-4041-befb-50e8f50a982c")
+		)
+		(pin "4"
+			(uuid "69b85f49-5b74-4881-8f09-be10ca10c273")
+		)
+		(pin "14"
+			(uuid "44136499-8487-4961-97d2-d3c246d8193e")
+		)
+		(pin "3"
+			(uuid "339fcf5b-f2e1-4cc1-8508-df10b94cfcd9")
+		)
+		(pin "5"
+			(uuid "fc715395-1872-4f33-ae7f-666068155633")
+		)
+		(instances
+			(project "esp32-wroom-table-lights"
+				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2122,6 +2352,71 @@
 			(project ""
 				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 138.43 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b630d925-7845-4ca2-9280-c80eb9022c5c")
+		(property "Reference" "#PWR013"
+			(at 138.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 138.43 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1132496-9a6b-4475-b068-f82832c9fe90")
+		)
+		(instances
+			(project "esp32-wroom-table-lights"
+				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
