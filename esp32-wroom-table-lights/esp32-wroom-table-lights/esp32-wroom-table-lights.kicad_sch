@@ -1490,6 +1490,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 82.55) (xy 187.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf2d063-a9b6-46ef-b937-a51cc5162de9")
+	)
+	(wire
+		(pts
 			(xy 78.74 102.87) (xy 78.74 109.22)
 		)
 		(stroke
@@ -1520,6 +1530,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 85.09) (xy 187.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dfe6d9-2940-4233-a890-c8dbcb39b3e8")
+	)
+	(wire
+		(pts
 			(xy 33.02 78.74) (xy 38.1 78.74)
 		)
 		(stroke
@@ -1540,6 +1560,26 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74845ae-65b3-42be-9ce9-577b005e0f5a")
+	)
+	(wire
+		(pts
+			(xy 118.11 82.55) (xy 124.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4d8a5d-9d02-494d-a92e-9717b64b0e24")
+	)
+	(wire
+		(pts
 			(xy 154.94 85.09) (xy 158.75 85.09)
 		)
 		(stroke
@@ -1557,6 +1597,16 @@
 			(type default)
 		)
 		(uuid "c839074b-5c95-46a3-96fd-555b8ba9ce0a")
+	)
+	(wire
+		(pts
+			(xy 182.88 80.01) (xy 187.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c4298c-6de9-42d3-9219-4c312c2d3ef5")
 	)
 	(wire
 		(pts
@@ -1600,6 +1650,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 87.63) (xy 187.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec01ae96-d284-4041-9f3f-47ee722cdfff")
+	)
+	(wire
+		(pts
 			(xy 33.02 76.2) (xy 38.1 76.2)
 		)
 		(stroke
@@ -1629,6 +1689,28 @@
 		(uuid "fca8e8b3-cb77-4523-ba2b-f4b224dc1389")
 	)
 	(label "SDA"
+		(at 187.96 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15296e59-e542-445c-bb4e-e669df993bf0")
+	)
+	(label "SCK"
+		(at 118.11 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35a7f970-2a27-41a5-a4a9-14330a15313d")
+	)
+	(label "SDA"
 		(at 38.1 81.28 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1638,6 +1720,17 @@
 			(justify right bottom)
 		)
 		(uuid "5512da29-b8e8-4033-87af-5e73780e8722")
+	)
+	(label "GND"
+		(at 187.96 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61779604-635e-40b2-999e-375d51d91c62")
 	)
 	(label "SCK"
 		(at 58.42 82.55 180)
@@ -1682,6 +1775,28 @@
 			(justify left bottom)
 		)
 		(uuid "a7db2519-9b71-46a8-a43e-4cf32688aff0")
+	)
+	(label "SCK"
+		(at 187.96 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c314435a-a86b-432e-a496-994dfdf989ff")
+	)
+	(label "SDA"
+		(at 118.11 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6602d2d-5aff-4bab-88b7-488cc3666516")
 	)
 	(label "SCK"
 		(at 38.1 83.82 180)
@@ -2062,6 +2177,80 @@
 			(project "esp32-wroom-table-lights"
 				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander Symbol Library:Conn_I2C")
+		(at 177.8 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20e92106-72a6-4d03-bcad-828c9ecc4fe8")
+		(property "Reference" "J4"
+			(at 178.435 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "I2C"
+			(at 178.435 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:Conn_I2C"
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C connector, single row, 01x04"
+			(at 177.8 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "GND"
+			(uuid "29451651-1e2c-4127-bfc5-feb7aa54903e")
+		)
+		(pin "Vcc"
+			(uuid "13d1ad9c-0d8e-4361-9cb0-2560c2721087")
+		)
+		(pin "SDA"
+			(uuid "0d94c7cd-b672-4c18-b239-01ca5c970166")
+		)
+		(pin "SCL"
+			(uuid "76fb3c2b-501b-48d9-b2d4-e3698ac98114")
+		)
+		(instances
+			(project "esp32-wroom-table-lights"
+				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2756,6 +2945,71 @@
 			(project ""
 				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 187.96 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c808dea-0405-48ab-aba0-36d8e4c091bb")
+		(property "Reference" "#PWR019"
+			(at 184.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 194.31 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c85dba6b-fa00-45ac-9eb8-4c1173e07484")
+		)
+		(instances
+			(project "esp32-wroom-table-lights"
+				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
