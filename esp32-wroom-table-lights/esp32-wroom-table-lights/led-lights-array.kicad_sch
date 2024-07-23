@@ -5,6 +5,480 @@
 	(uuid "2485688b-0a71-47a7-8ceb-0c223c4ed6bd")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Alexander Symbol Library:LED_SMD_5050"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_SMD_5050"
+				(at -5.08 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_Cree-PLCC6_4.7x1.5mm"
+				(at -5.08 -8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+				(at -5.08 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*Cree*PLCC*4.7x1.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_SMD_5050_0_0"
+				(text "B"
+					(at -0.635 -3.3274 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "LED_SMD_5050_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 -1.27) (xy -1.778 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.794 3.81) (xy -1.778 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -0.762 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 3.81) (xy -0.762 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 1.27) (xy 3.302 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 1.27) (xy 4.318 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.572) (xy -1.778 4.826) (xy -2.032 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.016) (xy -1.778 -0.254) (xy -2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy -0.762 -0.254) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 4.572) (xy -0.762 4.826) (xy -1.016 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 1.524) (xy 3.302 2.286) (xy 2.54 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 2.032) (xy 4.318 2.286) (xy 4.064 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -3.81 -3.81) (xy -1.27 -2.54) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 1.27) (xy -1.27 2.54) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy 3.81 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_SMD_5050_1_0"
+				(text "B"
+					(at -0.635 1.8034 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "B"
+					(at 4.4196 -0.7112 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "LED_SMD_5050_1_1"
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "AB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "KB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "AR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "KR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "AG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "KR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -392,9 +866,51 @@
 			)
 		)
 	)
+	(junction
+		(at 63.5 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03844eed-5a8b-4d64-8e81-7f957a130176")
+	)
+	(junction
+		(at 45.72 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9241e119-8dce-4a75-b856-beb7a40ba603")
+	)
 	(wire
 		(pts
-			(xy 30.48 38.1) (xy 40.64 38.1)
+			(xy 46.99 40.64) (xy 45.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fbbfddf-068e-4a57-b149-56551231efa4")
+	)
+	(wire
+		(pts
+			(xy 62.23 40.64) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3227349a-382a-4cc7-9d23-2442573b27c3")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 46.99 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359c0d21-cee3-4359-9a21-d4e734b54611")
+	)
+	(wire
+		(pts
+			(xy 27.94 38.1) (xy 35.56 38.1)
 		)
 		(stroke
 			(width 0)
@@ -404,33 +920,93 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 38.1) (xy 52.07 38.1)
+			(xy 63.5 38.1) (xy 67.31 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af82a15e-4ee7-4abe-aed5-93cf73547c7d")
+		(uuid "7f5e249e-53af-499c-8973-9ef949361bbb")
 	)
 	(wire
 		(pts
-			(xy 67.31 44.45) (xy 67.31 38.1)
+			(xy 62.23 35.56) (xy 63.5 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c29e6582-b2d0-498e-80b3-9aa4e38fa175")
+		(uuid "84093b88-09f7-44e4-9b48-722e595b7b9c")
 	)
 	(wire
 		(pts
-			(xy 59.69 38.1) (xy 67.31 38.1)
+			(xy 46.99 35.56) (xy 45.72 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd3cfa47-7263-4b78-a3a3-2d03215f84ed")
+		(uuid "88711588-9bac-4733-9e3a-e7e8a4289c13")
+	)
+	(wire
+		(pts
+			(xy 43.18 38.1) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ec71e7e-9270-49a9-891f-7998d8568c04")
+	)
+	(wire
+		(pts
+			(xy 63.5 40.64) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a4a32e-ea3a-4be5-b0a8-1f7a6e97e6a7")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a334706d-b12e-4087-82f4-070ec53be608")
+	)
+	(wire
+		(pts
+			(xy 62.23 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42683f5-6d3c-4bce-a4e8-f960945406a3")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83d98ce-029b-4351-b6aa-a8db4c8573f4")
+	)
+	(wire
+		(pts
+			(xy 45.72 35.56) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d688ba63-38ab-41f2-bd44-0e9245807abf")
 	)
 	(rectangle
 		(start 25.4 25.4)
@@ -454,19 +1030,8 @@
 		)
 		(uuid "9036fa29-996c-439e-bf44-462eebac0f36")
 	)
-	(label "GND"
-		(at 63.5 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56510378-e305-47fc-985c-cceb8cee80bd")
-	)
 	(label "GPIO-N"
-		(at 30.48 38.1 0)
+		(at 27.94 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -477,9 +1042,76 @@
 		(uuid "ae9891e3-9e8b-4351-83eb-413ccfdd7e19")
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 66.04 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "0f6e7792-e92c-4c6c-b6fd-a7c69621f588")
+		(property "Reference" "D2"
+			(at 66.04 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5050"
+			(at 66.04 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:LED_5050-6"
+			(at 66.04 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 66.04 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48b78827-3829-44ab-9b0c-cc07b54d4293")
+		)
+		(pin "1"
+			(uuid "a5b3185d-1ba5-46ad-808c-9ba491ccd8df")
+		)
+		(instances
+			(project "esp32-wroom-table-lights"
+				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd/d5fc8cf4-d8a2-46b6-9b2c-3f15f2406209"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 67.31 44.45 0)
+		(at 67.31 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -488,7 +1120,7 @@
 		(fields_autoplaced yes)
 		(uuid "10465a58-4f06-493c-b9ae-515cefaf97d3")
 		(property "Reference" "#PWR07"
-			(at 67.31 50.8 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,17 +1129,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 45.72 0)
+			(at 71.12 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 44.45 0)
+			(at 67.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,7 +1148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 44.45 0)
+			(at 67.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,7 +1157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 44.45 0)
+			(at 67.31 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,32 +1178,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 55.88 38.1 180)
+		(lib_id "Alexander Symbol Library:LED_SMD_5050")
+		(at 54.61 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "99a7db5a-c2f2-451f-818c-36ca3e730092")
-		(property "Reference" "D2"
-			(at 55.88 31.75 0)
+		(fields_autoplaced yes)
+		(uuid "ad649c19-cddb-4b65-877e-a432208f49c9")
+		(property "Reference" "D3"
+			(at 54.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5050"
-			(at 55.88 34.29 0)
+		(property "Value" "LED-5050"
+			(at 54.61 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Alexander Footprint Library:LED_5050-6"
-			(at 55.88 38.1 0)
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC6_4.7x1.5mm"
+			(at 49.53 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cree.com/led-components/media/documents/CLS6B-FKW.pdf"
+			(at 49.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Cree PLCC6 3 in 1 SMD LED, PLCC-6"
+			(at 54.61 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,34 +1232,28 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 55.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e2cc3bc-ad66-4488-9d92-31b4b45add10")
+		(pin "4"
+			(uuid "f4d2a18b-941d-4871-a125-810aab10ea9a")
 		)
 		(pin "1"
-			(uuid "323b10e6-8ab8-453c-9c22-6d8d34d73657")
+			(uuid "a86553be-a4e0-42d7-83de-f59ead1d1f45")
+		)
+		(pin "2"
+			(uuid "37fdd57a-7ca7-4bfa-94b3-ac51ba3e1768")
+		)
+		(pin "3"
+			(uuid "7b4bdc65-c60c-4b20-be3a-d2019be3b943")
+		)
+		(pin "5"
+			(uuid "afe33e05-ee77-4d15-98aa-4cfc86136fde")
+		)
+		(pin "6"
+			(uuid "6b324e5f-2b5c-4920-baa1-47ff80548f73")
 		)
 		(instances
-			(project "esp32-wroom-table-lights"
+			(project ""
 				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd/d5fc8cf4-d8a2-46b6-9b2c-3f15f2406209"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -614,7 +1261,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 38.1 270)
+		(at 39.37 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -622,7 +1269,7 @@
 		(dnp no)
 		(uuid "e26efeca-c85d-48bb-a458-dcb8f4450196")
 		(property "Reference" "R1"
-			(at 44.45 31.75 90)
+			(at 39.37 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -630,7 +1277,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 44.45 34.29 90)
+			(at 39.37 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,7 +1285,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 44.45 36.322 90)
+			(at 39.37 36.322 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +1294,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 38.1 0)
+			(at 39.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,7 +1303,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 38.1 0)
+			(at 39.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
