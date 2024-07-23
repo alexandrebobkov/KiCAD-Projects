@@ -741,13 +741,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 38.1) (xy 35.56 38.1)
+			(xy 33.02 38.1) (xy 35.56 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "558ab65f-87c3-4729-96b9-0b8fe6dc5cc7")
+		(uuid "77c2d6aa-5733-476f-b1da-f417d8fce2fb")
 	)
 	(wire
 		(pts
@@ -840,7 +840,7 @@
 		(uuid "d688ba63-38ab-41f2-bd44-0e9245807abf")
 	)
 	(rectangle
-		(start 25.4 25.4)
+		(start 20.32 25.4)
 		(end 76.2 63.5)
 		(stroke
 			(width 0)
@@ -861,16 +861,27 @@
 		)
 		(uuid "9036fa29-996c-439e-bf44-462eebac0f36")
 	)
-	(label "GPIO3"
-		(at 27.94 38.1 0)
+	(global_label "GPIO3"
+		(shape input)
+		(at 33.02 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "ae9891e3-9e8b-4351-83eb-413ccfdd7e19")
+		(uuid "eeb39e79-629e-41e2-a46d-06ed30efcd63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_name "GND_4")

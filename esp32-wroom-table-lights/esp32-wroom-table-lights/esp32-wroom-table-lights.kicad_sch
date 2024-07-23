@@ -746,24 +746,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 85.09) (xy 99.06 85.09)
+			(xy 93.98 85.09) (xy 97.79 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2e55345-68f6-4000-86c1-296c9f2fdc8f")
-	)
-	(label "GPIO3"
-		(at 99.06 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "622a8db5-f149-4c9e-8a57-413dc64beb05")
+		(uuid "c839074b-5c95-46a3-96fd-555b8ba9ce0a")
 	)
 	(label "GND"
 		(at 78.74 107.95 90)
@@ -775,6 +764,28 @@
 			(justify left bottom)
 		)
 		(uuid "a7db2519-9b71-46a8-a43e-4cf32688aff0")
+	)
+	(global_label "GPIO3"
+		(shape input)
+		(at 97.79 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2d6bbcd-dfbd-4e78-b2ad-d3ba37ada63b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Alexander Symbol Library:ESP32-C3-SuperMini")
