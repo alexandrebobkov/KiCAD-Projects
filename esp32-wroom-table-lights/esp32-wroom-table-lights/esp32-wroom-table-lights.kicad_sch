@@ -5,68 +5,7 @@
 	(uuid "d3041bbb-21f1-431e-bbf9-53a09e8890bd")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Alexander_Library_Symbols:CircleBoard"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BRD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Alexander Footprint Library:Circle-44R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CircleBoard_0_1"
-				(circle
-					(center 0 0)
-					(radius 3.4078)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "Alexander_Library_Symbols:ESP32-C3-SuperMini"
+		(symbol "Alexander Symbol Library:ESP32-C3-SuperMini"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,16 +17,16 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -12.7 0 0)
+			(property "Value" "ESP32-C3 SuperMini"
+				(at 25.654 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -12.7 0 0)
+			(property "Footprint" "Alexander Footprint Library:ESP32-C3_SuperMini"
+				(at -13.716 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -106,6 +45,15 @@
 			)
 			(property "Description" ""
 				(at -12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESP32 C3 Super Mini"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -235,10 +183,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 11.43 0 270)
+				(pin power_out line
+					(at 12.7 -34.29 90)
 					(length 2.54)
-					(name "5V"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -253,10 +201,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 12.7 -34.29 90)
+				(pin power_in line
+					(at 11.43 0 270)
 					(length 2.54)
-					(name "GND"
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -413,6 +361,67 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "Alexander_Library_Symbols:CircleBoard"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BRD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Alexander Footprint Library:Circle-44R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CircleBoard_0_1"
+				(circle
+					(center 0 0)
+					(radius 3.4078)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -747,6 +756,118 @@
 		(uuid "a7db2519-9b71-46a8-a43e-4cf32688aff0")
 	)
 	(symbol
+		(lib_id "Alexander Symbol Library:ESP32-C3-SuperMini")
+		(at 66.04 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b2e9bf-dc10-4ce0-b6f1-3c0f56b87b22")
+		(property "Reference" "U1"
+			(at 80.9341 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP32-C3 SuperMini"
+			(at 80.9341 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:ESP32-C3_SuperMini"
+			(at 52.324 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "2ed7a8aa-68ff-4235-8592-0bf811b7c529")
+		)
+		(pin "9"
+			(uuid "04947618-c9b1-4101-8496-e89f59eb1f76")
+		)
+		(pin "15"
+			(uuid "fa1ef433-0444-471f-8c49-871ce01f0581")
+		)
+		(pin "8"
+			(uuid "278d31f4-733b-4acf-b37b-d81cab39354e")
+		)
+		(pin "7"
+			(uuid "e21901ed-e365-4d62-b8b4-96114b8b839d")
+		)
+		(pin "2"
+			(uuid "a9dde456-4336-442a-9250-55863274f30b")
+		)
+		(pin "6"
+			(uuid "f11409b8-e215-4ebf-b647-34cff0ef9f0a")
+		)
+		(pin "1"
+			(uuid "b9aa02a0-95b7-4a8a-b68d-a466653594e5")
+		)
+		(pin "12"
+			(uuid "d856d5b0-2c82-491a-bd17-e711cbdd2d7e")
+		)
+		(pin "16"
+			(uuid "aa9bf568-922c-480e-a9ab-ef5480c43d7a")
+		)
+		(pin "10"
+			(uuid "0a9954e2-6621-4330-81bf-ed672e52163e")
+		)
+		(pin "11"
+			(uuid "75844a81-9cf7-49c6-a75d-f6cbb1f2c66c")
+		)
+		(pin "4"
+			(uuid "23c42e60-fbf8-4203-a5a9-fa20a5ea1f84")
+		)
+		(pin "14"
+			(uuid "4d456d34-2cf3-4e0c-8988-ad8356422cad")
+		)
+		(pin "3"
+			(uuid "7ead1550-3a48-40a9-841a-3a4f9ca34c7c")
+		)
+		(pin "5"
+			(uuid "2263f5c1-232e-404b-b5b5-793344d1e9d8")
+		)
+		(instances
+			(project ""
+				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alexander_Library_Symbols:CircleBoard")
 		(at 26.67 27.94 0)
 		(unit 1)
@@ -870,118 +991,6 @@
 			(project "esp32-wroom-table-lights"
 				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Alexander_Library_Symbols:ESP32-C3-SuperMini")
-		(at 66.04 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93cdabc2-5353-4c62-9343-cb4db2cce156")
-		(property "Reference" "U1"
-			(at 80.9341 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 80.9341 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprint Library:ESP32-C3_SuperMini"
-			(at 53.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "a8148c39-c87c-4b36-8e3c-9508afbcf52e")
-		)
-		(pin "9"
-			(uuid "f025d8ec-b299-4b95-aca5-2096ed2f6169")
-		)
-		(pin "10"
-			(uuid "2632a5ae-6e49-4c3f-b496-304b937b51d3")
-		)
-		(pin "11"
-			(uuid "d1937ed8-8722-497b-a084-296b645ebdb1")
-		)
-		(pin "2"
-			(uuid "1bd00ba0-2e9e-4438-bddd-afa71d498819")
-		)
-		(pin "8"
-			(uuid "36cbf5af-c01f-492d-91b3-836f8bcd857f")
-		)
-		(pin "14"
-			(uuid "894964bb-fce9-4ff9-832c-7df1ca17e648")
-		)
-		(pin "12"
-			(uuid "a63baf0a-d146-40ff-b119-cd9e2a9b43d0")
-		)
-		(pin "13"
-			(uuid "a45a3d57-29ce-4476-b347-8def969b7ed8")
-		)
-		(pin "5"
-			(uuid "c0e2613e-9343-497f-940c-59c35fb03cb5")
-		)
-		(pin "7"
-			(uuid "86eee0bd-623b-464f-8e57-014c80cf9662")
-		)
-		(pin "1"
-			(uuid "de6ed55f-4bda-4367-94ef-b305c61bda7f")
-		)
-		(pin "4"
-			(uuid "fd10d3e7-04dd-41ab-b895-4223ac2de0d9")
-		)
-		(pin "16"
-			(uuid "18184dce-5771-4c5a-aadd-a54c10e61921")
-		)
-		(pin "6"
-			(uuid "e36a788d-ae13-42ab-93a4-6733ee8d6b88")
-		)
-		(pin "3"
-			(uuid "11fd52fe-b24c-4a4b-b0ed-122c0240a2de")
-		)
-		(instances
-			(project ""
-				(path "/d3041bbb-21f1-431e-bbf9-53a09e8890bd"
-					(reference "U1")
 					(unit 1)
 				)
 			)
