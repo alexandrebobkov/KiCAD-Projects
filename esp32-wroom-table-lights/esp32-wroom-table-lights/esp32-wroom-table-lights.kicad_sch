@@ -1279,6 +1279,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 92.71) (xy 99.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b478553-7c20-41f3-b59a-192904f4d2c1")
+	)
+	(wire
+		(pts
 			(xy 33.02 81.28) (xy 38.1 81.28)
 		)
 		(stroke
@@ -1367,6 +1377,16 @@
 		)
 		(uuid "ef33f680-1f84-4920-a7f1-b0fffbcc6517")
 	)
+	(wire
+		(pts
+			(xy 57.15 74.93) (xy 63.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca8e8b3-cb77-4523-ba2b-f4b224dc1389")
+	)
 	(label "SDA"
 		(at 38.1 81.28 180)
 		(fields_autoplaced yes)
@@ -1433,6 +1453,50 @@
 		)
 		(uuid "fa4dd2ab-6ea1-4fd1-ac1e-b26f9cf858ac")
 	)
+	(global_label "ADC0"
+		(shape input)
+		(at 99.06 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf4173e5-ff80-4de1-add0-04d2123307d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.8833 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO5"
+		(shape input)
+		(at 57.15 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0351d44-11eb-43d2-b7bf-770d62b3229c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO3"
 		(shape input)
 		(at 97.79 85.09 0)
@@ -1480,7 +1544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alexander Footprint Library:LED_5050-6"
+		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
 			(at 87.63 66.04 0)
 			(effects
 				(font
