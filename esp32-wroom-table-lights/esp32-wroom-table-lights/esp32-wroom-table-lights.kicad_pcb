@@ -14377,7 +14377,7 @@
 	(footprint "Alexander Footprint Library:AMS1117 SOT-223"
 		(layer "F.Cu")
 		(uuid "79d982ee-66bb-4ea0-85c1-1daeff28de80")
-		(at 273.0175 64.505)
+		(at 215.4 91.775 180)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U5"
@@ -14403,7 +14403,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Footprint Library:AMS1117 SOT-223"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14416,7 +14416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14429,7 +14429,7 @@
 			)
 		)
 		(property "Description" "AMS1117"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -14446,24 +14446,14 @@
 		(sheetfile "power_supply.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.85 -3.41)
-			(end 1.91 -3.41)
+			(start 1.91 3.41)
+			(end 1.91 2.15)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1fc4e701-bec9-4a9c-b03a-0283fde3a9d1")
-		)
-		(fp_line
-			(start -1.85 3.41)
-			(end 1.91 3.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f64ac31a-76e9-402e-a187-f87a89958e94")
+			(uuid "0259a04b-a89b-476a-b6b3-19da9d0afdba")
 		)
 		(fp_line
 			(start 1.91 -3.41)
@@ -14476,14 +14466,24 @@
 			(uuid "1093a7f0-a131-4ea8-bb6e-420339beadea")
 		)
 		(fp_line
-			(start 1.91 3.41)
-			(end 1.91 2.15)
+			(start -1.85 3.41)
+			(end 1.91 3.41)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0259a04b-a89b-476a-b6b3-19da9d0afdba")
+			(uuid "f64ac31a-76e9-402e-a187-f87a89958e94")
+		)
+		(fp_line
+			(start -1.85 -3.41)
+			(end 1.91 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1fc4e701-bec9-4a9c-b03a-0283fde3a9d1")
 		)
 		(fp_poly
 			(pts
@@ -14498,24 +14498,14 @@
 			(uuid "f508ff90-7d7e-4e22-939f-78722526dc76")
 		)
 		(fp_line
-			(start -4.4 -3.6)
-			(end -4.4 3.6)
+			(start 4.4 3.6)
+			(end 4.4 -3.6)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "7b4e4dd8-d775-4437-83fc-6d3f237ae8dd")
-		)
-		(fp_line
-			(start -4.4 3.6)
-			(end 4.4 3.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cdbb09a8-1da2-420e-9927-527a86cc96b3")
+			(uuid "8a4d6630-d83c-46f5-8ccc-94a0e047eef0")
 		)
 		(fp_line
 			(start 4.4 -3.6)
@@ -14528,44 +14518,34 @@
 			(uuid "2f55d0cf-901a-44cd-8609-f91d09589ac8")
 		)
 		(fp_line
-			(start 4.4 3.6)
-			(end 4.4 -3.6)
+			(start -4.4 3.6)
+			(end 4.4 3.6)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8a4d6630-d83c-46f5-8ccc-94a0e047eef0")
+			(uuid "cdbb09a8-1da2-420e-9927-527a86cc96b3")
 		)
 		(fp_line
-			(start -1.85 -2.3)
-			(end -1.85 3.35)
+			(start -4.4 -3.6)
+			(end -4.4 3.6)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "41b0ebeb-f0e2-4aa6-82ca-1b4f9e0da22f")
+			(layer "F.CrtYd")
+			(uuid "7b4e4dd8-d775-4437-83fc-6d3f237ae8dd")
 		)
 		(fp_line
-			(start -1.85 -2.3)
-			(end -0.8 -3.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3c1989f9-121d-44ef-bc48-c2f22eeaa650")
-		)
-		(fp_line
-			(start -1.85 3.35)
+			(start 1.85 -3.35)
 			(end 1.85 3.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0210e941-4855-496e-b5c5-518e53da25ab")
+			(uuid "81267117-e11b-446c-89c0-f22577f0d907")
 		)
 		(fp_line
 			(start -0.8 -3.35)
@@ -14578,14 +14558,34 @@
 			(uuid "c960d736-ee67-4045-b0d4-9c3b1d780745")
 		)
 		(fp_line
-			(start 1.85 -3.35)
+			(start -1.85 3.35)
 			(end 1.85 3.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "81267117-e11b-446c-89c0-f22577f0d907")
+			(uuid "0210e941-4855-496e-b5c5-518e53da25ab")
+		)
+		(fp_line
+			(start -1.85 -2.3)
+			(end -0.8 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3c1989f9-121d-44ef-bc48-c2f22eeaa650")
+		)
+		(fp_line
+			(start -1.85 -2.3)
+			(end -1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "41b0ebeb-f0e2-4aa6-82ca-1b4f9e0da22f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -14599,7 +14599,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -3.15 -2.3)
+			(at -3.15 -2.3 180)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14609,7 +14609,7 @@
 			(uuid "55c479f2-de87-4a71-9425-e83b43062ea2")
 		)
 		(pad "2" smd roundrect
-			(at -3.15 0)
+			(at -3.15 0 180)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14619,7 +14619,7 @@
 			(uuid "b764ffc7-9098-4377-8ae9-6bcbdff1af1d")
 		)
 		(pad "3" smd roundrect
-			(at -3.15 2.3)
+			(at -3.15 2.3 180)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -14629,7 +14629,7 @@
 			(uuid "6fad2999-7ec0-4ce9-b3f8-6951ac275363")
 		)
 		(pad "4" smd roundrect
-			(at 3.15 0)
+			(at 3.15 0 180)
 			(size 2 3.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -27800,7 +27800,7 @@
 	(footprint "Alexander Footprint Library:AMS1117 SOT-223"
 		(layer "F.Cu")
 		(uuid "e51598d4-5c03-4cf9-b5b0-b70029862679")
-		(at 273.0175 72.83)
+		(at 183.65 91.85)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U6"
