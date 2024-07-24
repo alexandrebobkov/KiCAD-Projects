@@ -1649,6 +1649,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 127) (xy 168.91 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17edd325-ff95-41e5-9230-13a475d4ada9")
+	)
+	(wire
+		(pts
 			(xy 63.5 81.28) (xy 63.5 78.74)
 		)
 		(stroke
@@ -1729,6 +1739,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 127) (xy 168.91 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f3e905-25ec-4013-9d91-5271f40e1d23")
+	)
+	(wire
+		(pts
 			(xy 104.14 35.56) (xy 104.14 38.1)
 		)
 		(stroke
@@ -1756,6 +1776,16 @@
 			(type default)
 		)
 		(uuid "41c9452d-408c-458f-babc-fe65f0bbad23")
+	)
+	(wire
+		(pts
+			(xy 168.91 144.78) (xy 168.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53baaf1c-8dff-4e32-8aea-16175c243733")
 	)
 	(wire
 		(pts
@@ -2108,6 +2138,18 @@
 		(uuid "f58509b2-8377-4e0d-af76-49e08fc89224")
 	)
 	(rectangle
+		(start 139.7 116.84)
+		(end 195.58 165.1)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2788b945-a511-43bf-a93e-23e42b08a1f9)
+	)
+	(rectangle
 		(start 139.7 66.04)
 		(end 195.58 114.3)
 		(stroke
@@ -2197,6 +2239,28 @@
 		)
 		(uuid "9036fa29-996c-439e-bf44-462eebac0f36")
 	)
+	(global_label "GPIO5"
+		(shape input)
+		(at 154.94 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c61c37b-9f6a-4d74-9d2c-d48fad5b5ef0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.27 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO3"
 		(shape input)
 		(at 151.13 104.14 180)
@@ -2263,7 +2327,7 @@
 			)
 		)
 	)
-	(global_label "GPIO3"
+	(global_label "LED_RING"
 		(shape output)
 		(at 177.8 81.28 0)
 		(fields_autoplaced yes)
@@ -2275,7 +2339,7 @@
 		)
 		(uuid "e8dcedf8-c6b7-43bb-823a-ef6a56783c33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.47 81.28 0)
+			(at 189.6752 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2371,7 @@
 			)
 		)
 	)
-	(global_label "GPIO3"
+	(global_label "LED_RING"
 		(shape input)
 		(at 33.02 78.74 180)
 		(fields_autoplaced yes)
@@ -2319,7 +2383,7 @@
 		)
 		(uuid "f04da172-2547-4145-9b49-3e87f7b5325f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.35 78.74 0)
+			(at 21.1448 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,7 +2669,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 140.97 0)
+		(at 168.91 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2614,7 +2678,7 @@
 		(fields_autoplaced yes)
 		(uuid "22a16b9f-2822-41aa-bc1b-d0226f8a6f29")
 		(property "Reference" "#PWR021"
-			(at 142.24 147.32 0)
+			(at 168.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 146.05 0)
+			(at 168.91 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,7 +2695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 140.97 0)
+			(at 168.91 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +2704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 140.97 0)
+			(at 168.91 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 140.97 0)
+			(at 168.91 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2884,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Devices:LED_8mm")
-		(at 142.24 132.08 270)
+		(at 168.91 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2829,7 +2893,7 @@
 		(fields_autoplaced yes)
 		(uuid "53030f3c-c7b8-4412-be34-7ad5cee4cf9c")
 		(property "Reference" "D8"
-			(at 144.78 130.8099 90)
+			(at 171.45 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2902,7 @@
 			)
 		)
 		(property "Value" "LED_8mm"
-			(at 144.78 133.3499 90)
+			(at 171.45 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2911,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D8.0mm"
-			(at 139.446 131.064 0)
+			(at 166.116 139.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 130.81 0)
+			(at 168.91 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2929,7 @@
 			)
 		)
 		(property "Description" "8mm diameter LED"
-			(at 142.24 132.08 0)
+			(at 168.91 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
