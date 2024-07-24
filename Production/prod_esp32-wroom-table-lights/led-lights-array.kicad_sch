@@ -9,7 +9,7 @@
 		(date "2024-07-24")
 		(rev "Final")
 		(company "Alexander Bobkov")
-		(comment 1 "Specialized Accounting Offices")
+		(comment 1 "Specialized Accounting Services")
 		(comment 2 "ESP32-C3 SuperMini")
 	)
 	(lib_symbols
@@ -1633,7 +1633,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 181.61 86.36)
+			(xy 78.74 87.63) (xy 85.09 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1673,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 86.36) (xy 181.61 96.52)
+			(xy 85.09 87.63) (xy 85.09 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 181.61 109.22)
+			(xy 85.09 105.41) (xy 85.09 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1862,8 +1862,8 @@
 		(uuid "f2446b8b-fdb3-4d7c-8068-9c6bee009c46")
 	)
 	(rectangle
-		(start 152.4 76.2)
-		(end 208.28 124.46)
+		(start 66.04 78.74)
+		(end 114.3 127)
 		(stroke
 			(width 0)
 			(type dash_dot)
@@ -1920,7 +1920,7 @@
 	)
 	(text "Status Indicator"
 		(exclude_from_sim no)
-		(at 198.374 122.174 0)
+		(at 96.012 124.206 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,7 +1931,7 @@
 	)
 	(global_label "GPIO5"
 		(shape input)
-		(at 167.64 86.36 180)
+		(at 78.74 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1941,7 +1941,7 @@
 		)
 		(uuid "6c61c37b-9f6a-4d74-9d2c-d48fad5b5ef0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.97 86.36 0)
+			(at 70.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2246,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 109.22 0)
+		(at 85.09 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2255,7 +2255,7 @@
 		(fields_autoplaced yes)
 		(uuid "22a16b9f-2822-41aa-bc1b-d0226f8a6f29")
 		(property "Reference" "#PWR021"
-			(at 181.61 115.57 0)
+			(at 85.09 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2264,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 114.3 0)
+			(at 85.09 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2272,7 +2272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 109.22 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 109.22 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 109.22 0)
+			(at 85.09 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2379,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Devices:LED_8mm")
-		(at 181.61 100.33 270)
+		(at 85.09 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2388,7 +2388,7 @@
 		(fields_autoplaced yes)
 		(uuid "53030f3c-c7b8-4412-be34-7ad5cee4cf9c")
 		(property "Reference" "D8"
-			(at 184.15 99.0599 90)
+			(at 87.63 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2397,7 @@
 			)
 		)
 		(property "Value" "LED_8mm"
-			(at 184.15 101.5999 90)
+			(at 87.63 102.8699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2406,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D8.0mm"
-			(at 178.816 99.314 0)
+			(at 82.296 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 99.06 0)
+			(at 85.09 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2424,7 @@
 			)
 		)
 		(property "Description" "8mm diameter LED"
-			(at 181.61 100.33 0)
+			(at 85.09 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
