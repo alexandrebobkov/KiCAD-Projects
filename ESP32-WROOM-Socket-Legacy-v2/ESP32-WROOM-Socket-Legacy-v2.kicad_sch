@@ -1777,6 +1777,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 68.58) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045234c1-468f-49ba-bcd1-40c6e969bcbd")
+	)
+	(wire
+		(pts
 			(xy 71.12 82.55) (xy 71.12 80.01)
 		)
 		(stroke
@@ -2004,6 +2014,16 @@
 			(type default)
 		)
 		(uuid "d666adea-db5f-48a2-86e0-6bf4c51a275c")
+	)
+	(wire
+		(pts
+			(xy 184.15 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ba199c-01a9-45f7-bb2a-8db298fb64c6")
 	)
 	(label "GND"
 		(at 134.62 137.16 0)
@@ -2571,6 +2591,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 190.5 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6aebc3a-ebdd-4f0c-8438-deb751df3fe8")
+		(property "Reference" "#PWR06"
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ce59f8c-0a02-42ea-9f1d-2c36688ecbf0")
+		)
+		(instances
+			(project ""
+				(path "/b6a3c81b-cf0c-432f-80e1-65c551ea51bb"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 134.62 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2661,7 +2747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Alexander Footprint Library:SW_SPST_6x3"
 			(at 179.07 63.5 0)
 			(effects
 				(font
