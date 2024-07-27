@@ -703,6 +703,17 @@
 					)
 				)
 				(rectangle
+					(start 2.286 -12.7)
+					(end 2.794 -11.684)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -7.366)
 					(end 9.144 -7.874)
 					(stroke
@@ -716,6 +727,17 @@
 				(rectangle
 					(start 10.16 -4.826)
 					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 5.334)
+					(end 9.144 4.826)
 					(stroke
 						(width 0)
 						(type default)
@@ -993,8 +1015,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -17.78 90)
-					(length 5.08) hide
+					(at 2.54 -17.78 90)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
@@ -1029,8 +1051,8 @@
 					)
 				)
 				(pin passive line
-					(at 15.24 7.62 180)
-					(length 5.08) hide
+					(at 15.24 5.08 180)
+					(length 5.08)
 					(name "VBUS"
 						(effects
 							(font
@@ -1287,303 +1309,6 @@
 				)
 			)
 		)
-		(symbol "Alexander_Library_Symbols:USB-C RCP USB2.0 6POS"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -12.7 13.2842 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "USB-C"
-				(at -12.7 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "2171750001:MOLEX_2171750001"
-				(at 1.524 14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "A1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0.254 22.352 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "OPTION" "MOLEX_CONFIG"
-				(at 0.254 17.018 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "3.26mm"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Molex"
-				(at 8.128 19.304 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "USB-C RCP USB2.0 6POS_0_0"
-				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "GND1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "VBUS1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "GND2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "VBUS2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "SHIELD1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "SHIELD2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -7.62 180)
-					(length 5.08)
-					(name "SHIELD3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -10.16 180)
-					(length 5.08)
-					(name "SHIELD4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -1832,10 +1557,10 @@
 		(uuid "8b828127-d21b-4f71-b65e-f1bb08866e01")
 	)
 	(junction
-		(at 142.24 48.26)
+		(at 177.8 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb65a37a-fec1-4daf-b5fb-fca89d7c7a93")
+		(uuid "95bf4d8b-18ce-49ef-a640-f4344852ad7e")
 	)
 	(junction
 		(at 135.89 99.06)
@@ -1861,6 +1586,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 72.39) (xy 177.8 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33bd2548-b6bf-49eb-af5a-6e71f65ff68b")
+	)
+	(wire
+		(pts
 			(xy 135.89 99.06) (xy 135.89 101.6)
 		)
 		(stroke
@@ -1881,26 +1616,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 142.24 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "621236e0-b344-41d2-88c3-0d031d354a85")
-	)
-	(wire
-		(pts
-			(xy 142.24 45.72) (xy 142.24 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b7a5d0f-4e39-4db5-bb03-b49c51fb9a94")
-	)
-	(wire
-		(pts
 			(xy 135.89 101.6) (xy 135.89 104.14)
 		)
 		(stroke
@@ -1908,16 +1623,6 @@
 			(type default)
 		)
 		(uuid "87cefe46-df4a-4831-b41e-daca858fdb00")
-	)
-	(wire
-		(pts
-			(xy 132.08 45.72) (xy 142.24 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f20de0a-88fb-4c77-8be2-58f20cc16063")
 	)
 	(wire
 		(pts
@@ -1951,13 +1656,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 50.8) (xy 142.24 48.26)
+			(xy 177.8 69.85) (xy 177.8 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc9bf6a6-ffe6-4aa4-9915-56cbfb627091")
+		(uuid "c36ca949-b894-4280-b72c-3da640cbb43d")
 	)
 	(wire
 		(pts
@@ -1981,6 +1686,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 72.39) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e200e8e2-32f2-414b-8744-2a1b93129a0e")
+	)
+	(wire
+		(pts
 			(xy 135.89 86.36) (xy 135.89 88.9)
 		)
 		(stroke
@@ -2001,6 +1716,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 69.85) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0095cd3-ae1c-4e5b-b2dd-9d88e4b797e9")
+	)
+	(wire
+		(pts
 			(xy 135.89 88.9) (xy 135.89 91.44)
 		)
 		(stroke
@@ -2008,6 +1733,16 @@
 			(type default)
 		)
 		(uuid "f62ffc42-4ade-4f6c-92a5-8d59fda132f1")
+	)
+	(wire
+		(pts
+			(xy 175.26 69.85) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd39b0b-9557-41b5-a1c3-d7a411e94aae")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2070,6 +1805,89 @@
 			(project "esp32-c3-wroom-node"
 				(path "/3a25c160-da48-44cd-983c-4ce01577ade5"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander Symbol Library:USB_C_Receptacle_PowerOnly_6P_2171750001")
+		(at 175.26 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b3a9ee3-033a-4f8c-9e3d-808e913086fc")
+		(property "Reference" "J2"
+			(at 175.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_PowerOnly_6P_2171750001"
+			(at 175.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:USB-C MOLEX 2171750001"
+			(at 179.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 175.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "7b2f373f-6fa2-4ad4-a06a-da53ebe109a4")
+		)
+		(pin "B9"
+			(uuid "d8e9935f-fc77-4f6e-b137-8cd24b4c377f")
+		)
+		(pin "A5"
+			(uuid "c83d1f25-768d-42c6-b151-6398a913b8c7")
+		)
+		(pin "B12"
+			(uuid "b372d603-36ff-46c5-ae40-29d3a3b4a059")
+		)
+		(pin "A12"
+			(uuid "b7d577c0-73a1-4518-9fe5-53fe8e785626")
+		)
+		(pin "B5"
+			(uuid "7ad07f20-26d0-4632-922a-007e2f28baa2")
+		)
+		(pin "A9"
+			(uuid "26bef0a2-02bd-4167-a17a-8572c804c8cb")
+		)
+		(instances
+			(project ""
+				(path "/3a25c160-da48-44cd-983c-4ce01577ade5"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2221,155 +2039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 142.24 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16e51f33-26bc-42d8-8bb5-64f79f016132")
-		(property "Reference" "#PWR01"
-			(at 142.24 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b2c1e13-470f-4b96-8d04-d08723d197ee")
-		)
-		(instances
-			(project ""
-				(path "/3a25c160-da48-44cd-983c-4ce01577ade5"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Alexander Symbol Library:USB_C_Receptacle_PowerOnly_6P_2171750001")
-		(at 170.18 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bcfef55-3922-4d8a-a399-a0c752f67277")
-		(property "Reference" "J2"
-			(at 170.18 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_PowerOnly_6P_2171750001"
-			(at 170.18 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Alexander Footprint Library:USB-C MOLEX 2171750001"
-			(at 173.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 170.18 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
-			(at 170.18 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B12"
-			(uuid "0ec6828d-c997-474b-8967-26931b1fa4c6")
-		)
-		(pin "B9"
-			(uuid "8b7fd7a8-a288-45d7-8a35-c40fe70bbd79")
-		)
-		(pin "A9"
-			(uuid "a6231542-eaf4-4a37-9f39-c8c99f991e3c")
-		)
-		(pin "S1"
-			(uuid "7b308af9-bb98-4dc4-9ed4-fc9c080da4dc")
-		)
-		(pin "B5"
-			(uuid "5413301d-14ff-42f6-b1ef-a7c3db4cd471")
-		)
-		(pin "A5"
-			(uuid "006b7d14-6812-4148-b84f-85da091f0554")
-		)
-		(pin "A12"
-			(uuid "b34bc3a2-e44b-4ec3-9c8b-c39706be6fe8")
-		)
-		(instances
-			(project ""
-				(path "/3a25c160-da48-44cd-983c-4ce01577ade5"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Alexander_Library_Symbols:Project_Box_Board_65x40")
 		(at 36.83 25.4 0)
 		(unit 1)
@@ -2444,6 +2113,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 167.64 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7698568f-b49f-40ed-9f6d-932b8293ac15")
+		(property "Reference" "#PWR05"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16c31abf-d820-40fc-be3a-1844fbae717a")
+		)
+		(instances
+			(project ""
+				(path "/3a25c160-da48-44cd-983c-4ce01577ade5"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f311f8-8ee9-48c6-a13a-84b613534839")
+		(property "Reference" "#PWR04"
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f647a1d0-d866-4417-9a72-759d990b2b03")
+		)
+		(instances
+			(project ""
+				(path "/3a25c160-da48-44cd-983c-4ce01577ade5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 86.36 76.2 0)
 		(unit 1)
@@ -2504,149 +2305,6 @@
 			(project ""
 				(path "/3a25c160-da48-44cd-983c-4ce01577ade5"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Alexander_Library_Symbols:USB-C RCP USB2.0 6POS")
-		(at 114.3 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7c10bd8-f4d1-4b87-9243-fb2490e8f1d1")
-		(property "Reference" "J1"
-			(at 114.3 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB-C"
-			(at 114.3 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Alexander Footprint Library:USB-C MOLEX 2171750001"
-			(at 115.824 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A1"
-			(at 114.3 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 114.554 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "OPTION" "MOLEX_CONFIG"
-			(at 114.554 33.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.26mm"
-			(at 114.3 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 122.428 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A12"
-			(uuid "70f095a9-433e-470d-8e2b-fa817669ec0c")
-		)
-		(pin "A5"
-			(uuid "61ed3ca6-2dc4-4090-a269-b51f255f6552")
-		)
-		(pin "A9"
-			(uuid "ad46450e-03d2-40e2-a228-bdca2e28eeaf")
-		)
-		(pin "B5"
-			(uuid "a44d55ba-36a6-4228-860e-a360f76db27d")
-		)
-		(pin "B9"
-			(uuid "1531332e-d2e9-43ad-a466-5ae949c52713")
-		)
-		(pin "SH4"
-			(uuid "283aa073-29f0-454f-8dd4-670e306f1bae")
-		)
-		(pin "SH2"
-			(uuid "5367001f-4901-4d66-8736-c7f864ad59fe")
-		)
-		(pin "B12"
-			(uuid "00e84275-e567-4127-b298-0edcda7288a4")
-		)
-		(pin "SH3"
-			(uuid "87bef671-b759-4670-807b-1f8de1dec01c")
-		)
-		(pin "SH1"
-			(uuid "5f566f5a-4ef5-45b4-8db7-fb6523f3d4b4")
-		)
-		(instances
-			(project ""
-				(path "/3a25c160-da48-44cd-983c-4ce01577ade5"
-					(reference "J1")
 					(unit 1)
 				)
 			)
