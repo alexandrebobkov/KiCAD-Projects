@@ -2562,10 +2562,10 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 17.78 0 180)
 					(length 2.54)
-					(name "1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2580,10 +2580,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 0 0 0)
 					(length 2.54)
-					(name "2"
+					(name "RED"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2598,10 +2598,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -7.62 0)
 					(length 2.54)
-					(name "3"
+					(name "GRN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2616,10 +2616,10 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 17.78 -7.62 180)
 					(length 2.54)
-					(name "4"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5299,82 +5299,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alexander_Library_Symbols:LED-RED-GREEN-B1552USUG20D")
-		(at 180.34 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ac1b281-ee52-496e-84be-18c92e07d224")
-		(property "Reference" "LED1"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LED-RED-GREEN-B1552USUG20D"
-			(at 189.23 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "B1552_HVK"
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "B1552USUG20D000113U1930"
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3c5cca81-3725-47ca-9b01-3bf050fe1cc5")
-		)
-		(pin "3"
-			(uuid "2cf30462-142f-445d-ab99-fafa8d417a8a")
-		)
-		(pin "2"
-			(uuid "e159573f-ae9c-4005-9c54-8dfba23cf505")
-		)
-		(pin "1"
-			(uuid "18c160a7-3685-401a-bd41-5ad58a295864")
-		)
-		(instances
-			(project ""
-				(path "/1aed2ed1-0515-43a4-a546-c7b070175ea1"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 204.47 54.61 180)
 		(unit 1)
@@ -6217,6 +6141,82 @@
 			(project "esp32-c3-wroom-socket"
 				(path "/1aed2ed1-0515-43a4-a546-c7b070175ea1"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander_Library_Symbols:LED-RED-GREEN-B1552USUG20D")
+		(at 180.34 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f7b4764-f265-4a87-a964-31a9369f9e74")
+		(property "Reference" "LED1"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LED-RED-GREEN-B1552USUG20D"
+			(at 189.23 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:B1552_HVK-M"
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "B1552USUG20D000113U1930"
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "73a50e8f-1d83-4627-b8ae-0be1d103c6a8")
+		)
+		(pin "1"
+			(uuid "22db7076-0485-4af3-add5-c8b9e84f49d9")
+		)
+		(pin "2"
+			(uuid "a27bd1ce-d08d-4e47-a477-85b746af5fda")
+		)
+		(pin "3"
+			(uuid "aba0eabd-2299-4f30-a5c9-fe0daaebd344")
+		)
+		(instances
+			(project ""
+				(path "/1aed2ed1-0515-43a4-a546-c7b070175ea1"
+					(reference "LED1")
 					(unit 1)
 				)
 			)
