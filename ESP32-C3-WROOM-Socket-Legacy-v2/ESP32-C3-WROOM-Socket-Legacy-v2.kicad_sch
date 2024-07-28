@@ -2578,6 +2578,12 @@
 		)
 	)
 	(junction
+		(at 248.92 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04068aa5-ac22-4cc2-903d-d0fb586cfa2d")
+	)
+	(junction
 		(at 52.07 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2657,6 +2663,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 77.47) (xy 256.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a0ebf5-3d38-4e4a-9c31-aa6c3c77c053")
+	)
+	(wire
+		(pts
 			(xy 134.62 52.07) (xy 134.62 57.15)
 		)
 		(stroke
@@ -2694,6 +2710,16 @@
 			(type default)
 		)
 		(uuid "66b80f6e-1173-49b2-8801-918774b4141f")
+	)
+	(wire
+		(pts
+			(xy 256.54 77.47) (xy 256.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6852cd-aa1a-4636-9637-ff01628b17bb")
 	)
 	(wire
 		(pts
@@ -2817,6 +2843,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 110.49) (xy 248.92 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3462fb-00cc-4603-a1bc-bf94be3eae73")
+	)
+	(wire
+		(pts
 			(xy 52.07 77.47) (xy 52.07 80.01)
 		)
 		(stroke
@@ -2847,6 +2883,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 110.49) (xy 254 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02eab23-59ed-4ac0-ad96-51bff175170e")
+	)
+	(wire
+		(pts
 			(xy 184.15 68.58) (xy 190.5 68.58)
 		)
 		(stroke
@@ -2854,6 +2900,16 @@
 			(type default)
 		)
 		(uuid "f9ba199c-01a9-45f7-bb2a-8db298fb64c6")
+	)
+	(wire
+		(pts
+			(xy 254 110.49) (xy 254 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc49c9b-a02d-437f-b1f8-105af1858409")
 	)
 	(label "GND"
 		(at 134.62 137.16 0)
@@ -3202,6 +3258,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 254 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58f3f9fc-ffe1-4adf-80ae-3cf37c75e9a3")
+		(property "Reference" "#PWR07"
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f970555-cd8b-48a1-90d9-540f0547f9c4")
+		)
+		(instances
+			(project ""
+				(path "/b6a3c81b-cf0c-432f-80e1-65c551ea51bb"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alexander Symbol Library:ESP32-C3-WROOM-02-N4")
 		(at 231.14 95.25 0)
 		(unit 1)
@@ -3227,7 +3349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alexander Footprint Library:ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "Alexander Footprint Library:ESP32-C3-WROOM-Adapter-Legacy-v3"
 			(at 231.14 60.706 0)
 			(effects
 				(font
@@ -3655,6 +3777,72 @@
 			(project ""
 				(path "/b6a3c81b-cf0c-432f-80e1-65c551ea51bb"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 256.54 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46f6ec1-e02d-4127-bcaa-6b6ff81c97eb")
+		(property "Reference" "#PWR08"
+			(at 256.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5cf4f66-a761-4cf2-8ff8-435142006a03")
+		)
+		(instances
+			(project ""
+				(path "/b6a3c81b-cf0c-432f-80e1-65c551ea51bb"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
