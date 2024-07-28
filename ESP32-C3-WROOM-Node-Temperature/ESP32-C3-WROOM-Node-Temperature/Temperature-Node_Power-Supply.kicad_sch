@@ -1366,6 +1366,12 @@
 		)
 	)
 	(junction
+		(at 106.68 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20d12f08-5201-43bd-9778-c7d9cc392e3d")
+	)
+	(junction
 		(at 106.68 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1412,18 +1418,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfb55d55-73ab-40be-ae90-1e495c8aa29c")
-	)
-	(junction
-		(at 119.38 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c355ad31-7ae6-44e4-83ee-dad3afdc29b5")
-	)
-	(junction
-		(at 119.38 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1c81300-e090-4c23-91d5-93253ed70188")
 	)
 	(junction
 		(at 95.25 39.37)
@@ -1503,6 +1497,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 46.99) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325dc109-d2d6-4c50-abb9-44a69a78fc76")
+	)
+	(wire
+		(pts
 			(xy 60.96 36.83) (xy 60.96 39.37)
 		)
 		(stroke
@@ -1563,16 +1567,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 39.37) (xy 119.38 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f261e8-1a70-491c-90b1-828c0ce70868")
-	)
-	(wire
-		(pts
 			(xy 60.96 29.21) (xy 71.12 29.21)
 		)
 		(stroke
@@ -1583,7 +1577,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 39.37) (xy 125.73 39.37)
+			(xy 106.68 39.37) (xy 125.73 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1630,6 +1624,16 @@
 			(type solid)
 		)
 		(uuid "83384cd7-f773-4b09-b9ef-92a668e7e5e2")
+	)
+	(wire
+		(pts
+			(xy 106.68 39.37) (xy 106.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f34001-f2cd-46d9-85b6-ce02740faca9")
 	)
 	(wire
 		(pts
@@ -1683,23 +1687,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 36.83) (xy 119.38 39.37)
+			(xy 106.68 49.53) (xy 125.73 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd0b4319-e6d7-4ccd-bb8d-050cad612357")
-	)
-	(wire
-		(pts
-			(xy 119.38 29.21) (xy 125.73 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c610e4fb-4008-47c3-ba26-c68997a20ec6")
+		(uuid "c6dde0bb-c45f-4dc7-8490-f803f98888e6")
 	)
 	(wire
 		(pts
@@ -1753,7 +1747,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 49.53) (xy 101.6 49.53)
+			(xy 95.25 49.53) (xy 106.68 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1763,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 29.21) (xy 119.38 29.21)
+			(xy 106.68 29.21) (xy 125.73 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1780,16 +1774,6 @@
 			(type default)
 		)
 		(uuid "f6070329-f929-418a-bbef-5cd8a1c0e581")
-	)
-	(wire
-		(pts
-			(xy 119.38 29.21) (xy 119.38 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca1a151-42cf-4c06-8247-61bcbcb41152")
 	)
 	(wire
 		(pts
@@ -2166,76 +2150,6 @@
 			(project "ESP32-C3-WROOM-Node-Temperature"
 				(path "/ab1c7c6c-24de-40fd-9ae1-f9fadcaa6328/1d60ec2c-1ff2-4820-8ff8-58ee91581d7b"
 					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 119.38 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35853431-6963-490f-9c7b-30422d54228b")
-		(property "Reference" "C5"
-			(at 121.92 32.4738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 121.92 35.0138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
-			(at 119.38 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b09e600-37c8-4d25-9009-c5955b7d0efd")
-		)
-		(pin "2"
-			(uuid "1165f63d-3db6-4f99-8c16-bf5f77c029a0")
-		)
-		(instances
-			(project "ESP32-C3-WROOM-Node-Temperature"
-				(path "/ab1c7c6c-24de-40fd-9ae1-f9fadcaa6328/1d60ec2c-1ff2-4820-8ff8-58ee91581d7b"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2756,7 +2670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 63.5 35.0139 0)
 			(effects
 				(font
@@ -2809,7 +2723,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 101.6 49.53 270)
+		(at 125.73 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2817,7 +2731,7 @@
 		(dnp no)
 		(uuid "caae61ac-37d2-4fd4-97e5-cd9b313309e2")
 		(property "Reference" "#PWR07"
-			(at 97.79 49.53 0)
+			(at 121.92 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2740,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 106.68 49.53 90)
+			(at 130.81 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +2748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 49.53 0)
+			(at 125.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,7 +2757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 49.53 0)
+			(at 125.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,7 +2766,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 49.53 0)
+			(at 125.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,6 +2846,76 @@
 			(project "ESP32-C3-WROOM-Node-Temperature"
 				(path "/ab1c7c6c-24de-40fd-9ae1-f9fadcaa6328/1d60ec2c-1ff2-4820-8ff8-58ee91581d7b"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 106.68 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d52cde8b-fb07-4df6-87fc-de2788a22f99")
+		(property "Reference" "C6"
+			(at 109.22 42.6338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 109.22 45.1738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d74844b-7178-4e57-850e-6d25999d638d")
+		)
+		(pin "2"
+			(uuid "075b96bf-e541-4cb1-8dbe-d4dc5dfb6bc5")
+		)
+		(instances
+			(project "ESP32-C3-WROOM-Node-Temperature"
+				(path "/ab1c7c6c-24de-40fd-9ae1-f9fadcaa6328/1d60ec2c-1ff2-4820-8ff8-58ee91581d7b"
+					(reference "C6")
 					(unit 1)
 				)
 			)
