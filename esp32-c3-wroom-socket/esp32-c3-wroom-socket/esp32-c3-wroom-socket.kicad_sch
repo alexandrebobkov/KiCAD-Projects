@@ -3361,7 +3361,7 @@
 		(at 204.47 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2167d004-3c5a-4ffe-af01-85160b29faea")
+		(uuid "03d9fb67-5057-4465-b82c-f0a68397ea9f")
 	)
 	(junction
 		(at 172.72 81.28)
@@ -3579,16 +3579,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 121.92) (xy 204.47 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "399522cf-c2cb-40a4-acc2-ccb236dd0f26")
-	)
-	(wire
-		(pts
 			(xy 19.05 48.26) (xy 19.05 54.61)
 		)
 		(stroke
@@ -3596,6 +3586,16 @@
 			(type default)
 		)
 		(uuid "3dc7b8ba-ed41-406a-90eb-6e40bacaa9a4")
+	)
+	(wire
+		(pts
+			(xy 204.47 132.08) (xy 204.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f706a3b-d375-4e7f-b052-8b0f768652ca")
 	)
 	(wire
 		(pts
@@ -3766,6 +3766,16 @@
 			(type default)
 		)
 		(uuid "7ff7873f-1efb-4bc1-ae48-098a2c8e269b")
+	)
+	(wire
+		(pts
+			(xy 204.47 121.92) (xy 204.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8040da92-5d97-4f61-be18-3c42a47b001d")
 	)
 	(wire
 		(pts
@@ -4107,7 +4117,7 @@
 		)
 		(uuid "f0ea49e2-fec9-4e05-9b27-ff1fa3ab6709")
 	)
-	(label "EN"
+	(label "3V3"
 		(at 173.99 114.3 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5700,6 +5710,76 @@
 			(project ""
 				(path "/1aed2ed1-0515-43a4-a546-c7b070175ea1"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aeddb11-2059-4f0c-ab29-02367aea4b85")
+		(property "Reference" "R4"
+			(at 207.01 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5k1"
+			(at 207.01 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 206.248 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5129ac0-5232-4a64-a4ee-d6e421e8be52")
+		)
+		(pin "2"
+			(uuid "0ff71f0c-808e-478d-abcd-2e22fe9a816d")
+		)
+		(instances
+			(project "esp32-c3-wroom-socket"
+				(path "/1aed2ed1-0515-43a4-a546-c7b070175ea1"
+					(reference "R4")
 					(unit 1)
 				)
 			)
