@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "770e9738-f052-4b66-8af6-4d69642bbe02")
+	(uuid "718c7f36-c9a6-423d-9acf-6732fbb7a1ef")
 	(paper "A4")
 	(title_block
 		(title "ESP32 Sensor Node")
@@ -377,6 +377,555 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Alexander Symbol Library:USB-C_Plug_1054440001"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -15.24 26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "USB-C_Plug_1054440001"
+				(at -15.24 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Alexander Footprint Library:USB-C-Plug_MOLEX_1054440001"
+				(at -1.016 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" ""
+				(at -0.762 28.194 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "OPTION" ""
+				(at -0.762 28.702 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at -1.27 27.178 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" ""
+				(at 0.508 27.686 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "USB-C_Plug_1054440001_0_0"
+				(rectangle
+					(start -15.24 25.4)
+					(end 15.24 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "GND_A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "RX2-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "RX2+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "GND_A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "TX1+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "TX1-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "VBUS_A4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 22.86 0)
+					(length 5.08)
+					(name "CC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 15.24 0)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 20.32 0)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "VBUS_A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "GND_B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "RX1-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "RX1+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -12.7 180)
+					(length 5.08)
+					(name "GND_B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "TX2+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "TX2-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -12.7 0)
+					(length 5.08)
+					(name "VBUS_B4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "VCONN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 20.32 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -15.24 0)
+					(length 5.08)
+					(name "VBUS_B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -20.32 180)
+					(length 5.08)
+					(name "SHIELD1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -22.86 180)
+					(length 5.08)
+					(name "SHIELD2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4229,6 +4778,191 @@
 		)
 	)
 	(symbol
+		(lib_id "Alexander Symbol Library:USB-C_Plug_1054440001")
+		(at 177.8 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f2632e2-a819-431c-9526-53a8fc2cc7dc")
+		(property "Reference" "J15"
+			(at 177.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB-C_Plug_1054440001"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:USB-C-Plug_MOLEX_1054440001"
+			(at 176.784 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 177.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 177.038 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "OPTION" ""
+			(at 177.038 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 176.53 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 178.308 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A2"
+			(uuid "ebefa370-9754-41c2-ad7f-24163075b412")
+		)
+		(pin "B10"
+			(uuid "a7983972-864e-4820-a282-31957f496572")
+		)
+		(pin "B9"
+			(uuid "a58728f9-40f5-4f73-a811-cbf33d9202b7")
+		)
+		(pin "A9"
+			(uuid "8db7c108-e523-486f-93e4-873b3450bd4a")
+		)
+		(pin "A8"
+			(uuid "709316c3-a887-4930-b2c8-9738b41e307e")
+		)
+		(pin "B3"
+			(uuid "99d9d658-9676-4658-ba7b-b129f906c9d9")
+		)
+		(pin "A4"
+			(uuid "3633e8ee-41fa-4d3b-8ed5-e04fbff2b559")
+		)
+		(pin "SH1"
+			(uuid "7c206e8b-6727-4925-8223-0d06525c3f2a")
+		)
+		(pin "A10"
+			(uuid "0075f5b6-5452-4c8d-a245-e2b966cde5b4")
+		)
+		(pin "B11"
+			(uuid "c88be2e1-254c-4b6b-9135-8041148575d3")
+		)
+		(pin "B4"
+			(uuid "2ec332bc-7a69-4ed3-9e09-0abbda370f0a")
+		)
+		(pin "B12"
+			(uuid "2d7f095c-5530-42cf-abf8-36404a704e46")
+		)
+		(pin "B5"
+			(uuid "a875df6c-6f31-4543-afda-19e671666b06")
+		)
+		(pin "B1"
+			(uuid "93b48f0f-78a9-4d6c-b881-60e7079f4671")
+		)
+		(pin "B8"
+			(uuid "3cf5ae41-44bd-40cc-a884-38ccc169e189")
+		)
+		(pin "A5"
+			(uuid "2d85e09a-f386-43c5-b32b-1331c9eedd6e")
+		)
+		(pin "A6"
+			(uuid "33406e79-3d3e-4bb0-8b48-b24b76e54df7")
+		)
+		(pin "A7"
+			(uuid "faf120f4-c861-4cf0-828d-d9deda145e4a")
+		)
+		(pin "A12"
+			(uuid "df5ac45c-e5e9-4d10-967e-f00a2044c53d")
+		)
+		(pin "SH2"
+			(uuid "337887af-4889-48d4-97ad-06c0f51bf9a6")
+		)
+		(pin "A3"
+			(uuid "98e3c48b-d2fe-46da-a389-de5786ec4acc")
+		)
+		(pin "B2"
+			(uuid "710de3d9-9e0a-4d6c-a262-f16b75f92dfe")
+		)
+		(pin "A1"
+			(uuid "1f705672-31f1-4322-b310-e21f7cf98e53")
+		)
+		(pin "A11"
+			(uuid "2c1cd16f-ec6c-4eab-808b-39fccd7fc11a")
+		)
+		(instances
+			(project ""
+				(path "/5f5eb0ac-ab9b-41ab-8d2f-875870c41abc/f79fff53-25a2-4be0-8111-fcee71a968b7"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 100.33 137.16 0)
 		(unit 1)
@@ -4577,7 +5311,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4fcfcc6-cd99-4525-a3c7-2a67977114bc")
@@ -4751,7 +5485,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff0fba1c-4261-4406-9fd6-3d030e173743")
