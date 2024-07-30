@@ -3862,6 +3862,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 137.16) (xy 76.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13434b79-1444-4266-a563-d9eb4ef04534")
+	)
+	(wire
+		(pts
 			(xy 62.23 165.1) (xy 62.23 168.91)
 		)
 		(stroke
@@ -4102,6 +4112,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 148.59) (xy 76.2 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aff2631-d2ab-455a-90b2-b5b6a3904526")
+	)
+	(wire
+		(pts
 			(xy 101.6 134.62) (xy 101.6 138.43)
 		)
 		(stroke
@@ -4219,6 +4239,16 @@
 			(type default)
 		)
 		(uuid "710bd27b-0561-495c-b1f6-55a2f958e54e")
+	)
+	(wire
+		(pts
+			(xy 24.13 88.9) (xy 31.75 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721f39d5-4ee3-40b6-8f00-664c22927adf")
 	)
 	(wire
 		(pts
@@ -4672,7 +4702,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 81.28) (xy 31.75 81.28)
+			(xy 24.13 81.28) (xy 31.75 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4855,7 +4885,7 @@
 		(uuid "2542358f-4ef7-4abe-86bc-0abbd33ce763")
 	)
 	(label "3V3"
-		(at 25.4 81.28 0)
+		(at 24.13 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4864,6 +4894,28 @@
 			(justify left bottom)
 		)
 		(uuid "3ae0b204-1c49-47bb-9a54-68e4f5cac560")
+	)
+	(label "GPIO10"
+		(at 24.13 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4807415c-7fd6-43ad-ad08-4deb22f6f180")
+	)
+	(label "3V3"
+		(at 76.2 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "688eca1e-f8e3-4da4-8f23-2a8cb3b1e090")
 	)
 	(label "VBUS"
 		(at 175.26 143.51 0)
@@ -6156,7 +6208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "0.1uF"
 			(at 80.01 161.2899 0)
 			(effects
 				(font
@@ -7199,6 +7251,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 76.2 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8989b91f-68a1-480f-8cda-19d02bb301e1")
+		(property "Reference" "R8"
+			(at 78.74 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 78.74 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 74.422 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "261b9e3b-b0df-482e-b853-34edc4cd31ed")
+		)
+		(pin "2"
+			(uuid "9473d2db-a07c-49ad-a7f6-b64c477ef891")
+		)
+		(instances
+			(project "esp32-c3-wroom-socket"
+				(path "/1aed2ed1-0515-43a4-a546-c7b070175ea1"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 19.05 54.61 0)
 		(unit 1)
@@ -7921,7 +8043,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2K2"
 			(at 104.14 143.5099 0)
 			(effects
 				(font
@@ -7991,7 +8113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "0.1uF"
 			(at 43.18 161.2899 0)
 			(effects
 				(font
