@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.4"
     },
-    "CreationDate": "2024-07-30T10:55:48-04:00"
+    "CreationDate": "2024-07-30T11:12:02-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -27,7 +27,9 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.2
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     },
     {
       "Layers": "Inner",
@@ -45,12 +47,12 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "esp32-c3-wroom-socket-In1_Cu.gbr",
+      "Path": "esp32-c3-wroom-socket-Layer 3.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "esp32-c3-wroom-socket-In2_Cu.gbr",
+      "Path": "esp32-c3-wroom-socket-Layer 4.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
@@ -118,32 +120,32 @@
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "F.Cu/In1.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
+      "Name": "F.Cu/Layer 3",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to Layer 3)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "In1.Cu"
+      "Name": "Layer 3"
     },
     {
       "Type": "Dielectric",
       "Thickness": 1.24,
       "Material": "FR4",
-      "Name": "In1.Cu/In2.Cu",
-      "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
+      "Name": "Layer 3/Layer 4",
+      "Notes": "Type: dielectric layer 2 (from Layer 3 to Layer 4)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "In2.Cu"
+      "Name": "Layer 4"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "In2.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
+      "Name": "Layer 4/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from Layer 4 to B.Cu)"
     },
     {
       "Type": "Copper",
