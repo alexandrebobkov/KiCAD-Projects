@@ -2909,12 +2909,6 @@
 		(uuid "083e67ac-1af0-414a-a641-03fa00c18327")
 	)
 	(junction
-		(at 83.82 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a70730a-f386-47ac-81c0-3bf9c91affcf")
-	)
-	(junction
 		(at 234.95 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3146,16 +3140,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 144.78) (xy 83.82 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "400d1989-d8df-40f8-a221-5996216240ba")
-	)
-	(wire
-		(pts
 			(xy 234.95 120.65) (xy 234.95 137.16)
 		)
 		(stroke
@@ -3296,16 +3280,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 154.94) (xy 83.82 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6921c980-10dd-4e0f-8204-347f737f9407")
-	)
-	(wire
-		(pts
 			(xy 86.36 44.45) (xy 90.17 44.45)
 		)
 		(stroke
@@ -3313,16 +3287,6 @@
 			(type default)
 		)
 		(uuid "6e6efad9-20e7-426d-aece-45da0203802a")
-	)
-	(wire
-		(pts
-			(xy 83.82 137.16) (xy 83.82 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fb7b841-86aa-4862-bcfa-7bd228df4523")
 	)
 	(wire
 		(pts
@@ -3373,6 +3337,16 @@
 			(type default)
 		)
 		(uuid "89ee7856-8394-4e56-a0f2-a44d4c47ec9e")
+	)
+	(wire
+		(pts
+			(xy 91.44 137.16) (xy 93.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98feb583-d364-463a-8824-788a3fc15608")
 	)
 	(wire
 		(pts
@@ -3463,6 +3437,16 @@
 			(type default)
 		)
 		(uuid "c3013e69-38c9-484a-80c0-697d18e54aad")
+	)
+	(wire
+		(pts
+			(xy 91.44 144.78) (xy 93.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e97b2f-f3b9-42b6-b05c-54c126a0da76")
 	)
 	(wire
 		(pts
@@ -3849,6 +3833,74 @@
 			(project "555_toggle-switch"
 				(path "/5951e7ba-d61c-4b10-8532-5e3e8fc4fc9f"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1933744e-9976-4375-af64-8a792a641877")
+		(property "Reference" "R6"
+			(at 87.63 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 87.63 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 87.63 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20b2be8a-0fc4-4b42-b658-b6eea8b31b68")
+		)
+		(pin "2"
+			(uuid "b305ec29-3f0b-43eb-8baf-6f24ae70edad")
+		)
+		(instances
+			(project "555_toggle-switch_v2"
+				(path "/5951e7ba-d61c-4b10-8532-5e3e8fc4fc9f"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4488,7 +4540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 157.48 0)
+		(at 93.98 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4497,7 +4549,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f3b2b04-98d8-48d4-91f2-2034c80d161b")
 		(property "Reference" "#PWR06"
-			(at 83.82 163.83 0)
+			(at 100.33 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,15 +4558,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 162.56 0)
+			(at 97.79 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 157.48 0)
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 157.48 0)
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4532,7 +4585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 157.48 0)
+			(at 93.98 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +4883,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 83.82 151.13 180)
+		(at 87.63 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4839,25 +4892,23 @@
 		(fields_autoplaced yes)
 		(uuid "be6d7db9-1151-463c-90a9-e52f4103ed4d")
 		(property "Reference" "R5"
-			(at 86.36 149.8599 0)
+			(at 87.63 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "5k1"
-			(at 86.36 152.3999 0)
+			(at 87.63 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 85.598 151.13 90)
+			(at 87.63 146.558 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +4917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 151.13 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4926,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 83.82 151.13 0)
+			(at 87.63 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,6 +5365,73 @@
 			(project "555_toggle-switch_v2"
 				(path "/5951e7ba-d61c-4b10-8532-5e3e8fc4fc9f"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfef4620-3a75-4080-8d21-117fbe5d0685")
+		(property "Reference" "#PWR07"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a9ca22c-4195-45e9-8625-8285ee19d578")
+		)
+		(instances
+			(project "555_toggle-switch_v2"
+				(path "/5951e7ba-d61c-4b10-8532-5e3e8fc4fc9f"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
