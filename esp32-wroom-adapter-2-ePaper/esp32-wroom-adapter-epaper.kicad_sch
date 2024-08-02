@@ -2387,16 +2387,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 73.66) (xy 137.16 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b013163-140f-4b92-a3b7-4e80993805f7")
-	)
-	(wire
-		(pts
 			(xy 113.03 101.6) (xy 113.03 104.14)
 		)
 		(stroke
@@ -2587,6 +2577,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 139.7) (xy 67.31 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d09e8f-799d-429a-ace4-8d2d77d9ce28")
+	)
+	(wire
+		(pts
 			(xy 125.73 40.64) (xy 129.54 40.64)
 		)
 		(stroke
@@ -2707,6 +2707,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 143.51) (xy 67.31 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05602d4-ee8c-4e4c-bc23-b9e054112e29")
+	)
+	(wire
+		(pts
 			(xy 115.57 104.14) (xy 113.03 104.14)
 		)
 		(stroke
@@ -2777,16 +2787,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 137.16 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e151d955-4e3d-4e72-86b4-e1724a24e6d0")
-	)
-	(wire
-		(pts
 			(xy 110.49 185.42) (xy 110.49 187.96)
 		)
 		(stroke
@@ -2814,6 +2814,26 @@
 			(type default)
 		)
 		(uuid "eecb0cad-ae17-4199-a7cd-2b588c81e084")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44ac2ad-926b-4047-a7fc-239f500f8d4a")
+	)
+	(wire
+		(pts
+			(xy 125.73 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65fa5bb-5c10-419b-a328-cc8ee056e0e9")
 	)
 	(wire
 		(pts
@@ -2933,6 +2953,17 @@
 		)
 		(uuid "3f7371aa-548e-44bb-9e2f-3c32f603f67c")
 	)
+	(label "SCL"
+		(at 67.31 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e8ced91-0828-4c4e-968f-0e8a36e64934")
+	)
 	(label "UART-RX"
 		(at 129.54 45.72 0)
 		(fields_autoplaced yes)
@@ -2977,6 +3008,17 @@
 		)
 		(uuid "8bda8742-714c-4856-b650-3163da907295")
 	)
+	(label "SDA"
+		(at 130.81 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a822fa1c-28b2-4fbc-a203-61ffcbd58fc4")
+	)
 	(label "UART-TX"
 		(at 245.11 40.64 0)
 		(fields_autoplaced yes)
@@ -3010,6 +3052,17 @@
 		)
 		(uuid "b74c4fcc-b8c5-4c15-afaa-8ea1ba7a4bea")
 	)
+	(label "SDA"
+		(at 67.31 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3564552-1388-48b4-b09d-a776745d1112")
+	)
 	(label "BUSY"
 		(at 227.33 58.42 0)
 		(fields_autoplaced yes)
@@ -3020,6 +3073,17 @@
 			(justify left bottom)
 		)
 		(uuid "cb013138-f44f-4b7a-9b7e-6304269af1ac")
+	)
+	(label "SCL"
+		(at 130.81 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd4125a8-d4cb-4584-928a-802eb9cbf1ef")
 	)
 	(label "RST"
 		(at 227.33 63.5 0)
@@ -3086,30 +3150,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 137.16 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "534b8889-c25b-4cd0-9c24-25a65029f56f")
-	)
-	(hierarchical_label "SDA"
-		(shape input)
-		(at 137.16 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c041a790-1b19-4c6b-b7cd-b64547d693d2")
 	)
 	(symbol
 		(lib_name "GND_1")
