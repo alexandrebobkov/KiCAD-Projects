@@ -2667,16 +2667,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 96.52) (xy 224.79 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac9ed9d-10e0-45c4-9514-6b90fce64842")
-	)
-	(wire
-		(pts
 			(xy 227.33 68.58) (xy 233.68 68.58)
 		)
 		(stroke
@@ -2697,16 +2687,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 101.6) (xy 218.44 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09f67f1-aac8-4fac-b3fc-b9cde1bb7f71")
-	)
-	(wire
-		(pts
 			(xy 125.73 48.26) (xy 129.54 48.26)
 		)
 		(stroke
@@ -2714,16 +2694,6 @@
 			(type default)
 		)
 		(uuid "baa31110-d23f-4a3b-b396-11d86d7d031a")
-	)
-	(wire
-		(pts
-			(xy 218.44 99.06) (xy 224.79 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be1103b7-f961-4596-ba1a-1f7d7af0c872")
 	)
 	(wire
 		(pts
@@ -2764,16 +2734,6 @@
 			(type default)
 		)
 		(uuid "c818786b-82d1-41ee-b3e8-eee7ad2b300f")
-	)
-	(wire
-		(pts
-			(xy 224.79 101.6) (xy 218.44 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c92bd183-7c2b-4ff4-83f3-0ec6ffeb2304")
 	)
 	(wire
 		(pts
@@ -2877,16 +2837,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 93.98) (xy 224.79 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe089eb4-0d3c-4363-8556-dd0abd6bded2")
-	)
-	(wire
-		(pts
 			(xy 73.66 186.69) (xy 73.66 189.23)
 		)
 		(stroke
@@ -2950,17 +2900,6 @@
 		)
 		(uuid "2c660fa3-11a4-433f-95dc-86b94d0ce710")
 	)
-	(label "SDA"
-		(at 218.44 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2cba2beb-d525-4d71-8bf1-9a1348f61c32")
-	)
 	(label "SCL"
 		(at 218.44 120.65 0)
 		(fields_autoplaced yes)
@@ -3015,17 +2954,6 @@
 			(justify left bottom)
 		)
 		(uuid "3f7371aa-548e-44bb-9e2f-3c32f603f67c")
-	)
-	(label "SCL"
-		(at 218.44 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "532651c5-e9fd-4d25-9e97-ef56b85b7d31")
 	)
 	(label "UART-RX"
 		(at 129.54 45.72 0)
@@ -3385,73 +3313,6 @@
 			(project "esp32-wroom-adapter-2"
 				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 218.44 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39b13bb7-6930-4520-8caa-1e1525bc13fd")
-		(property "Reference" "#PWR09"
-			(at 222.25 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 214.63 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4f346cb-5554-4146-b7a2-9e214a7d416c")
-		)
-		(instances
-			(project "esp32-wroom-adapter-2"
-				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4005,72 +3866,6 @@
 			(project "esp32-wroom-adapter-epaper"
 				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 218.44 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f03214b-71d0-4a67-a0ea-b786176c836f")
-		(property "Reference" "#PWR010"
-			(at 218.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "711a9431-9fd4-494a-bc81-b7871be358ab")
-		)
-		(instances
-			(project "esp32-wroom-adapter-2"
-				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4921,80 +4716,6 @@
 			(project "esp32-wroom-adapter-2"
 				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Alexander_Library_Symbols:Conn_I2C_01x04")
-		(at 229.87 96.52 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f105458d-35a7-4fb8-b82a-30eecae80dfc")
-		(property "Reference" "J3"
-			(at 232.41 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2C"
-			(at 232.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Alexander Footprint Library:Conn_I2C_3"
-			(at 229.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "GND"
-			(uuid "ec6c419e-c818-4eeb-8e8d-594a3e375df1")
-		)
-		(pin "SCL"
-			(uuid "b7d37587-bc73-4c3b-a1e1-0f01439938d6")
-		)
-		(pin "SDA"
-			(uuid "9da40c3f-86ec-4915-85c7-3e6f742bae7f")
-		)
-		(pin "Vcc"
-			(uuid "8761a6b9-8946-4172-a338-8655155bd4ad")
-		)
-		(instances
-			(project "esp32-wroom-adapter-2"
-				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89"
-					(reference "J3")
 					(unit 1)
 				)
 			)
