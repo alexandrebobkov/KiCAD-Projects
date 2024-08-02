@@ -3564,6 +3564,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49eebb1c-08ea-4701-93cc-c66ade6b2c30")
+	)
+	(wire
+		(pts
 			(xy 214.63 100.33) (xy 220.98 100.33)
 		)
 		(stroke
@@ -3674,16 +3684,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 99.06) (xy 161.29 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a5f25bf-904b-44bb-b44e-27a00837a0d9")
-	)
-	(wire
-		(pts
 			(xy 154.94 43.18) (xy 160.02 43.18)
 		)
 		(stroke
@@ -3771,6 +3771,16 @@
 			(type default)
 		)
 		(uuid "ac687615-fc99-4ccc-8c3f-366b7ffb8407")
+	)
+	(wire
+		(pts
+			(xy 153.67 99.06) (xy 161.29 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af861b00-aa0b-4226-82f3-09d18579f750")
 	)
 	(wire
 		(pts
@@ -3904,16 +3914,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 101.6) (xy 161.29 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea5319c8-932c-42f8-98f7-d8cdc5e5f135")
-	)
-	(wire
-		(pts
 			(xy 252.73 33.02) (xy 260.35 33.02)
 		)
 		(stroke
@@ -3951,28 +3951,6 @@
 			(type default)
 		)
 		(uuid "fd5f6c72-4825-4d92-bd86-3ffad92b3e2c")
-	)
-	(label "SDA"
-		(at 156.21 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0940441-7498-483b-af20-c02b6de6efb3")
-	)
-	(label "SCL"
-		(at 156.21 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d122cea7-6d42-4bdb-8479-4703db8c8e0a")
 	)
 	(global_label "SOURCE_1"
 		(shape input)
@@ -4303,6 +4281,30 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 153.67 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f0afa52-7e16-4378-972a-d870896716db")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 153.67 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66d913b6-a451-41c7-a2b6-61247a660fd9")
 	)
 	(symbol
 		(lib_id "Alexander KiCad Libraries:BME(P)280")

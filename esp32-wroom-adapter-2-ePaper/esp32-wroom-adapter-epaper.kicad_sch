@@ -2387,6 +2387,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b013163-140f-4b92-a3b7-4e80993805f7")
+	)
+	(wire
+		(pts
 			(xy 113.03 101.6) (xy 113.03 104.14)
 		)
 		(stroke
@@ -2497,16 +2507,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 130.81 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3792baa9-42b8-4e97-8a24-8ae483ace7a2")
-	)
-	(wire
-		(pts
 			(xy 227.33 58.42) (xy 233.68 58.42)
 		)
 		(stroke
@@ -2534,16 +2534,6 @@
 			(type default)
 		)
 		(uuid "48b731a8-215b-47ee-87b7-d7419f398807")
-	)
-	(wire
-		(pts
-			(xy 125.73 73.66) (xy 130.81 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a3b8e08-c78f-41e3-b4a3-7d2bbed75e69")
 	)
 	(wire
 		(pts
@@ -2787,6 +2777,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e151d955-4e3d-4e72-86b4-e1724a24e6d0")
+	)
+	(wire
+		(pts
 			(xy 110.49 185.42) (xy 110.49 187.96)
 		)
 		(stroke
@@ -2856,17 +2856,6 @@
 		)
 		(uuid "03856cac-d986-41fa-a38a-21b31712e555")
 	)
-	(label "SCL"
-		(at 130.81 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e2d6242-f406-4238-b047-6aedab5c075c")
-	)
 	(label "SDA"
 		(at 218.44 118.11 0)
 		(fields_autoplaced yes)
@@ -2921,17 +2910,6 @@
 			(justify left bottom)
 		)
 		(uuid "2fa8718a-f076-40e4-8bdb-53225ca73c3e")
-	)
-	(label "SDA"
-		(at 130.81 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "322b069f-aa19-4933-ad27-9eb8791a3c0e")
 	)
 	(label "DC"
 		(at 130.81 66.04 0)
@@ -3108,6 +3086,30 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 137.16 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "534b8889-c25b-4cd0-9c24-25a65029f56f")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 137.16 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c041a790-1b19-4c6b-b7cd-b64547d693d2")
 	)
 	(symbol
 		(lib_name "GND_1")
@@ -4722,8 +4724,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 165.1)
-		(size 41.91 5.08)
+		(at 20.32 135.89)
+		(size 41.91 11.43)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4734,7 +4736,7 @@
 		)
 		(uuid "44e7308f-90df-4704-ac22-c29ea7e15291")
 		(property "Sheetname" "Interfaces"
-			(at 20.32 164.3884 0)
+			(at 20.32 135.1784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,13 +4745,33 @@
 			)
 		)
 		(property "Sheetfile" "interfaces.kicad_sch"
-			(at 20.32 170.7646 0)
+			(at 20.32 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "SCL" input
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "371f2735-f23f-4d81-8e77-c37bb0bb0a81")
+		)
+		(pin "SDA" input
+			(at 62.23 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "48c45151-b367-4107-8b4b-87f1d5b05dd5")
 		)
 		(instances
 			(project "esp32-wroom-adapter-epaper"
