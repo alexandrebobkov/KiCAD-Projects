@@ -6698,7 +6698,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 156.21 83.82)
+			(xy 157.48 83.82) (xy 153.67 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7177,6 +7177,28 @@
 			)
 		)
 	)
+	(global_label "OUTPUT_1"
+		(shape input)
+		(at 153.67 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c90c753-28f1-4b43-a282-1e5b57377496")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.311 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SOURCE_1"
 		(shape input)
 		(at 165.1 74.93 90)
@@ -7220,18 +7242,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "OUTPUT_1{slash}SOURCE"
-		(shape input)
-		(at 156.21 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5cabc49b-2450-4681-98fc-bce8ead88761")
 	)
 	(hierarchical_label "OUTPUT_1{slash}LED"
 		(shape input)
