@@ -382,7 +382,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "23862305-f692-44bf-9bb6-1759d06b3458")
-		(at 123.35 160.945199 90)
+		(at 95 108.2226 90)
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C3"
@@ -2610,7 +2610,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "76adc5e9-0fc4-4416-a7ae-1db30cbecaca")
-		(at 117.8 160.945199 90)
+		(at 73.5 111.7226 90)
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C2"
@@ -4053,7 +4053,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "8c6be216-1771-4908-bbf1-39699b91eae8")
-		(at 112.25 160.945199 90)
+		(at 118.75 113 90)
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=4mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 4mm Electrolytic Capacitor")
 		(property "Reference" "C1"
@@ -5181,11 +5181,11 @@
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "ac5172e8-17ad-48f8-868c-7630c3caef8a")
-		(at 85.75 97.5 180)
+		(at 103.75 112.5 90)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U2"
-			(at 0 -4.5 360)
+			(at 0 -4.5 90)
 			(layer "F.SilkS")
 			(uuid "f124ac50-f67a-4089-83c0-81602b682abc")
 			(effects
@@ -5196,7 +5196,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 0 4.5 360)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "33eabcfa-63c0-4815-9620-e5503b05c7b2")
 			(effects
@@ -5207,7 +5207,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5220,7 +5220,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5233,7 +5233,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5251,16 +5251,6 @@
 		(sheetfile "esp32-wroom-adapter-epaper.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 1.91 3.41)
-			(end 1.91 2.15)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f6cc6503-80dd-4359-9abd-a69a2383cb44")
-		)
-		(fp_line
 			(start 1.91 -3.41)
 			(end 1.91 -2.15)
 			(stroke
@@ -5271,16 +5261,6 @@
 			(uuid "6de90d37-f27e-449c-8436-ff27f0d03be9")
 		)
 		(fp_line
-			(start -1.85 3.41)
-			(end 1.91 3.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "edfdd9aa-fc21-4b06-bf76-97accea19025")
-		)
-		(fp_line
 			(start -1.85 -3.41)
 			(end 1.91 -3.41)
 			(stroke
@@ -5289,6 +5269,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "945ae191-9a5a-4b6a-9e1f-72b07848e980")
+		)
+		(fp_line
+			(start 1.91 3.41)
+			(end 1.91 2.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f6cc6503-80dd-4359-9abd-a69a2383cb44")
+		)
+		(fp_line
+			(start -1.85 3.41)
+			(end 1.91 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "edfdd9aa-fc21-4b06-bf76-97accea19025")
 		)
 		(fp_poly
 			(pts
@@ -5303,16 +5303,6 @@
 			(uuid "9d41ad43-a8d1-424e-8a24-c6e5ddeb5652")
 		)
 		(fp_line
-			(start 4.4 3.6)
-			(end 4.4 -3.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d5bbc8f8-2b15-4d6b-94ba-68aa5e430df4")
-		)
-		(fp_line
 			(start 4.4 -3.6)
 			(end -4.4 -3.6)
 			(stroke
@@ -5323,16 +5313,6 @@
 			(uuid "8da127cb-9d1b-45ee-bddc-6c474a1e90a6")
 		)
 		(fp_line
-			(start -4.4 3.6)
-			(end 4.4 3.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ba363a88-7304-4e8d-8116-5c197f6347f5")
-		)
-		(fp_line
 			(start -4.4 -3.6)
 			(end -4.4 3.6)
 			(stroke
@@ -5341,6 +5321,26 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "e61e56df-b039-4e71-94bd-59cf0acfca72")
+		)
+		(fp_line
+			(start 4.4 3.6)
+			(end 4.4 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d5bbc8f8-2b15-4d6b-94ba-68aa5e430df4")
+		)
+		(fp_line
+			(start -4.4 3.6)
+			(end 4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ba363a88-7304-4e8d-8116-5c197f6347f5")
 		)
 		(fp_line
 			(start 1.85 -3.35)
@@ -5363,16 +5363,6 @@
 			(uuid "56bb7ea0-3c44-4c85-beb7-94f59e53f8b9")
 		)
 		(fp_line
-			(start -1.85 3.35)
-			(end 1.85 3.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "db2b19a6-4ca6-40b3-b0a0-82856fe3304f")
-		)
-		(fp_line
 			(start -1.85 -2.35)
 			(end -0.85 -3.35)
 			(stroke
@@ -5392,8 +5382,18 @@
 			(layer "F.Fab")
 			(uuid "202718ea-48d8-47cf-a1f7-81ac33ea910d")
 		)
+		(fp_line
+			(start -1.85 3.35)
+			(end 1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db2b19a6-4ca6-40b3-b0a0-82856fe3304f")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(uuid "992621c9-8e5c-469d-976e-3a09964239dd")
 			(effects
@@ -5404,7 +5404,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -3.15 -2.3 180)
+			(at -3.15 -2.3 90)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -5413,8 +5413,18 @@
 			(pintype "power_in")
 			(uuid "90ddf1d7-3897-44c1-b770-02c824bb77e0")
 		)
+		(pad "1" smd roundrect
+			(at 3.15 0 90)
+			(size 2 3.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 16 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "cffb0589-c484-4d0c-a6b6-82061b88e26a")
+		)
 		(pad "2" smd roundrect
-			(at -3.15 0 180)
+			(at -3.15 0 90)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -5423,18 +5433,8 @@
 			(pintype "power_out")
 			(uuid "bbd03ed9-4bc6-4cdd-bae2-40237b294407")
 		)
-		(pad "2" smd roundrect
-			(at 3.15 0 180)
-			(size 2 3.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 15 "+3V3")
-			(pinfunction "VO")
-			(pintype "power_out")
-			(uuid "cffb0589-c484-4d0c-a6b6-82061b88e26a")
-		)
 		(pad "3" smd roundrect
-			(at -3.15 2.3 180)
+			(at -3.15 2.3 90)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -7949,11 +7949,11 @@
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "ff1edc5f-1e49-424e-bb89-01820b791d10")
-		(at 85.75 107.75)
+		(at 85.75 112.5 90)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U1"
-			(at 0 -4.5 0)
+			(at 0 -4.5 90)
 			(layer "F.SilkS")
 			(uuid "c79bdf4c-dd12-431a-a103-44e85283c986")
 			(effects
@@ -7964,7 +7964,7 @@
 			)
 		)
 		(property "Value" "AMS1117-5.0"
-			(at 0 4.5 0)
+			(at 0 4.5 90)
 			(layer "F.Fab")
 			(uuid "04764a05-3ddb-459f-b42d-c1f47ccf62c1")
 			(effects
@@ -7975,7 +7975,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7988,7 +7988,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8001,7 +8001,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8019,26 +8019,6 @@
 		(sheetfile "esp32-wroom-adapter-epaper.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.85 -3.41)
-			(end 1.91 -3.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "62a41dab-38d8-4058-9ea7-b7d1931f949f")
-		)
-		(fp_line
-			(start -1.85 3.41)
-			(end 1.91 3.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2edc92bf-5fe9-4498-bad7-986af4dfa312")
-		)
-		(fp_line
 			(start 1.91 -3.41)
 			(end 1.91 -2.15)
 			(stroke
@@ -8049,6 +8029,16 @@
 			(uuid "0271ab38-3c2f-4497-ae49-3a17c338a3cc")
 		)
 		(fp_line
+			(start -1.85 -3.41)
+			(end 1.91 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "62a41dab-38d8-4058-9ea7-b7d1931f949f")
+		)
+		(fp_line
 			(start 1.91 3.41)
 			(end 1.91 2.15)
 			(stroke
@@ -8057,6 +8047,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "2d3b3aba-32a9-4704-ae86-78f68e220c58")
+		)
+		(fp_line
+			(start -1.85 3.41)
+			(end 1.91 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2edc92bf-5fe9-4498-bad7-986af4dfa312")
 		)
 		(fp_poly
 			(pts
@@ -8071,26 +8071,6 @@
 			(uuid "9bff971e-34bd-4064-9bbf-726100e6d22c")
 		)
 		(fp_line
-			(start -4.4 -3.6)
-			(end -4.4 3.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9867165b-3146-4f66-afc2-41b836754870")
-		)
-		(fp_line
-			(start -4.4 3.6)
-			(end 4.4 3.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "09f5a021-a4ff-4a60-bda3-3192577f11e5")
-		)
-		(fp_line
 			(start 4.4 -3.6)
 			(end -4.4 -3.6)
 			(stroke
@@ -8099,6 +8079,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "cc939c78-1160-48e5-a1e2-1fc331b9172f")
+		)
+		(fp_line
+			(start -4.4 -3.6)
+			(end -4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9867165b-3146-4f66-afc2-41b836754870")
 		)
 		(fp_line
 			(start 4.4 3.6)
@@ -8111,34 +8101,24 @@
 			(uuid "5f00e75e-3cea-4612-acf4-77d9161df877")
 		)
 		(fp_line
-			(start -1.85 -2.35)
-			(end -1.85 3.35)
+			(start -4.4 3.6)
+			(end 4.4 3.6)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "07911a3a-2598-49dd-9a54-47247ec1fbaf")
+			(layer "F.CrtYd")
+			(uuid "09f5a021-a4ff-4a60-bda3-3192577f11e5")
 		)
 		(fp_line
-			(start -1.85 -2.35)
-			(end -0.85 -3.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ea475fbc-2d41-49c4-8c54-8a18bd1f7532")
-		)
-		(fp_line
-			(start -1.85 3.35)
+			(start 1.85 -3.35)
 			(end 1.85 3.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "509933ee-4bf3-4b50-9ada-ebffd4ab6544")
+			(uuid "831bf2f3-7b83-419b-800e-3e57f8c9d7ee")
 		)
 		(fp_line
 			(start -0.85 -3.35)
@@ -8151,17 +8131,37 @@
 			(uuid "673db2b4-1dcf-4a8f-a6f7-d33982070f07")
 		)
 		(fp_line
-			(start 1.85 -3.35)
+			(start -1.85 -2.35)
+			(end -0.85 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ea475fbc-2d41-49c4-8c54-8a18bd1f7532")
+		)
+		(fp_line
+			(start -1.85 -2.35)
+			(end -1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "07911a3a-2598-49dd-9a54-47247ec1fbaf")
+		)
+		(fp_line
+			(start -1.85 3.35)
 			(end 1.85 3.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "831bf2f3-7b83-419b-800e-3e57f8c9d7ee")
+			(uuid "509933ee-4bf3-4b50-9ada-ebffd4ab6544")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(uuid "2d5530c5-26b2-4272-8d91-6ea0630b0a09")
 			(effects
@@ -8172,7 +8172,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -3.15 -2.3)
+			(at -3.15 -2.3 90)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -8181,8 +8181,18 @@
 			(pintype "power_in")
 			(uuid "e181eb49-3cbc-4e83-b961-9845d3fa43c9")
 		)
+		(pad "1" smd roundrect
+			(at 3.15 0 90)
+			(size 2 3.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 16 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "e7ec1480-4b07-415f-8439-8ed9388d683c")
+		)
 		(pad "2" smd roundrect
-			(at -3.15 0)
+			(at -3.15 0 90)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -8191,18 +8201,8 @@
 			(pintype "power_out")
 			(uuid "3905b3a1-95f5-4cb3-abef-3efbb5c8fa54")
 		)
-		(pad "2" smd roundrect
-			(at 3.15 0)
-			(size 2 3.8)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 17 "+5V")
-			(pinfunction "VO")
-			(pintype "power_out")
-			(uuid "e7ec1480-4b07-415f-8439-8ed9388d683c")
-		)
 		(pad "3" smd roundrect
-			(at -3.15 2.3)
+			(at -3.15 2.3 90)
 			(size 2 1.5)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
