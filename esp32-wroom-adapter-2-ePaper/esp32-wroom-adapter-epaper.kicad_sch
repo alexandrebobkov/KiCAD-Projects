@@ -249,7 +249,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
+			(property "Reference" "J8"
+				(at 11.0841 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -257,15 +266,7 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
+			(property "Footprint" "Alexander Footprint Library:ESP32-WROOM-Adapter-Socket-Universal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -283,7 +284,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Connector ESP32 WROOM 32D Module"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -314,9 +315,47 @@
 					)
 				)
 			)
-			(symbol "ESP32-WROOM-32D-SOCKET_1_1"
+			(symbol "ESP32-WROOM-32D-SOCKET_1_0"
 				(pin power_out line
 					(at 8.89 -69.85 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 -69.85 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESP32-WROOM-32D-SOCKET_1_1"
+				(pin power_out line
+					(at 6.35 -69.85 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2990,6 +3029,12 @@
 		(uuid "17b36380-ac02-417a-9570-2824b558d391")
 	)
 	(junction
+		(at 113.03 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3232618a-cfb2-4285-a8d3-0371495feb1e")
+	)
+	(junction
 		(at 35.56 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3069,6 +3114,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 104.14) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079be929-ac41-456a-80a4-3eb27b52c4bd")
+	)
+	(wire
+		(pts
 			(xy 125.73 66.04) (xy 130.81 66.04)
 		)
 		(stroke
@@ -3079,7 +3134,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 101.6) (xy 113.03 109.22)
+			(xy 113.03 101.6) (xy 113.03 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3326,6 +3381,16 @@
 			(type default)
 		)
 		(uuid "63e49d51-7916-4ea1-b3c7-dc2d0d085e70")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e53382-4be9-40e9-98ab-537cec0fb922")
 	)
 	(wire
 		(pts
@@ -3579,6 +3644,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 104.14) (xy 113.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c013368a-b378-45ec-909e-ded05c9a587f")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 113.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f75850-e608-437e-a6c7-b6d376365eee")
+	)
+	(wire
+		(pts
 			(xy 59.69 82.55) (xy 59.69 85.09)
 		)
 		(stroke
@@ -3706,6 +3791,16 @@
 			(type default)
 		)
 		(uuid "ea1f7347-9527-4aac-943b-0904bca23f9f")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 110.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbacc8f-e64e-45ce-a02b-fbf6fa30d579")
 	)
 	(wire
 		(pts
@@ -5442,7 +5537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Alexander Footprint Library:ESP32-WROOM-Adapter-Socket"
+		(property "Footprint" "Alexander Footprint Library:ESP32-WROOM-Adapter-Socket-Universal"
 			(at 104.14 31.75 0)
 			(effects
 				(font
@@ -5573,6 +5668,12 @@
 		)
 		(pin "37"
 			(uuid "04b0c27f-ed9a-4e58-8433-bde2869501df")
+		)
+		(pin "15"
+			(uuid "fa7e7544-e152-414f-a42c-72510d88da35")
+		)
+		(pin "38"
+			(uuid "cf9c3285-ea6e-4228-acf9-bc0b48a6b341")
 		)
 		(instances
 			(project "esp32-wroom-adapter-2"
