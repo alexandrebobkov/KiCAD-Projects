@@ -129,7 +129,7 @@
 				)
 			)
 		)
-		(symbol "Alexander Symbol Library:MOSFET-N-2CH-DMT3020"
+		(symbol "Alexander Symbol Library:MOSFET-N-2CH-SSF6670"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -138,7 +138,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 2.54 6.096 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -146,8 +146,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MOSFET-N-2CH-DMT3020"
-				(at -11.176 12.7 0)
+			(property "Value" "MOSFET-N-2CH-SSF6670"
+				(at -11.43 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -155,7 +155,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Alexander Footprint Library:MOSFET-NP-SSF6670-SOP-8_3.9x4.9mm"
 				(at 5.08 2.54 0)
 				(effects
 					(font
@@ -165,7 +165,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -12.7 0)
+				(at -5.08 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -173,7 +173,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" ""
 				(at 2.54 14.986 0)
 				(effects
 					(font
@@ -182,8 +182,8 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
+			(property "Sim.Device" ""
+				(at -5.08 -17.145 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -191,8 +191,8 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
+			(property "Sim.Type" ""
+				(at -5.08 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -200,8 +200,8 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
+			(property "Sim.Pins" ""
+				(at -5.08 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -209,7 +209,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "NMOS N-MOS N-MOSFET "
 				(at 0 0 0)
 				(effects
 					(font
@@ -218,7 +218,31 @@
 					(hide yes)
 				)
 			)
-			(symbol "MOSFET-N-2CH-DMT3020_0_1"
+			(symbol "MOSFET-N-2CH-SSF6670_0_1"
+				(polyline
+					(pts
+						(xy 0.254 -12.7) (xy -2.54 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -10.795) (xy 0.254 -14.605)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -234,6 +258,42 @@
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -13.97) (xy 0.762 -14.986)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -12.192) (xy 0.762 -13.208)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -10.414) (xy 0.762 -11.43)
 					)
 					(stroke
 						(width 0.254)
@@ -281,6 +341,18 @@
 				)
 				(polyline
 					(pts
+						(xy 2.54 -10.16) (xy 2.54 -10.922)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 2.54 2.54) (xy 2.54 1.778)
 					)
 					(stroke
@@ -293,7 +365,7 @@
 				)
 				(polyline
 					(pts
-						(xy 25.654 0) (xy 22.86 0)
+						(xy -2.54 -16.51) (xy 2.54 -16.51) (xy 2.54 -15.24)
 					)
 					(stroke
 						(width 0)
@@ -305,10 +377,10 @@
 				)
 				(polyline
 					(pts
-						(xy 25.654 1.905) (xy 25.654 -1.905)
+						(xy 2.54 -15.24) (xy 2.54 -12.7) (xy 0.762 -12.7)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -317,10 +389,10 @@
 				)
 				(polyline
 					(pts
-						(xy 26.162 -1.27) (xy 26.162 -2.286)
+						(xy 2.54 -10.16) (xy 2.54 -8.89) (xy 5.08 -8.89)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -329,31 +401,7 @@
 				)
 				(polyline
 					(pts
-						(xy 26.162 0.508) (xy 26.162 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 26.162 2.286) (xy 26.162 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 27.94 2.54) (xy 27.94 1.778)
+						(xy 2.54 -2.54) (xy 2.54 -3.81) (xy -2.54 -3.81)
 					)
 					(stroke
 						(width 0)
@@ -377,7 +425,19 @@
 				)
 				(polyline
 					(pts
-						(xy 27.94 -2.54) (xy 27.94 0) (xy 26.162 0)
+						(xy 2.54 2.54) (xy 2.54 3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -14.478) (xy 3.302 -14.478) (xy 3.302 -10.922) (xy 0.762 -10.922)
 					)
 					(stroke
 						(width 0)
@@ -401,6 +461,18 @@
 				)
 				(polyline
 					(pts
+						(xy 1.016 -12.7) (xy 2.032 -12.319) (xy 2.032 -13.081) (xy 1.016 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
@@ -413,7 +485,31 @@
 				)
 				(polyline
 					(pts
+						(xy 2.794 -12.192) (xy 2.921 -12.319) (xy 3.683 -12.319) (xy 3.81 -12.446)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -12.319) (xy 2.921 -12.954) (xy 3.683 -12.954) (xy 3.302 -12.319)
 					)
 					(stroke
 						(width 0)
@@ -435,48 +531,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 26.162 -1.778) (xy 28.702 -1.778) (xy 28.702 1.778) (xy 26.162 1.778)
-					)
+				(circle
+					(center 1.651 -12.7)
+					(radius 2.794)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 26.416 0) (xy 27.432 0.381) (xy 27.432 -0.381) (xy 26.416 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 28.194 0.508) (xy 28.321 0.381) (xy 29.083 0.381) (xy 29.21 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 28.702 0.381) (xy 28.321 -0.254) (xy 29.083 -0.254) (xy 28.702 0.381)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -492,6 +551,28 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -14.478)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -10.922)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(circle
@@ -516,43 +597,10 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 27.051 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 27.94 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 27.94 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "MOSFET-N-2CH-DMT3020_1_0"
+			(symbol "MOSFET-N-2CH-SSF6670_1_0"
 				(pin passive line
-					(at 27.94 5.08 270)
+					(at 7.62 -8.89 180)
 					(length 2.54) hide
 					(name "D2"
 						(effects
@@ -570,7 +618,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 7.62 3.81 180)
 					(length 2.54) hide
 					(name "D1"
 						(effects
@@ -588,9 +636,20 @@
 					)
 				)
 			)
-			(symbol "MOSFET-N-2CH-DMT3020_1_1"
+			(symbol "MOSFET-N-2CH-SSF6670_1_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 5.08 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at -5.08 -3.81 0)
 					(length 2.54)
 					(name "S1"
 						(effects
@@ -626,7 +685,7 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 -5.08 90)
+					(at -5.08 -16.51 0)
 					(length 2.54)
 					(name "S2"
 						(effects
@@ -644,7 +703,7 @@
 					)
 				)
 				(pin input line
-					(at 20.32 0 0)
+					(at -5.08 -12.7 0)
 					(length 2.54)
 					(name "G2"
 						(effects
@@ -662,7 +721,7 @@
 					)
 				)
 				(pin passive line
-					(at 27.94 5.08 270)
+					(at 7.62 -8.89 180)
 					(length 2.54)
 					(name "D2"
 						(effects
@@ -680,7 +739,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 7.62 3.81 180)
 					(length 2.54)
 					(name "D1"
 						(effects
@@ -1573,102 +1632,6 @@
 				)
 			)
 		)
-		(symbol "GND_7"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_7_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_7_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GND_8"
 			(power)
 			(pin_numbers hide)
@@ -1756,6 +1719,635 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MOSFET-N-2CH-DMT3020_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 2.54 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MOSFET-N-2CH-DMT3020"
+				(at -11.43 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Alexander Footprint Library:MOSFET-N-2CH-DMT3020-SO-8"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -5.08 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 2.54 14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" ""
+				(at -5.08 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" ""
+				(at -5.08 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at -5.08 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NMOS N-MOS N-MOSFET "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MOSFET-N-2CH-DMT3020_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 -12.7) (xy -2.54 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -10.795) (xy 0.254 -14.605)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -13.97) (xy 0.762 -14.986)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -12.192) (xy 0.762 -13.208)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -10.414) (xy 0.762 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy 2.54 -10.922)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -16.51) (xy 2.54 -16.51) (xy 2.54 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -15.24) (xy 2.54 -12.7) (xy 0.762 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -10.16) (xy 2.54 -8.89) (xy 5.08 -8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -3.81) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 3.81) (xy 5.08 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -14.478) (xy 3.302 -14.478) (xy 3.302 -10.922) (xy 0.762 -10.922)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -12.7) (xy 2.032 -12.319) (xy 2.032 -13.081) (xy 1.016 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -12.192) (xy 2.921 -12.319) (xy 3.683 -12.319) (xy 3.81 -12.446)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -12.319) (xy 2.921 -12.954) (xy 3.683 -12.954) (xy 3.302 -12.319)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 -12.7)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -14.478)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -10.922)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MOSFET-N-2CH-DMT3020_1_1_0"
+				(pin passive line
+					(at 7.62 -8.89 180)
+					(length 2.54) hide
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54) hide
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MOSFET-N-2CH-DMT3020_1_1_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 5.08 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -16.51 0)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -12.7 0)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -8.89 180)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2489,26 +3081,28 @@
 		)
 	)
 	(junction
+		(at 223.52 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12252618-e98a-4715-8fe0-452b82fccbe7")
+	)
+	(junction
 		(at 220.98 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4107a78c-c878-4032-9cc2-7067c7151a5a")
 	)
 	(junction
+		(at 172.72 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c20083c-4133-480b-ac53-177637c8bc5e")
+	)
+	(junction
 		(at 231.14 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9a4a1a2-b2ca-40c2-a4ea-0742e93b6c59")
-	)
-	(wire
-		(pts
-			(xy 166.37 49.53) (xy 166.37 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000f841f-d431-4451-b6ab-897476664433")
 	)
 	(wire
 		(pts
@@ -2542,13 +3136,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 153.67 66.04)
+			(xy 223.52 53.34) (xy 223.52 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f164005-c691-4a05-ab66-7b843af40683")
+		(uuid "0fc1ef2b-ad61-4e54-aa4c-bf22740d326c")
+	)
+	(wire
+		(pts
+			(xy 193.04 44.45) (xy 187.96 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18daaafa-9eb4-4042-acdd-7306d4a279d2")
 	)
 	(wire
 		(pts
@@ -2559,6 +3163,36 @@
 			(type default)
 		)
 		(uuid "2405009f-12c3-4045-a7a8-99e0f0ab20a8")
+	)
+	(wire
+		(pts
+			(xy 172.72 52.07) (xy 172.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9ad5e2-6e54-4315-a40d-3cd6d5de6579")
+	)
+	(wire
+		(pts
+			(xy 223.52 53.34) (xy 227.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37aed52f-f296-46b9-99db-962495f623b7")
+	)
+	(wire
+		(pts
+			(xy 172.72 39.37) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f9d449-88d3-4a61-b527-f2da62197bb7")
 	)
 	(wire
 		(pts
@@ -2589,16 +3223,6 @@
 			(type default)
 		)
 		(uuid "559a38c9-ff4b-4ad3-9ada-760d06d1574d")
-	)
-	(wire
-		(pts
-			(xy 166.37 58.42) (xy 171.45 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a5ba5b-03fc-4dd7-b8d5-2e203d7a53e6")
 	)
 	(wire
 		(pts
@@ -2662,33 +3286,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 49.53) (xy 143.51 58.42)
+			(xy 170.18 48.26) (xy 175.26 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bd01a30-aa81-4863-adbc-d12dfd2b3502")
-	)
-	(wire
-		(pts
-			(xy 179.07 63.5) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831d820a-41d8-446f-a719-705fb2d35e3a")
-	)
-	(wire
-		(pts
-			(xy 153.67 49.53) (xy 153.67 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b5a532b-576b-4b5a-b92d-3f0c42d0903a")
+		(uuid "8ad1ce4b-b180-4c70-a759-53192e18b2de")
 	)
 	(wire
 		(pts
@@ -2702,6 +3306,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 40.64) (xy 227.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9746e1fc-9a74-40fd-b6ed-07a212cc6a2c")
+	)
+	(wire
+		(pts
 			(xy 231.14 137.16) (xy 231.14 139.7)
 		)
 		(stroke
@@ -2709,16 +3323,6 @@
 			(type default)
 		)
 		(uuid "a8f248c7-ea22-4c90-ac43-eb989615fe0f")
-	)
-	(wire
-		(pts
-			(xy 179.07 49.53) (xy 179.07 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abbe3304-5393-4e76-a880-29642025b6b5")
 	)
 	(wire
 		(pts
@@ -2792,6 +3396,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 58.42) (xy 223.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c252ce63-05f6-4b26-ac73-bf04359b72c9")
+	)
+	(wire
+		(pts
+			(xy 170.18 35.56) (xy 175.26 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3300696-f4da-44dd-8038-38c74e342dd7")
+	)
+	(wire
+		(pts
 			(xy 220.98 100.33) (xy 220.98 105.41)
 		)
 		(stroke
@@ -2809,6 +3433,16 @@
 			(type default)
 		)
 		(uuid "c9955d67-20d5-4037-bd5f-ab2b4fd0429f")
+	)
+	(wire
+		(pts
+			(xy 172.72 52.07) (xy 175.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ed10dd-053a-411a-8fc8-d2ec2ed3fc4c")
 	)
 	(wire
 		(pts
@@ -2832,76 +3466,64 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 58.42) (xy 146.05 58.42)
+			(xy 193.04 31.75) (xy 187.96 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fc5599a9-e48c-4dd1-b1d1-99b3a2e99d12")
+		(uuid "fb08cf53-5959-4eca-8b4e-5cfe22978f56")
+	)
+	(wire
+		(pts
+			(xy 175.26 39.37) (xy 172.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5f6c72-4825-4d92-bd86-3ffad92b3e2c")
 	)
 	(global_label "OUTPUT_1"
 		(shape input)
-		(at 143.51 49.53 90)
+		(at 170.18 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2b9c9635-8567-4191-b032-3ca7cdf200c0")
+		(uuid "2bac28f6-bd26-4f81-aa42-838590ce3095")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 37.171 90)
+			(at 157.821 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SOURCE_2"
-		(shape input)
-		(at 179.07 49.53 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "386b16fb-831c-429c-9242-6ae87ac3e573")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 36.8082 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "OUTPUT_2"
 		(shape input)
-		(at 166.37 49.53 90)
+		(at 170.18 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "390d6ad6-9250-4ffd-aef2-47b80efad287")
+		(uuid "337b2359-9469-442f-9d8b-a8bca6c31023")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.37 37.171 90)
+			(at 157.821 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2919,6 +3541,50 @@
 		(uuid "3a5df84e-1992-4af8-8401-c574baeb0abd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.119 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SOURCE_2"
+		(shape input)
+		(at 193.04 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e51fec4-a071-4850-b60b-ab1ccc56a3ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.7618 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SOURCE_1"
+		(shape input)
+		(at 193.04 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fc705af-796a-413c-a9da-92470867cfbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.7618 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,28 +3612,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SOURCE_1"
-		(shape input)
-		(at 153.67 49.53 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9cd6857e-c9be-4fef-be5a-df778eb7502a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 36.8082 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3288,6 +3932,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_6")
+		(lib_id "power:GND")
+		(at 223.52 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30f302f4-3dff-40cc-96c0-e7e98afc61c9")
+		(property "Reference" "#PWR023"
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3146a92-55a1-4e15-9544-b3a7c7c68a79")
+		)
+		(instances
+			(project "esp32-wroom-adapter-epaper"
+				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89/44e7308f-90df-4704-ac22-c29ea7e15291"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 62.23 0)
 		(unit 1)
@@ -3498,133 +4209,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Alexander Symbol Library:MOSFET-N-2CH-DMT3020")
-		(at 151.13 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "578831ab-258f-4c1f-b316-debb328bb1fe")
-		(property "Reference" "Q1"
-			(at 182.88 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MOSFET-N-2CH-DMT3020"
-			(at 182.88 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprint Library:MOSFET-N-2CH-DMT3020-SO-8"
-			(at 156.21 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 153.67 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 151.13 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 151.13 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 151.13 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "df66ac9e-5a5b-4885-b1ad-c2be2f421dc7")
-		)
-		(pin "3"
-			(uuid "f5b9798b-3d3d-482b-8524-4714c686cb4b")
-		)
-		(pin "7"
-			(uuid "8e31ce1a-11b3-4252-a4cc-112b5dd1eb2e")
-		)
-		(pin "2"
-			(uuid "77b66406-daf4-4dad-9731-20b00573a1aa")
-		)
-		(pin "8"
-			(uuid "63615f8f-aa7c-4198-baf1-aea4487e912f")
-		)
-		(pin "6"
-			(uuid "12a067d6-e3e8-4cd8-8eb9-f841b3b64c4d")
-		)
-		(pin "1"
-			(uuid "65901122-599d-46e1-b915-b0f1191fe03d")
-		)
-		(pin "4"
-			(uuid "d9076fbe-137a-4e28-a94e-e88c856630f3")
-		)
-		(instances
-			(project "esp32-wroom-adapter-epaper"
-				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89/44e7308f-90df-4704-ac22-c29ea7e15291"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_6")
 		(lib_id "power:GND")
-		(at 153.67 66.04 0)
+		(at 172.72 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "698afd13-04a5-42a9-9428-599e978d5da4")
+		(uuid "6797163e-d676-4ef6-81ac-775c6e6a6e62")
 		(property "Reference" "#PWR021"
-			(at 153.67 72.39 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +4229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 71.12 0)
+			(at 172.72 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3641,7 +4237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 66.04 0)
+			(at 172.72 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +4246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 66.04 0)
+			(at 172.72 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +4255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 66.04 0)
+			(at 172.72 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +4264,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "feff53c9-e4da-4fe1-b183-734a4e93ebb6")
+			(uuid "87966a08-74b3-443a-a209-da58cb7660f1")
 		)
 		(instances
 			(project "esp32-wroom-adapter-epaper"
@@ -3844,35 +4440,33 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_7")
-		(lib_id "power:GND")
-		(at 179.07 66.04 0)
+		(lib_id "Alexander Symbol Library:MOSFET-N-2CH-SSF6670")
+		(at 232.41 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "767a0e19-df6b-432d-ab1b-276e3997c63d")
-		(property "Reference" "#PWR023"
-			(at 179.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 71.12 0)
+		(uuid "7d162318-6991-4da6-bcfd-653c487e82e0")
+		(property "Reference" "Q1"
+			(at 233.68 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 66.04 0)
+		(property "Value" "MOSFET-N-2CH-SSF6670"
+			(at 233.68 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:MOSFET-NP-SSF6670-SOP-8_3.9x4.9mm"
+			(at 237.49 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +4475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 66.04 0)
+			(at 227.33 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,22 +4483,70 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 66.04 0)
+		(property "Description" ""
+			(at 234.95 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Device" ""
+			(at 227.33 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 227.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 227.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7c3ebd36-a56a-4f71-8764-9363a8125eb2")
+		)
+		(pin "7"
+			(uuid "0cbe755a-15f0-418b-b9b2-d07a639c2ebc")
+		)
+		(pin "5"
+			(uuid "102ab892-7f1f-4e56-85fe-3b67ff70374e")
 		)
 		(pin "1"
-			(uuid "d31adbc4-69a3-49c4-8a86-d2fd73927e14")
+			(uuid "de570967-78a1-42ec-a86d-9fd1d9a07991")
+		)
+		(pin "2"
+			(uuid "0397f07a-5396-4a48-bec7-6d2a2f519f96")
+		)
+		(pin "8"
+			(uuid "acb61623-0af0-4d40-beaf-0cc60fdea172")
+		)
+		(pin "3"
+			(uuid "c850f0cc-8f21-4ad4-8326-f5b27ad6184c")
+		)
+		(pin "4"
+			(uuid "3821c6dd-dbe1-4208-9f47-35deec3cddda")
 		)
 		(instances
-			(project "esp32-wroom-adapter-epaper"
+			(project ""
 				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89/44e7308f-90df-4704-ac22-c29ea7e15291"
-					(reference "#PWR023")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4107,6 +4749,120 @@
 			(project "esp32-wroom-adapter-epaper"
 				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89/44e7308f-90df-4704-ac22-c29ea7e15291"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "MOSFET-N-2CH-DMT3020_1")
+		(lib_id "Alexander Symbol Library:MOSFET-N-2CH-DMT3020")
+		(at 180.34 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94217c06-54c7-49d0-90d4-8714cfdb43ab")
+		(property "Reference" "Q4"
+			(at 181.61 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MOSFET-N-2CH-DMT3020"
+			(at 181.61 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:MOSFET-N-2CH-DMT3020-SO-8"
+			(at 185.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.26 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 175.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a55fb97-d034-4c22-ac9f-209ac91bf8cc")
+		)
+		(pin "4"
+			(uuid "017845f1-632e-4261-9a16-6ee487d5889b")
+		)
+		(pin "1"
+			(uuid "d78dbca1-b21a-4fb6-b7e0-8c4c8597cbc3")
+		)
+		(pin "8"
+			(uuid "a6aeb5b9-0616-466a-9b80-e560d34734e9")
+		)
+		(pin "5"
+			(uuid "5917e1bf-1947-4828-95e8-25e4fedbc847")
+		)
+		(pin "7"
+			(uuid "cac511fa-c35a-4570-8d02-093703316756")
+		)
+		(pin "3"
+			(uuid "a7bf60ea-1450-4a48-a8b6-33329a4feb7d")
+		)
+		(pin "6"
+			(uuid "14afcafd-91da-490e-8686-8fe566286a1b")
+		)
+		(instances
+			(project ""
+				(path "/4a90ead8-6e51-429d-a467-47fbf8655e89/44e7308f-90df-4704-ac22-c29ea7e15291"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
