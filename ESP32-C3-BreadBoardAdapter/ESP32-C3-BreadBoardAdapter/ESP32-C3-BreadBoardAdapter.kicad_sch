@@ -3627,6 +3627,12 @@
 		(uuid "6c290e64-2c3c-43ab-935c-7500e19d82c7")
 	)
 	(junction
+		(at 54.61 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75eea331-58ac-46ca-a1a2-3643d6cdb1aa")
+	)
+	(junction
 		(at 102.87 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3636,13 +3642,7 @@
 		(at 44.45 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a8d93deb-4205-489e-9f6a-0b316c667f6d")
-	)
-	(junction
-		(at 54.61 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdd2657e-e064-4f35-b25b-69ed373c3eb3")
+		(uuid "9e3c760a-ff6b-4a71-b373-332427e8aee9")
 	)
 	(junction
 		(at 64.77 110.49)
@@ -3726,13 +3726,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 100.33) (xy 44.45 100.33)
+			(xy 54.61 97.79) (xy 54.61 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15660bd0-f75a-432f-af25-5dda6536bb12")
+		(uuid "18b1152c-d34f-4f8c-ae2f-3a83e21a8eba")
 	)
 	(wire
 		(pts
@@ -3773,16 +3773,6 @@
 			(type default)
 		)
 		(uuid "227d2993-29a7-4662-b06c-c1abfaaf3319")
-	)
-	(wire
-		(pts
-			(xy 44.45 100.33) (xy 44.45 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f20bce2-5f65-4568-80a2-081c69e829e4")
 	)
 	(wire
 		(pts
@@ -3936,16 +3926,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 100.33) (xy 54.61 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "559f267d-e038-44c5-86f4-5223658682e7")
-	)
-	(wire
-		(pts
 			(xy 154.94 66.04) (xy 160.02 66.04)
 		)
 		(stroke
@@ -3973,6 +3953,16 @@
 			(type default)
 		)
 		(uuid "5f971393-66c6-4f2b-b6d6-25ea8764335f")
+	)
+	(wire
+		(pts
+			(xy 44.45 100.33) (xy 44.45 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "606a72d7-6a41-4b8a-b772-fb232310555b")
 	)
 	(wire
 		(pts
@@ -4436,6 +4426,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 100.33) (xy 54.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f6dec0-741c-43a5-8cd5-120fdbad0d3c")
+	)
+	(wire
+		(pts
 			(xy 78.74 107.95) (xy 78.74 110.49)
 		)
 		(stroke
@@ -4678,17 +4678,6 @@
 			(justify top)
 		)
 		(uuid "f3765bd7-bbf4-4c5c-8620-8c6838a3dea5")
-	)
-	(label "VIN"
-		(at 44.45 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05ee3614-a936-4dd7-8b90-84c1254761ac")
 	)
 	(label "IO6"
 		(at 175.26 74.93 0)
@@ -4954,17 +4943,6 @@
 		)
 		(uuid "aaba9050-fcd1-47bf-adb4-b1db28a1840d")
 	)
-	(label "GND"
-		(at 30.48 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2f88810-2b44-4bd5-bf9c-d3c18d172414")
-	)
 	(label "IO7"
 		(at 116.84 66.04 0)
 		(fields_autoplaced yes)
@@ -5143,6 +5121,28 @@
 		(uuid "8a2fb51d-79ab-417a-91ae-4f0720601db3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.8352 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 54.61 97.79 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99718aef-7fc4-4b53-8213-cad2de42ffb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.61 89.9062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,17 +5527,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 83.82 49.53 0)
+		(lib_id "power:GNDD")
+		(at 44.45 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "246df5e9-ebf2-45be-9ed7-c9530a28428d")
-		(property "Reference" "#PWR014"
-			(at 83.82 55.88 0)
+		(uuid "234f1e99-5e6c-4145-aab2-6961b42ee393")
+		(property "Reference" "#PWR012"
+			(at 44.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,8 +5545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 83.82 54.61 0)
+		(property "Value" "GNDD"
+			(at 44.45 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 49.53 0)
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 49.53 0)
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5571,8 +5571,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,12 +5581,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0321c39-d471-4629-882b-fca7127923a5")
+			(uuid "dbc7a872-7aa1-4eea-8eff-4f005373f4d1")
 		)
 		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
+			(project ""
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5729,17 +5729,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 110.49 90)
+		(lib_id "power:GNDD")
+		(at 76.2 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42bd911f-a782-4944-b154-7d780dcf5d1d")
-		(property "Reference" "#PWR011"
-			(at 115.57 110.49 0)
+		(uuid "3f1f6836-5725-4f63-bb11-02cf256ee842")
+		(property "Reference" "#PWR013"
+			(at 76.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,17 +5747,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 113.03 110.4899 90)
+		(property "Value" "GNDD"
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 110.49 0)
+			(at 76.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 110.49 0)
+			(at 76.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,8 +5773,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 110.49 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 76.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,12 +5783,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "16c9e5e4-6f62-4885-a71a-b32632eb1f60")
+			(uuid "001b0f00-c95a-4cb8-83fd-2d41b3b3d6f8")
 		)
 		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
+			(project ""
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5860,6 +5859,138 @@
 			(project "ESP32-C3-BreadBoardAdapter"
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 64.77 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f0b3876-311c-4845-ac95-7a16ef528e92")
+		(property "Reference" "#PWR08"
+			(at 64.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 64.77 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 64.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f08f3487-daae-45f6-b02f-c7484749db61")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 83.82 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "717a791e-3f42-4ac1-afd0-4bbe2e6d2100")
+		(property "Reference" "#PWR014"
+			(at 83.82 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 83.82 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 83.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0aa47c8e-7687-45a4-88d7-0e8da73d4e48")
+		)
+		(instances
+			(project ""
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6908,17 +7039,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 64.77 130.81 0)
+		(lib_id "power:GNDD")
+		(at 109.22 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bed7b4c6-3e4f-49cd-abc5-8246b32228f7")
-		(property "Reference" "#PWR08"
-			(at 64.77 137.16 0)
+		(uuid "ce4b3466-d7df-4aac-ba17-c36fc2ac873c")
+		(property "Reference" "#PWR011"
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,16 +7057,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 64.77 135.89 0)
+		(property "Value" "GNDD"
+			(at 113.03 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 130.81 0)
+			(at 109.22 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +7076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 130.81 0)
+			(at 109.22 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,74 +7084,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 64.77 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30388979-a837-4329-8b60-821e02c9e656")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 76.2 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca38e294-6621-4026-968e-7e5ae75d01b4")
-		(property "Reference" "#PWR013"
-			(at 76.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 49.53 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 109.22 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7028,12 +7094,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "12c4a898-1e4a-4c77-b787-c4ce5ef013a8")
+			(uuid "cb3f8bf5-d1fb-46c0-a2b4-3a612069df8e")
 		)
 		(instances
 			(project "ESP32-C3-BreadBoardAdapter"
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7378,72 +7444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 44.45 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eba680d9-66c8-495f-9ed5-7c17d4ad52fc")
-		(property "Reference" "#PWR012"
-			(at 44.45 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79caf2ec-ebb9-4ba2-8ed4-e62d242cb82f")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 24.13 110.49 180)
 		(unit 1)
@@ -7573,76 +7573,6 @@
 			(project "ESP32-C3-BreadBoardAdapter"
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 78.74 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6616363-e6b7-4f2e-a236-965e39c5d044")
-		(property "Reference" "C2"
-			(at 81.28 103.5939 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 81.28 106.1339 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
-			(at 78.74 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4779df11-9969-4f0c-a8c2-c1012c30fe7d")
-		)
-		(pin "2"
-			(uuid "785f98ec-dd45-4418-87fc-42fd74cad0d1")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "C2")
 					(unit 1)
 				)
 			)
