@@ -5,6 +5,132 @@
 	(uuid "7ebe7346-feca-4308-bb7e-1ef2e739e742")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Alexander KiCad Libraries:AMS1117-3V3"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 -0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3V3"
+				(at -0.508 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Alexander Footprint Library:AMS1117 SOT-223"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "AMS1117"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "AMS1117 3V3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-3V3_0_1"
+				(rectangle
+					(start -5.08 -8.89)
+					(end 5.08 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3V3_1_1"
+				(pin power_out line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Alexander KiCad Libraries:BRD-PowerAdapter-ESP32C3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2894,146 +3020,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM78M05_TO220"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM78M05_TO220"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-220"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 500mA Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM78M05_TO220_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM78M05_TO220_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -5743,77 +5729,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM78M05_TO220")
-		(at 64.77 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38f920fd-3c40-4ae7-a9fe-64ecf4ad4026")
-		(property "Reference" "U2"
-			(at 64.77 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX1726EUK33"
-			(at 64.77 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 64.77 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
-			(at 64.77 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c125110e-b3af-48d0-94c6-3f50f2ca6d7f")
-		)
-		(pin "2"
-			(uuid "5759ba4f-c866-4c15-82b9-27dc1d5b3ff2")
-		)
-		(pin "3"
-			(uuid "01f25699-c1c4-48d9-a32a-268b1b535136")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 109.22 110.49 90)
 		(unit 1)
@@ -5945,6 +5860,77 @@
 			(project "ESP32-C3-BreadBoardAdapter"
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander KiCad Libraries:AMS1117-3V3")
+		(at 64.77 96.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7855a4b7-f805-43f3-a2f0-2dc750ed963c")
+		(property "Reference" "U2"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3V3"
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:AMS1117 SOT-223"
+			(at 64.77 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AMS1117"
+			(at 64.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57020090-4a19-4cd2-b9ea-c7630d4e9dd8")
+		)
+		(pin "1"
+			(uuid "0273c883-e169-4740-88e5-2a38d8d8dab9")
+		)
+		(pin "3"
+			(uuid "e2ad75d2-ea9e-4af9-8c8f-64856b23f831")
+		)
+		(instances
+			(project ""
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
+					(reference "U2")
 					(unit 1)
 				)
 			)
