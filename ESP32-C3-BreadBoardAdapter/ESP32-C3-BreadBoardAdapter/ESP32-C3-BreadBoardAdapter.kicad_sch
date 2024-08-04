@@ -5077,16 +5077,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 153.67) (xy 52.07 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b1152c-d34f-4f8c-ae2f-3a83e21a8eba")
-	)
-	(wire
-		(pts
 			(xy 210.82 35.56) (xy 203.2 35.56)
 		)
 		(stroke
@@ -5144,6 +5134,16 @@
 			(type default)
 		)
 		(uuid "24ee2c6f-79c4-4fb5-a446-ec3115928a57")
+	)
+	(wire
+		(pts
+			(xy 26.67 139.7) (xy 31.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f7e0e7-daf8-45ee-8ead-e322e43371bf")
 	)
 	(wire
 		(pts
@@ -5317,16 +5317,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 153.67) (xy 76.2 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "477f340b-60a4-45a2-ba00-61c4cc9339cc")
-	)
-	(wire
-		(pts
 			(xy 87.63 156.21) (xy 87.63 158.75)
 		)
 		(stroke
@@ -5374,16 +5364,6 @@
 			(type default)
 		)
 		(uuid "4d3e3101-1551-4ffe-ba0e-e425d2debf58")
-	)
-	(wire
-		(pts
-			(xy 41.91 168.91) (xy 41.91 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9c53bd-576b-4d92-ab8f-7b639a7e4532")
 	)
 	(wire
 		(pts
@@ -5584,6 +5564,16 @@
 			(type default)
 		)
 		(uuid "76968ba4-bc05-422b-b6f3-15fe636ea9d7")
+	)
+	(wire
+		(pts
+			(xy 52.07 139.7) (xy 52.07 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c66cb2-3655-4878-b909-eab93030d78d")
 	)
 	(wire
 		(pts
@@ -6197,6 +6187,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 139.7) (xy 52.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7543639-2e7b-46fd-95ea-828dd19bc833")
+	)
+	(wire
+		(pts
 			(xy 76.2 176.53) (xy 82.55 176.53)
 		)
 		(stroke
@@ -6426,7 +6426,7 @@
 		(uuid "fdad3d68-071c-47d9-9a1e-1b664dac0050")
 	)
 	(rectangle
-		(start 15.24 144.78)
+		(start 15.24 129.54)
 		(end 118.11 195.58)
 		(stroke
 			(width 0)
@@ -7002,7 +7002,7 @@
 		(uuid "fb2a1642-df21-408a-b787-f465fc72b336")
 	)
 	(global_label "USB_D+"
-		(shape input)
+		(shape bidirectional)
 		(at 215.9 55.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7013,7 +7013,7 @@
 		)
 		(uuid "043c2792-8842-4dca-aaf1-c6b2f87c68d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.5052 55.88 0)
+			(at 227.6165 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +7046,7 @@
 		)
 	)
 	(global_label "USB_D+"
-		(shape input)
+		(shape bidirectional)
 		(at 62.23 49.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7057,7 +7057,7 @@
 		)
 		(uuid "1a9f5adf-65e9-465c-9292-42399ca8367f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.8352 49.53 0)
+			(at 73.9465 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7090,7 @@
 		)
 	)
 	(global_label "USB_D-"
-		(shape input)
+		(shape bidirectional)
 		(at 215.9 53.34 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7101,7 +7101,7 @@
 		)
 		(uuid "35f28ac8-2945-4dd2-9e80-fc16de27d0c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.5052 53.34 0)
+			(at 227.6165 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7112,7 @@
 		)
 	)
 	(global_label "USB_D-"
-		(shape input)
+		(shape bidirectional)
 		(at 62.23 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7123,7 +7123,7 @@
 		)
 		(uuid "8a2fb51d-79ab-417a-91ae-4f0720601db3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.8352 41.91 0)
+			(at 73.9465 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,30 +7133,30 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
-		(at 52.07 153.67 90)
+	(global_label "VUSB"
+		(shape passive)
+		(at 26.67 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "99718aef-7fc4-4b53-8213-cad2de42ffb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 145.7862 90)
+			(at 19.8975 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape input)
+	(global_label "VUSB"
+		(shape passive)
 		(at 62.23 29.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7167,7 +7167,7 @@
 		)
 		(uuid "d6bc1f72-9494-44ea-b7a2-74afaaefe189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.1138 29.21 0)
+			(at 69.0025 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9834,6 +9834,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 35.56 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a2ca39c-82b1-44ee-a71d-1136c1eabfbf")
+		(property "Reference" "D2"
+			(at 35.56 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 35.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 35.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c320e063-8d1f-41f7-880d-303321297039")
+		)
+		(pin "2"
+			(uuid "519da330-da6e-4174-b6a6-d632fb0f6ff6")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 76.2 0)
 		(unit 1)
@@ -10218,73 +10304,6 @@
 			(project ""
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 76.2 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be92ebe2-7e70-41dc-b799-4115acbdd05c")
-		(property "Reference" "TP3"
-			(at 78.74 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3"
-			(at 78.74 151.6379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 81.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 76.2 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b663b9b2-f633-447d-88c8-dc59e658163b")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11242,73 +11261,6 @@
 			(project "ESP32-C3-BreadBoardAdapter"
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f32cce34-3618-4847-82a6-4e7be1284bf7")
-		(property "Reference" "TP2"
-			(at 44.45 170.9419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 173.4819 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 36.83 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 41.91 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea289cd8-4102-4064-a181-af575c3899a2")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
