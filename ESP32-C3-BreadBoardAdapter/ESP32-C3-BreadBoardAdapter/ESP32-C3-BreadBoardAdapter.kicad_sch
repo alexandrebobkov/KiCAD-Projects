@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "7ebe7346-feca-4308-bb7e-1ef2e739e742")
-	(paper "A4")
+	(paper "USLetter")
 	(lib_symbols
 		(symbol "+5V_1"
 			(power)
@@ -5149,7 +5149,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 138.43) (xy 227.33 142.24)
+			(xy 241.3 139.7) (xy 241.3 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5249,6 +5249,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 29.21) (xy 66.04 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23edee76-8f21-4dd8-844f-bf2c36b70622")
+	)
+	(wire
+		(pts
 			(xy 166.37 125.73) (xy 166.37 121.92)
 		)
 		(stroke
@@ -5259,7 +5269,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 139.7) (xy 31.75 139.7)
+			(xy 26.67 139.7) (xy 52.07 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5279,7 +5289,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 128.27) (xy 227.33 125.73)
+			(xy 241.3 129.54) (xy 241.3 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5406,16 +5416,6 @@
 			(type default)
 		)
 		(uuid "43d0f20d-d0e1-496f-b269-1257d7f50089")
-	)
-	(wire
-		(pts
-			(xy 227.33 125.73) (xy 241.3 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "445f017a-590c-4b59-bd48-bfe930402d0d")
 	)
 	(wire
 		(pts
@@ -5859,13 +5859,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 125.73) (xy 241.3 129.54)
+			(xy 73.66 29.21) (xy 77.47 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f133de7-5579-4e30-913b-b7674860677b")
+		(uuid "8d405936-6e4f-4e89-b73e-900cc43f118f")
 	)
 	(wire
 		(pts
@@ -5896,16 +5896,6 @@
 			(type default)
 		)
 		(uuid "93487b76-9131-4bcf-8585-8677266968ea")
-	)
-	(wire
-		(pts
-			(xy 59.69 29.21) (xy 62.23 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b19004-d414-4ff2-97d3-9470be2b86de")
 	)
 	(wire
 		(pts
@@ -6289,16 +6279,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 137.16) (xy 241.3 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c51da4-8d11-42f7-a3f7-38b31287924a")
-	)
-	(wire
-		(pts
 			(xy 41.91 166.37) (xy 62.23 166.37)
 		)
 		(stroke
@@ -6316,16 +6296,6 @@
 			(type default)
 		)
 		(uuid "d689aa51-6b23-416f-a40e-c361ab7f2d6b")
-	)
-	(wire
-		(pts
-			(xy 39.37 139.7) (xy 52.07 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7543639-2e7b-46fd-95ea-828dd19bc833")
 	)
 	(wire
 		(pts
@@ -7289,7 +7259,7 @@
 	)
 	(global_label "VUSB"
 		(shape passive)
-		(at 62.23 29.21 0)
+		(at 77.47 29.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7299,7 +7269,7 @@
 		)
 		(uuid "d6bc1f72-9494-44ea-b7a2-74afaaefe189")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.0025 29.21 0)
+			(at 84.2425 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2K2"
+		(property "Value" "10k"
 			(at 243.84 119.3799 0)
 			(effects
 				(font
@@ -8837,7 +8807,7 @@
 	)
 	(symbol
 		(lib_id "Alexander_Library_Symbols:SW_Push_SMD_6x3.5")
-		(at 227.33 133.35 90)
+		(at 241.3 134.62 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8846,7 +8816,7 @@
 		(dnp no)
 		(uuid "6c78a59b-cf8f-4295-9507-097b8d7a54f4")
 		(property "Reference" "SW3"
-			(at 223.012 135.128 0)
+			(at 236.982 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8855,7 +8825,7 @@
 			)
 		)
 		(property "Value" "SW_Push_SMD_6x3.5"
-			(at 230.124 143.256 0)
+			(at 244.094 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +8834,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Footprint Library:SW_PUSH_6x3.5mm"
-			(at 222.25 133.35 0)
+			(at 236.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8873,7 +8843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 133.35 0)
+			(at 236.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +8852,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 133.35 0)
+			(at 241.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,92 +9999,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 35.56 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a2ca39c-82b1-44ee-a71d-1136c1eabfbf")
-		(property "Reference" "D2"
-			(at 35.56 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 35.56 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c320e063-8d1f-41f7-880d-303321297039")
-		)
-		(pin "2"
-			(uuid "519da330-da6e-4174-b6a6-d632fb0f6ff6")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 245.11 76.2 0)
 		(unit 1)
@@ -10577,7 +10461,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 227.33 142.24 0)
+		(at 241.3 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10586,7 +10470,7 @@
 		(fields_autoplaced yes)
 		(uuid "cefc424b-d191-47e5-955c-e72f09283cf9")
 		(property "Reference" "#PWR021"
-			(at 227.33 148.59 0)
+			(at 241.3 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10595,7 +10479,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 147.32 0)
+			(at 241.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,7 +10487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 142.24 0)
+			(at 241.3 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +10496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 142.24 0)
+			(at 241.3 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10621,7 +10505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 142.24 0)
+			(at 241.3 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,142 +10591,6 @@
 			(project ""
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2215e02-1993-4e33-b326-329c2e10c7b2")
-		(property "Reference" "#PWR022"
-			(at 241.3 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76ccb592-0ec6-4185-8fdf-2572e5dc4f85")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 241.3 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2232983-7019-4aab-ae6d-7b92c9fd143f")
-		(property "Reference" "C7"
-			(at 245.11 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 245.11 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
-			(at 242.2652 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 241.3 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccb3f90d-7da1-4877-acea-1e1a8b0e4b18")
-		)
-		(pin "2"
-			(uuid "0588b55d-bedc-4f93-ac91-370c137bd9a3")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11054,6 +10802,92 @@
 			(project "ESP32-C3-BreadBoardAdapter"
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 69.85 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfc79cf8-a5f0-4bf1-9ce1-17e2148b4f80")
+		(property "Reference" "D2"
+			(at 69.85 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 69.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eafd01cc-f750-4e02-8cea-cc8a27cba66a")
+		)
+		(pin "2"
+			(uuid "d4debe22-bc1a-40cb-93aa-d082a6f91dcc")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
+					(reference "D2")
 					(unit 1)
 				)
 			)
