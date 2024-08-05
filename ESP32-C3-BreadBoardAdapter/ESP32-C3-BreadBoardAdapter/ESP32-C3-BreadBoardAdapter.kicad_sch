@@ -5056,6 +5056,12 @@
 		(uuid "5d00832f-d303-4406-89d5-99c47b606530")
 	)
 	(junction
+		(at 212.09 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "687140de-48fb-4900-84cd-32c44fce8883")
+	)
+	(junction
 		(at 44.45 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5084,6 +5090,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e3c760a-ff6b-4a71-b373-332427e8aee9")
+	)
+	(junction
+		(at 166.37 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5872a16-df9f-472a-b829-289013ddf62e")
 	)
 	(junction
 		(at 62.23 166.37)
@@ -5257,7 +5269,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 128.27) (xy 152.4 125.73)
+			(xy 201.93 139.7) (xy 212.09 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5517,16 +5529,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 138.43) (xy 152.4 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f32614b-8660-4287-96ae-b98ecd56d173")
-	)
-	(wire
-		(pts
 			(xy 41.91 156.21) (xy 41.91 158.75)
 		)
 		(stroke
@@ -5734,16 +5736,6 @@
 			(type default)
 		)
 		(uuid "7bb1c2ed-3888-4616-93a9-dbb4d144f73e")
-	)
-	(wire
-		(pts
-			(xy 152.4 125.73) (xy 166.37 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dcf04ab-c0ca-4809-b99a-bf71cf81b9e9")
 	)
 	(wire
 		(pts
@@ -6117,7 +6109,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 137.16) (xy 166.37 142.24)
+			(xy 166.37 137.16) (xy 166.37 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6157,6 +6149,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 139.7) (xy 212.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be450548-ba35-49da-b9c6-5b2f28ba9dbd")
+	)
+	(wire
+		(pts
 			(xy 203.2 50.8) (xy 205.74 50.8)
 		)
 		(stroke
@@ -6184,6 +6186,16 @@
 			(type default)
 		)
 		(uuid "c3f6dec0-741c-43a5-8cd5-120fdbad0d3c")
+	)
+	(wire
+		(pts
+			(xy 212.09 125.73) (xy 214.63 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ebf6b5-7709-4996-b020-48d0a80697e8")
 	)
 	(wire
 		(pts
@@ -6224,6 +6236,16 @@
 			(type default)
 		)
 		(uuid "cb147390-167d-4ace-8019-0ee17f0acbbe")
+	)
+	(wire
+		(pts
+			(xy 166.37 139.7) (xy 191.77 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbce8d16-4053-445c-8d2e-2114ef06736e")
 	)
 	(wire
 		(pts
@@ -6287,7 +6309,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 125.73) (xy 214.63 125.73)
+			(xy 204.47 125.73) (xy 212.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6344,6 +6366,16 @@
 			(type default)
 		)
 		(uuid "e3373ccb-1318-4ae4-aa51-906303ad26ab")
+	)
+	(wire
+		(pts
+			(xy 166.37 139.7) (xy 166.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c1db63-a792-4a1a-ba17-24e2913472c4")
 	)
 	(wire
 		(pts
@@ -7430,7 +7462,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 142.24 0)
+		(at 166.37 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7439,7 +7471,7 @@
 		(fields_autoplaced yes)
 		(uuid "06b273e2-8738-4afc-9f25-770ab8109925")
 		(property "Reference" "#PWR020"
-			(at 166.37 148.59 0)
+			(at 166.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7480,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 147.32 0)
+			(at 166.37 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,7 +7488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 142.24 0)
+			(at 166.37 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 142.24 0)
+			(at 166.37 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 142.24 0)
+			(at 166.37 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8690,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Alexander KiCad Libraries:Conn_Debug_01x02_Pin")
 		(lib_id "Alexander KiCad Libraries:Conn_Debug_01x02_Pin")
 		(at 36.83 124.46 180)
 		(unit 1)
@@ -8942,7 +8973,7 @@
 	)
 	(symbol
 		(lib_id "Alexander_Library_Symbols:SW_Push_SMD_6x3.5")
-		(at 152.4 133.35 90)
+		(at 196.85 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8950,7 +8981,7 @@
 		(dnp no)
 		(uuid "71f2cd5e-e253-488d-b17b-dc3647d19ed9")
 		(property "Reference" "SW2"
-			(at 148.082 131.572 0)
+			(at 198.628 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +8990,7 @@
 			)
 		)
 		(property "Value" "SW_Push_SMD_6x3.5"
-			(at 155.194 123.444 0)
+			(at 206.756 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8968,7 +8999,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Footprint Library:SW_PUSH_6x3.5mm"
-			(at 147.32 133.35 0)
+			(at 196.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,7 +9008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 133.35 0)
+			(at 196.85 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +9017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 133.35 0)
+			(at 196.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,72 +10373,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 152.4 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbcd5c7d-f31f-42ab-bc19-7c64d71b2bef")
-		(property "Reference" "#PWR019"
-			(at 152.4 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc02b6c5-d447-4eea-9051-9c1f18bf7ffe")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 212.09 72.39 0)
 		(unit 1)
@@ -10474,7 +10439,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Alexander KiCad Libraries:Conn_Debug_01x02_Pin")
 		(lib_id "Alexander KiCad Libraries:Conn_Debug_01x02_Pin")
 		(at 36.83 118.11 180)
 		(unit 1)
