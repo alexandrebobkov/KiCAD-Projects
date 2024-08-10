@@ -2,8 +2,11 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b85ca9ba-962f-4fba-80ca-af3985fe0887")
-	(paper "A4")
+	(uuid "ddd91e03-276a-4432-b017-5c9a96f2c380")
+	(paper "USLetter")
+	(title_block
+		(title "ESP32-C3 Breadboard Adapter.")
+	)
 	(lib_symbols
 		(symbol "Alexander KiCad Libraries:AMS1117-3V3"
 			(exclude_from_sim yes)
@@ -1151,6 +1154,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 142.24) (xy 113.03 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fbf92f-7222-49c9-b4ce-3201b6376849")
+	)
+	(wire
+		(pts
 			(xy 104.14 87.63) (xy 106.68 87.63)
 		)
 		(stroke
@@ -1261,6 +1274,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 137.16) (xy 119.38 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbf9209-3f4d-4033-995c-4b091e159b75")
+	)
+	(wire
+		(pts
 			(xy 152.4 97.79) (xy 158.75 97.79)
 		)
 		(stroke
@@ -1318,6 +1341,16 @@
 			(type default)
 		)
 		(uuid "a3236efe-cd6d-4f15-aae9-0f190076f8c7")
+	)
+	(wire
+		(pts
+			(xy 113.03 142.24) (xy 113.03 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e36e8a-2228-48b7-b638-5762eab06150")
 	)
 	(wire
 		(pts
@@ -1537,6 +1570,17 @@
 		)
 		(uuid "5c51b33b-c45c-4e34-afa7-8dc1ed3e90ed")
 	)
+	(label "3V3"
+		(at 113.03 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4ccf1a6-8804-40e2-8e90-85cbc7f3b122")
+	)
 	(hierarchical_label "5V"
 		(shape passive)
 		(at 160.02 107.95 0)
@@ -1549,7 +1593,7 @@
 		)
 		(uuid "5a3c2f5d-a4e0-40db-90a2-d387732168ac")
 	)
-	(hierarchical_label "VUSB"
+	(hierarchical_label "VUSB_IN"
 		(shape passive)
 		(at 78.74 71.12 180)
 		(fields_autoplaced yes)
@@ -2076,6 +2120,72 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
+		(at 113.03 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7704ec75-7b55-48f9-a273-74bbf45b81e1")
+		(property "Reference" "#PWR04"
+			(at 113.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 113.03 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "022638f2-d03f-4214-a3e1-42fca16ac4ce")
+		)
+		(instances
+			(project ""
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742/6309dc47-cfc8-496c-bfb2-66d644dc74b9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
 		(at 114.3 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2478,6 +2588,64 @@
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742/6309dc47-cfc8-496c-bfb2-66d644dc74b9"
 					(reference "TP1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 134.62)
+		(size 27.94 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8f634ab-c859-415c-9f0c-706775725344")
+		(property "Sheetname" "Debugging"
+			(at 119.38 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debugging.kicad_sch"
+			(at 119.38 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DBG_GND" passive
+			(at 119.38 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b142bac6-eceb-49ae-a823-c2b508dd1e6e")
+		)
+		(pin "DBG_3V3" passive
+			(at 119.38 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da3d7b7b-de98-44a9-b94b-b2473c75d9bf")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742/6309dc47-cfc8-496c-bfb2-66d644dc74b9"
+					(page "5")
 				)
 			)
 		)

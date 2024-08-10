@@ -1,0 +1,422 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0a28c001-4f68-4c77-b77c-d4b39d6a72a8")
+	(paper "USLetter")
+	(title_block
+		(title "ESP32-C3 Breadboard Adapter.")
+	)
+	(lib_symbols
+		(symbol "Alexander KiCad Libraries:Conn_Debug_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Debug_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at -0.254 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Debug Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Debug_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "DBG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "DBG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 58.42 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3365fb98-25e7-4442-82b1-373c3e2c6fe3")
+	)
+	(junction
+		(at 58.42 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45d780aa-e368-473d-9ae9-e04b7f77760f")
+	)
+	(wire
+		(pts
+			(xy 44.45 50.8) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bd3541-4b11-49af-bbfe-6c9840fa293c")
+	)
+	(wire
+		(pts
+			(xy 59.69 53.34) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbf4332-5ced-4813-a0ea-635e3bc1255a")
+	)
+	(wire
+		(pts
+			(xy 44.45 44.45) (xy 58.42 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df2f871-4100-4276-972e-94d5fbd23ae6")
+	)
+	(wire
+		(pts
+			(xy 58.42 46.99) (xy 58.42 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "634692c2-5a9e-4eb1-ba90-f14a10ad2f29")
+	)
+	(wire
+		(pts
+			(xy 59.69 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a556f870-cd3c-40e7-824b-4bfaab0ae720")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 59.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66a5268-2e23-4d7c-942b-385cd5aafbaf")
+	)
+	(wire
+		(pts
+			(xy 58.42 53.34) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb783fb6-b994-40b9-8a35-f2bee0199970")
+	)
+	(wire
+		(pts
+			(xy 58.42 44.45) (xy 59.69 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefbc129-38aa-433b-94f3-59b9dd2d25d7")
+	)
+	(hierarchical_label "DBG_3V3"
+		(shape passive)
+		(at 44.45 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d253cd4-b114-406a-9eb7-72c5cf713b6e")
+	)
+	(hierarchical_label "DBG_GND"
+		(shape passive)
+		(at 44.45 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc4e38a8-2610-4bf6-b37a-a3b940f638db")
+	)
+	(symbol
+		(lib_name "Alexander KiCad Libraries:Conn_Debug_01x02_Pin")
+		(lib_id "Alexander KiCad Libraries:Conn_Debug_01x02_Pin")
+		(at 64.77 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e55becae-6f10-462a-bbce-6bc882659202")
+		(property "Reference" "J5"
+			(at 66.04 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Debug_3V3"
+			(at 66.04 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:Conn_Debug_1x02_P2.54mm"
+			(at 65.024 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 64.77 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "852de2f7-1688-4c42-95ce-95edc2f41c8f")
+		)
+		(pin "1"
+			(uuid "9034f3e4-3073-4bf3-92ad-6c513bcf399e")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742/6309dc47-cfc8-496c-bfb2-66d644dc74b9/a8f634ab-c859-415c-9f0c-706775725344"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Alexander KiCad Libraries:Conn_Debug_01x02_Pin")
+		(lib_id "Alexander KiCad Libraries:Conn_Debug_01x02_Pin")
+		(at 64.77 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5b758df-13ef-4def-8196-da4f9c7a2f58")
+		(property "Reference" "J6"
+			(at 66.04 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Debug_GND"
+			(at 66.04 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:Conn_Debug_1x02_P2.54mm"
+			(at 65.024 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 64.77 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a24a2ac7-ce71-4910-8738-8530aa9f462b")
+		)
+		(pin "1"
+			(uuid "1c395012-1b27-4fb8-ac70-8dfb1cc8b4b4")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742/6309dc47-cfc8-496c-bfb2-66d644dc74b9/a8f634ab-c859-415c-9f0c-706775725344"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
