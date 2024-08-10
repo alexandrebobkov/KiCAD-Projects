@@ -3204,22 +3204,10 @@
 		(uuid "6e86f7b4-2de2-4efd-9e3b-05488102987f")
 	)
 	(junction
-		(at 127 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b77528b-3293-4ef3-8e91-327305f73e7b")
-	)
-	(junction
 		(at 166.37 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5872a16-df9f-472a-b829-289013ddf62e")
-	)
-	(junction
-		(at 132.08 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d690b85d-9b9c-405b-ad44-1ec2701e03e2")
 	)
 	(wire
 		(pts
@@ -3330,6 +3318,16 @@
 			(type default)
 		)
 		(uuid "266c1910-fa87-474f-bc73-d9c1c9d60786")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 34.29 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d45204-0d0e-4862-b984-8dea94eb8bcc")
 	)
 	(wire
 		(pts
@@ -3470,16 +3468,6 @@
 			(type default)
 		)
 		(uuid "50e001fa-9d8e-434e-8de4-c7631debfc62")
-	)
-	(wire
-		(pts
-			(xy 127 68.58) (xy 132.08 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "581bd96f-b7cc-4423-9bc2-0fa9cc66804d")
 	)
 	(wire
 		(pts
@@ -3703,13 +3691,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 33.02) (xy 69.85 33.02)
+			(xy 63.5 33.02) (xy 69.85 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d12efc2-48b5-4363-b98a-92dd35dc89c0")
+		(uuid "99fa917b-3807-436a-bdde-998232c6186f")
 	)
 	(wire
 		(pts
@@ -3750,6 +3738,16 @@
 			(type default)
 		)
 		(uuid "a356b38a-57c1-44b1-901b-2cb965d05777")
+	)
+	(wire
+		(pts
+			(xy 63.5 35.56) (xy 69.85 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a530ad5a-9a39-466b-93bb-64e19c9ba2f6")
 	)
 	(wire
 		(pts
@@ -3833,16 +3831,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 35.56) (xy 69.85 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae625302-c700-4e9c-b77f-acaf82bf9562")
-	)
-	(wire
-		(pts
 			(xy 166.37 137.16) (xy 166.37 139.7)
 		)
 		(stroke
@@ -3860,6 +3848,16 @@
 			(type default)
 		)
 		(uuid "b424a6ce-44e8-4df6-a58e-fdefb5d20f02")
+	)
+	(wire
+		(pts
+			(xy 34.29 48.26) (xy 34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b533bdbf-e571-47af-94c8-bd0eb73b3546")
 	)
 	(wire
 		(pts
@@ -7136,8 +7134,8 @@
 		)
 	)
 	(sheet
-		(at 29.21 45.72)
-		(size 35.56 11.43)
+		(at 38.1 44.45)
+		(size 25.4 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7148,16 +7146,17 @@
 		)
 		(uuid "6309dc47-cfc8-496c-bfb2-66d644dc74b9")
 		(property "Sheetname" "Power Supply"
-			(at 29.21 45.0084 0)
+			(at 38.1 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 29.21 57.7346 0)
+			(at 38.1 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,6 +7164,26 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "VUSB" passive
+			(at 38.1 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "81453987-b755-4aeb-b45f-ebdc78274864")
+		)
+		(pin "3V3" passive
+			(at 63.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0a501c10-15d9-4d2b-8407-0aa80ee58154")
 		)
 		(instances
 			(project "ESP32-C3-BreadBoardAdapter"
@@ -7175,8 +7194,8 @@
 		)
 	)
 	(sheet
-		(at 29.21 25.4)
-		(size 35.56 16.51)
+		(at 29.21 30.48)
+		(size 34.29 8.89)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -7186,7 +7205,7 @@
 		)
 		(uuid "c20399b1-240e-4b17-bb07-bfd49ddf538b")
 		(property "Sheetname" "USB-C Interface"
-			(at 36.83 22.86 0)
+			(at 36.83 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7215,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-c_interface.kicad_sch"
-			(at 29.21 42.4946 0)
+			(at 29.21 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7225,7 @@
 			)
 		)
 		(pin "USB_D-" output
-			(at 64.77 33.02 0)
+			(at 63.5 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +7235,7 @@
 			(uuid "0ea0a481-4708-4596-a077-db1d1260f385")
 		)
 		(pin "USB_D+" output
-			(at 64.77 35.56 0)
+			(at 63.5 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,6 +7243,16 @@
 				(justify right)
 			)
 			(uuid "d89da7e0-89c4-41bc-8fb6-6a3833ffa65c")
+		)
+		(pin "VUSB" passive
+			(at 34.29 39.37 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54789fce-c2aa-4909-809d-5886e35b9347")
 		)
 		(instances
 			(project "ESP32-C3-BreadBoardAdapter"

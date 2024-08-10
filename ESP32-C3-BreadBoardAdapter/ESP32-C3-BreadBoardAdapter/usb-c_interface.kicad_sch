@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "eba560ca-3eeb-4d1d-8814-d1526bd0d44e")
+	(uuid "5b8dc5e7-110e-486c-8e6a-86800967756b")
 	(paper "USLetter")
 	(lib_symbols
 		(symbol "Alexander Symbol Library:USB-C_Receptacle_Data_16P_GCT-USB4085"
@@ -1365,28 +1365,6 @@
 		)
 		(uuid "ffa98d77-66aa-4b9a-aa29-c32b5f5f9e39")
 	)
-	(global_label "VUSB"
-		(shape passive)
-		(at 88.9 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f2915d2b-e6d3-447f-bd6e-e741b5665f0a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.6725 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(hierarchical_label "USB_D-"
 		(shape output)
 		(at 76.2 58.42 0)
@@ -1398,6 +1376,18 @@
 			(justify left)
 		)
 		(uuid "c9c0f1ff-33c7-4fd8-9a39-49fec789ec93")
+	)
+	(hierarchical_label "VUSB"
+		(shape passive)
+		(at 88.9 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d97b4595-8264-4026-8f4a-6d9ca530920b")
 	)
 	(hierarchical_label "USB_D+"
 		(shape output)
