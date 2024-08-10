@@ -4276,7 +4276,7 @@
 		(uuid "35b9fbb4-bcd9-49ce-afeb-70695baeeaec")
 	)
 	(junction
-		(at 125.73 64.77)
+		(at 125.73 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a54ab54-7b07-4393-b254-c54121431b36")
@@ -4324,7 +4324,7 @@
 		(uuid "75eea331-58ac-46ca-a1a2-3643d6cdb1aa")
 	)
 	(junction
-		(at 127 64.77)
+		(at 127 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b77528b-3293-4ef3-8e91-327305f73e7b")
@@ -4348,7 +4348,7 @@
 		(uuid "d5872a16-df9f-472a-b829-289013ddf62e")
 	)
 	(junction
-		(at 132.08 64.77)
+		(at 132.08 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d690b85d-9b9c-405b-ad44-1ec2701e03e2")
@@ -4639,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 64.77) (xy 127 64.77)
+			(xy 125.73 68.58) (xy 127 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4679,7 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 60.96) (xy 124.46 64.77)
+			(xy 124.46 60.96) (xy 124.46 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4719,7 +4719,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 64.77) (xy 132.08 64.77)
+			(xy 127 68.58) (xy 132.08 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4809,6 +4809,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 60.96) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc91f7d-e6c0-4cde-993a-4110b30911ce")
+	)
+	(wire
+		(pts
 			(xy 142.24 36.83) (xy 147.32 36.83)
 		)
 		(stroke
@@ -4879,7 +4889,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 64.77) (xy 125.73 64.77)
+			(xy 124.46 68.58) (xy 125.73 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4999,16 +5009,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 60.96) (xy 132.08 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b029bc8-271b-43bc-a3f6-f7c71eb35ecd")
-	)
-	(wire
-		(pts
 			(xy 245.11 72.39) (xy 245.11 76.2)
 		)
 		(stroke
@@ -5029,7 +5029,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 60.96) (xy 119.38 64.77)
+			(xy 119.38 60.96) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5079,17 +5079,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 60.96) (xy 127 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b851992-dff4-4a79-b6fa-4e282a647bed")
-	)
-	(wire
-		(pts
-			(xy 64.77 33.02) (xy 77.47 33.02)
+			(xy 64.77 33.02) (xy 69.85 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5239,7 +5229,17 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 35.56) (xy 77.47 35.56)
+			(xy 127 60.96) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5b40a5-8477-447f-98d3-027bc2b219ed")
+	)
+	(wire
+		(pts
+			(xy 64.77 35.56) (xy 69.85 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6185,7 +6185,7 @@
 	)
 	(global_label "USB_D+"
 		(shape bidirectional)
-		(at 77.47 35.56 0)
+		(at 69.85 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6195,7 +6195,7 @@
 		)
 		(uuid "013a073a-9da0-4664-bcff-4fbf72350469")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.1865 35.56 0)
+			(at 81.5665 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6317,7 @@
 	)
 	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 77.47 33.02 0)
+		(at 69.85 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6327,7 +6327,7 @@
 		)
 		(uuid "ab6c3597-3503-43e2-bdfc-fd483ba49821")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.1865 33.02 0)
+			(at 81.5665 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7181,7 +7181,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 119.38 64.77 0)
+		(at 119.38 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7190,7 +7190,7 @@
 		(fields_autoplaced yes)
 		(uuid "34436d15-58d7-4716-a14f-721bc8f6e1d4")
 		(property "Reference" "#PWR02"
-			(at 119.38 71.12 0)
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7199,7 +7199,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 119.38 68.58 0)
+			(at 119.38 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 64.77 0)
+			(at 119.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +7216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 64.77 0)
+			(at 119.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7225,7 +7225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 119.38 64.77 0)
+			(at 119.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +8654,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 132.08 64.77 0)
+		(at 132.08 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8663,7 +8663,7 @@
 		(fields_autoplaced yes)
 		(uuid "99fedab3-9356-46f1-8644-648512db1468")
 		(property "Reference" "#PWR03"
-			(at 132.08 71.12 0)
+			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,7 +8672,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 132.08 68.58 0)
+			(at 132.08 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +8680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 64.77 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 64.77 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +8698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 132.08 64.77 0)
+			(at 132.08 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +9473,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 64.77 0)
+		(at 125.73 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9482,7 +9482,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5920376-dbb0-4d66-b722-86ecde9400f4")
 		(property "Reference" "#PWR01"
-			(at 125.73 71.12 0)
+			(at 125.73 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,7 +9491,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 69.85 0)
+			(at 125.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9499,7 +9499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 64.77 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 64.77 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 64.77 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,8 +9741,8 @@
 		)
 	)
 	(sheet
-		(at 19.05 25.4)
-		(size 45.72 16.51)
+		(at 29.21 25.4)
+		(size 35.56 16.51)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -9752,7 +9752,7 @@
 		)
 		(uuid "c20399b1-240e-4b17-bb07-bfd49ddf538b")
 		(property "Sheetname" "USB-C Interface"
-			(at 34.29 22.86 0)
+			(at 36.83 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +9762,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-c_interface.kicad_sch"
-			(at 19.05 42.4946 0)
+			(at 29.21 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
