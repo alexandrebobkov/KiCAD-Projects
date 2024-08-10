@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "9d679651-a5ba-4e2a-8b12-02c874be7c73")
+	(uuid "5618ce2f-bfd2-4b25-a579-dff8c2724561")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Alexander KiCad Libraries:AMS1117-3V3"
@@ -975,126 +975,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GNDD"
 			(power)
 			(pin_numbers hide)
@@ -1431,7 +1311,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 134.62 107.95)
+			(xy 128.27 107.95) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1656,6 +1536,18 @@
 			(justify left bottom)
 		)
 		(uuid "5c51b33b-c45c-4e34-afa7-8dc1ed3e90ed")
+	)
+	(hierarchical_label "5V"
+		(shape passive)
+		(at 160.02 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a3c2f5d-a4e0-40db-90a2-d387732168ac")
 	)
 	(hierarchical_label "VUSB"
 		(shape passive)
@@ -2384,71 +2276,6 @@
 			(project "ESP32-C3-BreadBoardAdapter"
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742/6309dc47-cfc8-496c-bfb2-66d644dc74b9"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 134.62 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b256b4a0-a6fd-4214-bb1f-531d39a53aec")
-		(property "Reference" "#PWR09"
-			(at 130.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 139.7 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77231b5b-c15f-4da9-af35-c7cfb970aceb")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742/6309dc47-cfc8-496c-bfb2-66d644dc74b9"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
