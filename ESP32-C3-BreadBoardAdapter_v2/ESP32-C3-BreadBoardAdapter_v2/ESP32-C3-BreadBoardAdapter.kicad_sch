@@ -5068,12 +5068,6 @@
 		(uuid "6c290e64-2c3c-43ab-935c-7500e19d82c7")
 	)
 	(junction
-		(at 146.05 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e86f7b4-2de2-4efd-9e3b-05488102987f")
-	)
-	(junction
 		(at 52.07 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5092,10 +5086,10 @@
 		(uuid "9e3c760a-ff6b-4a71-b373-332427e8aee9")
 	)
 	(junction
-		(at 146.05 139.7)
+		(at 191.77 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5872a16-df9f-472a-b829-289013ddf62e")
+		(uuid "b7930b0d-0b71-4fae-b822-695f32513c2a")
 	)
 	(junction
 		(at 62.23 166.37)
@@ -5819,6 +5813,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 148.59) (xy 191.77 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a0d3d92-0ed7-445b-a4cb-c4380ecb8dbb")
+	)
+	(wire
+		(pts
 			(xy 100.33 156.21) (xy 100.33 158.75)
 		)
 		(stroke
@@ -6099,16 +6103,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 137.16) (xy 146.05 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ad0782-f079-42ad-a607-b0fe3321252d")
-	)
-	(wire
-		(pts
 			(xy 246.38 107.95) (xy 246.38 111.76)
 		)
 		(stroke
@@ -6366,16 +6360,6 @@
 			(type default)
 		)
 		(uuid "e52c1a41-c744-486e-aa6c-1789ac53c504")
-	)
-	(wire
-		(pts
-			(xy 146.05 125.73) (xy 146.05 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e60a8c70-15d5-4961-a802-ef05ce746b09")
 	)
 	(wire
 		(pts
@@ -8384,6 +8368,76 @@
 			(project "ESP32-C3-BreadBoardAdapter"
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37b0a200-a8ff-4034-a3bb-014cd8c62d41")
+		(property "Reference" "C2"
+			(at 195.58 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 195.58 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 192.7352 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4323edd4-521d-4c57-b6cb-5c4af2798fca")
+		)
+		(pin "2"
+			(uuid "06fb9911-5c07-4521-a4fe-47e4bb8aa670")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10670,76 +10724,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 146.05 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de297879-f37c-4bd8-b9a6-f9224f8df780")
-		(property "Reference" "C6"
-			(at 149.86 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 149.86 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
-			(at 147.0152 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8b2b0f4-fa4b-4d23-88d2-486e2c7695d2")
-		)
-		(pin "2"
-			(uuid "5115601e-a499-4a35-9995-d29dd3811279")
-		)
-		(instances
-			(project "ESP32-C3-BreadBoardAdapter"
-				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 110.49 106.68 270)
 		(unit 1)
@@ -11223,6 +11207,72 @@
 			(project "ESP32-C3-BreadBoardAdapter"
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff2db27b-53ed-4d4d-8d72-2d123064b5e3")
+		(property "Reference" "#PWR019"
+			(at 191.77 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f2488dd-e083-4729-b9d2-422d7d921def")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
