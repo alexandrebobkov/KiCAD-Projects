@@ -1,6 +1,8 @@
 # KiCAD-Projects
 KiCAD PBC projects
 
+# ESP32-C3 DevBoard and Breadboard Power Supply Combo
+
 # ESP32-WROOM-32D Module Adapter
 
 > [!CAUTION]
