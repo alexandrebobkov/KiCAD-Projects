@@ -2777,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 49.53) (xy 241.3 49.53)
+			(xy 252.73 38.1) (xy 256.54 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +2977,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 46.99) (xy 241.3 46.99)
+			(xy 252.73 35.56) (xy 256.54 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3047,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 34.29) (xy 222.25 36.83)
+			(xy 237.49 22.86) (xy 237.49 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3197,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 95.25) (xy 222.25 99.06)
+			(xy 237.49 83.82) (xy 237.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3277,7 +3277,7 @@
 	)
 	(rectangle
 		(start 83.82 13.97)
-		(end 160.02 85.09)
+		(end 135.89 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -3312,6 +3312,18 @@
 		(uuid 442e7b4d-55d5-4b40-acc9-18c991de6a09)
 	)
 	(rectangle
+		(start 138.43 13.97)
+		(end 196.85 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a9119c5-5bc5-4600-aff6-953e4428d783)
+	)
+	(rectangle
 		(start 83.82 87.63)
 		(end 160.02 135.89)
 		(stroke
@@ -3325,7 +3337,7 @@
 	)
 	(text "Linear Voltage Regulators"
 		(exclude_from_sim no)
-		(at 146.558 83.566 0)
+		(at 120.142 83.566 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3358,6 +3370,18 @@
 			)
 		)
 		(uuid "8a96d243-c03c-4669-85d6-b4384d486cc6")
+	)
+	(text "Strapping Pins"
+		(exclude_from_sim no)
+		(at 188.722 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a4404aa3-ac9b-40ba-a9b5-1f89f1edf047")
 	)
 	(text "Buck Voltage Regulator\n(Credits to: Hussam)"
 		(exclude_from_sim no)
@@ -3394,7 +3418,7 @@
 		(uuid "01ea9310-cf66-436b-9b89-1a2f4237b59e")
 	)
 	(label "TX{slash}1"
-		(at 241.3 49.53 0)
+		(at 256.54 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3416,7 +3440,7 @@
 		(uuid "09251fd4-af37-4d86-8951-1faaac710ffa")
 	)
 	(label "RX{slash}0"
-		(at 241.3 46.99 0)
+		(at 256.54 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4812,7 +4836,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 222.25 34.29 0)
+		(at 237.49 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4820,7 +4844,7 @@
 		(dnp no)
 		(uuid "7db035ed-08cf-44e6-a6dc-111364fee5fd")
 		(property "Reference" "#PWR06"
-			(at 222.25 38.1 0)
+			(at 237.49 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +4853,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 222.631 31.242 90)
+			(at 237.871 19.812 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4862,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 34.29 0)
+			(at 237.49 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +4870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 34.29 0)
+			(at 237.49 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 34.29 0)
+			(at 237.49 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +5298,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S2-WROVER-I")
-		(at 222.25 67.31 0)
+		(at 237.49 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5283,7 +5307,7 @@
 		(fields_autoplaced yes)
 		(uuid "c19d4759-c6f3-4e86-a324-bb125e778c6c")
 		(property "Reference" "U1"
-			(at 224.4441 34.29 0)
+			(at 239.6841 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5316,7 @@
 			)
 		)
 		(property "Value" "ESP32-S2-WROVER-I"
-			(at 224.4441 36.83 0)
+			(at 239.6841 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5325,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Library:ESP32-WROVER-E-N4R8"
-			(at 241.3 96.52 0)
+			(at 256.54 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5334,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf"
-			(at 214.63 87.63 0)
+			(at 229.87 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5343,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 222.25 67.31 0)
+			(at 237.49 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 99.06 0)
+		(at 237.49 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5604,7 +5628,7 @@
 		(dnp no)
 		(uuid "f48b045d-5c1c-46ad-8f86-ceeb6d1f3c6e")
 		(property "Reference" "#PWR07"
-			(at 222.25 105.41 0)
+			(at 237.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5637,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 102.87 0)
+			(at 237.49 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +5645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 99.06 0)
+			(at 237.49 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 99.06 0)
+			(at 237.49 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5661,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 99.06 0)
+			(at 237.49 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
