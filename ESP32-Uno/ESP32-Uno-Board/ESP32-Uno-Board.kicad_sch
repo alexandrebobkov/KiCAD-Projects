@@ -5980,7 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 48.26) (xy 125.73 48.26)
+			(xy 109.22 48.26) (xy 113.03 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6140,7 +6140,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 114.3 58.42)
+			(xy 101.6 55.88) (xy 101.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6400,7 +6400,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 30.48) (xy 114.3 31.75)
+			(xy 101.6 30.48) (xy 101.6 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6440,7 +6440,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 48.26) (xy 106.68 48.26)
+			(xy 90.17 48.26) (xy 93.98 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6710,7 +6710,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 22.86) (xy 125.73 22.86)
+			(xy 109.22 22.86) (xy 113.03 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6750,7 +6750,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 22.86) (xy 106.68 22.86)
+			(xy 90.17 22.86) (xy 93.98 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6979,10 +6979,10 @@
 		(uuid "fed53070-b211-409f-88b5-ede69724ec75")
 	)
 	(rectangle
-		(start 83.82 13.97)
-		(end 135.89 85.09)
+		(start 81.28 13.97)
+		(end 124.46 85.09)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
 		)
 		(fill
@@ -6991,10 +6991,10 @@
 		(uuid 12ea807c-322a-4168-8dd2-7ef5f80237fc)
 	)
 	(rectangle
-		(start 13.97 86.36)
+		(start 13.97 85.09)
 		(end 130.81 130.81)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
 		)
 		(fill
@@ -7006,8 +7006,9 @@
 		(start 13.97 13.97)
 		(end 81.28 85.09)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.508)
+			(type solid)
+			(color 0 0 132 1)
 		)
 		(fill
 			(type none)
@@ -7028,7 +7029,7 @@
 	)
 	(text "Linear Voltage Regulators"
 		(exclude_from_sim no)
-		(at 120.142 83.566 0)
+		(at 95.504 83.312 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8130,7 +8131,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 102.87 22.86 90)
+		(at 90.17 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8138,7 +8139,7 @@
 		(dnp no)
 		(uuid "03e1fd0b-a3bd-41ac-add8-ae15708c7d13")
 		(property "Reference" "#PWR08"
-			(at 106.68 22.86 0)
+			(at 93.98 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,7 +8148,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 99.822 22.479 90)
+			(at 87.122 22.479 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 22.86 0)
+			(at 90.17 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +8166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 22.86 0)
+			(at 90.17 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +8175,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 22.86 0)
+			(at 90.17 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,7 +8267,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 125.73 48.26 270)
+		(at 113.03 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8274,7 +8275,7 @@
 		(dnp no)
 		(uuid "0a122a85-4703-42fd-bec8-5428bc889385")
 		(property "Reference" "#PWR016"
-			(at 121.92 48.26 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,7 +8284,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 128.778 48.6156 90)
+			(at 116.078 48.6156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +8293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 48.26 0)
+			(at 113.03 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8300,7 +8301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 48.26 0)
+			(at 113.03 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8309,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 48.26 0)
+			(at 113.03 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +8533,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 125.73 22.86 270)
+		(at 113.03 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8540,7 +8541,7 @@
 		(dnp no)
 		(uuid "3b197a04-eb0b-4e1d-938d-a34dbd9b60d7")
 		(property "Reference" "#PWR010"
-			(at 121.92 22.86 0)
+			(at 109.22 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +8550,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 128.778 23.241 90)
+			(at 116.078 23.241 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +8559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 22.86 0)
+			(at 113.03 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,7 +8567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 22.86 0)
+			(at 113.03 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8575,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 22.86 0)
+			(at 113.03 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10034,7 +10035,7 @@
 	)
 	(symbol
 		(lib_id "Alexander Symbols:AMS1117-3V3")
-		(at 114.3 19.05 0)
+		(at 101.6 19.05 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -10043,7 +10044,7 @@
 		(fields_autoplaced yes)
 		(uuid "a049686f-3537-4902-89ea-287329b31323")
 		(property "Reference" "U2"
-			(at 114.3 16.51 0)
+			(at 101.6 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10051,7 +10052,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3V3"
-			(at 114.3 19.05 0)
+			(at 101.6 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10059,7 +10060,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Library:AMS1117 SOT-223"
-			(at 114.3 14.732 0)
+			(at 101.6 14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10068,7 +10069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 19.05 0)
+			(at 101.6 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10077,7 +10078,7 @@
 			)
 		)
 		(property "Description" "AMS1117"
-			(at 114.3 15.24 0)
+			(at 101.6 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10242,7 +10243,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 31.75 0)
+		(at 101.6 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10250,7 +10251,7 @@
 		(dnp no)
 		(uuid "ae8a4aba-c86b-4608-ab3e-449a15554969")
 		(property "Reference" "#PWR09"
-			(at 114.3 38.1 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,7 +10260,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 35.56 0)
+			(at 101.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,7 +10268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 31.75 0)
+			(at 101.6 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 31.75 0)
+			(at 101.6 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 31.75 0)
+			(at 101.6 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10306,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 58.42 0)
+		(at 101.6 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10313,7 +10314,7 @@
 		(dnp no)
 		(uuid "b2d47690-c2a2-4d98-a37a-e0733ec6a6e8")
 		(property "Reference" "#PWR017"
-			(at 114.3 64.77 0)
+			(at 101.6 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10323,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 62.23 0)
+			(at 101.6 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,7 +10331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 58.42 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10338,7 +10339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 58.42 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10346,7 +10347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 58.42 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10368,7 +10369,7 @@
 	)
 	(symbol
 		(lib_id "Alexander Symbols:AMS1117-5V")
-		(at 114.3 44.45 0)
+		(at 101.6 44.45 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -10377,7 +10378,7 @@
 		(fields_autoplaced yes)
 		(uuid "bee4e7e3-7099-4249-bba5-b699bd1b055d")
 		(property "Reference" "U3"
-			(at 114.3 41.91 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10386,7 @@
 			)
 		)
 		(property "Value" "AMS1117-5V"
-			(at 114.3 44.45 0)
+			(at 101.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10394,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Library:AMS1117 SOT-223"
-			(at 114.3 40.132 0)
+			(at 101.6 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 44.45 0)
+			(at 101.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,7 +10412,7 @@
 			)
 		)
 		(property "Description" "AMS1117"
-			(at 114.3 40.386 0)
+			(at 101.6 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10702,7 +10703,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 102.87 48.26 90)
+		(at 90.17 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10710,7 +10711,7 @@
 		(dnp no)
 		(uuid "c75f8b0c-fb69-4574-9273-b3f0755bfeaa")
 		(property "Reference" "#PWR015"
-			(at 106.68 48.26 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +10720,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 99.822 47.879 90)
+			(at 87.122 47.879 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +10729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 48.26 0)
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10737,7 +10738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 48.26 0)
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +10747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 48.26 0)
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
