@@ -6341,6 +6341,12 @@
 		(uuid "89f1dd14-52bc-47f0-bed7-fd9adeb49d6c")
 	)
 	(junction
+		(at 149.86 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "944384d6-a4e7-4bb1-b67c-7cfbb57ec45d")
+	)
+	(junction
 		(at 69.85 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6443,6 +6449,16 @@
 			(type default)
 		)
 		(uuid "0e0136b9-556d-4144-8afb-b6c7b40c420d")
+	)
+	(wire
+		(pts
+			(xy 149.86 162.56) (xy 153.67 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5a4c8e-d5e1-4079-bf19-8e8f9836933d")
 	)
 	(wire
 		(pts
@@ -6556,7 +6572,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 162.56) (xy 153.67 162.56)
+			(xy 146.05 162.56) (xy 149.86 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7043,6 +7059,16 @@
 			(type default)
 		)
 		(uuid "872607d0-52f7-432e-8ec7-f4e1e9890ce8")
+	)
+	(wire
+		(pts
+			(xy 149.86 162.56) (xy 149.86 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ee347c-d112-464f-b128-4fef0bbf113c")
 	)
 	(wire
 		(pts
@@ -10177,6 +10203,69 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d07896c-18ad-4ce2-9360-a1722be20d35")
+		(property "Reference" "#PWR018"
+			(at 149.86 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff081b7a-08f7-4cdd-a359-a56c6bdc2ce5")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
