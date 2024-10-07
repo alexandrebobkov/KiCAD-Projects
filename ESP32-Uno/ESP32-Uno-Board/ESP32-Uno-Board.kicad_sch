@@ -3830,169 +3830,6 @@
 				)
 			)
 		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -7172,6 +7009,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 121.92) (xy 175.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f1f616-4d7f-4cc9-a117-7786c1274a92")
+	)
+	(wire
+		(pts
 			(xy 34.29 46.99) (xy 31.75 46.99)
 		)
 		(stroke
@@ -7372,16 +7219,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 121.92) (xy 184.15 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30001f6-56c1-4c56-81c8-c29ab2779b32")
-	)
-	(wire
-		(pts
 			(xy 93.98 120.65) (xy 113.03 120.65)
 		)
 		(stroke
@@ -7482,23 +7319,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 127) (xy 171.45 127)
+			(xy 168.91 127) (xy 175.26 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d494eec6-9fca-4ebc-a714-f59cf7c14449")
-	)
-	(wire
-		(pts
-			(xy 168.91 121.92) (xy 175.26 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d80cbdb1-9628-48ff-96c9-a852db6c766e")
 	)
 	(wire
 		(pts
@@ -7582,7 +7409,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 129.54) (xy 171.45 129.54)
+			(xy 168.91 129.54) (xy 175.26 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7985,13 +7812,13 @@
 		(uuid "62b0ab1e-44f2-4ff6-bd87-0c33159e1c3c")
 	)
 	(label "CC1"
-		(at 171.45 127 0)
+		(at 175.26 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6614de49-1255-4f55-8dee-fab261855a9b")
 	)
@@ -8040,13 +7867,13 @@
 		(uuid "89e6dd45-27d8-4d7c-a898-8bb3b8a1d2c1")
 	)
 	(label "VUSB"
-		(at 184.15 121.92 0)
+		(at 175.26 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "93fc7e87-be42-490c-b4d7-8331f5790d7c")
 	)
@@ -8238,13 +8065,13 @@
 		(uuid "de819ae4-b245-474b-a426-865ba877b8a2")
 	)
 	(label "CC2"
-		(at 171.45 129.54 0)
+		(at 175.26 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "dedd7958-7ccd-408b-a4ed-3c29ab85e83b")
 	)
@@ -9412,92 +9239,6 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 179.07 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cd2b41a-df70-48b2-a4e8-7926c780a844")
-		(property "Reference" "D1"
-			(at 179.07 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 179.07 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1210_3225Metric"
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "888e5973-235c-44df-b8ed-22eb85121aa0")
-		)
-		(pin "2"
-			(uuid "245785c6-349f-4ad8-b2e1-0ede56038d0c")
-		)
-		(instances
-			(project "ESP32-Uno-Board"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1")
 					(unit 1)
 				)
 			)
