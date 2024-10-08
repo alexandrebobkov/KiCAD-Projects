@@ -9107,7 +9107,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 154.94) (xy 114.3 154.94)
+			(xy 105.41 154.94) (xy 114.3 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9842,6 +9842,17 @@
 		)
 		(uuid "f0d21002-8dc0-4414-ae5e-d449be6cf5e6")
 	)
+	(label "SCL_3V3"
+		(at 114.3 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff4761a2-41e5-409a-9098-4d2500e3f8a2")
+	)
 	(global_label "VIN"
 		(shape passive)
 		(at 20.32 106.68 180)
@@ -9866,7 +9877,7 @@
 	)
 	(global_label "SCL_3V3"
 		(shape bidirectional)
-		(at 113.03 154.94 180)
+		(at 105.41 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9876,7 +9887,7 @@
 		)
 		(uuid "30e28ebc-9cb7-4154-85f2-639bd903c94e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.9507 154.94 0)
+			(at 93.3307 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,6 +12483,143 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander Symbols:YC324-FK-075K1L")
+		(at 177.8 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9685353-3500-41c3-8a30-5cdd2929c58b")
+		(property "Reference" "R9"
+			(at 177.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "YC324-FK-5K1"
+			(at 177.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Library:R-ARRAY_RESCAXS127P508X320X70-8N"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V.9"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Yageo"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "22941"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 177.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb2d31d6-f092-4427-8226-c33f7ab40efb")
+		)
+		(pin "1"
+			(uuid "103db88d-bd8f-4d15-a537-3a3528d9a435")
+		)
+		(pin "3"
+			(uuid "0facf664-22c1-49fc-a545-a86f154a5d8a")
+		)
+		(pin "4"
+			(uuid "1820ab16-6c3d-4757-a6cd-cfa6e29f620f")
+		)
+		(pin "5"
+			(uuid "a909052f-1e34-42ef-8ee8-3d1852ef4108")
+		)
+		(pin "7"
+			(uuid "65288028-08b0-422d-970f-540351e63bd3")
+		)
+		(pin "6"
+			(uuid "e9717c99-acd7-4243-878b-6802774f9075")
+		)
+		(pin "8"
+			(uuid "026450ed-56f0-4a5b-afa3-e2970e1112c9")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R9")
 					(unit 1)
 				)
 			)
