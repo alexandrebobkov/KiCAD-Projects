@@ -189,6 +189,8 @@
 	(net 70 "unconnected-(U6-IO35-Pad28)")
 	(net 71 "unconnected-(U6-IO39-Pad32)")
 	(net 72 "unconnected-(U6-IO21-Pad23)")
+	(net 73 "VIN")
+	(net 74 "Net-(D2-K)")
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 		(locked yes)
 		(layer "F.Cu")
@@ -2538,6 +2540,280 @@
 			)
 		)
 	)
+	(footprint "Alexander Library:AMS1117 SOT-223"
+		(layer "F.Cu")
+		(uuid "5080d715-884c-4b8a-85b5-638d13513e36")
+		(at 142.3698 67.8098)
+		(descr "module CMS SOT223 4 pins")
+		(tags "CMS SOT")
+		(property "Reference" "U5"
+			(at 0 -4.5 0)
+			(layer "F.SilkS")
+			(uuid "5a40e053-a10b-4436-abf6-84f91037ac14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "LM1117MP-3.3"
+			(at 0 5.08 0)
+			(layer "F.Fab")
+			(uuid "a6b18d53-f3b9-4bb2-bf47-5956bfb7f887")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Library:AMS1117 SOT-223"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffa6bd7a-fd4a-45b7-a7d8-d0746b547e89")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "513d5bdf-2306-48d8-905b-42ed2cf4b89f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "696545ff-54e8-4581-9c06-cb086dd82a3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOT?223*")
+		(path "/ab8f8361-2d13-4941-91a1-3b4c0749d145")
+		(sheetname "Root")
+		(sheetfile "ESP32-Uno-Board.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -1.85 -3.41)
+			(end 1.91 -3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "972d0606-4521-4937-bb77-4725bbe5d713")
+		)
+		(fp_line
+			(start -1.85 3.41)
+			(end 1.91 3.41)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "06d76890-e011-4106-9383-8ed3a1025c53")
+		)
+		(fp_line
+			(start 1.91 -3.41)
+			(end 1.91 -2.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eff9f27e-3e75-414a-90fd-db8682761f77")
+		)
+		(fp_line
+			(start 1.91 3.41)
+			(end 1.91 2.15)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a582d7d3-2aea-4838-a484-06e4bf67edbf")
+		)
+		(fp_poly
+			(pts
+				(xy -3.13 -3.31) (xy -3.37 -3.64) (xy -2.89 -3.64) (xy -3.13 -3.31)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "f8495db1-2a6f-479e-b587-5691f6197bc3")
+		)
+		(fp_line
+			(start -4.4 -3.6)
+			(end -4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1810ba89-1f11-4669-a801-f4b170972687")
+		)
+		(fp_line
+			(start -4.4 3.6)
+			(end 4.4 3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "091f6768-3338-437f-9e96-a94598bdfaca")
+		)
+		(fp_line
+			(start 4.4 -3.6)
+			(end -4.4 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "502061b6-baea-4caa-af12-914fc200855a")
+		)
+		(fp_line
+			(start 4.4 3.6)
+			(end 4.4 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "76c72981-c5a0-4dea-95ee-de4b14dda427")
+		)
+		(fp_line
+			(start -1.85 -2.3)
+			(end -1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e99bc86-44e0-43fb-8245-d7d1c13e6dff")
+		)
+		(fp_line
+			(start -1.85 -2.3)
+			(end -0.8 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fc79cd84-8b71-4504-9c5d-1923cc4b1cc0")
+		)
+		(fp_line
+			(start -1.85 3.35)
+			(end 1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7f562539-1b3c-4e76-8c06-3736a7cd1eb0")
+		)
+		(fp_line
+			(start -0.8 -3.35)
+			(end 1.85 -3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8f3e623b-0a66-465a-920e-5f12b03a6b73")
+		)
+		(fp_line
+			(start 1.85 -3.35)
+			(end 1.85 3.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2c233a4d-9914-45e9-a5b5-9043f21a577a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "c2036f16-d1df-4534-9621-1979a2ff264e")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -3.15 -2.3)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "ad449952-72c6-4180-9743-84026c881c0a")
+		)
+		(pad "2" smd roundrect
+			(at -3.15 0)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 26 "+3V3")
+			(pinfunction "VO")
+			(pintype "power_out")
+			(uuid "814c3cd2-99ad-4f49-93ef-61dfa37251bb")
+		)
+		(pad "3" smd roundrect
+			(at -3.15 2.3)
+			(size 2 1.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net 3 "+5V")
+			(pinfunction "VI")
+			(pintype "power_in")
+			(uuid "f1471aca-02fb-448e-8537-8b6e0be69f62")
+		)
+		(pad "4" smd roundrect
+			(at 3.15 0)
+			(size 2 3.8)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.25)
+			(uuid "11e95dc1-3492-4509-95aa-0f3796441fda")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Alexander Library:R-ARRAY_RESCAXS127P508X320X70-8N"
 		(layer "F.Cu")
 		(uuid "61039828-8163-4145-9e2f-b5083539c982")
@@ -2872,6 +3148,383 @@
 			(uuid "fb45f6bd-37f7-4972-ae0b-fcda5e8b9161")
 		)
 	)
+	(footprint "Alexander Library:SOP-8L_DIO"
+		(layer "F.Cu")
+		(uuid "61d82361-180f-4c96-b88b-ef439116cd2c")
+		(at 127.94 87.3)
+		(tags "AP1509-50SG-13 ")
+		(property "Reference" "U4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2fdbbf06-3503-481d-9842-0012c7e3627e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "AP1509-50SG-13"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5d71e507-0cbf-431a-a10b-39a4709050fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Library:SOP-8L_DIO"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9c8f6d5-65ce-4c39-a5f0-ac320ea9f11f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "AP1509-50SG-13"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5a71809-5824-44b4-be57-8cd141a823c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d159436d-7395-457e-9c97-e9d00800c607")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SOP-8L_DIO")
+		(path "/44a19e08-c8e1-4b31-98d9-c33722b26425")
+		(sheetname "Root")
+		(sheetfile "ESP32-Uno-Board.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.102 2.602)
+			(end 2.102 2.602)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "14b3ffc1-43e6-475b-848c-6b308e39a95d")
+		)
+		(fp_line
+			(start 2.102 -2.602)
+			(end -2.102 -2.602)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "37d4e0b7-367d-429a-856c-a312245e4604")
+		)
+		(fp_line
+			(start 2.102 -0.01433)
+			(end 2.102 -1.28433)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9c9f5940-9a48-4d95-8cdb-be9860875aed")
+		)
+		(fp_line
+			(start 2.102 1.25567)
+			(end 2.102 -0.01433)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "61d5f767-b14e-4fb1-8588-29a8e50a5997")
+		)
+		(fp_line
+			(start -3.729 -2.459)
+			(end -2.229 -2.459)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ed99fba4-501b-426e-b4b3-2651e0a52c55")
+		)
+		(fp_line
+			(start -3.729 2.459)
+			(end -3.729 -2.459)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "766e42ec-fb04-431f-8e27-9ffc13eb08a6")
+		)
+		(fp_line
+			(start -3.729 2.459)
+			(end -2.229 2.459)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a6178881-f4e9-494d-8358-6cfc5e402f45")
+		)
+		(fp_line
+			(start -2.229 -2.729)
+			(end 2.229 -2.729)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "389596f8-f910-446e-a77a-e56ff8d67f95")
+		)
+		(fp_line
+			(start -2.229 -2.459)
+			(end -2.229 -2.729)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2545ed07-5395-43fb-bed6-b7f88687cf46")
+		)
+		(fp_line
+			(start -2.229 2.729)
+			(end -2.229 2.459)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d2304a6-4707-4363-ab4d-b2b5eb8e461f")
+		)
+		(fp_line
+			(start 2.229 -2.729)
+			(end 2.229 -2.459)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7cca9ec7-051b-45e6-9583-eb64e68f81a4")
+		)
+		(fp_line
+			(start 2.229 2.459)
+			(end 2.229 2.729)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2f1510a9-6b06-4354-9b3a-08177e864887")
+		)
+		(fp_line
+			(start 2.229 2.729)
+			(end -2.229 2.729)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a0db8a2a-3777-4529-bc9d-2de040da4797")
+		)
+		(fp_line
+			(start 3.729 -2.459)
+			(end 2.229 -2.459)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48f10905-01b4-4880-a5f0-09c5e6f4035a")
+		)
+		(fp_line
+			(start 3.729 -2.459)
+			(end 3.729 2.459)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f72d24be-dd93-401d-a5b6-780d5eee08ee")
+		)
+		(fp_line
+			(start 3.729 2.459)
+			(end 2.229 2.459)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c52df274-65ae-464d-9252-a02007deb5ac")
+		)
+		(fp_line
+			(start -1.975 -2.475)
+			(end -1.975 2.475)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e743dff8-fabc-4ce1-8247-17eb6e7d5cff")
+		)
+		(fp_line
+			(start -1.975 2.475)
+			(end 1.975 2.475)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "15d14d43-e58b-4f16-b3dc-85b3d67138f8")
+		)
+		(fp_line
+			(start 1.975 -2.475)
+			(end -1.975 -2.475)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9f6c32f5-fb06-46f4-88de-f0d724f600a0")
+		)
+		(fp_line
+			(start 1.975 2.475)
+			(end 1.975 -2.475)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "85238d11-7e9e-41f2-a901-497c33937790")
+		)
+		(fp_arc
+			(start 0.3048 -2.475)
+			(mid 0 -2.1702)
+			(end -0.3048 -2.475)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c5094d9-8996-4fbf-b540-7ad21ee0d6f1")
+		)
+		(fp_circle
+			(center -1.721 -1.905)
+			(end -1.721 -1.905)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "13f17115-638a-4dd7-8f76-e3bc1573a5c0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5303cd8a-6c07-47db-8ed3-12b0473b2f16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -2.7 -1.905)
+			(size 1.55 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 73 "VIN")
+			(pinfunction "VIN")
+			(pintype "input")
+			(uuid "7e13de44-ef88-4db4-9a0d-7c4002205655")
+		)
+		(pad "2" smd oval
+			(at -2.7 -0.635)
+			(size 1.55 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 74 "Net-(D2-K)")
+			(pinfunction "OUTPUT")
+			(pintype "power_out")
+			(uuid "90ccbee2-dbc9-4608-b3bb-326374ed1516")
+		)
+		(pad "3" smd oval
+			(at -2.7 0.635)
+			(size 1.55 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 3 "+5V")
+			(pinfunction "FB")
+			(pintype "input")
+			(uuid "d523bf89-2c46-4ffe-a8d7-034fd8d42297")
+		)
+		(pad "4" smd oval
+			(at -2.7 1.905)
+			(size 1.55 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "SD")
+			(pintype "input")
+			(uuid "cbe3cb07-8e5f-418a-a9c8-980db36ebf83")
+		)
+		(pad "5" smd oval
+			(at 2.7 1.905)
+			(size 1.55 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "37a75eba-72b3-4433-aa1c-13ec5f13ebd7")
+		)
+		(pad "6" smd oval
+			(at 2.7 0.635)
+			(size 1.55 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "d18e4608-34f9-4b99-89b7-389454ad226c")
+		)
+		(pad "7" smd oval
+			(at 2.7 -0.635)
+			(size 1.55 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "27591b39-b67d-4315-adf9-195971070436")
+		)
+		(pad "8" smd oval
+			(at 2.7 -1.905)
+			(size 1.55 0.6)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "GND")
+			(pintype "power_in")
+			(uuid "ef3912ad-20a9-480c-8d11-70c0308e8bd5")
+		)
+	)
 	(footprint "Arduino_MountingHole:MountingHole_3.2mm"
 		(locked yes)
 		(layer "F.Cu")
@@ -2977,7 +3630,7 @@
 	(footprint "Alexander Library:AMS1117 SOT-223"
 		(layer "F.Cu")
 		(uuid "7903647c-9913-4071-bb8f-0cecdfd7e53e")
-		(at 140.7 87.3 90)
+		(at 182.55 68.25 90)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U3"
@@ -3250,7 +3903,7 @@
 	(footprint "Alexander Library:AMS1117 SOT-223"
 		(layer "F.Cu")
 		(uuid "9924222c-e955-49bc-9978-3f55dc59ef7e")
-		(at 125.4 82.22)
+		(at 129.21 68.25)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U2"
