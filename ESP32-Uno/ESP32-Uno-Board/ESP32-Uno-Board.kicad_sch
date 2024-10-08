@@ -754,20 +754,20 @@
 				)
 			)
 		)
-		(symbol "Alexander Symbols:AMS1117-3V3"
+		(symbol "Alexander Symbols:AMS1117-5V"
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 -0.254 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AMS1117-3V3"
-				(at -0.508 1.778 0)
+			(property "Value" "AMS1117-5V"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -793,7 +793,7 @@
 				)
 			)
 			(property "Description" "AMS1117"
-				(at 0 3.81 0)
+				(at 0 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -801,7 +801,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "AMS1117 3V3"
+			(property "ki_keywords" "AMS1117 5V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -810,7 +810,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AMS1117-3V3_0_1"
+			(symbol "AMS1117-5V_0_1"
 				(rectangle
 					(start -5.08 -8.89)
 					(end 5.08 -1.905)
@@ -823,7 +823,7 @@
 					)
 				)
 			)
-			(symbol "AMS1117-3V3_1_1"
+			(symbol "AMS1117-5V_1_1"
 				(pin power_out line
 					(at 0 -11.43 90)
 					(length 2.54)
@@ -8223,6 +8223,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 49.53) (xy 116.84 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da0305f-1ddf-4abe-a904-1b5e7a25b1e8")
+	)
+	(wire
+		(pts
 			(xy 85.09 96.52) (xy 85.09 100.33)
 		)
 		(stroke
@@ -8360,6 +8370,16 @@
 			(type default)
 		)
 		(uuid "5023c000-91bb-429b-a1c3-793a6ea02e20")
+	)
+	(wire
+		(pts
+			(xy 107.95 57.15) (xy 107.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5260ca6b-907e-4dc6-b02d-de3096e0b5e9")
 	)
 	(wire
 		(pts
@@ -8643,16 +8663,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 31.75) (xy 107.95 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c59307d-1738-4491-b7fb-815e774fde3d")
-	)
-	(wire
-		(pts
 			(xy 233.68 101.6) (xy 233.68 104.14)
 		)
 		(stroke
@@ -8680,6 +8690,16 @@
 			(type solid)
 		)
 		(uuid "9377eb1a-3b12-438c-8ebd-f86ace1e8d25")
+	)
+	(wire
+		(pts
+			(xy 99.06 49.53) (xy 100.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938571ea-ce46-45b9-b134-b4411026e248")
 	)
 	(wire
 		(pts
@@ -8923,16 +8943,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 24.13) (xy 116.84 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c69edfea-7eb5-45af-b0fe-ff520a694e3c")
-	)
-	(wire
-		(pts
 			(xy 62.23 41.91) (xy 74.93 41.91)
 		)
 		(stroke
@@ -8960,16 +8970,6 @@
 			(type default)
 		)
 		(uuid "cb611ca4-6126-45fe-90db-4c7f70051c8c")
-	)
-	(wire
-		(pts
-			(xy 99.06 24.13) (xy 100.33 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbcd74f7-7e14-4a74-a94b-0b532d62ed86")
 	)
 	(wire
 		(pts
@@ -10475,72 +10475,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 99.06 24.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "03e1fd0b-a3bd-41ac-add8-ae15708c7d13")
-		(property "Reference" "#PWR08"
-			(at 102.87 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 96.012 23.749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ae62726-118a-4302-9541-e44f0cc9fd32")
-		)
-		(instances
-			(project "ESP32-Uno-Board"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 196.85 101.6 0)
 		(unit 1)
@@ -10605,6 +10539,70 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 116.84 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a122a85-4703-42fd-bec8-5428bc889385")
+		(property "Reference" "#PWR016"
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 119.888 49.8856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b78c896b-e6c6-409c-a2de-436eb792b7bb")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10807,70 +10805,6 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 116.84 24.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3b197a04-eb0b-4e1d-938d-a34dbd9b60d7")
-		(property "Reference" "#PWR010"
-			(at 113.03 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 119.888 24.511 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc841b35-c809-48f2-9082-64bef7ae498d")
-		)
-		(instances
-			(project "ESP32-Uno-Board"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12350,77 +12284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alexander Symbols:AMS1117-3V3")
-		(at 107.95 20.32 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a049686f-3537-4902-89ea-287329b31323")
-		(property "Reference" "U2"
-			(at 107.95 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMS1117-3V3"
-			(at 107.95 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Alexander Library:AMS1117 SOT-223"
-			(at 107.95 16.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "AMS1117"
-			(at 107.95 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1418a4eb-3f8d-42a2-89e8-f7045d35cdda")
-		)
-		(pin "2"
-			(uuid "c2c7e35b-e0f6-43db-b277-ec0496ccb3ab")
-		)
-		(pin "1"
-			(uuid "00daa3df-9998-415e-93c9-b3a2cc71656a")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 177.8 93.98 0)
 		(unit 1)
@@ -12559,15 +12422,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 33.02 0)
+		(at 107.95 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ae8a4aba-c86b-4608-ab3e-449a15554969")
-		(property "Reference" "#PWR09"
-			(at 107.95 39.37 0)
+		(uuid "b2d47690-c2a2-4d98-a37a-e0733ec6a6e8")
+		(property "Reference" "#PWR017"
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12576,7 +12439,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 36.83 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,7 +12447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 33.02 0)
+			(at 107.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12592,7 +12455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 33.02 0)
+			(at 107.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12600,7 +12463,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 33.02 0)
+			(at 107.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12609,12 +12472,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a322714-de48-4169-953e-3bbc9750dd42")
+			(uuid "65b94aff-cd01-4820-bebf-a5aef8e277bd")
 		)
 		(instances
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR09")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12808,6 +12671,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Alexander Symbols:AMS1117-5V")
+		(at 107.95 45.72 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bee4e7e3-7099-4249-bba5-b699bd1b055d")
+		(property "Reference" "U3"
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-5V"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Library:AMS1117 SOT-223"
+			(at 107.95 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AMS1117"
+			(at 107.95 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b5f01efc-1f8c-4c1d-a0a8-5a81ae71fb04")
+		)
+		(pin "1"
+			(uuid "a07f2fbc-7628-47e5-b965-21fc9b562dbd")
+		)
+		(pin "3"
+			(uuid "b1c3e1eb-d5a2-4215-a552-b7b85a10b6f2")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 151.13 60.96 0)
 		(unit 1)
@@ -12872,6 +12806,72 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 99.06 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c75f8b0c-fb69-4574-9273-b3f0755bfeaa")
+		(property "Reference" "#PWR015"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 96.012 49.149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6ae2b3b-64ad-4335-85fc-c4a2459504f0")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
