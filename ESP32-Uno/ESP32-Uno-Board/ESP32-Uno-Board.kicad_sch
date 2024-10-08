@@ -8337,7 +8337,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 154.94) (xy 133.35 154.94)
+			(xy 130.81 154.94) (xy 137.16 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8354,6 +8354,16 @@
 			(type default)
 		)
 		(uuid "57e0a670-135b-4aa2-8324-764ec6de1446")
+	)
+	(wire
+		(pts
+			(xy 160.02 148.59) (xy 167.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f61735-fd7e-411c-86d2-26582010a423")
 	)
 	(wire
 		(pts
@@ -9588,6 +9598,17 @@
 		)
 		(uuid "8885a9dc-224d-44c5-8601-05c1d9983e09")
 	)
+	(label "SCL_5V"
+		(at 160.02 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "899e3c7e-a394-49b8-92f2-738019f62bf2")
+	)
 	(label "8"
 		(at 74.93 49.53 180)
 		(fields_autoplaced yes)
@@ -9841,6 +9862,17 @@
 		)
 		(uuid "e8055bc4-50f2-4c00-b6a7-6a8c65380d08")
 	)
+	(label "SCL_5V"
+		(at 130.81 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e96b96f1-80fc-44c7-98e7-bec2c12cc56c")
+	)
 	(label "SCL{slash}A5"
 		(at 21.59 72.39 0)
 		(fields_autoplaced yes)
@@ -10008,7 +10040,7 @@
 	)
 	(global_label "SCL_5V"
 		(shape bidirectional)
-		(at 133.35 154.94 0)
+		(at 137.16 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10018,7 +10050,7 @@
 		)
 		(uuid "e11bd57e-784b-4636-8549-fa74eb746d98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.2198 154.94 0)
+			(at 148.0298 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13036,6 +13068,73 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 187.96 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b580aa76-a53e-4beb-881d-cc18317014bd")
+		(property "Reference" "#PWR012"
+			(at 184.15 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 191.77 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa0a0e64-0e16-4549-bfd2-3b3c2469afe2")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
