@@ -7042,6 +7042,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 100.33) (xy 224.79 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d63fc1-60ad-4939-b8e3-355765efd1d3")
+	)
+	(wire
+		(pts
 			(xy 255.27 113.03) (xy 264.16 113.03)
 		)
 		(stroke
@@ -7082,7 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 39.37) (xy 165.1 39.37)
+			(xy 139.7 39.37) (xy 148.59 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8320,6 +8330,17 @@
 		)
 		(uuid "0a26de78-f75c-40f7-bb72-a5f1da05e9b1")
 	)
+	(label "~{RESET}"
+		(at 217.17 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c60a15b-e99e-4fcd-8d35-00753e724308")
+	)
 	(label "4"
 		(at 74.93 67.31 180)
 		(fields_autoplaced yes)
@@ -8386,7 +8407,7 @@
 		)
 		(uuid "26c2c680-940f-46ad-9110-ab0f366fa9fd")
 	)
-	(label "GPIO8"
+	(label "SDA"
 		(at 218.44 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8727,7 +8748,7 @@
 		)
 		(uuid "a4162aec-e0b0-4cfa-9af7-e8f9b05484c7")
 	)
-	(label "GPIO9"
+	(label "SCL"
 		(at 218.44 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8892,6 +8913,17 @@
 		)
 		(uuid "ccb58899-a82d-403c-b30b-ee351d622e9c")
 	)
+	(label "3V3"
+		(at 139.7 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd3d2e1f-3b5d-457d-8b84-096b71a0bcf5")
+	)
 	(label "*5"
 		(at 74.93 64.77 180)
 		(fields_autoplaced yes)
@@ -8902,6 +8934,17 @@
 			(justify right bottom)
 		)
 		(uuid "d9a65242-9c26-45cd-9a55-3e69f0d77784")
+	)
+	(label "~{RESET}"
+		(at 148.59 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daef7559-14f0-48b4-a7c0-96fb58dc2551")
 	)
 	(label "IOREF"
 		(at 19.05 34.29 0)
@@ -9068,28 +9111,6 @@
 			)
 		)
 	)
-	(global_label "3V3"
-		(shape input)
-		(at 139.7 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3612596b-1ae0-4e1b-9bef-d36bc69a5a69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 21.4472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_5V"
 		(shape bidirectional)
 		(at 139.7 179.07 0)
@@ -9130,28 +9151,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EN"
-		(shape input)
-		(at 165.1 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf3b285d-e6a6-4065-8963-b250591cadf6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.5647 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
