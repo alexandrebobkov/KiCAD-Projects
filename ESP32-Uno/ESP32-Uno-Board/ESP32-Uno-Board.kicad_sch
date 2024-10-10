@@ -6542,7 +6542,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 171.45) (xy 87.63 171.45)
+			(xy 78.74 147.32) (xy 82.55 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7652,7 +7652,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 171.45) (xy 63.5 171.45)
+			(xy 67.31 147.32) (xy 71.12 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7962,7 +7962,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 173.99) (xy 63.5 173.99)
+			(xy 67.31 156.21) (xy 71.12 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8102,7 +8102,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 173.99) (xy 87.63 173.99)
+			(xy 78.74 156.21) (xy 82.55 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8384,7 +8384,7 @@
 		(uuid "17eeb170-8005-4a91-ba1a-4011d4255b87")
 	)
 	(label "GND"
-		(at 87.63 171.45 180)
+		(at 82.55 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8560,7 +8560,7 @@
 		(uuid "54be04e4-fffa-4f7f-8a5f-d0de81314e8f")
 	)
 	(label "GND"
-		(at 87.63 173.99 180)
+		(at 82.55 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8813,7 +8813,7 @@
 		(uuid "b79c56b3-dc32-4ebb-9ec5-4d67c60ae897")
 	)
 	(label "CC2"
-		(at 59.69 173.99 0)
+		(at 67.31 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9000,7 +9000,7 @@
 		(uuid "e7ce99b8-ca22-4c56-9e55-39d32c709f3c")
 	)
 	(label "CC1"
-		(at 59.69 171.45 0)
+		(at 67.31 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9971,6 +9971,74 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 156.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16d4dd72-4661-4ddb-a2a9-b652d1c310c6")
+		(property "Reference" "R6"
+			(at 74.93 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 74.93 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 74.93 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4aafca3-382e-4f1f-9640-d0f9ad4603a6")
+		)
+		(pin "2"
+			(uuid "56f5d4ba-3200-4b66-8c1c-6d84d790490a")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13105,6 +13173,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 74.93 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf4a3896-d75a-4dc1-a0c5-ad36ac4c0259")
+		(property "Reference" "R11"
+			(at 74.93 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5K1"
+			(at 74.93 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 74.93 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c69cabb1-5eb9-472c-934d-245e96434b6a")
+		)
+		(pin "2"
+			(uuid "6ab3088d-49b3-49f6-8727-15ffa2feaae6")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 64.77 0)
 		(unit 1)
@@ -13234,143 +13370,6 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Alexander Symbols:YC324-FK-075K1L")
-		(at 73.66 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da749212-efed-490d-b99e-ccc7dababfd3")
-		(property "Reference" "R6"
-			(at 73.66 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "YC324-FK-5K1"
-			(at 73.66 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Alexander Library:R-ARRAY_RESCAXS127P508X320X70-8N"
-			(at 73.66 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
-			(at 73.66 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "V.9"
-			(at 73.66 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Yageo"
-			(at 73.66 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" "22941"
-			(at 73.66 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 73.66 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "06b3d608-4f45-4a90-96a5-9300f86f0f43")
-		)
-		(pin "1"
-			(uuid "c03f09cc-8509-4c22-854b-865a5aa6fb37")
-		)
-		(pin "3"
-			(uuid "6e630feb-3ca6-4aa5-882c-e7b2189e79b1")
-		)
-		(pin "4"
-			(uuid "77037f53-6c33-48f2-8cb6-b10c3ac83ed9")
-		)
-		(pin "5"
-			(uuid "c1af16a6-c0ed-4d19-9b2a-0681e4778d2f")
-		)
-		(pin "7"
-			(uuid "050c2504-3370-4faf-b6cf-71ac199589be")
-		)
-		(pin "6"
-			(uuid "f7eb5001-187f-4fd3-bfd4-e6faac778e77")
-		)
-		(pin "8"
-			(uuid "f04b2c14-b14a-41c2-b40a-1258414a93e9")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R6")
 					(unit 1)
 				)
 			)
