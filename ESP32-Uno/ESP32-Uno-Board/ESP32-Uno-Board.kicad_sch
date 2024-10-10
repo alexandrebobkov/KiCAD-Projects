@@ -7189,6 +7189,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 189.23) (xy 82.55 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45aa64bb-a837-4dda-afae-6133b65d509d")
+	)
+	(wire
+		(pts
 			(xy 54.61 156.21) (xy 63.5 156.21)
 		)
 		(stroke
@@ -7969,6 +7979,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 167.64) (xy 81.28 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc66d37b-1507-4cc9-af1c-be8aca19447a")
+	)
+	(wire
+		(pts
 			(xy 62.23 34.29) (xy 64.77 34.29)
 		)
 		(stroke
@@ -8116,6 +8136,16 @@
 			(type default)
 		)
 		(uuid "d0aba7b5-1324-4ead-8969-d4d1bca44554")
+	)
+	(wire
+		(pts
+			(xy 60.96 167.64) (xy 73.66 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ffc179-2b2c-4d87-ae38-ff05812d587a")
 	)
 	(wire
 		(pts
@@ -8974,6 +9004,17 @@
 		)
 		(uuid "779a79c9-3065-4221-8f38-bf76163a2901")
 	)
+	(label "LED_VUSB"
+		(at 60.96 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b9ff0aa-09af-41c5-9a83-769dc1b379fd")
+	)
 	(label "A1"
 		(at 215.9 133.35 0)
 		(fields_autoplaced yes)
@@ -9006,6 +9047,17 @@
 			(justify right bottom)
 		)
 		(uuid "873d2c88-519e-482f-a3ed-2484e5f9417e")
+	)
+	(label "VUSB"
+		(at 86.36 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8844ae3b-bf61-4771-91da-5daec7289fbe")
 	)
 	(label "SDA{slash}A4"
 		(at 74.93 29.21 180)
@@ -9303,6 +9355,17 @@
 			(justify right bottom)
 		)
 		(uuid "c775d4e8-c37b-4e73-90c1-1c8d36333aac")
+	)
+	(label "LED_3V3"
+		(at 82.55 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb856b5f-8829-47a1-8eb8-a0e0fcd68072")
 	)
 	(label "SCL{slash}A5"
 		(at 74.93 26.67 180)
@@ -11216,6 +11279,74 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 77.47 167.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56e55ddb-867c-43d0-b926-1d2086a7f31c")
+		(property "Reference" "D3"
+			(at 75.8825 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 75.8825 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 77.47 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 77.47 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea1a6b61-6aa6-401e-87d6-762bdca6e1d6")
+		)
+		(pin "1"
+			(uuid "d8ba4414-101a-43a1-94b5-ac1fb5b6fd7a")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D3")
 					(unit 1)
 				)
 			)
