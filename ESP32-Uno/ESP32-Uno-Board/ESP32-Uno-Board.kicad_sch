@@ -6713,16 +6713,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 30.48) (xy 182.88 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "169fdf88-1773-4123-9bfb-900760ceb246")
-	)
-	(wire
-		(pts
 			(xy 139.7 39.37) (xy 139.7 48.26)
 		)
 		(stroke
@@ -7923,6 +7913,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 34.29) (xy 182.88 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba599ca9-268f-4250-a505-ba078bd1ad30")
+	)
+	(wire
+		(pts
 			(xy 54.61 161.29) (xy 54.61 163.83)
 		)
 		(stroke
@@ -8333,16 +8333,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 41.91) (xy 182.88 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f287d0bf-c205-4f4c-8a38-aef9cf317445")
-	)
-	(wire
-		(pts
 			(xy 116.84 27.94) (xy 114.3 27.94)
 		)
 		(stroke
@@ -8712,6 +8702,17 @@
 			(justify right bottom)
 		)
 		(uuid "0d8cfe6d-11bf-42b9-9752-f9a5a76bce7e")
+	)
+	(label "GPIO46"
+		(at 182.88 34.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16a0cb77-2f17-4707-ad96-6fe8620f7110")
 	)
 	(label "GPIO46"
 		(at 265.43 140.97 180)
@@ -9163,17 +9164,6 @@
 			(justify left bottom)
 		)
 		(uuid "a289f1c0-05cf-496c-897e-5b6152412bc2")
-	)
-	(label "3V3"
-		(at 182.88 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4162aec-e0b0-4cfa-9af7-e8f9b05484c7")
 	)
 	(label "SCL{slash}A5"
 		(at 215.9 128.27 0)
@@ -12550,76 +12540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 182.88 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b5e01a4-83a2-4cf8-b17a-c2b4c2069cb6")
-		(property "Reference" "R4"
-			(at 185.42 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 185.42 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistors SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 181.102 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a29fd5d-dbea-4a0a-85ce-d65a48aec3f9")
-		)
-		(pin "2"
-			(uuid "35ceb595-0d27-4859-a4ed-250dd4166d89")
-		)
-		(instances
-			(project "ESP32-Uno-Board"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 205.74 91.44 0)
 		(unit 1)
@@ -14655,7 +14575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 142.24 35.5599 0)
 			(effects
 				(font
