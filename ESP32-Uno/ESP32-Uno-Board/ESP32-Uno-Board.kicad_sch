@@ -6588,6 +6588,12 @@
 		(uuid "3dcc657b-55a1-48e0-9667-e01e7b6b08b5")
 	)
 	(junction
+		(at 48.26 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d90797f-6302-4a7a-849e-b0410a3ff0b7")
+	)
+	(junction
 		(at 54.61 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6622,12 +6628,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "944384d6-a4e7-4bb1-b67c-7cfbb57ec45d")
-	)
-	(junction
-		(at 40.64 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9939eecd-ee4a-4153-9491-e0935321b45a")
 	)
 	(junction
 		(at 114.3 154.94)
@@ -6670,6 +6670,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de16468e-e4f3-4b89-8915-b9797c170d06")
+	)
+	(junction
+		(at 40.64 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec5d1b2a-2675-46d0-a4f8-a9ce83da2ed7")
 	)
 	(junction
 		(at 130.81 179.07)
@@ -6736,6 +6742,16 @@
 			(type default)
 		)
 		(uuid "0a16164d-5f60-45af-8ff7-087046edb2ed")
+	)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 50.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aae3050-9b49-435c-9bf7-033556b60218")
 	)
 	(wire
 		(pts
@@ -7209,7 +7225,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 110.49) (xy 38.1 110.49)
+			(xy 40.64 107.95) (xy 38.1 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7359,7 +7375,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 107.95) (xy 40.64 107.95)
+			(xy 38.1 105.41) (xy 40.64 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7569,7 +7585,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 107.95) (xy 40.64 110.49)
+			(xy 40.64 105.41) (xy 40.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7639,6 +7655,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 123.19) (xy 48.26 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95839255-cfa5-47e6-844c-e05956506675")
+	)
+	(wire
+		(pts
 			(xy 53.34 143.51) (xy 59.69 143.51)
 		)
 		(stroke
@@ -7689,7 +7715,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 119.38) (xy 45.72 110.49)
+			(xy 48.26 124.46) (xy 48.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7736,16 +7762,6 @@
 			(type solid)
 		)
 		(uuid "aab97e46-23d6-4cbf-8684-537b94306d68")
-	)
-	(wire
-		(pts
-			(xy 45.72 110.49) (xy 40.64 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaf7a294-5120-43d9-a709-51b99ba02bf7")
 	)
 	(wire
 		(pts
@@ -8039,6 +8055,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 123.19) (xy 55.88 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db7e9198-b4ca-4c1b-854f-adf5c4835f2a")
+	)
+	(wire
+		(pts
+			(xy 40.64 107.95) (xy 40.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decd75b6-ed95-4172-b71c-78708997d28e")
+	)
+	(wire
+		(pts
 			(xy 215.9 118.11) (xy 224.79 118.11)
 		)
 		(stroke
@@ -8196,6 +8232,16 @@
 			(type default)
 		)
 		(uuid "f4252564-d04b-4aa0-a4bd-a464acd41510")
+	)
+	(wire
+		(pts
+			(xy 55.88 118.11) (xy 55.88 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4612550-32a7-40b9-98e3-79df7646b19b")
 	)
 	(wire
 		(pts
@@ -10155,6 +10201,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 55.88 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bc883d7-6850-45b2-b15d-63a047f7582d")
+		(property "Reference" "R11"
+			(at 58.42 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 58.42 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 54.102 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51b0b3ca-109b-41f6-8e8f-ba5ebb9359c9")
+		)
+		(pin "2"
+			(uuid "89514bd6-0f0d-40a3-971f-5832eea3e5bd")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alexander_Library_Symbols:SW_Push_SMD_6x3.5")
 		(at 157.48 48.26 0)
 		(unit 1)
@@ -10423,7 +10539,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 119.38 0)
+		(at 48.26 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10431,7 +10547,7 @@
 		(dnp no)
 		(uuid "2c8a7fe0-6a2f-4e7d-8f6e-f0cd24f2eef3")
 		(property "Reference" "#PWR024"
-			(at 45.72 125.73 0)
+			(at 48.26 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +10556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 123.19 0)
+			(at 48.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +10564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 119.38 0)
+			(at 48.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,7 +10572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 119.38 0)
+			(at 48.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,7 +10580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 119.38 0)
+			(at 48.26 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11983,7 +12099,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 30.48 107.95 0)
+		(at 30.48 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11991,7 +12107,7 @@
 		(dnp no)
 		(uuid "94ade0f8-dbab-4be9-a4c6-3afe283fd6b4")
 		(property "Reference" "J6"
-			(at 24.13 105.156 0)
+			(at 24.13 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11999,7 +12115,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 30.734 113.03 0)
+			(at 30.734 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12007,7 +12123,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
-			(at 31.75 108.966 0)
+			(at 31.75 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +12132,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 108.966 0)
+			(at 31.75 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,7 +12141,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 30.48 107.95 0)
+			(at 30.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14002,7 +14118,7 @@
 	)
 	(symbol
 		(lib_id "myparts:DMP6180SK3")
-		(at 81.28 107.95 90)
+		(at 55.88 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14011,7 +14127,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbc4f0aa-e5b4-46b9-9162-d8f12ef14d39")
 		(property "Reference" "Q3"
-			(at 81.28 100.838 90)
+			(at 55.88 95.758 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14019,7 +14135,7 @@
 			)
 		)
 		(property "Value" "DMP6180SK3"
-			(at 81.28 103.378 90)
+			(at 55.88 98.298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14027,7 +14143,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 81.28 107.95 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14036,7 +14152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 107.95 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14045,7 +14161,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 107.95 0)
+			(at 55.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
