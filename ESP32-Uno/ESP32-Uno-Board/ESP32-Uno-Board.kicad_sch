@@ -6576,6 +6576,12 @@
 		)
 	)
 	(junction
+		(at 55.88 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03ec8b35-30d6-4f22-99cc-d42d18e0012a")
+	)
+	(junction
 		(at 50.8 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6805,6 +6811,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 113.03) (xy 55.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137e5182-0caa-4ce5-ab75-449eb50e6201")
+	)
+	(wire
+		(pts
 			(xy 139.7 39.37) (xy 139.7 48.26)
 		)
 		(stroke
@@ -6832,6 +6848,16 @@
 			(type default)
 		)
 		(uuid "1992004b-b660-44df-a08a-63d0b60f8fb7")
+	)
+	(wire
+		(pts
+			(xy 66.04 113.03) (xy 55.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19da35f1-d051-46c2-a1f3-ee1fa7826408")
 	)
 	(wire
 		(pts
@@ -7415,6 +7441,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 102.87) (xy 66.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7391594d-d360-45c4-9bec-de74d2ff0245")
+	)
+	(wire
+		(pts
 			(xy 19.05 34.29) (xy 34.29 34.29)
 		)
 		(stroke
@@ -7612,6 +7648,16 @@
 			(type default)
 		)
 		(uuid "93172094-dbb0-42ea-baeb-040b691156d8")
+	)
+	(wire
+		(pts
+			(xy 55.88 114.3) (xy 55.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "937210e7-2eca-4e6d-a1c3-792a83e305d6")
 	)
 	(wire
 		(pts
@@ -7825,6 +7871,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 111.76) (xy 66.04 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b87036-c7c3-436c-9e74-9ccd788e9536")
+	)
+	(wire
+		(pts
 			(xy 67.31 147.32) (xy 71.12 147.32)
 		)
 		(stroke
@@ -7912,6 +7968,16 @@
 			(type solid)
 		)
 		(uuid "c12796ad-cf20-466f-9ab3-9cf441392c32")
+	)
+	(wire
+		(pts
+			(xy 66.04 102.87) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1dfa9a0-23d5-4389-a903-119d42d76c34")
 	)
 	(wire
 		(pts
@@ -8235,7 +8301,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 118.11) (xy 55.88 123.19)
+			(xy 55.88 121.92) (xy 55.88 123.19)
 		)
 		(stroke
 			(width 0)
@@ -10201,17 +10267,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 55.88 114.3 0)
+		(lib_id "Device:C_Polarized_Small")
+		(at 88.9 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bc883d7-6850-45b2-b15d-63a047f7582d")
-		(property "Reference" "R11"
-			(at 58.42 113.0299 0)
+		(uuid "0b9457a5-954c-4169-9ac1-c88c9254930b")
+		(property "Reference" "C4"
+			(at 89.916 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,8 +10284,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 58.42 115.5699 0)
+		(property "Value" "10uF"
+			(at 89.662 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10228,8 +10293,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 54.102 114.3 90)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10238,7 +10303,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 114.3 0)
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc70ce98-7c77-4595-b976-59c3dc9d9402")
+		)
+		(pin "2"
+			(uuid "8eeedc2c-b6f3-4ebf-a06a-5c412875d9f4")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bc883d7-6850-45b2-b15d-63a047f7582d")
+		(property "Reference" "R11"
+			(at 58.42 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 58.42 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 54.102 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10247,7 +10382,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 55.88 114.3 0)
+			(at 55.88 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10737,7 @@
 	)
 	(symbol
 		(lib_id "myparts:MMSZ52XXB")
-		(at 88.9 111.76 270)
+		(at 66.04 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10610,7 +10745,7 @@
 		(dnp no)
 		(uuid "2fd83f4e-d295-417a-98a2-b641640bf033")
 		(property "Reference" "D2"
-			(at 84.836 113.03 90)
+			(at 61.976 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10619,7 +10754,7 @@
 			)
 		)
 		(property "Value" "MMSZ52XXB"
-			(at 82.042 119.888 90)
+			(at 59.182 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10628,7 +10763,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 88.9 111.76 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10637,7 +10772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 111.76 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10646,7 +10781,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 111.76 0)
+			(at 66.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10800,6 +10935,75 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 77.47 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ecad144-5c22-478c-9ab2-f658bf2c9a2b")
+		(property "Reference" "C2"
+			(at 78.486 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 78.232 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e5bd3c-e593-404a-b544-9af635408faa")
+		)
+		(pin "2"
+			(uuid "763d9666-cb33-44eb-ae1c-612db9de53da")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -12961,6 +13165,75 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 100.33 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6d40fad-2521-4a53-a707-83e971ad9a75")
+		(property "Reference" "C5"
+			(at 101.346 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 101.092 113.792 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+			(at 100.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b94038fa-f94e-4f86-9f29-1fef6cf2d82f")
+		)
+		(pin "2"
+			(uuid "388fb3a4-d2ba-4e4e-87dd-fb71ad24c644")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C5")
 					(unit 1)
 				)
 			)
