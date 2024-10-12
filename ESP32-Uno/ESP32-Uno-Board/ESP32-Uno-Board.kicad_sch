@@ -6624,6 +6624,12 @@
 		(uuid "944384d6-a4e7-4bb1-b67c-7cfbb57ec45d")
 	)
 	(junction
+		(at 40.64 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9939eecd-ee4a-4153-9491-e0935321b45a")
+	)
+	(junction
 		(at 114.3 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7203,6 +7209,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 110.49) (xy 38.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a78b60d-2ced-4037-b134-0b72ea4e14fc")
+	)
+	(wire
+		(pts
 			(xy 62.23 39.37) (xy 74.93 39.37)
 		)
 		(stroke
@@ -7340,6 +7356,16 @@
 			(type solid)
 		)
 		(uuid "63f2b71b-521b-4210-bf06-ed65e330fccc")
+	)
+	(wire
+		(pts
+			(xy 38.1 107.95) (xy 40.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "656a4dd9-29c7-49bd-9029-82ce035e97d5")
 	)
 	(wire
 		(pts
@@ -7543,6 +7569,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 107.95) (xy 40.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fd73a6-4322-405f-a328-a48e46d646d7")
+	)
+	(wire
+		(pts
 			(xy 255.27 110.49) (xy 265.43 110.49)
 		)
 		(stroke
@@ -7653,6 +7689,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 119.38) (xy 45.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d9a45e-151a-48ee-bdc6-d365758c5318")
+	)
+	(wire
+		(pts
 			(xy 215.9 120.65) (xy 224.79 120.65)
 		)
 		(stroke
@@ -7690,6 +7736,16 @@
 			(type solid)
 		)
 		(uuid "aab97e46-23d6-4cbf-8684-537b94306d68")
+	)
+	(wire
+		(pts
+			(xy 45.72 110.49) (xy 40.64 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf7a294-5120-43d9-a709-51b99ba02bf7")
 	)
 	(wire
 		(pts
@@ -10366,8 +10422,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 45.72 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c8a7fe0-6a2f-4e7d-8f6e-f0cd24f2eef3")
+		(property "Reference" "#PWR024"
+			(at 45.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfa9947e-f762-4169-a323-7920102e8420")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "myparts:MMSZ52XXB")
-		(at 68.58 110.49 270)
+		(at 88.9 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10375,7 +10494,7 @@
 		(dnp no)
 		(uuid "2fd83f4e-d295-417a-98a2-b641640bf033")
 		(property "Reference" "D2"
-			(at 64.516 111.76 90)
+			(at 84.836 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,7 +10503,7 @@
 			)
 		)
 		(property "Value" "MMSZ52XXB"
-			(at 61.722 118.618 90)
+			(at 82.042 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10512,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 68.58 110.49 0)
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 110.49 0)
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10411,7 +10530,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 110.49 0)
+			(at 88.9 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11864,7 +11983,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 30.48 114.3 0)
+		(at 30.48 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11872,7 +11991,7 @@
 		(dnp no)
 		(uuid "94ade0f8-dbab-4be9-a4c6-3afe283fd6b4")
 		(property "Reference" "J6"
-			(at 24.13 111.506 0)
+			(at 24.13 105.156 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +11999,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 30.734 119.38 0)
+			(at 30.734 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,7 +12007,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
-			(at 31.75 115.316 0)
+			(at 31.75 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11897,7 +12016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 115.316 0)
+			(at 31.75 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11906,7 +12025,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 30.48 114.3 0)
+			(at 30.48 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13883,7 +14002,7 @@
 	)
 	(symbol
 		(lib_id "myparts:DMP6180SK3")
-		(at 60.96 106.68 90)
+		(at 81.28 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13892,7 +14011,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbc4f0aa-e5b4-46b9-9162-d8f12ef14d39")
 		(property "Reference" "Q3"
-			(at 60.96 99.568 90)
+			(at 81.28 100.838 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13900,7 +14019,7 @@
 			)
 		)
 		(property "Value" "DMP6180SK3"
-			(at 60.96 102.108 90)
+			(at 81.28 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,7 +14027,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 60.96 106.68 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13917,7 +14036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 106.68 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13926,7 +14045,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 106.68 0)
+			(at 81.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
