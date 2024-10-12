@@ -14568,6 +14568,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Alexander_Library_Symbols:SW_Push_SMD_6x3.5")
+		(at 195.58 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f92a4856-9c5a-4fa0-b611-15f3c0413459")
+		(property "Reference" "SW4"
+			(at 197.358 19.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_SMD_6x3.5"
+			(at 205.486 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:Button-Tacktile-TL1014BF160"
+			(at 195.58 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e935c1e4-b932-4122-bfd6-6b10aaeff945")
+		)
+		(pin "1"
+			(uuid "969e9f3a-b90e-450d-9ec3-9190d1e25ee3")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "myparts:DMP6180SK3")
 		(at 44.45 96.52 90)
 		(unit 1)
