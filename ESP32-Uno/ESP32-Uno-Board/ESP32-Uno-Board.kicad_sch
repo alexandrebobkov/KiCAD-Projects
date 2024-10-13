@@ -6842,6 +6842,12 @@
 		(uuid "ec71f778-8c8d-4347-9a42-400a61e1383e")
 	)
 	(junction
+		(at 163.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f115979f-4d51-47a7-802d-b761b586c68d")
+	)
+	(junction
 		(at 130.81 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6856,6 +6862,16 @@
 	(no_connect
 		(at 34.29 31.75)
 		(uuid "d181157c-7812-47e5-a0cf-9580c905fc86")
+	)
+	(wire
+		(pts
+			(xy 163.83 27.94) (xy 163.83 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0051ee41-3f00-49e8-b825-87bad2a5dc9d")
 	)
 	(wire
 		(pts
@@ -6986,6 +7002,16 @@
 			(type default)
 		)
 		(uuid "179a3dea-564b-4d87-853a-cf6b45d08e55")
+	)
+	(wire
+		(pts
+			(xy 163.83 38.1) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1829e0ca-4a19-4222-b47a-18561c256a00")
 	)
 	(wire
 		(pts
@@ -7459,6 +7485,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 39.37) (xy 163.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e3bfc7-f34c-40b1-96e9-28f3d162872d")
+	)
+	(wire
+		(pts
 			(xy 106.68 62.23) (xy 106.68 64.77)
 		)
 		(stroke
@@ -7649,7 +7685,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 59.69) (xy 182.88 63.5)
+			(xy 194.31 59.69) (xy 194.31 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8119,7 +8155,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 34.29) (xy 182.88 49.53)
+			(xy 194.31 34.29) (xy 194.31 49.53)
 		)
 		(stroke
 			(width 0)
@@ -8266,6 +8302,16 @@
 			(type solid)
 		)
 		(uuid "cfe99980-2d98-4372-b495-04c53027340b")
+	)
+	(wire
+		(pts
+			(xy 163.83 39.37) (xy 172.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffa807a-77f5-4735-9d32-c1e62f7eb181")
 	)
 	(wire
 		(pts
@@ -8456,6 +8502,16 @@
 			(type solid)
 		)
 		(uuid "e9bdd59b-3252-4c44-a357-6fa1af0c210c")
+	)
+	(wire
+		(pts
+			(xy 163.83 55.88) (xy 163.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea364d84-bf3d-4cfa-9cc5-11817485eb3e")
 	)
 	(wire
 		(pts
@@ -8902,7 +8958,7 @@
 		(uuid "0ebdb511-012e-4f69-9058-f75c9a407ad9")
 	)
 	(label "GPIO46"
-		(at 182.88 34.29 270)
+		(at 194.31 34.29 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9649,6 +9705,17 @@
 		)
 		(uuid "d47e7957-edab-4ef0-be69-0f8a6853a2fb")
 	)
+	(label "GPIO0"
+		(at 172.72 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7a73ef8-80e2-4f1e-b715-59cfd7aaa9af")
+	)
 	(label "*5"
 		(at 74.93 64.77 180)
 		(fields_autoplaced yes)
@@ -9769,6 +9836,17 @@
 			(justify left bottom)
 		)
 		(uuid "fabd48cb-27e7-4db3-b7e0-1dd136bfd3cb")
+	)
+	(label "3V3"
+		(at 163.83 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc0a899e-e6de-4979-a3d2-ec1dbc162467")
 	)
 	(label "SCL_3V3"
 		(at 114.3 154.94 180)
@@ -10721,6 +10799,76 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aef7ed7-f456-4e53-931c-b55688b168ca")
+		(property "Reference" "R13"
+			(at 166.37 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.37 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 162.052 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69b07580-30fb-400c-92ad-584f3204efd1")
+		)
+		(pin "2"
+			(uuid "d2a80ada-7e25-466e-8bdc-8cffd90f3a14")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12635,7 +12783,7 @@
 	)
 	(symbol
 		(lib_id "Alexander_Library_Symbols:SW_Push_SMD_6x3.5")
-		(at 168.91 24.13 0)
+		(at 163.83 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12643,7 +12791,7 @@
 		(dnp no)
 		(uuid "95868133-9702-494a-9420-f0e10f0ad699")
 		(property "Reference" "BTN2"
-			(at 170.688 19.812 0)
+			(at 168.148 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12652,7 +12800,7 @@
 			)
 		)
 		(property "Value" "SW_Push_SMD_6x3.5"
-			(at 178.816 26.924 0)
+			(at 161.036 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12661,7 +12809,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Footprint Library:Button-Tacktile-TL1014BF160"
-			(at 168.91 19.05 0)
+			(at 168.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,7 +12818,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 19.05 0)
+			(at 168.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12679,7 +12827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 24.13 0)
+			(at 163.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14383,8 +14531,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 163.83 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed086025-823b-48b0-b297-2ce4a366d865")
+		(property "Reference" "#PWR025"
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7424791-a683-43ff-b3b7-38305f56b8c2")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Alexander_Library_Symbols:SW_Push_SMD_6x3.5")
-		(at 182.88 54.61 90)
+		(at 194.31 54.61 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14393,7 +14607,7 @@
 		(dnp no)
 		(uuid "f0cc3d92-c60c-4ef0-a0b3-0842d1cc7785")
 		(property "Reference" "SW2"
-			(at 178.562 56.388 0)
+			(at 189.992 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14402,7 +14616,7 @@
 			)
 		)
 		(property "Value" "SW_Push_SMD_6x3.5"
-			(at 185.674 64.516 0)
+			(at 197.104 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14411,7 +14625,7 @@
 			)
 		)
 		(property "Footprint" "Alexander Footprint Library:SW_PUSH_6x3.5mm"
-			(at 177.8 54.61 0)
+			(at 189.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14420,7 +14634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 54.61 0)
+			(at 189.23 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14429,7 +14643,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 54.61 0)
+			(at 194.31 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14454,7 +14668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 63.5 0)
+		(at 194.31 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14463,7 +14677,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3032d8f-026e-4626-afb6-61d840954c0b")
 		(property "Reference" "#PWR023"
-			(at 182.88 69.85 0)
+			(at 194.31 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14472,7 +14686,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 68.58 0)
+			(at 194.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14480,7 +14694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 63.5 0)
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14489,7 +14703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 63.5 0)
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14498,7 +14712,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 63.5 0)
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
