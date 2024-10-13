@@ -4922,7 +4922,7 @@
 	(footprint "Resistors SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7e7081e1-b0c7-4413-944d-dbbfd35923fa")
-		(at 124.384 82.474)
+		(at 105.334 54.534 180)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -4948,7 +4948,7 @@
 			)
 		)
 		(property "Footprint" "Resistors SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4961,7 +4961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4974,7 +4974,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4992,16 +4992,6 @@
 		(sheetfile "ESP32-Uno-Board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.727064 -0.91)
-			(end 0.727064 -0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9b29afa9-8b3c-422b-ba3a-6e17b858c751")
-		)
-		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
 			(stroke
@@ -5012,34 +5002,14 @@
 			(uuid "f07e7d47-5621-4a9b-86d5-6e81772b1bc0")
 		)
 		(fp_line
-			(start -2.45 -1.12)
-			(end 2.45 -1.12)
+			(start -0.727064 -0.91)
+			(end 0.727064 -0.91)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "0dd3443b-2fb5-4c90-8c59-01463f748bfc")
-		)
-		(fp_line
-			(start -2.45 1.12)
-			(end -2.45 -1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "890dc4d3-7ec9-4c33-a825-410bfb162fd6")
-		)
-		(fp_line
-			(start 2.45 -1.12)
-			(end 2.45 1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f734b885-be2d-4f43-88af-c0bcb97a6aba")
+			(layer "F.SilkS")
+			(uuid "9b29afa9-8b3c-422b-ba3a-6e17b858c751")
 		)
 		(fp_line
 			(start 2.45 1.12)
@@ -5052,24 +5022,44 @@
 			(uuid "df37ba07-8a56-4457-a63b-e72e7cac4cc5")
 		)
 		(fp_line
-			(start -1.6 -0.8)
-			(end 1.6 -0.8)
+			(start 2.45 -1.12)
+			(end 2.45 1.12)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "9d3166e0-3b1a-4386-bd9b-5b42c341f388")
+			(layer "F.CrtYd")
+			(uuid "f734b885-be2d-4f43-88af-c0bcb97a6aba")
 		)
 		(fp_line
-			(start -1.6 0.8)
-			(end -1.6 -0.8)
+			(start -2.45 1.12)
+			(end -2.45 -1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "890dc4d3-7ec9-4c33-a825-410bfb162fd6")
+		)
+		(fp_line
+			(start -2.45 -1.12)
+			(end 2.45 -1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0dd3443b-2fb5-4c90-8c59-01463f748bfc")
+		)
+		(fp_line
+			(start 1.6 0.8)
+			(end -1.6 0.8)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "24b53660-8c69-463d-9722-a4ece3ba1162")
+			(uuid "ad985467-0e1e-4b44-9505-9d547f49fee9")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -5082,14 +5072,24 @@
 			(uuid "af749621-943a-4073-b077-b66295c5bd74")
 		)
 		(fp_line
-			(start 1.6 0.8)
-			(end -1.6 0.8)
+			(start -1.6 0.8)
+			(end -1.6 -0.8)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ad985467-0e1e-4b44-9505-9d547f49fee9")
+			(uuid "24b53660-8c69-463d-9722-a4ece3ba1162")
+		)
+		(fp_line
+			(start -1.6 -0.8)
+			(end 1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d3166e0-3b1a-4386-bd9b-5b42c341f388")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -5103,7 +5103,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.55 0)
+			(at -1.55 0 180)
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.192308)
@@ -5112,7 +5112,7 @@
 			(uuid "3c8d443e-ad20-44fa-8a9f-75812f09a106")
 		)
 		(pad "2" smd roundrect
-			(at 1.55 0)
+			(at 1.55 0 180)
 			(size 1.3 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.192308)
