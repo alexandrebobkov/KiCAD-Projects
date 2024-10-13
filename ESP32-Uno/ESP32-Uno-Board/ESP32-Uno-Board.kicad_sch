@@ -6776,12 +6776,6 @@
 		(uuid "8205c049-d978-4420-8c3b-208aaeebb15d")
 	)
 	(junction
-		(at 171.45 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "852ca404-ba57-4104-9dce-1562d485f7ea")
-	)
-	(junction
 		(at 130.81 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6810,6 +6804,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba702ebe-5e2d-42a5-aa6c-ab177393d339")
+	)
+	(junction
+		(at 175.26 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf2cd89c-568f-4e73-8e01-2d3873532c34")
 	)
 	(junction
 		(at 50.8 191.77)
@@ -6951,16 +6951,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 39.37) (xy 179.07 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bedfa0d-1fb1-4ed7-b2de-fc27b3cf7acf")
-	)
-	(wire
-		(pts
 			(xy 34.29 184.15) (xy 38.1 184.15)
 		)
 		(stroke
@@ -7071,7 +7061,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 39.37) (xy 163.83 48.26)
+			(xy 163.83 39.37) (xy 163.83 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7088,6 +7078,16 @@
 			(type solid)
 		)
 		(uuid "1c31b835-925f-4a5c-92df-8f2558bb711b")
+	)
+	(wire
+		(pts
+			(xy 163.83 64.77) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6a077e-2526-4043-9d3d-0fdc9fa0bb28")
 	)
 	(wire
 		(pts
@@ -7501,16 +7501,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 39.37) (xy 171.45 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e3bfc7-f34c-40b1-96e9-28f3d162872d")
-	)
-	(wire
-		(pts
 			(xy 106.68 62.23) (xy 106.68 64.77)
 		)
 		(stroke
@@ -7708,16 +7698,6 @@
 			(type default)
 		)
 		(uuid "770ddb09-5bdb-4d1c-ab1d-d0623ac5c0b3")
-	)
-	(wire
-		(pts
-			(xy 163.83 55.88) (xy 163.83 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7802546b-da27-4c9d-b911-eb1f2159e2f8")
 	)
 	(wire
 		(pts
@@ -8071,6 +8051,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 39.37) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8be8a9b-f56a-49de-80af-69c92dd5f291")
+	)
+	(wire
+		(pts
 			(xy 21.59 62.23) (xy 34.29 62.23)
 		)
 		(stroke
@@ -8231,6 +8221,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 39.37) (xy 175.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb5ba6a-cf2d-4d02-a78a-64ae709d1660")
+	)
+	(wire
+		(pts
 			(xy 139.7 38.1) (xy 139.7 39.37)
 		)
 		(stroke
@@ -8361,7 +8361,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 39.37) (xy 163.83 39.37)
+			(xy 163.83 39.37) (xy 175.26 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8538,16 +8538,6 @@
 			(type solid)
 		)
 		(uuid "e9bdd59b-3252-4c44-a357-6fa1af0c210c")
-	)
-	(wire
-		(pts
-			(xy 171.45 60.96) (xy 171.45 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea364d84-bf3d-4cfa-9cc5-11817485eb3e")
 	)
 	(wire
 		(pts
@@ -11386,6 +11376,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 175.26 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4587b368-cd96-4e15-b4d6-92e7835861bf")
+		(property "Reference" "C3"
+			(at 179.07 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 179.07 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
+			(at 176.2252 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b720ee8-93cf-4557-add0-ce26cadc3bbb")
+		)
+		(pin "2"
+			(uuid "230cf072-b1ae-4acb-bbb4-0513cd555d50")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 20.32 81.28 0)
 		(unit 1)
@@ -11444,6 +11504,75 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander_Library_Symbols:SW_Push_SMD_6x3.5")
+		(at 163.83 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cf22f89-326d-4af1-8e82-29f2a33f321a")
+		(property "Reference" "BTN2"
+			(at 168.148 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_SMD_6x3.5"
+			(at 161.036 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:Button-Tacktile-TL1014BF160"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65c04841-8b95-4a22-8360-ce3115f70a7d")
+		)
+		(pin "1"
+			(uuid "5a0f1dd9-5a39-4f87-bbd3-83cd43cbd2aa")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "BTN2")
 					(unit 1)
 				)
 			)
@@ -12818,75 +12947,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alexander_Library_Symbols:SW_Push_SMD_6x3.5")
-		(at 171.45 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "95868133-9702-494a-9420-f0e10f0ad699")
-		(property "Reference" "BTN2"
-			(at 175.768 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_SMD_6x3.5"
-			(at 168.656 65.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Alexander Footprint Library:Button-Tacktile-TL1014BF160"
-			(at 176.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "16096ad7-91c3-4e5a-bfd6-e78826605303")
-		)
-		(pin "1"
-			(uuid "ee9b741e-7516-4427-b8f7-2f44ddb468c2")
-		)
-		(instances
-			(project "ESP32-Uno-Board"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "BTN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 205.74 91.44 0)
 		(unit 1)
@@ -14162,7 +14222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 66.04 0)
+		(at 175.26 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14171,7 +14231,7 @@
 		(fields_autoplaced yes)
 		(uuid "d21d9614-853d-44da-ab55-3610e282948b")
 		(property "Reference" "#PWR022"
-			(at 171.45 72.39 0)
+			(at 175.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +14240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 71.12 0)
+			(at 175.26 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14188,7 +14248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 66.04 0)
+			(at 175.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14197,7 +14257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 66.04 0)
+			(at 175.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14206,7 +14266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 66.04 0)
+			(at 175.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14425,76 +14485,6 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 163.83 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e482248a-1989-4ef6-9888-2c5955b4caf2")
-		(property "Reference" "C3"
-			(at 167.64 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 167.64 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0612_1632Metric_Pad1.18x3.40mm_HandSolder"
-			(at 164.7952 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 163.83 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ae1f66a-14ae-4a2c-8e2b-6541542337a7")
-		)
-		(pin "2"
-			(uuid "5280fd67-b3d1-4ddb-b1a2-dac0d3a5eaf5")
-		)
-		(instances
-			(project "ESP32-Uno-Board"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "C3")
 					(unit 1)
 				)
 			)
