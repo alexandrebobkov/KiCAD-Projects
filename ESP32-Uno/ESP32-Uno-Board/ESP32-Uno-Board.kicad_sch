@@ -7801,6 +7801,18 @@
 		(uuid "3dcc657b-55a1-48e0-9667-e01e7b6b08b5")
 	)
 	(junction
+		(at 20.32 -8.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4392839c-0de8-41ac-97d3-cfbc5efd0761")
+	)
+	(junction
+		(at 20.32 -11.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61b4ba36-5a81-4916-9890-5459013029d4")
+	)
+	(junction
 		(at 54.61 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8307,6 +8319,16 @@
 			(type default)
 		)
 		(uuid "279c023b-e35e-4b89-ab40-d4748e688d3c")
+	)
+	(wire
+		(pts
+			(xy 20.32 -13.97) (xy 20.32 -11.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdc4c80-e880-4f86-af73-ad70b708df12")
 	)
 	(wire
 		(pts
@@ -9640,6 +9662,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 -8.89) (xy 20.32 -5.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f1e6e6-ded5-4d9c-9ab8-c18934e65a4c")
+	)
+	(wire
+		(pts
 			(xy 82.55 106.68) (xy 82.55 116.84)
 		)
 		(stroke
@@ -9667,6 +9699,16 @@
 			(type default)
 		)
 		(uuid "decd75b6-ed95-4172-b71c-78708997d28e")
+	)
+	(wire
+		(pts
+			(xy 20.32 -11.43) (xy 20.32 -8.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7a7ded-82eb-4809-91ce-31121435b725")
 	)
 	(wire
 		(pts
@@ -12264,6 +12306,69 @@
 			(project "ESP32-Uno-Board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 -5.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18cab5ce-3dd7-440f-9421-8229a3f07266")
+		(property "Reference" "#PWR032"
+			(at 20.32 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7489bb0-dfef-41ea-a284-c2caec35add5")
+		)
+		(instances
+			(project "ESP32-Uno-Board"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
