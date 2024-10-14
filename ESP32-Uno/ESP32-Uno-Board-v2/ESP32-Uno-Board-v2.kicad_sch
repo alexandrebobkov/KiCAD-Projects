@@ -6386,16 +6386,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 127) (xy 248.92 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c234f81-b5fb-4471-85ce-f0460a141c75")
-	)
-	(wire
-		(pts
 			(xy 162.56 86.36) (xy 162.56 90.17)
 		)
 		(stroke
@@ -7333,16 +7323,6 @@
 			(type default)
 		)
 		(uuid "9b2410d7-6d1a-45a3-9c75-a8c4f78ba676")
-	)
-	(wire
-		(pts
-			(xy 248.92 115.57) (xy 248.92 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ca8d26a-3176-4623-b792-2dbb86a8b19a")
 	)
 	(wire
 		(pts
@@ -8469,17 +8449,6 @@
 			(justify left bottom)
 		)
 		(uuid "a003926f-3b06-4889-b984-354bb91a3dd0")
-	)
-	(label "3V3"
-		(at 248.92 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1b119bf-80b0-407c-8c82-f78c8464dbea")
 	)
 	(label "GPIO3"
 		(at 138.43 48.26 0)
@@ -10807,76 +10776,6 @@
 			(project ""
 				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 248.92 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9895e309-f3d8-46c2-8700-c5c6867549a4")
-		(property "Reference" "R6"
-			(at 251.46 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K2"
-			(at 251.46 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 247.142 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 248.92 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86e285cf-1c00-4fad-84df-5e2085c7b7a1")
-		)
-		(pin "2"
-			(uuid "9c72964a-1c73-47ac-8a21-2024beedb7fd")
-		)
-		(instances
-			(project "ESP32-Uno-Board-v2"
-				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
-					(reference "R6")
 					(unit 1)
 				)
 			)
