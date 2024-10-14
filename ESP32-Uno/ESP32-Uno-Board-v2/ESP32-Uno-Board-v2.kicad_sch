@@ -2138,102 +2138,6 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GNDD"
 			(power)
 			(pin_numbers hide)
@@ -2363,6 +2267,16 @@
 			(type default)
 		)
 		(uuid "00599ce3-77ce-4460-b367-233b67948463")
+	)
+	(wire
+		(pts
+			(xy 162.56 86.36) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c31dcee-264b-4da3-b0a8-b857445fcab1")
 	)
 	(wire
 		(pts
@@ -2776,16 +2690,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 86.36) (xy 162.56 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f16131fb-360a-493d-9859-46e0773647ff")
-	)
-	(wire
-		(pts
 			(xy 138.43 48.26) (xy 147.32 48.26)
 		)
 		(stroke
@@ -2902,17 +2806,6 @@
 			(justify right bottom)
 		)
 		(uuid "3f4ae6a5-42b1-42e4-abf2-b852f7b35f95")
-	)
-	(label "GND"
-		(at 162.56 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "492136cd-156b-40e0-9069-77d55af25b8b")
 	)
 	(label "GPIO6"
 		(at 138.43 55.88 0)
@@ -3190,69 +3083,6 @@
 		(uuid "f7455a12-f2e3-48b2-b3ff-c4336e794b06")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 162.56 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c3f915f-6fd4-4b82-85da-8b1587be5529")
-		(property "Reference" "#PWR06"
-			(at 162.56 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7da13f14-6d58-4a4c-9bc9-4795355eaa76")
-		)
-		(instances
-			(project "ESP32-Uno-Board-v2"
-				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 162.56 27.94 0)
 		(unit 1)
@@ -3378,6 +3208,72 @@
 			(project ""
 				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 162.56 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45f54d34-e156-4b71-b63a-ea971e850d5a")
+		(property "Reference" "#PWR06"
+			(at 162.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 162.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3f4704e-1361-43e9-b13a-6f9778569b70")
+		)
+		(instances
+			(project ""
+				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
