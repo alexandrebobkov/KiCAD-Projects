@@ -10184,6 +10184,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 227.33 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c5e0973-b708-4197-a8fc-1f97dbc804f0")
+		(property "Reference" "J4"
+			(at 226.695 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 226.695 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_TH:PinSocket_1x05_P2.54mm_Vertical"
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bde3114-b498-4f2a-a97f-2475500462a1")
+		)
+		(pin "5"
+			(uuid "750289cd-d119-4441-b506-9d3e2d1cf4e9")
+		)
+		(pin "4"
+			(uuid "3294fa24-dae5-42dc-82bf-6d5ef563ff31")
+		)
+		(pin "2"
+			(uuid "a839a219-efb6-4518-b2e0-21bc1e48ed28")
+		)
+		(pin "3"
+			(uuid "5a0bd843-29a8-47b2-b332-acc7a69d03e8")
+		)
+		(instances
+			(project "ESP32-Uno-Board-v2"
+				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 101.6 72.39 270)
 		(unit 1)
