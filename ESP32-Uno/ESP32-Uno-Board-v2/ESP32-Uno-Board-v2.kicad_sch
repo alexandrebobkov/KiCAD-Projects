@@ -7309,16 +7309,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 72.39) (xy 101.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d016b58-93d4-4a73-a07d-f7231e3c44e7")
-	)
-	(wire
-		(pts
 			(xy 137.16 142.24) (xy 137.16 148.59)
 		)
 		(stroke
@@ -11398,73 +11388,6 @@
 			(project "ESP32-Uno-Board-v2"
 				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 101.6 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1f95e5b-ae1d-4943-ad93-d76331fac636")
-		(property "Reference" "#PWR03"
-			(at 97.79 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 105.41 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 101.6 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e45b1a2-e307-429c-9ff5-f9fc8a37e02d")
-		)
-		(instances
-			(project "ESP32-Uno-Board-v2"
-				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
