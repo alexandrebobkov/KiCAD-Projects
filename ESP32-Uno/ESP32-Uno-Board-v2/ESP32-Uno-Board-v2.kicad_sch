@@ -4974,16 +4974,22 @@
 		(uuid "755374a1-2735-480d-9b41-6af7d736edee")
 	)
 	(junction
-		(at 33.02 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80634b75-927e-487c-9982-87543cb70e20")
-	)
-	(junction
 		(at 43.18 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82a7440a-f5d6-4eb8-aa14-df3e718aa35f")
+	)
+	(junction
+		(at 82.55 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f6d2c35-6d2d-41bd-ae35-b91a1b5ca247")
+	)
+	(junction
+		(at 33.02 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b358c7d4-5746-4e0a-816e-3903ce769e1d")
 	)
 	(junction
 		(at 44.45 118.11)
@@ -5051,16 +5057,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 107.95) (xy 39.37 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b04b77d-7f89-42ba-8f2d-9133d8972052")
-	)
-	(wire
-		(pts
 			(xy 162.56 86.36) (xy 162.56 90.17)
 		)
 		(stroke
@@ -5101,6 +5097,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 85.09) (xy 227.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c138cc-2aa0-47d4-ba10-4d3bb2169612")
+	)
+	(wire
+		(pts
 			(xy 29.21 110.49) (xy 33.02 110.49)
 		)
 		(stroke
@@ -5108,16 +5114,6 @@
 			(type default)
 		)
 		(uuid "1940cb9d-8d73-4512-94f4-5a08836ca544")
-	)
-	(wire
-		(pts
-			(xy 220.98 85.09) (xy 227.33 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "195b6f0f-ff97-45f7-8032-238516e4e0f4")
 	)
 	(wire
 		(pts
@@ -5138,6 +5134,16 @@
 			(type default)
 		)
 		(uuid "1ecf2f57-3fd0-404a-b47a-a8d1b943df56")
+	)
+	(wire
+		(pts
+			(xy 33.02 105.41) (xy 33.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2423e932-cd8c-4ad3-bfbd-dc8d3afcb712")
 	)
 	(wire
 		(pts
@@ -5611,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 107.95) (xy 87.63 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77051ddb-3c05-478f-8ffe-fa817034be1e")
+	)
+	(wire
+		(pts
 			(xy 138.43 63.5) (xy 147.32 63.5)
 		)
 		(stroke
@@ -5628,6 +5644,16 @@
 			(type default)
 		)
 		(uuid "7a151a2e-2bbd-44d5-be0c-53c8b6763465")
+	)
+	(wire
+		(pts
+			(xy 33.02 107.95) (xy 39.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4ed59c-0308-4a00-86f0-af5d42ce487e")
 	)
 	(wire
 		(pts
@@ -5951,16 +5977,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 104.14) (xy 33.02 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c65aae-4ac1-4fec-a38f-8623d260f476")
-	)
-	(wire
-		(pts
 			(xy 41.91 74.93) (xy 46.99 74.93)
 		)
 		(stroke
@@ -6236,17 +6252,6 @@
 			(justify right bottom)
 		)
 		(uuid "28f9861a-0b4b-4aaa-ad7f-b854eef1610f")
-	)
-	(label "VIN"
-		(at 220.98 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ec51363-804b-4fca-b452-f6279d3f2de6")
 	)
 	(label "G"
 		(at 46.99 118.11 0)
@@ -7518,6 +7523,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 223.52 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "549c2d1c-657d-471d-b977-32751e4a55dc")
+		(property "Reference" "#PWR017"
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 219.71 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 223.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11ff3a6a-ecd1-47cd-a5b7-7fdbae18f8c0")
+		)
+		(instances
+			(project "ESP32-Uno-Board-v2"
+				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 87.63 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "605ee60a-837b-4ef5-92c5-9886aba6f339")
+		(property "Reference" "#PWR016"
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 91.44 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 87.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3559f727-2ea7-499b-a446-1e8f05c6e919")
+		)
+		(instances
+			(project "ESP32-Uno-Board-v2"
+				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 43.18 83.82 0)
 		(unit 1)
@@ -7787,72 +7926,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDC")
-		(at 33.02 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6810a7bd-5041-4de3-8cc7-47bba9f53d06")
-		(property "Reference" "#PWR017"
-			(at 33.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 33.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 33.02 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35b3a278-70b6-4fc7-ac39-1f20af5a5d57")
-		)
-		(instances
-			(project "ESP32-Uno-Board-v2"
-				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 232.41 82.55 0)
 		(mirror y)
@@ -7918,73 +7991,6 @@
 			(project "ESP32-Uno-Board-v2"
 				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 88.9 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c233494-fdfe-4d38-bbc6-8f27bf481435")
-		(property "Reference" "#PWR016"
-			(at 85.09 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 92.71 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d8d5e9f-46da-452f-8cb6-4ccf269f2195")
-		)
-		(instances
-			(project "ESP32-Uno-Board-v2"
-				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8387,7 +8393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDC"
+		(property "Value" "VIN"
 			(at 38.1 69.8499 90)
 			(effects
 				(font
@@ -9074,6 +9080,72 @@
 			(project "ESP32-Uno-Board-v2"
 				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 33.02 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e07dcf18-a09c-4d50-a452-75f218ce4bb6")
+		(property "Reference" "#PWR018"
+			(at 33.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VIN"
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 33.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a1ed501-570c-462e-82db-a2de7ec4dfe0")
+		)
+		(instances
+			(project "ESP32-Uno-Board-v2"
+				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
