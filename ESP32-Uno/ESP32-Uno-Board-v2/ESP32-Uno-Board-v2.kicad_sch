@@ -5147,7 +5147,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 58.42) (xy 217.17 60.96)
+			(xy 261.62 104.14) (xy 261.62 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5164,6 +5164,16 @@
 			(type default)
 		)
 		(uuid "2423e932-cd8c-4ad3-bfbd-dc8d3afcb712")
+	)
+	(wire
+		(pts
+			(xy 271.78 96.52) (xy 269.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d549fe-11c0-4e06-8055-9764f7efa33f")
 	)
 	(wire
 		(pts
@@ -5497,16 +5507,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 50.8) (xy 226.06 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a89a59f-13eb-4e96-b55d-f3bb574b9904")
-	)
-	(wire
-		(pts
 			(xy 138.43 73.66) (xy 147.32 73.66)
 		)
 		(stroke
@@ -5607,6 +5607,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 90.17) (xy 271.78 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb7a468-4293-4bef-8279-b207368e3739")
+	)
+	(wire
+		(pts
 			(xy 55.88 166.37) (xy 55.88 163.83)
 		)
 		(stroke
@@ -5627,7 +5637,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 50.8) (xy 209.55 50.8)
+			(xy 252.73 96.52) (xy 254 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5924,6 +5934,16 @@
 			(type default)
 		)
 		(uuid "b577b338-297b-4ccf-9e53-198da346eced")
+	)
+	(wire
+		(pts
+			(xy 252.73 90.17) (xy 252.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76734bf-d9b7-4158-8a84-3529e1d96b67")
 	)
 	(wire
 		(pts
@@ -6813,7 +6833,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 50.8 270)
+		(at 271.78 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6821,7 +6841,7 @@
 		(dnp no)
 		(uuid "0167005d-ff52-41b3-91b2-e187fe422df5")
 		(property "Reference" "#PWR013"
-			(at 222.25 50.8 0)
+			(at 271.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +6850,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 229.108 51.1556 90)
+			(at 272.1356 87.122 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,7 +6859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 50.8 0)
+			(at 271.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +6867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 50.8 0)
+			(at 271.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,7 +6875,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 50.8 0)
+			(at 271.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,72 +7562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 208.28 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c090dc3-13dd-4908-9df9-bebc7aa8bc25")
-		(property "Reference" "#PWR010"
-			(at 212.09 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VIN"
-			(at 205.232 50.419 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38daeff6-2726-461a-ba71-bcc0a0676aae")
-		)
-		(instances
-			(project "ESP32-Uno-Board-v2"
-				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDC")
 		(at 228.6 74.93 90)
 		(unit 1)
@@ -8082,6 +8036,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 252.73 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f0997e-033d-47a5-8b0d-9feab039a878")
+		(property "Reference" "#PWR020"
+			(at 252.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 252.73 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 252.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "956fc608-d1d6-4957-9eb0-9ab7de7f97f4")
+		)
+		(instances
+			(project "ESP32-Uno-Board-v2"
+				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_arduino-library:Arduino_Uno_WiFi_R2_Shield")
 		(at 72.39 55.88 0)
 		(unit 1)
@@ -8256,7 +8276,7 @@
 	)
 	(symbol
 		(lib_id "Alexander Symbols:AMS1117-5V")
-		(at 217.17 46.99 0)
+		(at 261.62 92.71 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -8265,7 +8285,7 @@
 		(fields_autoplaced yes)
 		(uuid "8aa3d48e-880f-4093-bfaf-a7d7d948556d")
 		(property "Reference" "U3"
-			(at 217.17 44.45 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8273,7 +8293,7 @@
 			)
 		)
 		(property "Value" "AMS1117-5V"
-			(at 217.17 46.99 0)
+			(at 261.62 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +8301,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
-			(at 217.17 42.672 0)
+			(at 261.62 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 46.99 0)
+			(at 261.62 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8319,7 @@
 			)
 		)
 		(property "Description" "AMS1117"
-			(at 217.17 42.926 0)
+			(at 261.62 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8398,7 +8418,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 60.96 0)
+		(at 261.62 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8406,7 +8426,7 @@
 		(dnp no)
 		(uuid "8be45a43-d7ec-430e-ad09-e0f0f15f7e4b")
 		(property "Reference" "#PWR012"
-			(at 217.17 67.31 0)
+			(at 261.62 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +8435,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 64.77 0)
+			(at 261.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 60.96 0)
+			(at 261.62 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +8451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 60.96 0)
+			(at 261.62 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,7 +8459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 217.17 60.96 0)
+			(at 261.62 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
