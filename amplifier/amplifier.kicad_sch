@@ -1743,6 +1743,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 154.94) (xy 266.7 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085c7718-0fee-4777-bca0-fe69e8e59d33")
+	)
+	(wire
+		(pts
 			(xy 265.43 39.37) (xy 275.59 39.37)
 		)
 		(stroke
@@ -2390,6 +2400,16 @@
 			(type default)
 		)
 		(uuid "f352379d-c255-4951-a9dc-2b32759a9073")
+	)
+	(wire
+		(pts
+			(xy 266.7 135.89) (xy 266.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41a1d7b-fa31-4e0a-98aa-63dc3f10d828")
 	)
 	(wire
 		(pts
@@ -3403,6 +3423,72 @@
 			(project ""
 				(path "/07323227-9391-4047-a27b-e2e603c296e7"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 266.7 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55c775ba-b059-4e11-ab7d-d03d386d9b69")
+		(property "Reference" "#PWR012"
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 266.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 266.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e329536b-0d0b-449e-a9bd-ff9097df31df")
+		)
+		(instances
+			(project "amplifier"
+				(path "/07323227-9391-4047-a27b-e2e603c296e7"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5204,6 +5290,72 @@
 			(project "amplifier"
 				(path "/07323227-9391-4047-a27b-e2e603c296e7"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb36732-84d9-4dda-a42b-841b55263d9a")
+		(property "Reference" "#PWR011"
+			(at 266.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9202c1ec-824e-435e-b563-5b13300fe45e")
+		)
+		(instances
+			(project "amplifier"
+				(path "/07323227-9391-4047-a27b-e2e603c296e7"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
