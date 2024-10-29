@@ -1069,6 +1069,24 @@
 		)
 	)
 	(junction
+		(at 208.28 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19ec98a1-0970-4c9c-b590-0d53da29b3c4")
+	)
+	(junction
+		(at 208.28 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "289e9748-0af5-4f24-b6a8-baec90823217")
+	)
+	(junction
+		(at 193.04 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76846bdb-3f02-41a0-a2be-8f846515e4f0")
+	)
+	(junction
 		(at 265.43 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1188,6 +1206,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 31.75) (xy 196.85 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a07a4c8-6d86-446c-9e9b-df91862b0197")
+	)
+	(wire
+		(pts
 			(xy 208.28 60.96) (xy 208.28 57.15)
 		)
 		(stroke
@@ -1195,6 +1223,26 @@
 			(type default)
 		)
 		(uuid "6fa98337-fc3f-4845-83ad-500ad4d5bf95")
+	)
+	(wire
+		(pts
+			(xy 196.85 57.15) (xy 193.04 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a623c4-ed7d-44bf-8b75-fea31475aefc")
+	)
+	(wire
+		(pts
+			(xy 189.23 43.18) (xy 193.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f54d458-5867-43a0-aa52-d487c3c26989")
 	)
 	(wire
 		(pts
@@ -1248,6 +1296,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 43.18) (xy 193.04 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ef9174-3972-46bb-9dfc-9f85d7bd3cb7")
+	)
+	(wire
+		(pts
 			(xy 218.44 71.12) (xy 218.44 62.23)
 		)
 		(stroke
@@ -1265,6 +1323,16 @@
 			(type default)
 		)
 		(uuid "bf4d30ac-660c-43fc-9d63-6f04db591fe1")
+	)
+	(wire
+		(pts
+			(xy 193.04 57.15) (xy 193.04 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b8f97c-86d2-4fd1-8cc4-423e23d03a3c")
 	)
 	(wire
 		(pts
@@ -1315,6 +1383,48 @@
 			(type default)
 		)
 		(uuid "e71e7a05-4332-4297-b953-9685edcee1aa")
+	)
+	(wire
+		(pts
+			(xy 204.47 57.15) (xy 208.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f122bd-8e04-4266-b4b6-1cedc481f39d")
+	)
+	(wire
+		(pts
+			(xy 204.47 31.75) (xy 208.28 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7b5312-8edd-467e-aae6-79f37ef347cc")
+	)
+	(global_label "RIN2"
+		(shape input)
+		(at 189.23 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd90df28-84b7-4b71-b582-7f1a3067a598")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
@@ -1958,7 +2068,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 53.34 90)
+		(at 200.66 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1967,7 +2077,7 @@
 		(fields_autoplaced yes)
 		(uuid "61be7f66-fe36-4ac9-b549-0f8f979bd2d6")
 		(property "Reference" "C5"
-			(at 194.31 45.72 90)
+			(at 200.66 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +2085,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 194.31 48.26 90)
+			(at 200.66 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 52.3748 0)
+			(at 204.47 56.1848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 53.34 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2111,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 194.31 53.34 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2510,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 195.58 33.02 90)
+		(at 200.66 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2409,7 +2519,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5b18fd0-e82d-4778-970c-1e73718b316c")
 		(property "Reference" "C4"
-			(at 195.58 25.4 90)
+			(at 200.66 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2527,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 195.58 27.94 90)
+			(at 200.66 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 32.0548 0)
+			(at 204.47 30.7848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 33.02 0)
+			(at 200.66 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2553,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 195.58 33.02 0)
+			(at 200.66 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
