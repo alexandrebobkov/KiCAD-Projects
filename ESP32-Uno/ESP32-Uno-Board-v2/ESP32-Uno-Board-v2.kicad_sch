@@ -6038,6 +6038,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 110.49) (xy 72.39 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e54cfe-22b6-4a6f-bc75-b0a49c91cc05")
+	)
+	(wire
+		(pts
 			(xy 38.1 38.1) (xy 46.99 38.1)
 		)
 		(stroke
@@ -7088,16 +7098,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 110.49) (xy 67.31 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0464ff9-c42e-4267-baa4-35b093056fe8")
-	)
-	(wire
-		(pts
 			(xy 62.23 123.19) (xy 72.39 123.19)
 		)
 		(stroke
@@ -7970,17 +7970,6 @@
 		)
 		(uuid "90dd507a-e90a-4f67-986a-6f413a77e44e")
 	)
-	(label "VUSB"
-		(at 67.31 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "94b30cc9-36dd-411f-8e9a-94e73009a73c")
-	)
 	(label "GPIO42"
 		(at 87.63 68.58 180)
 		(fields_autoplaced yes)
@@ -8357,6 +8346,28 @@
 		(uuid "5f18a545-9e23-48c7-9e95-d394243ed167")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 82.9952 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VUSB"
+		(shape output)
+		(at 72.39 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62893f5a-fb9e-47c2-b9ac-c6d41b1119c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.2738 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
