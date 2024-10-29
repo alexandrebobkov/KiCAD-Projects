@@ -1256,6 +1256,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 44.45) (xy 241.3 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "963b5a42-58f7-45d9-9487-96b96e85988f")
+	)
+	(wire
+		(pts
 			(xy 255.27 36.83) (xy 255.27 39.37)
 		)
 		(stroke
@@ -1403,6 +1413,28 @@
 			(type default)
 		)
 		(uuid "fc7b5312-8edd-467e-aae6-79f37ef347cc")
+	)
+	(global_label "ROUT"
+		(shape output)
+		(at 241.3 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b5d4878-492d-464b-a514-c05d33711084")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.1838 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RIN2"
 		(shape input)
@@ -2067,74 +2099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 200.66 57.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61be7f66-fe36-4ac9-b549-0f8f979bd2d6")
-		(property "Reference" "C5"
-			(at 200.66 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 200.66 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 56.1848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f5b5971-0536-40ae-b32c-0683b25c6b7c")
-		)
-		(pin "2"
-			(uuid "1414b68a-90ad-4adb-8e24-15493ad05d63")
-		)
-		(instances
-			(project ""
-				(path "/07323227-9391-4047-a27b-e2e603c296e7"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 260.35 73.66 0)
 		(unit 1)
@@ -2509,74 +2473,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 200.66 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5b18fd0-e82d-4778-970c-1e73718b316c")
-		(property "Reference" "C4"
-			(at 200.66 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 200.66 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 30.7848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 200.66 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 200.66 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e6c72f36-d53f-4909-baa4-be2deb1f578d")
-		)
-		(pin "1"
-			(uuid "62f328e1-5c73-43c2-ad47-febbf26de5f1")
-		)
-		(instances
-			(project ""
-				(path "/07323227-9391-4047-a27b-e2e603c296e7"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 260.35 80.01 0)
 		(unit 1)
@@ -2635,74 +2531,6 @@
 			(project "amplifier"
 				(path "/07323227-9391-4047-a27b-e2e603c296e7"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 232.41 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2cd6d21-d9f7-4d6c-ad4c-2e75651cd0b1")
-		(property "Reference" "C6"
-			(at 232.41 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 232.41 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 43.4848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 232.41 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fcfca950-f97f-4f25-8691-e511d3229a82")
-		)
-		(pin "1"
-			(uuid "34322098-2ba4-4dbe-9cf0-496c4ba8e963")
-		)
-		(instances
-			(project ""
-				(path "/07323227-9391-4047-a27b-e2e603c296e7"
-					(reference "C6")
 					(unit 1)
 				)
 			)
