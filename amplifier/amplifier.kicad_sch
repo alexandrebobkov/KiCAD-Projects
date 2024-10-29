@@ -2333,6 +2333,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 99.06) (xy 92.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f58b4b-0273-489c-a2b8-389c679f3f4b")
+	)
+	(wire
+		(pts
 			(xy 29.21 156.21) (xy 46.99 156.21)
 		)
 		(stroke
@@ -2430,6 +2440,16 @@
 			(type default)
 		)
 		(uuid "34339a03-b2d5-4aae-84e7-9e3aa3aa4a02")
+	)
+	(wire
+		(pts
+			(xy 92.71 88.9) (xy 92.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6f5d6f-56a0-436a-91e7-f71ce54d3e90")
 	)
 	(wire
 		(pts
@@ -2603,6 +2623,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 111.76) (xy 92.71 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d685206-ea71-4360-bddf-1390015ee65f")
+	)
+	(wire
+		(pts
 			(xy 85.09 137.16) (xy 91.44 137.16)
 		)
 		(stroke
@@ -2743,6 +2773,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 101.6) (xy 92.71 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e72b73b-0062-4a09-94a6-954618b9637d")
+	)
+	(wire
+		(pts
 			(xy 30.48 167.64) (xy 29.21 167.64)
 		)
 		(stroke
@@ -2810,6 +2850,16 @@
 			(type default)
 		)
 		(uuid "86488eb3-90ea-4967-b1e9-0b0d25db4942")
+	)
+	(wire
+		(pts
+			(xy 92.71 111.76) (xy 92.71 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8784ecb7-b6a9-4a74-b137-9708f44a01c1")
 	)
 	(wire
 		(pts
@@ -3223,6 +3273,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 101.6) (xy 92.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d457af1b-26ba-402d-983b-0163c0de174e")
+	)
+	(wire
+		(pts
+			(xy 88.9 88.9) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46d8f80-9c8b-43e6-ad8b-214c5de2ff50")
+	)
+	(wire
+		(pts
 			(xy 100.33 48.26) (xy 99.06 48.26)
 		)
 		(stroke
@@ -3280,6 +3350,16 @@
 			(type default)
 		)
 		(uuid "e1d6ff15-89b4-4513-a630-a0bcc6f7f051")
+	)
+	(wire
+		(pts
+			(xy 92.71 99.06) (xy 92.71 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d83896-ec79-42db-bad0-c3c03b9237b0")
 	)
 	(wire
 		(pts
@@ -3370,6 +3450,28 @@
 			(type default)
 		)
 		(uuid "ff36c29c-8772-4f8c-86a4-6b286eb68aa5")
+	)
+	(global_label "VCC_DIV_2"
+		(shape input)
+		(at 88.9 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "282f161e-bf20-4fe5-bcd9-aa988d8464fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.1781 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RIN1"
 		(shape output)
@@ -3481,6 +3583,50 @@
 			)
 		)
 	)
+	(global_label "LIN1"
+		(shape input)
+		(at 88.9 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d69b1a1-b2f7-47e3-b127-56f41acda57e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.7419 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIN1"
+		(shape input)
+		(at 88.9 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8879f45e-381d-419f-98a8-68788b0313b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RIN2"
 		(shape output)
 		(at 127 91.44 0)
@@ -3499,6 +3645,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_DIV_2"
+		(shape input)
+		(at 88.9 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "915e17f2-ef0d-4f3c-907f-86fce00efecc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.1781 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6052,10 +6220,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87c5135c-6d4a-491a-98c4-7a72937ec7fb")
 		(property "Reference" "RV1"
-			(at 90.17 99.0599 90)
+			(at 101.6 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,8 +6230,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer_Dual"
-			(at 90.17 101.5999 90)
+		(property "Value" "10k"
+			(at 101.6 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
