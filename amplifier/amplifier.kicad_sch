@@ -1598,6 +1598,12 @@
 		)
 	)
 	(junction
+		(at 266.7 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "021cc351-8008-4784-b18a-cc3d0b619e86")
+	)
+	(junction
 		(at 218.44 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1626,6 +1632,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a3b1983-bb2a-4447-9846-fa7fec0c0d10")
+	)
+	(junction
+		(at 266.7 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70593c95-33db-4922-8917-2e42c6aba205")
 	)
 	(junction
 		(at 218.44 90.17)
@@ -1738,6 +1750,16 @@
 			(type default)
 		)
 		(uuid "09cfa52c-d578-41f3-8c18-06c9e78d3889")
+	)
+	(wire
+		(pts
+			(xy 266.7 154.94) (xy 276.86 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1080505c-1433-44d4-9cf1-cbe2ed98176b")
 	)
 	(wire
 		(pts
@@ -1901,6 +1923,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 139.7) (xy 276.86 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53214754-4d2e-4add-9256-3711ff98c78d")
+	)
+	(wire
+		(pts
 			(xy 209.55 101.6) (xy 210.82 101.6)
 		)
 		(stroke
@@ -1908,6 +1940,16 @@
 			(type default)
 		)
 		(uuid "534510a1-99af-4ba6-b0cd-89bb42c5b345")
+	)
+	(wire
+		(pts
+			(xy 256.54 154.94) (xy 266.7 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5752c6ee-778b-4373-bb54-a073a9d9c8ab")
 	)
 	(wire
 		(pts
@@ -2368,6 +2410,16 @@
 			(type default)
 		)
 		(uuid "fdd954a3-5a3b-4ccd-b8a2-8322aaa0be00")
+	)
+	(wire
+		(pts
+			(xy 256.54 139.7) (xy 266.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff36c29c-8772-4f8c-86a4-6b286eb68aa5")
 	)
 	(global_label "ROUT"
 		(shape output)
@@ -3697,6 +3749,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 279.4 147.32 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62d19001-06aa-44d4-b4d8-3870830a4f47")
+		(property "Reference" "U3"
+			(at 278.13 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 278.13 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 279.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f17e4ff5-e55a-40ef-8f66-a34965eb33b2")
+		)
+		(pin "8"
+			(uuid "edff26db-14a9-4c0d-b7fb-be775640b818")
+		)
+		(pin "4"
+			(uuid "7c09a578-0de8-431b-a989-148f0e12d1c5")
+		)
+		(pin "3"
+			(uuid "57299c38-b118-46fd-812c-1f870953b79f")
+		)
+		(pin "6"
+			(uuid "b50e810e-cd6b-4b75-b6a0-081604d29fa0")
+		)
+		(pin "5"
+			(uuid "209c8f9b-9228-403d-b2b7-e3830a5502b2")
+		)
+		(pin "7"
+			(uuid "7abb2c47-20fe-4d2d-932c-8479bdbb080d")
+		)
+		(pin "1"
+			(uuid "6d8f7db0-bfc8-466e-83dd-2f1d5b7a892d")
+		)
+		(instances
+			(project ""
+				(path "/07323227-9391-4047-a27b-e2e603c296e7"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 218.44 118.11 0)
 		(unit 1)
@@ -3827,6 +3967,92 @@
 			(project "amplifier"
 				(path "/07323227-9391-4047-a27b-e2e603c296e7"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 107.95 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c23f574-ddfe-4dc7-8983-ca433be3e745")
+		(property "Reference" "U2"
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1cd57ce-66d4-464c-9b59-4a4adb4bff9e")
+		)
+		(pin "1"
+			(uuid "7ec1a17e-6c5a-431d-93da-d3e327b987c8")
+		)
+		(pin "2"
+			(uuid "baddb484-61c6-4a18-b591-8295310cab3e")
+		)
+		(pin "8"
+			(uuid "b0e59eaa-2a29-4bb9-9b0a-7689ea7b09df")
+		)
+		(pin "5"
+			(uuid "155c7416-ffb9-4855-9db7-6c16ac527de5")
+		)
+		(pin "7"
+			(uuid "3d33aebd-5693-41ef-bd16-55be5571a23f")
+		)
+		(pin "4"
+			(uuid "ec3706f9-1b77-4cf4-a245-a8826f888b7d")
+		)
+		(pin "6"
+			(uuid "032e8bcb-07d1-403a-b159-697a66d88579")
+		)
+		(instances
+			(project ""
+				(path "/07323227-9391-4047-a27b-e2e603c296e7"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4055,6 +4281,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 107.95 151.13 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e5df667-9cb8-4f07-b0fa-1eb00c0a9178")
+		(property "Reference" "U2"
+			(at 107.95 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 107.95 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 107.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1cd57ce-66d4-464c-9b59-4a4adb4bff9e")
+		)
+		(pin "1"
+			(uuid "7ec1a17e-6c5a-431d-93da-d3e327b987c8")
+		)
+		(pin "2"
+			(uuid "baddb484-61c6-4a18-b591-8295310cab3e")
+		)
+		(pin "8"
+			(uuid "b0e59eaa-2a29-4bb9-9b0a-7689ea7b09df")
+		)
+		(pin "5"
+			(uuid "155c7416-ffb9-4855-9db7-6c16ac527de5")
+		)
+		(pin "7"
+			(uuid "3d33aebd-5693-41ef-bd16-55be5571a23f")
+		)
+		(pin "4"
+			(uuid "ec3706f9-1b77-4cf4-a245-a8826f888b7d")
+		)
+		(pin "6"
+			(uuid "032e8bcb-07d1-403a-b159-697a66d88579")
+		)
+		(instances
+			(project ""
+				(path "/07323227-9391-4047-a27b-e2e603c296e7"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 21.59 123.19 0)
 		(unit 1)
@@ -4254,6 +4566,180 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 269.24 147.32 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ed9f8fe-2192-4b11-9e07-656087e63af5")
+		(property "Reference" "U2"
+			(at 267.97 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 267.97 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 269.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 269.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b1cd57ce-66d4-464c-9b59-4a4adb4bff9e")
+		)
+		(pin "1"
+			(uuid "7ec1a17e-6c5a-431d-93da-d3e327b987c8")
+		)
+		(pin "2"
+			(uuid "baddb484-61c6-4a18-b591-8295310cab3e")
+		)
+		(pin "8"
+			(uuid "b0e59eaa-2a29-4bb9-9b0a-7689ea7b09df")
+		)
+		(pin "5"
+			(uuid "155c7416-ffb9-4855-9db7-6c16ac527de5")
+		)
+		(pin "7"
+			(uuid "3d33aebd-5693-41ef-bd16-55be5571a23f")
+		)
+		(pin "4"
+			(uuid "ec3706f9-1b77-4cf4-a245-a8826f888b7d")
+		)
+		(pin "6"
+			(uuid "032e8bcb-07d1-403a-b159-697a66d88579")
+		)
+		(instances
+			(project ""
+				(path "/07323227-9391-4047-a27b-e2e603c296e7"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 111.76 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25d7959-ded4-4399-81ce-9d35a10da917")
+		(property "Reference" "U3"
+			(at 111.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f17e4ff5-e55a-40ef-8f66-a34965eb33b2")
+		)
+		(pin "8"
+			(uuid "edff26db-14a9-4c0d-b7fb-be775640b818")
+		)
+		(pin "4"
+			(uuid "7c09a578-0de8-431b-a989-148f0e12d1c5")
+		)
+		(pin "3"
+			(uuid "57299c38-b118-46fd-812c-1f870953b79f")
+		)
+		(pin "6"
+			(uuid "b50e810e-cd6b-4b75-b6a0-081604d29fa0")
+		)
+		(pin "5"
+			(uuid "209c8f9b-9228-403d-b2b7-e3830a5502b2")
+		)
+		(pin "7"
+			(uuid "7abb2c47-20fe-4d2d-932c-8479bdbb080d")
+		)
+		(pin "1"
+			(uuid "6d8f7db0-bfc8-466e-83dd-2f1d5b7a892d")
+		)
+		(instances
+			(project ""
+				(path "/07323227-9391-4047-a27b-e2e603c296e7"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:PNP")
 		(at 215.9 127 0)
 		(mirror x)
@@ -4349,6 +4835,92 @@
 				(path "/07323227-9391-4047-a27b-e2e603c296e7"
 					(reference "Q4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 111.76 109.22 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b24e6026-c646-49f9-b34e-30aaa4e07e86")
+		(property "Reference" "U3"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 111.76 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f17e4ff5-e55a-40ef-8f66-a34965eb33b2")
+		)
+		(pin "8"
+			(uuid "edff26db-14a9-4c0d-b7fb-be775640b818")
+		)
+		(pin "4"
+			(uuid "7c09a578-0de8-431b-a989-148f0e12d1c5")
+		)
+		(pin "3"
+			(uuid "57299c38-b118-46fd-812c-1f870953b79f")
+		)
+		(pin "6"
+			(uuid "b50e810e-cd6b-4b75-b6a0-081604d29fa0")
+		)
+		(pin "5"
+			(uuid "209c8f9b-9228-403d-b2b7-e3830a5502b2")
+		)
+		(pin "7"
+			(uuid "7abb2c47-20fe-4d2d-932c-8479bdbb080d")
+		)
+		(pin "1"
+			(uuid "6d8f7db0-bfc8-466e-83dd-2f1d5b7a892d")
+		)
+		(instances
+			(project ""
+				(path "/07323227-9391-4047-a27b-e2e603c296e7"
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -5625,7 +6197,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 261.62 116.84 0)
+		(at 259.08 147.32 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5634,7 +6206,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe7d37e8-9d4a-4bb4-b420-6b605ea81415")
 		(property "Reference" "U1"
-			(at 260.35 115.5699 0)
+			(at 257.81 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +6215,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 260.35 118.1099 0)
+			(at 257.81 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +6224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 116.84 0)
+			(at 259.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +6233,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 261.62 116.84 0)
+			(at 259.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +6242,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 261.62 116.84 0)
+			(at 259.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
