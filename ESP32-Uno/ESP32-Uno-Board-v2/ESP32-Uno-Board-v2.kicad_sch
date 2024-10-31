@@ -9225,75 +9225,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alexander_Library_Symbols:SW_Push_SMD_6x3.5")
-		(at 194.31 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16457414-7e9f-4238-9921-4cb679852304")
-		(property "Reference" "BTN2"
-			(at 198.628 58.928 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RST"
-			(at 192.024 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Alexander Footprint Library:Button-Tacktile-TL1014BF160"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4bfe96f6-5e1f-48d0-9fb1-bd22cf75a0de")
-		)
-		(pin "1"
-			(uuid "baef2b1a-134f-4804-9d86-4ef433b82e2c")
-		)
-		(instances
-			(project "ESP32-Uno-Board-v2"
-				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
-					(reference "BTN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 238.76 138.43 0)
 		(unit 1)
@@ -9366,8 +9297,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23b45610-bd1b-4279-a418-297b90e84f9d")
-		(property "Reference" "SW3"
-			(at 181.61 58.4201 90)
+		(property "Reference" "BTN1"
+			(at 183.134 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,13 +9306,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 181.61 55.8801 90)
+		(property "Value" "EN"
+			(at 175.006 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Alexander Footprint Library:TL1014BF160QG_EWI"
@@ -9426,7 +9356,7 @@
 		(instances
 			(project ""
 				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
-					(reference "SW3")
+					(reference "BTN1")
 					(unit 1)
 				)
 			)
@@ -10036,6 +9966,81 @@
 			(project ""
 				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander Symbols:SW_BTN_90DEG")
+		(at 194.31 57.15 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "468cbfca-bf3f-40e3-8c81-73ad4a10feaa")
+		(property "Reference" "BTN2"
+			(at 197.104 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RST"
+			(at 188.976 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Alexander Footprint Library:TL1014BF160QG_EWI"
+			(at 189.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fec05d93-5de1-4832-9025-816112dd27bb")
+		)
+		(pin "3"
+			(uuid "c1db53d4-0e92-4240-8269-0052371aac3b")
+		)
+		(pin "4"
+			(uuid "029bbf90-e6e8-4f9f-8359-42c15e769bd4")
+		)
+		(pin "1"
+			(uuid "1c82bd9a-ea3b-45b1-ad74-fb8817d9de43")
+		)
+		(instances
+			(project "ESP32-Uno-Board-v2"
+				(path "/0c01468d-b780-4193-b208-186ee01d83ab"
+					(reference "BTN2")
 					(unit 1)
 				)
 			)
