@@ -1364,6 +1364,251 @@
 				)
 			)
 		)
+		(symbol "PCM_Diode_Zener_AKL:MMSZ5222"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DZ"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MMSZ5222"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz5221bt1-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOD-123 Zener diode, 2.5V, 500mW, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode zener MMSZ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMSZ5222_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MMSZ5222_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy -0.381 1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "MMSZ5222_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MMSZ5222_1_2"
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:NPN"
 			(pin_numbers hide)
 			(pin_names
@@ -6347,28 +6592,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "b1cd57ce-66d4-464c-9b59-4a4adb4bff9e")
+			(uuid "b1cd57ce-66d4-464c-9b59-4a4adb4bff9f")
 		)
 		(pin "1"
-			(uuid "7ec1a17e-6c5a-431d-93da-d3e327b987c8")
+			(uuid "7ec1a17e-6c5a-431d-93da-d3e327b987c9")
 		)
 		(pin "2"
-			(uuid "baddb484-61c6-4a18-b591-8295310cab3e")
+			(uuid "baddb484-61c6-4a18-b591-8295310cab3f")
 		)
 		(pin "8"
-			(uuid "b0e59eaa-2a29-4bb9-9b0a-7689ea7b09df")
+			(uuid "b0e59eaa-2a29-4bb9-9b0a-7689ea7b09e0")
 		)
 		(pin "5"
-			(uuid "155c7416-ffb9-4855-9db7-6c16ac527de5")
+			(uuid "155c7416-ffb9-4855-9db7-6c16ac527de6")
 		)
 		(pin "7"
-			(uuid "3d33aebd-5693-41ef-bd16-55be5571a23f")
+			(uuid "3d33aebd-5693-41ef-bd16-55be5571a240")
 		)
 		(pin "4"
-			(uuid "ec3706f9-1b77-4cf4-a245-a8826f888b7d")
+			(uuid "ec3706f9-1b77-4cf4-a245-a8826f888b7e")
 		)
 		(pin "6"
-			(uuid "032e8bcb-07d1-403a-b159-697a66d88579")
+			(uuid "032e8bcb-07d1-403a-b159-697a66d8857a")
 		)
 		(instances
 			(project ""
@@ -6702,28 +6947,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "b1cd57ce-66d4-464c-9b59-4a4adb4bff9e")
+			(uuid "b1cd57ce-66d4-464c-9b59-4a4adb4bffa0")
 		)
 		(pin "1"
-			(uuid "7ec1a17e-6c5a-431d-93da-d3e327b987c8")
+			(uuid "7ec1a17e-6c5a-431d-93da-d3e327b987ca")
 		)
 		(pin "2"
-			(uuid "baddb484-61c6-4a18-b591-8295310cab3e")
+			(uuid "baddb484-61c6-4a18-b591-8295310cab40")
 		)
 		(pin "8"
-			(uuid "b0e59eaa-2a29-4bb9-9b0a-7689ea7b09df")
+			(uuid "b0e59eaa-2a29-4bb9-9b0a-7689ea7b09e1")
 		)
 		(pin "5"
-			(uuid "155c7416-ffb9-4855-9db7-6c16ac527de5")
+			(uuid "155c7416-ffb9-4855-9db7-6c16ac527de7")
 		)
 		(pin "7"
-			(uuid "3d33aebd-5693-41ef-bd16-55be5571a23f")
+			(uuid "3d33aebd-5693-41ef-bd16-55be5571a241")
 		)
 		(pin "4"
-			(uuid "ec3706f9-1b77-4cf4-a245-a8826f888b7d")
+			(uuid "ec3706f9-1b77-4cf4-a245-a8826f888b7f")
 		)
 		(pin "6"
-			(uuid "032e8bcb-07d1-403a-b159-697a66d88579")
+			(uuid "032e8bcb-07d1-403a-b159-697a66d8857b")
 		)
 		(instances
 			(project ""
@@ -6788,28 +7033,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "f17e4ff5-e55a-40ef-8f66-a34965eb33b2")
+			(uuid "f17e4ff5-e55a-40ef-8f66-a34965eb33b3")
 		)
 		(pin "8"
-			(uuid "edff26db-14a9-4c0d-b7fb-be775640b818")
+			(uuid "edff26db-14a9-4c0d-b7fb-be775640b819")
 		)
 		(pin "4"
-			(uuid "7c09a578-0de8-431b-a989-148f0e12d1c5")
+			(uuid "7c09a578-0de8-431b-a989-148f0e12d1c6")
 		)
 		(pin "3"
-			(uuid "57299c38-b118-46fd-812c-1f870953b79f")
+			(uuid "57299c38-b118-46fd-812c-1f870953b7a0")
 		)
 		(pin "6"
-			(uuid "b50e810e-cd6b-4b75-b6a0-081604d29fa0")
+			(uuid "b50e810e-cd6b-4b75-b6a0-081604d29fa1")
 		)
 		(pin "5"
-			(uuid "209c8f9b-9228-403d-b2b7-e3830a5502b2")
+			(uuid "209c8f9b-9228-403d-b2b7-e3830a5502b3")
 		)
 		(pin "7"
-			(uuid "7abb2c47-20fe-4d2d-932c-8479bdbb080d")
+			(uuid "7abb2c47-20fe-4d2d-932c-8479bdbb080e")
 		)
 		(pin "1"
-			(uuid "6d8f7db0-bfc8-466e-83dd-2f1d5b7a892d")
+			(uuid "6d8f7db0-bfc8-466e-83dd-2f1d5b7a892e")
 		)
 		(instances
 			(project ""
@@ -6973,28 +7218,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "f17e4ff5-e55a-40ef-8f66-a34965eb33b2")
+			(uuid "f17e4ff5-e55a-40ef-8f66-a34965eb33b4")
 		)
 		(pin "8"
-			(uuid "edff26db-14a9-4c0d-b7fb-be775640b818")
+			(uuid "edff26db-14a9-4c0d-b7fb-be775640b81a")
 		)
 		(pin "4"
-			(uuid "7c09a578-0de8-431b-a989-148f0e12d1c5")
+			(uuid "7c09a578-0de8-431b-a989-148f0e12d1c7")
 		)
 		(pin "3"
-			(uuid "57299c38-b118-46fd-812c-1f870953b79f")
+			(uuid "57299c38-b118-46fd-812c-1f870953b7a1")
 		)
 		(pin "6"
-			(uuid "b50e810e-cd6b-4b75-b6a0-081604d29fa0")
+			(uuid "b50e810e-cd6b-4b75-b6a0-081604d29fa2")
 		)
 		(pin "5"
-			(uuid "209c8f9b-9228-403d-b2b7-e3830a5502b2")
+			(uuid "209c8f9b-9228-403d-b2b7-e3830a5502b4")
 		)
 		(pin "7"
-			(uuid "7abb2c47-20fe-4d2d-932c-8479bdbb080d")
+			(uuid "7abb2c47-20fe-4d2d-932c-8479bdbb080f")
 		)
 		(pin "1"
-			(uuid "6d8f7db0-bfc8-466e-83dd-2f1d5b7a892d")
+			(uuid "6d8f7db0-bfc8-466e-83dd-2f1d5b7a892f")
 		)
 		(instances
 			(project ""
@@ -7059,28 +7304,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "4324c39b-5498-432f-9de6-a8a5d7313553")
+			(uuid "4324c39b-5498-432f-9de6-a8a5d7313554")
 		)
 		(pin "3"
-			(uuid "ba6228e4-558b-40d8-9c28-db48b545f4ee")
+			(uuid "ba6228e4-558b-40d8-9c28-db48b545f4ef")
 		)
 		(pin "1"
-			(uuid "6581005a-23cf-4c7c-bf45-c389f458b33b")
+			(uuid "6581005a-23cf-4c7c-bf45-c389f458b33c")
 		)
 		(pin "2"
-			(uuid "29878a72-0541-4016-a622-bee7f25c22db")
+			(uuid "29878a72-0541-4016-a622-bee7f25c22dc")
 		)
 		(pin "7"
-			(uuid "e6be4dc4-aa40-46e1-a919-87f787660354")
+			(uuid "e6be4dc4-aa40-46e1-a919-87f787660355")
 		)
 		(pin "5"
-			(uuid "92532afb-1a10-4b77-add4-512221c27b78")
+			(uuid "92532afb-1a10-4b77-add4-512221c27b79")
 		)
 		(pin "4"
-			(uuid "00873435-4b50-43ef-b5e1-3ff44571f3d1")
+			(uuid "00873435-4b50-43ef-b5e1-3ff44571f3d2")
 		)
 		(pin "6"
-			(uuid "3281d0ba-f6d2-495c-9881-87b7c1ae2b61")
+			(uuid "3281d0ba-f6d2-495c-9881-87b7c1ae2b62")
 		)
 		(instances
 			(project ""
@@ -7284,6 +7529,74 @@
 			(project "amplifier"
 				(path "/07323227-9391-4047-a27b-e2e603c296e7"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Zener_AKL:MMSZ5222")
+		(at 86.36 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bae86140-a791-4123-9e80-a2d0ec6cb9ad")
+		(property "Reference" "DZ1"
+			(at 86.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMSZ5222"
+			(at 86.36 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_SOD-123"
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmsz5221bt1-d.pdf"
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-123 Zener diode, 2.5V, 500mW, Alternate KiCAD Library"
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ef40e0e-17e3-4c70-bddb-e4ac8569658a")
+		)
+		(pin "2"
+			(uuid "3215ff06-7627-4712-85c8-dff87741b004")
+		)
+		(instances
+			(project ""
+				(path "/07323227-9391-4047-a27b-e2e603c296e7"
+					(reference "DZ1")
 					(unit 1)
 				)
 			)
@@ -8933,28 +9246,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "4324c39b-5498-432f-9de6-a8a5d7313553")
+			(uuid "4324c39b-5498-432f-9de6-a8a5d7313555")
 		)
 		(pin "3"
-			(uuid "ba6228e4-558b-40d8-9c28-db48b545f4ee")
+			(uuid "ba6228e4-558b-40d8-9c28-db48b545f4f0")
 		)
 		(pin "1"
-			(uuid "6581005a-23cf-4c7c-bf45-c389f458b33b")
+			(uuid "6581005a-23cf-4c7c-bf45-c389f458b33d")
 		)
 		(pin "2"
-			(uuid "29878a72-0541-4016-a622-bee7f25c22db")
+			(uuid "29878a72-0541-4016-a622-bee7f25c22dd")
 		)
 		(pin "7"
-			(uuid "e6be4dc4-aa40-46e1-a919-87f787660354")
+			(uuid "e6be4dc4-aa40-46e1-a919-87f787660356")
 		)
 		(pin "5"
-			(uuid "92532afb-1a10-4b77-add4-512221c27b78")
+			(uuid "92532afb-1a10-4b77-add4-512221c27b7a")
 		)
 		(pin "4"
-			(uuid "00873435-4b50-43ef-b5e1-3ff44571f3d1")
+			(uuid "00873435-4b50-43ef-b5e1-3ff44571f3d3")
 		)
 		(pin "6"
-			(uuid "3281d0ba-f6d2-495c-9881-87b7c1ae2b61")
+			(uuid "3281d0ba-f6d2-495c-9881-87b7c1ae2b63")
 		)
 		(instances
 			(project ""
