@@ -95,6 +95,10 @@
 	(net 13 "RIN1")
 	(net 14 "Net-(U3B-+)")
 	(net 15 "LIN1")
+	(net 16 "unconnected-(H5-Pad1)")
+	(net 17 "unconnected-(H6-Pad1)")
+	(net 18 "unconnected-(H7-Pad1)")
+	(net 19 "unconnected-(H8-Pad1)")
 	(footprint "Heatsink:Heatsink_AAVID_573300D00010G_TO-263"
 		(layer "F.Cu")
 		(uuid "0797fc20-7733-4644-9388-81525ce18d5e")
@@ -1527,6 +1531,109 @@
 			)
 		)
 	)
+	(footprint "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+		(layer "F.Cu")
+		(uuid "63f90b45-ff07-405c-8ad2-8f3718112ad1")
+		(at 111.5 76.5)
+		(property "Reference" "H8"
+			(at 0 -4.064 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4b8b2070-dc9c-4e6f-b626-c40d92173da1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_M3_3.2mm_Pad"
+			(at 0 3.58 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "644f9775-73a8-4331-9117-4d88123de2e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0441aaf9-36ee-4e34-ad14-2ac9e030a1b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5eba46f1-5f45-4aa4-be51-ee18ab4e5557")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6759c51-63d6-4d72-835b-bbc22fb54f7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/cdbf8043-45d0-4be1-ba73-978886d9e082")
+		(sheetname "Root")
+		(sheetfile "amplifier.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.048 -1.016)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "86f29929-8c89-402c-838d-2b87fb15190f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 5.08 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d4171d05-03ba-4a9f-9e5d-3d561051f8b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6 6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "unconnected-(H8-Pad1)")
+			(pintype "passive")
+			(uuid "fc669552-82bd-445b-82aa-075418bc672b")
+		)
+	)
 	(footprint "Capacitor_SMD:CP_Elec_16x17.5"
 		(layer "F.Cu")
 		(uuid "683aef00-b6fd-4c68-866a-0dc098d03274")
@@ -2309,6 +2416,109 @@
 			)
 		)
 	)
+	(footprint "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+		(layer "F.Cu")
+		(uuid "908c2dae-5a62-4334-879e-4ef98d6b1dfa")
+		(at 111.5 53.5)
+		(property "Reference" "H6"
+			(at 0 -4.064 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d8214f47-4ac8-4abf-b8b3-60b7e39fff31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_M3_3.2mm_Pad"
+			(at 0 3.58 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "337798d4-5fd7-42fa-b87a-7aee56f899b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ef9fb9f-f9f5-45a3-beb3-6ab89bfdddb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1162edd-aafc-4f50-9600-d6b7fffbd56e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "277f12a8-e856-42f7-8f8b-438057aec593")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c38bd9c8-c59c-4206-9226-9cc0e36ee2dc")
+		(sheetname "Root")
+		(sheetfile "amplifier.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.048 -1.016)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "88dc9a44-eca6-420b-a060-f1be07b3558e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 5.08 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "18900667-d27b-461d-bbe3-36c092b8b6bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6 6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 17 "unconnected-(H6-Pad1)")
+			(pintype "passive")
+			(uuid "08cc5fa6-250b-4b0d-9ec8-710f4b25953a")
+		)
+	)
 	(footprint "Capacitor_SMD:CP_Elec_16x17.5"
 		(layer "F.Cu")
 		(uuid "9f6bfc9b-312b-4e8b-ab3c-b74e380248fd")
@@ -2751,6 +2961,212 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+		(layer "F.Cu")
+		(uuid "a350e9cc-460d-4d0f-8cd8-9bcf94901ca3")
+		(at 53.5 53.5)
+		(property "Reference" "H5"
+			(at 0 -4.064 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "26b04fda-b6c1-41ac-87bd-256c232fdf39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_M3_3.2mm_Pad"
+			(at 0 3.58 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b168a846-8660-4772-bc26-0a5249e93b32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "070a1848-16df-4564-9cbd-02f672e3b9fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae41c04c-def5-4410-9094-dd9023ba82c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a67eb70-b781-443e-93bd-96f4c7801a3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3da5cfd6-b128-401d-baa3-b0017758a37c")
+		(sheetname "Root")
+		(sheetfile "amplifier.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.048 -1.016)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "452961a3-647f-45e8-a88a-fa5b2e411873")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 5.08 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "eeeebf1b-fce4-48eb-984e-bcb7e6bac3b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6 6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "unconnected-(H5-Pad1)")
+			(pintype "passive")
+			(uuid "69c8e78a-9ce7-4eb3-bb00-6c0531b1a9df")
+		)
+	)
+	(footprint "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+		(layer "F.Cu")
+		(uuid "b0bdd430-c797-443d-9137-95f75df080e0")
+		(at 53.5 76.5)
+		(property "Reference" "H7"
+			(at 0 -4.064 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2706730-c6ad-43d4-b0e5-8d418ae93693")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_M3_3.2mm_Pad"
+			(at 0 3.58 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ff3b9f85-13d8-4af0-a752-2ed892558108")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SL_Mechanical:MountingHole_3.2mm_Pad"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3e065cb-edf3-41ac-bdb2-8d6ec761063c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a2bd7bb-3275-4c07-b012-42028e42d7b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole Pad (M3)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef5ea053-4d86-4c71-9b27-60d913b3eaf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7bce5a4c-67cf-4afe-a7be-8ec286bc615e")
+		(sheetname "Root")
+		(sheetfile "amplifier.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 3.048 -1.016)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d9bedcac-9306-47e7-b772-2cc28c930999")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 5.08 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "250e75cc-0baa-43c7-ab93-d932aa736a26")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 6 6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "unconnected-(H7-Pad1)")
+			(pintype "passive")
+			(uuid "362a144e-584b-44ec-86d8-2a8f0d5a4c30")
 		)
 	)
 	(footprint "Heatsink:Heatsink_AAVID_573300D00010G_TO-263"
@@ -3441,15 +3857,88 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 50 50)
-		(end 115 80)
+	(gr_line
+		(start 50 76.5)
+		(end 50 53.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "04773f69-ca9d-412d-a159-b311ece5b442")
+		(uuid "0ebc5309-04e0-4872-a8c7-2a745842a57a")
+	)
+	(gr_arc
+		(start 111.5 50)
+		(mid 113.974874 51.025126)
+		(end 115 53.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2468b6bc-8899-4548-ad7f-db5631dde055")
+	)
+	(gr_arc
+		(start 115 76.5)
+		(mid 113.974874 78.974874)
+		(end 111.5 80)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "28c8341d-1c2f-45f5-b4db-b97f737d95e0")
+	)
+	(gr_line
+		(start 111.5 80)
+		(end 53.5 80)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "49fc0a07-d693-42e0-ac9e-b9059190e5e6")
+	)
+	(gr_line
+		(start 115 53.5)
+		(end 115 76.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4f6c74dc-0426-457b-8e6c-ed2a3a1c5b2b")
+	)
+	(gr_arc
+		(start 53.5 80)
+		(mid 51.025126 78.974874)
+		(end 50 76.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bf2434bb-fec8-4b4d-b735-62dcd4d2febc")
+	)
+	(gr_line
+		(start 53.5 50)
+		(end 111.5 50)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c26f64e3-965c-42ea-95db-538e04c0c07a")
+	)
+	(gr_arc
+		(start 50 53.5)
+		(mid 51.025126 51.025126)
+		(end 53.5 50)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cd8051e6-ad81-4d61-9def-cbe88d509d5f")
 	)
 )
