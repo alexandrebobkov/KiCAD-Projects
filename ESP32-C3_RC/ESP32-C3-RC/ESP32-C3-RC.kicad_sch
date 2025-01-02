@@ -2749,7 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 100.33) (xy 229.87 100.33)
+			(xy 204.47 93.98) (xy 227.33 93.98)
 		)
 		(stroke
 			(width 0.508)
@@ -2836,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 77.47) (xy 250.19 77.47)
+			(xy 242.57 71.12) (xy 247.65 71.12)
 		)
 		(stroke
 			(width 0.508)
@@ -2857,7 +2857,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 77.47) (xy 229.87 77.47)
+			(xy 203.2 71.12) (xy 227.33 71.12)
 		)
 		(stroke
 			(width 0.508)
@@ -2932,7 +2932,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 100.33) (xy 248.92 100.33)
+			(xy 242.57 93.98) (xy 246.38 93.98)
 		)
 		(stroke
 			(width 0.508)
@@ -2953,7 +2953,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 31.75) (xy 229.87 31.75)
+			(xy 204.47 25.4) (xy 227.33 25.4)
 		)
 		(stroke
 			(width 0.508)
@@ -2985,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 54.61) (xy 229.87 54.61)
+			(xy 204.47 48.26) (xy 227.33 48.26)
 		)
 		(stroke
 			(width 0.508)
@@ -3102,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 54.61) (xy 248.92 54.61)
+			(xy 242.57 48.26) (xy 246.38 48.26)
 		)
 		(stroke
 			(width 0.508)
@@ -3135,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 31.75) (xy 248.92 31.75)
+			(xy 242.57 25.4) (xy 246.38 25.4)
 		)
 		(stroke
 			(width 0.508)
@@ -3178,6 +3178,18 @@
 		)
 		(uuid 1ad1924d-ff27-4a83-b4fb-015f5d642549)
 	)
+	(rectangle
+		(start 200.66 13.97)
+		(end 264.16 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dc515242-e0e5-4daf-9c1b-5d92fdbe36c0)
+	)
 	(text "Left Side Motors Controller"
 		(exclude_from_sim no)
 		(at 244.348 166.624 0)
@@ -3202,8 +3214,18 @@
 		)
 		(uuid "07ad9fcd-d012-4efc-8fc6-cf536ef1dca9")
 	)
+	(text "GPIOs Buffers"
+		(exclude_from_sim no)
+		(at 253.492 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "db6608f7-17e3-4240-9769-738902d05119")
+	)
 	(label "RGT_REV"
-		(at 248.92 31.75 0)
+		(at 246.38 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3368,7 +3390,7 @@
 		(uuid "6c324943-c582-4dd5-a754-d046a077570c")
 	)
 	(label "LFT_REV"
-		(at 250.19 77.47 0)
+		(at 247.65 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3390,7 +3412,7 @@
 		(uuid "77d36847-48b3-45c1-9200-dc2d9e8b88cd")
 	)
 	(label "MTR_FRONT_RIGHT_REV"
-		(at 207.01 31.75 0)
+		(at 204.47 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3401,7 +3423,7 @@
 		(uuid "7882e124-0777-4c49-a8b9-2111e0552d56")
 	)
 	(label "MTR_FRONT_LEFT"
-		(at 207.01 100.33 0)
+		(at 204.47 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3412,7 +3434,7 @@
 		(uuid "7926028e-5a80-48b8-af4b-3c5ab62a7e84")
 	)
 	(label "RGT_FWD"
-		(at 248.92 54.61 0)
+		(at 246.38 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3423,7 +3445,7 @@
 		(uuid "84a277c5-1b07-4213-9722-eaeb12c3069b")
 	)
 	(label "LFT_FWD"
-		(at 248.92 100.33 0)
+		(at 246.38 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3434,7 +3456,7 @@
 		(uuid "8746e792-5b1b-4800-8aae-cb21b6deccad")
 	)
 	(label "MTR_FRONT_LEFT_REV"
-		(at 205.74 77.47 0)
+		(at 203.2 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3632,7 +3654,7 @@
 		(uuid "e779b0d5-5ea6-49a6-a38f-4b34a3868905")
 	)
 	(label "MTR_FRONT_RIGHT"
-		(at 207.01 54.61 0)
+		(at 204.47 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3644,7 +3666,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 237.49 60.96 0)
+		(at 234.95 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3653,7 +3675,7 @@
 		(fields_autoplaced yes)
 		(uuid "07656d54-7916-4dd8-9fbb-c32bd3192330")
 		(property "Reference" "#PWR03"
-			(at 237.49 67.31 0)
+			(at 234.95 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3684,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 237.49 64.77 0)
+			(at 234.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +3692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 60.96 0)
+			(at 234.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 60.96 0)
+			(at 234.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 237.49 60.96 0)
+			(at 234.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,7 +3908,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS125")
-		(at 237.49 100.33 0)
+		(at 234.95 93.98 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3895,7 +3917,7 @@
 		(fields_autoplaced yes)
 		(uuid "14dfb52b-ef51-4665-85a6-bcf9280402e9")
 		(property "Reference" "U1"
-			(at 237.49 91.44 0)
+			(at 234.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3925,7 @@
 			)
 		)
 		(property "Value" "74LS125"
-			(at 237.49 93.98 0)
+			(at 234.95 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 100.33 0)
+			(at 234.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,7 +3942,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
-			(at 237.49 100.33 0)
+			(at 234.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +3951,7 @@
 			)
 		)
 		(property "Description" "Quad buffer 3-State outputs"
-			(at 237.49 100.33 0)
+			(at 234.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +4840,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 237.49 83.82 0)
+		(at 234.95 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4827,7 +4849,7 @@
 		(fields_autoplaced yes)
 		(uuid "38e1148e-b9a2-4553-87e5-dd9abad4ca1c")
 		(property "Reference" "#PWR02"
-			(at 237.49 90.17 0)
+			(at 234.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4836,7 +4858,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 237.49 87.63 0)
+			(at 234.95 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +4866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 83.82 0)
+			(at 234.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +4875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 83.82 0)
+			(at 234.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 237.49 83.82 0)
+			(at 234.95 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +5844,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 237.49 38.1 0)
+		(at 234.95 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5831,7 +5853,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8aa9429-3330-42a2-9bbf-57d7f05fe27e")
 		(property "Reference" "#PWR012"
-			(at 237.49 44.45 0)
+			(at 234.95 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +5862,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 237.49 41.91 0)
+			(at 234.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +5870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 38.1 0)
+			(at 234.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 38.1 0)
+			(at 234.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5888,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 237.49 38.1 0)
+			(at 234.95 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5910,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS125")
-		(at 237.49 54.61 0)
+		(at 234.95 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5897,7 +5919,7 @@
 		(fields_autoplaced yes)
 		(uuid "b37c89ea-b700-4d41-87eb-0e522df1878d")
 		(property "Reference" "U1"
-			(at 237.49 45.72 0)
+			(at 234.95 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5905,7 +5927,7 @@
 			)
 		)
 		(property "Value" "74LS125"
-			(at 237.49 48.26 0)
+			(at 234.95 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,7 +5935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 54.61 0)
+			(at 234.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +5944,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
-			(at 237.49 54.61 0)
+			(at 234.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +5953,7 @@
 			)
 		)
 		(property "Description" "Quad buffer 3-State outputs"
-			(at 237.49 54.61 0)
+			(at 234.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +6351,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS125")
-		(at 237.49 77.47 0)
+		(at 234.95 71.12 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6338,7 +6360,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcfae3b5-0f8e-4f9b-b0e2-f20fb372cd0c")
 		(property "Reference" "U1"
-			(at 237.49 68.58 0)
+			(at 234.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6346,7 +6368,7 @@
 			)
 		)
 		(property "Value" "74LS125"
-			(at 237.49 71.12 0)
+			(at 234.95 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 77.47 0)
+			(at 234.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6385,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
-			(at 237.49 77.47 0)
+			(at 234.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6372,7 +6394,7 @@
 			)
 		)
 		(property "Description" "Quad buffer 3-State outputs"
-			(at 237.49 77.47 0)
+			(at 234.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,7 +6521,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS125")
-		(at 237.49 31.75 0)
+		(at 234.95 25.4 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6508,7 +6530,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1a55b63-7498-4afa-8ab8-b6fa44349355")
 		(property "Reference" "U1"
-			(at 237.49 22.86 0)
+			(at 234.95 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6516,7 +6538,7 @@
 			)
 		)
 		(property "Value" "74LS125"
-			(at 237.49 25.4 0)
+			(at 234.95 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 31.75 0)
+			(at 234.95 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6555,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
-			(at 237.49 31.75 0)
+			(at 234.95 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6542,7 +6564,7 @@
 			)
 		)
 		(property "Description" "Quad buffer 3-State outputs"
-			(at 237.49 31.75 0)
+			(at 234.95 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +6625,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 237.49 106.68 0)
+		(at 234.95 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6612,7 +6634,7 @@
 		(fields_autoplaced yes)
 		(uuid "fac619a5-d060-40ae-be9f-cd79eb5ddd4e")
 		(property "Reference" "#PWR013"
-			(at 237.49 113.03 0)
+			(at 234.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6621,7 +6643,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 237.49 110.49 0)
+			(at 234.95 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +6651,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 106.68 0)
+			(at 234.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 106.68 0)
+			(at 234.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6669,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 237.49 106.68 0)
+			(at 234.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
