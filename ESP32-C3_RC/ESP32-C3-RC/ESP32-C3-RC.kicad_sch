@@ -2629,7 +2629,7 @@
 		(uuid "5b02ab03-aefa-4cd7-8e1b-738eba1561a8")
 	)
 	(junction
-		(at 35.56 29.21)
+		(at 41.91 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eaf1699-4907-40be-be82-ec269bdd00e7")
@@ -2667,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 29.21) (xy 35.56 29.21)
+			(xy 38.1 34.29) (xy 41.91 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 29.21) (xy 35.56 31.75)
+			(xy 41.91 34.29) (xy 41.91 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2728,7 +2728,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 33.02) (xy 44.45 29.21)
+			(xy 50.8 38.1) (xy 50.8 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2868,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 29.21) (xy 35.56 29.21)
+			(xy 50.8 34.29) (xy 41.91 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +3146,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 24.13) (xy 41.91 24.13)
+			(xy 38.1 29.21) (xy 48.26 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3179,10 +3179,22 @@
 		(uuid 1ad1924d-ff27-4a83-b4fb-015f5d642549)
 	)
 	(rectangle
+		(start 13.97 13.97)
+		(end 66.04 115.57)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 217ebadd-b7f6-4420-963a-43324828d62b)
+	)
+	(rectangle
 		(start 66.04 13.97)
 		(end 200.66 115.57)
 		(stroke
-			(width 0)
+			(width 0.381)
 			(type default)
 		)
 		(fill
@@ -4407,7 +4419,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS125")
-		(at 24.13 59.69 0)
+		(at 30.48 64.77 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4416,7 +4428,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d061af9-64dd-4215-8c3a-00c25cc8ff79")
 		(property "Reference" "U1"
-			(at 30.48 58.4199 0)
+			(at 36.83 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4437,7 @@
 			)
 		)
 		(property "Value" "74LS125"
-			(at 30.48 60.9599 0)
+			(at 36.83 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4455,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS125"
-			(at 24.13 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4464,7 @@
 			)
 		)
 		(property "Description" "Quad buffer 3-State outputs"
-			(at 24.13 59.69 0)
+			(at 30.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4525,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 41.91 24.13 270)
+		(at 48.26 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4522,7 +4534,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f9ffce2-46d1-4b1a-906c-023c78a24875")
 		(property "Reference" "#PWR016"
-			(at 38.1 24.13 0)
+			(at 44.45 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,7 +4543,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 45.72 24.1299 90)
+			(at 52.07 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +4552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 24.13 0)
+			(at 48.26 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 24.13 0)
+			(at 48.26 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 41.91 24.13 0)
+			(at 48.26 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +4999,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 44.45 33.02 0)
+		(at 50.8 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4996,7 +5008,7 @@
 		(fields_autoplaced yes)
 		(uuid "3decb0f4-d66f-4b04-ac7f-de228f4e9e30")
 		(property "Reference" "#PWR010"
-			(at 44.45 39.37 0)
+			(at 50.8 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5017,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 44.45 36.83 0)
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 33.02 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +5034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 33.02 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,7 +5043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 44.45 33.02 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5132,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 24.13 72.39 0)
+		(at 30.48 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5129,7 +5141,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cb9b267-d122-47ff-be72-3ce8d638d110")
 		(property "Reference" "#PWR01"
-			(at 24.13 78.74 0)
+			(at 30.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5150,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 24.13 76.2 0)
+			(at 30.48 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +5158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 72.39 0)
+			(at 30.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5155,7 +5167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 72.39 0)
+			(at 30.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,7 +5176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 24.13 72.39 0)
+			(at 30.48 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5268,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 31.75 0)
+		(at 41.91 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5265,7 +5277,7 @@
 		(fields_autoplaced yes)
 		(uuid "60fc74dc-acec-483c-ab65-2f1de411d5c6")
 		(property "Reference" "#PWR08"
-			(at 35.56 38.1 0)
+			(at 41.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +5286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 36.83 0)
+			(at 41.91 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 31.75 0)
+			(at 41.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,7 +5303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 31.75 0)
+			(at 41.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 31.75 0)
+			(at 41.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6174,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
-		(at 24.13 26.67 0)
+		(at 30.48 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6171,7 +6183,7 @@
 		(fields_autoplaced yes)
 		(uuid "bac1b310-a8a8-42ed-bb02-f4e4172bf90f")
 		(property "Reference" "J1"
-			(at 24.13 17.78 0)
+			(at 30.48 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +6191,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_Switch"
-			(at 24.13 20.32 0)
+			(at 30.48 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6187,7 +6199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 27.686 0)
+			(at 31.75 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6196,7 +6208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 27.686 0)
+			(at 31.75 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,7 +6217,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 24.13 26.67 0)
+			(at 30.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6481,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VD")
-		(at 24.13 46.99 0)
+		(at 30.48 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6478,7 +6490,7 @@
 		(fields_autoplaced yes)
 		(uuid "f12a8b62-7f65-4a9a-bf6b-d75c1ad0f99d")
 		(property "Reference" "#PWR014"
-			(at 24.13 50.8 0)
+			(at 30.48 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +6499,7 @@
 			)
 		)
 		(property "Value" "+5VD"
-			(at 24.13 41.91 0)
+			(at 30.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 46.99 0)
+			(at 30.48 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 46.99 0)
+			(at 30.48 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6525,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 24.13 46.99 0)
+			(at 30.48 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
