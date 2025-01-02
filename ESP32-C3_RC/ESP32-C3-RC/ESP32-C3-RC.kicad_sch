@@ -1527,13 +1527,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 34.29) (xy 200.66 38.1)
+			(xy 200.66 38.1) (xy 200.66 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "080dfdc3-0887-4292-b326-db74def2fef1")
+	)
+	(wire
+		(pts
+			(xy 226.06 25.4) (xy 226.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296fbf9f-8114-49eb-92a9-53c35c7fe868")
 	)
 	(wire
 		(pts
@@ -1567,6 +1577,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 34.29) (xy 222.25 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d71524-426f-4c73-8eb7-82de75837e20")
+	)
+	(wire
+		(pts
 			(xy 106.68 165.1) (xy 106.68 167.64)
 		)
 		(stroke
@@ -1597,7 +1617,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 21.59) (xy 200.66 26.67)
+			(xy 226.06 38.1) (xy 226.06 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ff789f-42ca-45c3-a015-b00e44c32dbb")
+	)
+	(wire
+		(pts
+			(xy 200.66 25.4) (xy 200.66 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1607,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 30.48) (xy 196.85 30.48)
+			(xy 186.69 34.29) (xy 196.85 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1635,8 +1665,19 @@
 		)
 		(uuid "dc3b00bb-b717-47f8-93b6-4ce0d4837997")
 	)
+	(label "PROJ_Y"
+		(at 212.09 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "23d37eca-93ac-425c-ae95-35aecdaad9e0")
+	)
 	(label "PROJ_X"
-		(at 186.69 30.48 0)
+		(at 186.69 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1883,6 +1924,211 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 226.06 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e9e175f-1d42-4dd4-afc0-60c13d3af2f0")
+		(property "Reference" "#PWR07"
+			(at 226.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 226.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 226.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cee71a6a-8f32-4ba1-8d4c-5b3d4faba986")
+		)
+		(instances
+			(project "ESP32-C3-RC"
+				(path "/ee09df5a-82c6-4b85-a250-d8fc322df9ef"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 226.06 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2601e8fc-fcf9-474a-96e2-91d04f2404ff")
+		(property "Reference" "#PWR06"
+			(at 226.06 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 226.06 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2ce073a-5a83-4489-b5aa-d87ecc771d70")
+		)
+		(instances
+			(project "ESP32-C3-RC"
+				(path "/ee09df5a-82c6-4b85-a250-d8fc322df9ef"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 226.06 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "280a1436-3dc6-42ad-818f-1cb6e581cf7c")
+		(property "Reference" "RV2"
+			(at 228.6 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 228.6 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PROJ-Y"
+			(at 226.06 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c37e4f76-b0b1-4055-b73c-efac4f001b90")
+		)
+		(pin "1"
+			(uuid "2665a348-1dba-459f-969a-cfd10ccc7356")
+		)
+		(pin "3"
+			(uuid "209599ab-7a65-4b47-88c8-368b80eac130")
+		)
+		(instances
+			(project "ESP32-C3-RC"
+				(path "/ee09df5a-82c6-4b85-a250-d8fc322df9ef"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS125")
 		(at 106.68 152.4 0)
 		(unit 5)
@@ -2122,7 +2368,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 200.66 38.1 0)
+		(at 200.66 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2131,7 +2377,7 @@
 		(fields_autoplaced yes)
 		(uuid "643b407c-6741-42a7-a8ee-c826096d0b7c")
 		(property "Reference" "#PWR04"
-			(at 200.66 44.45 0)
+			(at 200.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2386,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 200.66 41.91 0)
+			(at 200.66 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 38.1 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 38.1 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 200.66 38.1 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,7 +2562,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 200.66 30.48 0)
+		(at 200.66 34.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2325,7 +2571,7 @@
 		(dnp no)
 		(uuid "9cd0cb3f-709c-476c-b8c5-753d4b7eedd5")
 		(property "Reference" "RV1"
-			(at 203.2 29.2099 0)
+			(at 203.2 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2580,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 203.2 31.7499 0)
+			(at 203.2 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2589,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 30.48 0)
+			(at 200.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 30.48 0)
+			(at 200.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2607,7 @@
 			)
 		)
 		(property "Description" "PROJ-X"
-			(at 200.66 30.48 0)
+			(at 200.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2739,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 200.66 21.59 0)
+		(at 200.66 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2502,7 +2748,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbd5afa3-dc79-4ae3-9606-3eae26de5d62")
 		(property "Reference" "#PWR05"
-			(at 200.66 25.4 0)
+			(at 200.66 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2757,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 200.66 16.51 0)
+			(at 200.66 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 21.59 0)
+			(at 200.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 21.59 0)
+			(at 200.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 200.66 21.59 0)
+			(at 200.66 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
