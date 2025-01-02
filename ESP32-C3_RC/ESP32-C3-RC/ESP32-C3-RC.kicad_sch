@@ -2104,16 +2104,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 52.07 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0526cf05-3787-4d83-a6c4-ca8e4f9856ed")
-	)
-	(wire
-		(pts
 			(xy 107.95 101.6) (xy 104.14 101.6)
 		)
 		(stroke
@@ -2141,6 +2131,16 @@
 			(type default)
 		)
 		(uuid "19f7bb83-7188-432b-bb81-01e7fc1345ac")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292becb2-5da2-4493-928d-f98656204adf")
 	)
 	(wire
 		(pts
@@ -2181,16 +2181,6 @@
 			(type default)
 		)
 		(uuid "48b4ee38-ce26-4d77-ac6e-3a7b9ef86c09")
-	)
-	(wire
-		(pts
-			(xy 101.6 95.25) (xy 107.95 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "517060b6-bc54-492e-b672-38d32fbdbde9")
 	)
 	(wire
 		(pts
@@ -2352,16 +2342,15 @@
 		)
 		(uuid "e95e0a47-6245-4065-a41d-8daa2bfa2376")
 	)
-	(label "9V"
-		(at 101.6 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 48.26 40.64) (xy 58.42 40.64)
 		)
-		(uuid "04c83c7d-7e63-48c8-b290-0da0e152c3b8")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f430260f-614d-465a-8a16-625aedfef703")
 	)
 	(label "PROJ_Y"
 		(at 212.09 34.29 0)
@@ -2450,17 +2439,6 @@
 			(justify left bottom)
 		)
 		(uuid "ccb4d2ac-6287-4efa-baa0-13677d085b12")
-	)
-	(label "9V"
-		(at 52.07 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb3785a3-2a29-42c8-aa4d-cd9bb6f47af3")
 	)
 	(symbol
 		(lib_id "power:GNDD")
@@ -3676,7 +3654,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 95.25 93.98 90)
+		(at 96.52 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3685,7 +3663,7 @@
 		(fields_autoplaced yes)
 		(uuid "a31be6a0-1c81-4d1c-87e6-bc3b40781e5f")
 		(property "Reference" "#PWR017"
-			(at 99.06 93.98 0)
+			(at 100.33 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3672,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 91.44 93.9799 90)
+			(at 92.71 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 93.98 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 93.98 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3699,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 95.25 93.98 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
