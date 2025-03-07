@@ -4806,7 +4806,7 @@
 		(at 140.25 139 180)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
-		(property "Reference" "U3"
+		(property "Reference" "U3 5V"
 			(at 0 -5 180)
 			(layer "F.SilkS")
 			(uuid "ca16cbc8-5a65-4d95-8e4b-05ba8ea47748")
@@ -5890,7 +5890,7 @@
 		(at 123.25 141.75 180)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
-		(property "Reference" "U2"
+		(property "Reference" "U2 3V3"
 			(at -0.25 5.25 180)
 			(layer "F.SilkS")
 			(uuid "d9a26ce6-884a-4eef-a4d3-b7f0ba0326c2")
@@ -8333,13 +8333,14 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.82 0)
+			(at 4.25 0 0)
 			(layer "F.SilkS")
 			(uuid "4bc71ffd-9891-42ee-9815-848d656079e7")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -10507,6 +10508,18 @@
 			(fill solid)
 			(layer "B.SilkS")
 			(uuid "6e10911b-0fda-4e96-a6b5-18410bb8b240")
+		)
+	)
+	(gr_text "R1"
+		(at 127.5 107.5 0)
+		(layer "F.SilkS")
+		(uuid "ed87b030-3724-47ff-810b-adc92b5c64d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
 		)
 	)
 	(segment
