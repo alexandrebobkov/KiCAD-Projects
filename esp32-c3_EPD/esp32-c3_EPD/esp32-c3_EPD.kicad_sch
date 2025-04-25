@@ -5,6 +5,522 @@
 	(uuid "344294fb-c5f2-408b-9dcd-2ef32aaa9090")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Alexander Symbols Library 1:ESP32-C3_Mini"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 13.208 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESP32-C3 WROOM"
+				(at 0 -0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESP32-C3 WROOM BRD"
+				(at 0.508 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ESP32-C3 WROOM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESP32-C3_Mini_0_0"
+				(pin power_in line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -12.7 0)
+					(length 2.54)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -15.24 0)
+					(length 2.54)
+					(name "GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -17.78 0)
+					(length 2.54)
+					(name "GPIO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -20.32 0)
+					(length 2.54)
+					(name "GPIO8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -22.86 0)
+					(length 2.54)
+					(name "GPIO9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -25.4 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -10.16 180)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -12.7 180)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -25.4 180)
+					(length 2.54)
+					(name "GPIO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESP32-C3_Mini_1_0"
+				(pin bidirectional line
+					(at 16.51 -15.24 180)
+					(length 2.54)
+					(name "GPIO19/USB_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -17.78 180)
+					(length 2.54)
+					(name "GPIO18/USB_D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -20.32 180)
+					(length 2.54)
+					(name "GPIO21/TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -22.86 180)
+					(length 2.54)
+					(name "GPIO20/RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESP32-C3_Mini_1_1"
+				(polyline
+					(pts
+						(xy -12.7 -26.67) (xy -12.7 -3.81)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 -27.94) (xy -7.62 -27.94)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -12.7 -3.81)
+					(mid -12.328 -2.912)
+					(end -11.43 -2.54)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -11.43 -27.94)
+					(mid -12.328 -27.568)
+					(end -12.7 -26.67)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -25.4)
+					(end -2.54 -29.21)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 -2.54)
+					(mid 13.598 -2.912)
+					(end 13.97 -3.81)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 13.97 -26.67)
+					(mid 13.598 -27.568)
+					(end 12.7 -27.94)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -27.94) (xy -2.54 -27.94)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -26.67) (xy 13.97 -3.81)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "USB-C"
+					(at -5.08 -30.48 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Alexander Symbols Library:Conn_ePaper_01x08"
 			(pin_names
 				(offset 1.016)
@@ -871,6 +1387,46 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 57.15) (xy 73.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1630867b-2cf5-44a5-8bf1-b936a6705db4")
+	)
+	(wire
+		(pts
+			(xy 105.41 54.61) (xy 113.03 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278b231b-3163-4e15-a05e-aa7036c52c2f")
+	)
+	(wire
+		(pts
+			(xy 67.31 59.69) (xy 73.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289a5658-fd28-4ed0-b21d-efd65c75eb57")
+	)
+	(wire
+		(pts
+			(xy 67.31 52.07) (xy 73.66 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e895f3-206b-4423-b816-4001881534f4")
+	)
+	(wire
+		(pts
 			(xy 144.78 53.34) (xy 158.75 53.34)
 		)
 		(stroke
@@ -918,6 +1474,16 @@
 			(type default)
 		)
 		(uuid "57cfdc81-50f8-4694-84ca-c2e0db602f7e")
+	)
+	(wire
+		(pts
+			(xy 67.31 46.99) (xy 73.66 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a83fac-926d-44fb-89dc-c5257413669e")
 	)
 	(wire
 		(pts
@@ -1001,6 +1567,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 52.07) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4597df-ed63-46a0-bd7a-5ca53c038343")
+	)
+	(wire
+		(pts
 			(xy 121.92 77.47) (xy 121.92 82.55)
 		)
 		(stroke
@@ -1008,6 +1584,16 @@
 			(type default)
 		)
 		(uuid "b269137f-4be8-48c2-87e0-bc0ed5dff2b1")
+	)
+	(wire
+		(pts
+			(xy 67.31 67.31) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6267dd-2da6-46da-8314-941b2f7487e6")
 	)
 	(wire
 		(pts
@@ -1038,6 +1624,26 @@
 			(justify left bottom)
 		)
 		(uuid "33beab38-dbe7-4863-a5a1-c48c4543cbf0")
+	)
+	(label "3V3"
+		(at 67.31 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38704038-03c0-41be-8043-bf817223b4be")
+	)
+	(label "DN"
+		(at 67.31 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39cf6653-15db-4417-9cb3-273f06b33cf0")
 	)
 	(label "3V3"
 		(at 121.92 77.47 270)
@@ -1079,6 +1685,16 @@
 		)
 		(uuid "59b01fc1-f0f7-487f-be3a-5c4f56d861e4")
 	)
+	(label "CLK"
+		(at 67.31 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bf331e1-4618-4b3a-af86-aa73ae225a78")
+	)
 	(label "CS"
 		(at 100.33 91.44 0)
 		(effects
@@ -1099,6 +1715,26 @@
 		)
 		(uuid "6f301654-610d-48a8-a75d-854299192e96")
 	)
+	(label "CS"
+		(at 67.31 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a75a3fc-e451-4ad2-91c7-ccf564c789e0")
+	)
+	(label "RESET"
+		(at 113.03 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9194ea5f-a35a-4639-8bfa-1f5e5dee470f")
+	)
 	(label "DC"
 		(at 143.51 104.14 180)
 		(effects
@@ -1118,6 +1754,16 @@
 			(justify right bottom)
 		)
 		(uuid "9cae26af-c9fe-4ce1-b16d-95685b57af2b")
+	)
+	(label "BUSY"
+		(at 113.03 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9e1aad57-61ec-4143-853a-13545f87de19")
 	)
 	(label "DN"
 		(at 144.78 58.42 0)
@@ -1178,6 +1824,16 @@
 			(justify left bottom)
 		)
 		(uuid "f6d433c4-5bb1-468e-bb57-e8454ef458ca")
+	)
+	(label "GND"
+		(at 67.31 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa1d63e8-e120-42a2-b7a1-9c027b68739f")
 	)
 	(label "CLK"
 		(at 144.78 55.88 0)
@@ -1448,6 +2104,122 @@
 			(project ""
 				(path "/344294fb-c5f2-408b-9dcd-2ef32aaa9090"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Alexander Symbols Library 1:ESP32-C3_Mini")
+		(at 88.9 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd4f1261-1320-4f5b-bea2-eeeb87fb71d6")
+		(property "Reference" "U2"
+			(at 89.535 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-C3 WROOM"
+			(at 89.535 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESP32-C3 WROOM BRD"
+			(at 89.408 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4af2c11c-712e-442f-8885-68fad1fd95ff")
+		)
+		(pin "2"
+			(uuid "00974823-c2b8-4853-8ed0-98eeee322341")
+		)
+		(pin "3"
+			(uuid "383e056a-5e27-4cc0-a25d-b5f85d2de0ea")
+		)
+		(pin "4"
+			(uuid "707f8606-4965-48f8-a734-2f5a950abf47")
+		)
+		(pin "5"
+			(uuid "5d4c92a3-e2c3-4f3e-aff4-3a73f54f236d")
+		)
+		(pin "6"
+			(uuid "35bda343-8868-46ab-8a2d-fdd954cbbc5f")
+		)
+		(pin "16"
+			(uuid "3fdc260d-5666-45b9-9e1f-97dc82e19dde")
+		)
+		(pin "12"
+			(uuid "6aa2c8ce-dca5-4f37-9fef-b2e5f905a277")
+		)
+		(pin "11"
+			(uuid "789b1518-2fa6-460f-a18c-827d5fe1f4cb")
+		)
+		(pin "17"
+			(uuid "48f32c04-200f-48f6-8565-7407b58cfccc")
+		)
+		(pin "7"
+			(uuid "adb4a178-3692-41a4-94ef-253be28374fb")
+		)
+		(pin "8"
+			(uuid "725c3afe-20bb-4b81-ba7e-7ba63be5ed22")
+		)
+		(pin "13"
+			(uuid "d0bdf224-be5a-4653-b04c-c6f0042ade5a")
+		)
+		(pin "15"
+			(uuid "fdfcb79d-c6af-4a88-96d3-38c1fd01575b")
+		)
+		(pin "10"
+			(uuid "01dee0f8-6b74-4286-bbc5-d2a8495bbde0")
+		)
+		(pin "14"
+			(uuid "ff5f0ddf-0757-45aa-b4e5-0c576ae757e7")
+		)
+		(pin "9"
+			(uuid "0da1a2c8-7db0-4a88-8366-c4fdc10ee453")
+		)
+		(pin "18"
+			(uuid "e6035707-8f5d-47ce-8bfd-712f72e6cfea")
+		)
+		(instances
+			(project ""
+				(path "/344294fb-c5f2-408b-9dcd-2ef32aaa9090"
+					(reference "U2")
 					(unit 1)
 				)
 			)
