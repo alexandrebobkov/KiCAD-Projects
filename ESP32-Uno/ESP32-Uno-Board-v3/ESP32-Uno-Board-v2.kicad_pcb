@@ -1900,11 +1900,11 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "358a1b61-f525-4468-809f-c835fdbe1677")
-		(at 166.5 109.25 90)
+		(at 163.05 109.55 90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
-			(at -4.45 0 0)
+			(at 0 -2.15 90)
 			(layer "F.SilkS")
 			(uuid "e60c64da-e573-42f0-ac2d-6365c6fd6417")
 			(effects
@@ -6120,7 +6120,7 @@
 		(descr "tactile switch SPST right angle, PTS645VL31-2 LFS")
 		(tags "tactile switch SPST angled PTS645VL31-2 LFS C&K Button")
 		(property "Reference" "BTN3"
-			(at 2.725 10.3875 90)
+			(at 2.225 2.3875 90)
 			(layer "F.SilkS")
 			(uuid "42a59faf-61e2-4bbe-bddb-1556968048ef")
 			(effects
@@ -9367,6 +9367,18 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_text "RESET"
+		(at 166.5 109.25 90)
+		(layer "F.SilkS" knockout)
+		(uuid "88996f00-dd7a-4c35-998b-ec0d624edc25")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "R1"
 		(at 127.5 107.5 0)
 		(layer "F.SilkS")
@@ -9835,14 +9847,6 @@
 		(uuid "3ba8dadb-ebd4-4e33-8a7d-fc6b5aad6220")
 	)
 	(segment
-		(start 166.5 110.8)
-		(end 166.5 112.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "3fba6ac1-e0d8-4adc-ba84-1a7a436ebd7c")
-	)
-	(segment
 		(start 145.542 146.042)
 		(end 144.75 145.25)
 		(width 0.8)
@@ -9929,6 +9933,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "c3e9c2a3-3cd9-4872-9d1b-3fba02bcb315")
+	)
+	(segment
+		(start 163.05 110.6)
+		(end 163.05 110.3)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "f57a8212-0460-45d8-90b5-ad497902bfb1")
 	)
 	(segment
 		(start 166.5 112.5)
@@ -12043,36 +12055,12 @@
 		(uuid "00be11e1-a325-41b6-9306-2bfb0f0b510a")
 	)
 	(segment
-		(start 165.3 107.7)
-		(end 172.4625 107.7)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 32)
-		(uuid "079793c4-e808-41b1-93d2-e3b32ff73e9a")
-	)
-	(segment
-		(start 166.55 114.1)
-		(end 164.5 112.05)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 32)
-		(uuid "387e604f-1a43-47ba-9673-d0d3e497a8a3")
-	)
-	(segment
 		(start 174.56 122.61)
 		(end 174.56 120.426115)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 32)
 		(uuid "50c4ae03-655b-44e0-99d3-ed89030bd54b")
-	)
-	(segment
-		(start 164.5 112.05)
-		(end 164.5 108.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 32)
-		(uuid "82c6a03c-4e30-49f8-b5a8-731c95a41659")
 	)
 	(segment
 		(start 168.233885 114.1)
@@ -12089,14 +12077,6 @@
 		(layer "F.Cu")
 		(net 32)
 		(uuid "f0789e47-d056-4dbe-af6d-1535060a91eb")
-	)
-	(segment
-		(start 164.5 108.5)
-		(end 165.3 107.7)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 32)
-		(uuid "fe9d2902-9c1c-4b54-b4af-388e7c3ae0a7")
 	)
 	(segment
 		(start 161 129.455)
