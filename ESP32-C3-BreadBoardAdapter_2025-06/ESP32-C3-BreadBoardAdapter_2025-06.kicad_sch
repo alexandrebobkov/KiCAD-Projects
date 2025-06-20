@@ -5989,6 +5989,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 55.88) (xy 189.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfe8be1-9a51-414e-9f7a-55e4a1fd296b")
+	)
+	(wire
+		(pts
 			(xy 146.05 125.73) (xy 166.37 125.73)
 		)
 		(stroke
@@ -6439,16 +6449,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 15.24) (xy 231.14 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79fa1a78-58fb-492a-b09f-d021a9517ffb")
-	)
-	(wire
-		(pts
 			(xy 101.6 62.23) (xy 106.68 62.23)
 		)
 		(stroke
@@ -6589,6 +6589,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 90.17) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dffb28d-9303-4f6e-9970-f6458fea6b6e")
+	)
+	(wire
+		(pts
 			(xy 100.33 163.83) (xy 100.33 166.37)
 		)
 		(stroke
@@ -6676,6 +6686,16 @@
 			(type default)
 		)
 		(uuid "9f52bc40-b303-4ab0-8ca8-9681092c9c7b")
+	)
+	(wire
+		(pts
+			(xy 191.77 55.88) (xy 191.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a032fcd8-04cf-4110-891e-9928d4c947ae")
 	)
 	(wire
 		(pts
@@ -7039,13 +7059,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 15.24) (xy 233.68 26.67)
+			(xy 196.85 90.17) (xy 196.85 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd7ea5eb-ffa4-4eca-ae8d-4ec61c46d166")
+		(uuid "e17b052f-f8d4-4604-9d27-2831a30aa70f")
 	)
 	(wire
 		(pts
@@ -7357,6 +7377,16 @@
 		)
 		(uuid "3cd9ad94-f322-4bb7-ba90-6da40e5c5e66")
 	)
+	(label "VCC2"
+		(at 191.77 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42557bcb-948a-4e71-835c-b2b787823d9e")
+	)
 	(label "RXD"
 		(at 101.6 64.77 0)
 		(effects
@@ -7486,6 +7516,16 @@
 			(justify left bottom)
 		)
 		(uuid "722661b0-5fb2-4f82-b19e-5ef6a8f4ab55")
+	)
+	(label "VCC1"
+		(at 189.23 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "749ba637-cd69-48a5-ae0a-5e42b2abbca4")
 	)
 	(label "VDC"
 		(at 27.94 156.21 0)
@@ -10246,6 +10286,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 196.85 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c211660-a658-4f85-98d4-6d70f1c15983")
+		(property "Reference" "#PWR019"
+			(at 196.85 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 196.85 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c67a212-aa2f-4d89-b3e8-75720ada0c5c")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter_2025-06"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 33.02 95.25 270)
 		(unit 1)
@@ -11385,6 +11491,72 @@
 			(project ""
 				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 184.15 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d337865b-9aa3-465f-b6d0-360652987e49")
+		(property "Reference" "#PWR022"
+			(at 184.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbd96f33-da16-4c83-a441-6918ea6ac65c")
+		)
+		(instances
+			(project "ESP32-C3-BreadBoardAdapter_2025-06"
+				(path "/7ebe7346-feca-4308-bb7e-1ef2e739e742"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
