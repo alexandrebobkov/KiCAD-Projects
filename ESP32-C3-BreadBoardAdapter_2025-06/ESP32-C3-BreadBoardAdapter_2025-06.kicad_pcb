@@ -9641,11 +9641,11 @@
 	(footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "65c4775e-6299-4ccd-965e-be9b2239a430")
-		(at 170.382 69.346 180)
+		(at 150.951 71.658 90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0.06 -1.8 0)
+			(at 0.06 -1.8 90)
 			(layer "B.SilkS")
 			(uuid "ffdc484d-c441-40c6-8552-cedece135f12")
 			(effects
@@ -9657,7 +9657,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 0 -1.82 0)
+			(at 0 -1.82 90)
 			(layer "B.Fab")
 			(uuid "879b7890-22cb-4df0-80eb-3c38f84b650a")
 			(effects
@@ -9669,7 +9669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9683,7 +9683,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -9702,16 +9702,6 @@
 		(sheetfile "ESP32-C3-BreadBoardAdapter_2025-06.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 0.727064 0.91)
-			(end -0.727064 0.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "8821174a-a4b6-4f37-9fe4-2b5138cfe67b")
-		)
-		(fp_line
 			(start 0.727064 -0.91)
 			(end -0.727064 -0.91)
 			(stroke
@@ -9722,14 +9712,14 @@
 			(uuid "a6d5ec01-cd79-49ff-a831-75596891827c")
 		)
 		(fp_line
-			(start 2.45 1.12)
-			(end -2.45 1.12)
+			(start 0.727064 0.91)
+			(end -0.727064 0.91)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "B.CrtYd")
-			(uuid "7859a4ea-2e88-4ef6-af95-3b7e2fab07b0")
+			(layer "B.SilkS")
+			(uuid "8821174a-a4b6-4f37-9fe4-2b5138cfe67b")
 		)
 		(fp_line
 			(start 2.45 -1.12)
@@ -9742,16 +9732,6 @@
 			(uuid "f5d9fc2c-b0dd-425b-823e-8137b96c294a")
 		)
 		(fp_line
-			(start -2.45 1.12)
-			(end -2.45 -1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "B.CrtYd")
-			(uuid "d979d71a-e88a-4af2-b53e-cb591cb1e31b")
-		)
-		(fp_line
 			(start -2.45 -1.12)
 			(end 2.45 -1.12)
 			(stroke
@@ -9762,14 +9742,24 @@
 			(uuid "c36a1185-14c6-4f90-9ab4-453a415674ca")
 		)
 		(fp_line
-			(start 1.6 0.8)
-			(end -1.6 0.8)
+			(start 2.45 1.12)
+			(end -2.45 1.12)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "f60c868e-380a-4273-a36b-b65b06885535")
+			(layer "B.CrtYd")
+			(uuid "7859a4ea-2e88-4ef6-af95-3b7e2fab07b0")
+		)
+		(fp_line
+			(start -2.45 1.12)
+			(end -2.45 -1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "d979d71a-e88a-4af2-b53e-cb591cb1e31b")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -9782,16 +9772,6 @@
 			(uuid "100ecb95-b45a-40e8-bbac-46e113467660")
 		)
 		(fp_line
-			(start -1.6 0.8)
-			(end -1.6 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "c32af260-844c-4f19-a6a7-f553c19ac8f3")
-		)
-		(fp_line
 			(start -1.6 -0.8)
 			(end 1.6 -0.8)
 			(stroke
@@ -9801,8 +9781,28 @@
 			(layer "B.Fab")
 			(uuid "573ec92a-9912-4ee0-a45c-32f8845a9fb5")
 		)
+		(fp_line
+			(start 1.6 0.8)
+			(end -1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "f60c868e-380a-4273-a36b-b65b06885535")
+		)
+		(fp_line
+			(start -1.6 0.8)
+			(end -1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "c32af260-844c-4f19-a6a7-f553c19ac8f3")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "0f36d8fa-cc19-480d-9c7d-88e8b3d2830f")
 			(effects
@@ -9814,7 +9814,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.55 0 180)
+			(at -1.55 0 90)
 			(size 1.3 1.75)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.192308)
@@ -9823,7 +9823,7 @@
 			(uuid "707c95da-3bb7-44a1-bfcf-db7fe2ad5bcd")
 		)
 		(pad "2" smd roundrect
-			(at 1.55 0 180)
+			(at 1.55 0 90)
 			(size 1.3 1.75)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.192308)
