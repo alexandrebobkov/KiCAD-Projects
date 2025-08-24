@@ -2182,6 +2182,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 71.12) (xy 85.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56ec58e-22c1-47ce-b964-5961ed5df3e4")
+	)
+	(wire
+		(pts
 			(xy 74.93 68.58) (xy 85.09 68.58)
 		)
 		(stroke
@@ -2905,6 +2915,73 @@
 			(project "ESP32-C3-RC"
 				(path "/ee09df5a-82c6-4b85-a250-d8fc322df9ef"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 74.93 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25d3db6d-07ad-4a13-95f5-3dd4f3f46113")
+		(property "Reference" "#PWR028"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.12 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "effca79f-c6f8-4dd2-b9d4-8936fe840163")
+		)
+		(instances
+			(project ""
+				(path "/ee09df5a-82c6-4b85-a250-d8fc322df9ef"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
