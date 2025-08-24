@@ -2718,17 +2718,6 @@
 		)
 		(uuid "f92865d3-a5f1-40c5-b80f-b5d44d19135c")
 	)
-	(hierarchical_label "MTR_FRONT_RIGHT"
-		(shape input)
-		(at 100.33 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1f8c96c9-114b-432c-89cc-d07d9fd7a0f6")
-	)
 	(symbol
 		(lib_id "power:GNDD")
 		(at 234.95 54.61 0)
@@ -5402,8 +5391,8 @@
 		)
 	)
 	(sheet
-		(at 69.85 19.05)
-		(size 41.91 8.89)
+		(at 94.615 21.59)
+		(size 45.085 48.895)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5418,7 +5407,7 @@
 		)
 		(uuid "ec2abd2d-4de9-4ba1-8cf9-d9efab28ffa3")
 		(property "Sheetname" "ESP32-C3 Breadboard Adapter"
-			(at 69.85 18.3384 0)
+			(at 94.615 20.7641 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,12 +5416,22 @@
 			)
 		)
 		(property "Sheetfile" "esp32-c3_breadboard-adapter.kicad_sch"
-			(at 69.85 28.5246 0)
+			(at 94.615 71.1839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MTR_FRONT_RIGHT" input
+			(at 139.7 33.02 0)
+			(uuid "0c2a6b61-7ebc-4c1a-8820-e0d1df4e45bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
