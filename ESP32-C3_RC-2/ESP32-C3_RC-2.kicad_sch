@@ -2151,6 +2151,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 66.04) (xy 85.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da0b370-1f7a-4723-b9d1-2ac8a6916817")
+	)
+	(wire
+		(pts
 			(xy 50.8 34.29) (xy 41.91 34.29)
 		)
 		(stroke
@@ -3414,6 +3424,73 @@
 			(project "ESP32-C3-RC"
 				(path "/ee09df5a-82c6-4b85-a250-d8fc322df9ef"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 74.93 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "384206aa-c9f1-4149-86ef-d972787e4465")
+		(property "Reference" "#PWR027"
+			(at 78.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 71.12 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 74.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e193eaac-df83-4f39-afba-db8c49f663d7")
+		)
+		(instances
+			(project ""
+				(path "/ee09df5a-82c6-4b85-a250-d8fc322df9ef"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
