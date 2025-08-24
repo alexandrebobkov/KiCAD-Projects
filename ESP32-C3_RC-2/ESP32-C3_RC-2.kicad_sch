@@ -2055,6 +2055,26 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 69.85) (xy 176.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adf28e3-0106-4ce9-b8ec-68e7f25902b8")
+	)
+	(wire
+		(pts
+			(xy 107.95 67.31) (xy 104.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23ceacd7-5d9b-45ba-a925-2aa84f8e0493")
+	)
+	(wire
+		(pts
 			(xy 129.54 139.7) (xy 135.89 139.7)
 		)
 		(stroke
@@ -2086,6 +2106,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 69.85) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a43fc52-cac8-4c27-bf6a-b06645bef7d0")
+	)
+	(wire
+		(pts
 			(xy 227.33 127) (xy 236.22 127)
 		)
 		(stroke
@@ -2094,6 +2124,26 @@
 			(color 255 216 50 1)
 		)
 		(uuid "4110c66c-b9a7-4b3c-96d4-8e08c6e7c29e")
+	)
+	(wire
+		(pts
+			(xy 104.14 67.31) (xy 104.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd56f9d-f01d-4ef4-9e3e-cfb0a019161a")
+	)
+	(wire
+		(pts
+			(xy 107.95 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55eb411d-6e26-4ddf-b233-33fd71138bd1")
 	)
 	(wire
 		(pts
@@ -2192,6 +2242,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 67.31) (xy 173.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5abcde-8e08-4e64-a353-71c21fd33f1f")
+	)
+	(wire
+		(pts
 			(xy 97.79 81.28) (xy 107.95 81.28)
 		)
 		(stroke
@@ -2220,6 +2280,16 @@
 			(type default)
 		)
 		(uuid "bb1a5b5d-387e-43f2-be47-e1298a7fc197")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 176.53 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04eac29-ac1b-478c-af5e-d1d4ef84a14e")
 	)
 	(wire
 		(pts
@@ -2275,6 +2345,16 @@
 			(color 255 216 50 1)
 		)
 		(uuid "e7155f27-03b6-4703-9222-33c780814a90")
+	)
+	(wire
+		(pts
+			(xy 173.99 67.31) (xy 173.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7723159-b0cd-4a8e-b9de-0cc247e4a94b")
 	)
 	(wire
 		(pts
@@ -4753,6 +4833,46 @@
 				(justify left top)
 			)
 		)
+		(pin "MTR_FRONT_LEFT" input
+			(at 104.14 48.26 270)
+			(uuid "71fa53ae-c7fc-4ad7-92b4-84db06d13c60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTR_FRONT_LEFT_REV" input
+			(at 101.6 48.26 270)
+			(uuid "a542b880-4410-4078-b7e8-92f070e7b4ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTR_FRONT_RIGHT" input
+			(at 173.99 48.26 270)
+			(uuid "660f6de6-728c-43f6-aa48-3749ac65ef6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MTR_FRONT_RIGHT_REV" input
+			(at 176.53 48.26 270)
+			(uuid "e6814239-71c7-4366-8517-649d63132137")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ESP32-C3_RC-2"
 				(path "/ee09df5a-82c6-4b85-a250-d8fc322df9ef"
@@ -4796,7 +4916,7 @@
 			)
 		)
 		(pin "MTR_FRONT_RIGHT" input
-			(at 167.64 69.85 0)
+			(at 167.64 67.31 0)
 			(uuid "0c2a6b61-7ebc-4c1a-8820-e0d1df4e45bb")
 			(effects
 				(font
@@ -4856,7 +4976,7 @@
 			)
 		)
 		(pin "MTR_FRONT_RIGHT_REV" input
-			(at 167.64 67.31 0)
+			(at 167.64 69.85 0)
 			(uuid "d48a3a16-f4e5-46c7-b319-28d82265e3d2")
 			(effects
 				(font
