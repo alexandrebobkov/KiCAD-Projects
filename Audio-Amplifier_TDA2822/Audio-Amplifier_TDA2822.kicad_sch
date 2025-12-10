@@ -1588,6 +1588,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 46.99) (xy 72.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11db056a-f7fb-4c80-93a7-d3cf493d416f")
+	)
+	(wire
+		(pts
 			(xy 171.45 46.99) (xy 171.45 58.42)
 		)
 		(stroke
@@ -1835,6 +1845,16 @@
 			(type default)
 		)
 		(uuid "e1d4a020-97d1-4b53-abe8-758f2378b0a6")
+	)
+	(label "GND"
+		(at 69.85 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81c4c52d-ad82-4b16-ae77-035d5a965b66")
 	)
 	(global_label "LFT"
 		(shape input)
@@ -2418,24 +2438,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3527cf4b-5757-4c36-958a-f2ae3996c88d")
 		(property "Reference" "RV1"
-			(at 69.85 48.2599 90)
+			(at 77.724 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "R_Potentiometer_Dual"
-			(at 69.85 50.7999 90)
+			(at 77.724 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224G_Horizontal"
