@@ -86,18 +86,18 @@
 	(net 6 "Net-(C8-Pad1)")
 	(net 7 "unconnected-(U1-Pad3)")
 	(net 8 "Net-(C3-Pad1)")
-	(net 9 "Net-(U1A-+)")
+	(net 9 "Net-(J1-Pin_1)")
 	(net 10 "unconnected-(R6-Pad1)")
 	(net 11 "Net-(C2-Pad1)")
 	(net 12 "Net-(C2-Pad2)")
-	(net 13 "unconnected-(RV1-Pad3)")
+	(net 13 "LFT")
 	(net 14 "unconnected-(U1B---Pad5)")
 	(net 15 "unconnected-(U1B-+-Pad6)")
 	(net 16 "Net-(C1-Pad1)")
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3048fa06-a070-4efa-bb4f-3cb3bc312d93")
-		(at 160.72 86.63)
+		(at 195.62 87)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R5"
@@ -221,7 +221,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Net-(U1A-+)")
+			(net 13 "LFT")
 			(pintype "passive")
 			(uuid "00c002ae-f0ee-4740-be3c-438c02057c4c")
 		)
@@ -251,7 +251,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 		(layer "F.Cu")
 		(uuid "37837c18-8637-4b95-92c4-f3dde2600d4f")
-		(at 160.72 80.33)
+		(at 198.22 74.5)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R3"
@@ -405,7 +405,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3c001500-38b8-43b6-8707-1b7c3d32985a")
-		(at 160.72 74.03)
+		(at 212.52 88.3)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R1"
@@ -1399,7 +1399,7 @@
 			(drill 0.9906)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 9 "Net-(U1A-+)")
+			(net 13 "LFT")
 			(pinfunction "+")
 			(pintype "input")
 			(uuid "0972071f-0568-4c42-8dad-c64329840e75")
@@ -1571,10 +1571,263 @@
 			)
 		)
 	)
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "7f719252-57e5-4286-bd26-d020b704db14")
+		(at 205 123.76)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "J1"
+			(at 0 -2.38 0)
+			(layer "F.SilkS")
+			(uuid "95e0fdea-9448-4cd4-a138-018d866a5a5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_SPKR_L"
+			(at 0 4.92 0)
+			(layer "F.Fab")
+			(uuid "6a7f30be-0b05-4254-9bec-ca5b22817b4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec9624bf-fa79-40db-8462-feac5682400e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e684066e-35e1-4ca8-b02f-10e9de2a0e15")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/2a1e5885-60b8-4794-a5a3-533ca2fd3ec2")
+		(sheetname "/")
+		(sheetfile "Audio-Amplifier_TDA2822.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6aaa3257-b73e-4dae-ad58-0f5221ae3a5d")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c53ba69e-44ae-4de9-bd66-e172878e4813")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a4a2bfdd-2d66-4a9f-9f7d-fafaeeab5342")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c044ac4f-7f9d-4355-8fa4-1fda3cc9dc89")
+		)
+		(fp_line
+			(start -1.38 3.92)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a7f3603-b33c-474c-bf5d-5cc2aa790b32")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "123e55f9-b0a1-43f0-97c3-84a69a25a7c3")
+		)
+		(fp_line
+			(start -1.77 -1.77)
+			(end -1.77 4.32)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "75be5f9b-8112-40a9-a2c6-1fc62db225f1")
+		)
+		(fp_line
+			(start -1.77 4.32)
+			(end 1.77 4.32)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "21b2564c-eba1-4029-be44-e542e5c5d58f")
+		)
+		(fp_line
+			(start 1.77 -1.77)
+			(end -1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8177c0a5-a28e-4be2-b1dc-ba449bff62f6")
+		)
+		(fp_line
+			(start 1.77 4.32)
+			(end 1.77 -1.77)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "268617e2-decf-4d79-ad5d-90286719a8bb")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c9419dac-6173-4820-ace3-7165a2343d58")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5edd378b-54c7-4cfb-8d05-e156fab43a93")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c9c688c-ea9c-42ae-ac2d-d4f3987a2946")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7fb817f9-a257-4e24-97b0-795edf068d10")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "003e0e6c-ef18-4476-9953-609e6e5a87cf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.27 90)
+			(layer "F.Fab")
+			(uuid "ca0a0974-a499-4724-b4ef-3d8ce2b01774")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "Net-(J1-Pin_1)")
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "79a9af47-e8f5-4572-85f0-94a0f934e6c5")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "f51d5939-60ac-48c0-a43e-16a82eab56fc")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Potentiometer_SMD:Potentiometer_Bourns_3224G_Horizontal"
 		(layer "F.Cu")
 		(uuid "9eb07aa9-bd6b-4ddf-9f8e-7d86cadebb5a")
-		(at 171.3 87.45)
+		(at 207.9 80.2)
 		(descr "Potentiometer, horizontal, Bourns 3224G, https://www.bourns.com/docs/Product-Datasheets/3224.pdf")
 		(tags "Potentiometer horizontal Bourns 3224G")
 		(property "Reference" "RV1"
@@ -1746,7 +1999,7 @@
 			(size 1.3 2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
-			(net 9 "Net-(U1A-+)")
+			(net 13 "LFT")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "000f77a2-d33a-431f-b27f-51a0fc676e9d")
@@ -1756,7 +2009,7 @@
 			(size 1.3 1.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.192308)
-			(net 13 "unconnected-(RV1-Pad3)")
+			(net 1 "GND")
 			(pinfunction "3")
 			(pintype "passive")
 			(uuid "2753193f-87ca-4d24-9cdc-d8d48ad0e2bf")
@@ -1931,7 +2184,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cf722404-1cee-45d1-9b31-88edc4caaf75")
-		(at 160.72 83.48)
+		(at 198.22 69.9)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R4"
