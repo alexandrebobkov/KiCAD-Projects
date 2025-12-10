@@ -1360,12 +1360,6 @@
 		)
 	)
 	(junction
-		(at 139.7 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "004b17ca-fc64-4bbf-92d6-f8698895f9de")
-	)
-	(junction
 		(at 171.45 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1376,6 +1370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b80f677-f08d-42eb-8141-dbc519ed0aec")
+	)
+	(junction
+		(at 139.7 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dab91661-fb6f-4ee4-8eee-8acadb6d93f2")
 	)
 	(junction
 		(at 171.45 46.99)
@@ -1445,6 +1445,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 62.23) (xy 139.7 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6455d690-f1e3-416f-b088-ff4c3e8e161d")
+	)
+	(wire
+		(pts
 			(xy 139.7 80.01) (xy 139.7 83.82)
 		)
 		(stroke
@@ -1505,7 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 62.23) (xy 139.7 49.53)
+			(xy 139.7 49.53) (xy 139.7 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1532,16 +1542,6 @@
 			(type default)
 		)
 		(uuid "c8e7aba9-b594-4dad-8e65-09a94fd98fc7")
-	)
-	(wire
-		(pts
-			(xy 139.7 62.23) (xy 139.7 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d060c58c-77db-4f41-819c-cdb4ef67b7e2")
 	)
 	(wire
 		(pts
@@ -1889,7 +1889,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 143.51 62.23 270)
+		(at 151.13 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1898,7 +1898,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ed758e1-c303-435e-813a-12da8e8af745")
 		(property "Reference" "C8"
-			(at 143.51 54.61 90)
+			(at 151.13 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1906,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 143.51 57.15 90)
+			(at 151.13 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 63.1952 0)
+			(at 154.94 61.2648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +1923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 62.23 0)
+			(at 151.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +1932,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 143.51 62.23 0)
+			(at 151.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2642,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 151.13 62.23 270)
+		(at 143.51 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2651,7 +2651,7 @@
 		(fields_autoplaced yes)
 		(uuid "d503ef52-17c9-4d57-98d2-2e847bb01ec9")
 		(property "Reference" "R3"
-			(at 151.13 55.88 90)
+			(at 143.51 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2659,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 151.13 58.42 90)
+			(at 143.51 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 60.452 90)
+			(at 143.51 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2676,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 62.23 0)
+			(at 143.51 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 62.23 0)
+			(at 143.51 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
