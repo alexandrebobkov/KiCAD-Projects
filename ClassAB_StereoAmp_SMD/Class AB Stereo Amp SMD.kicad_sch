@@ -5938,7 +5938,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 121.92 102.87)
+			(xy 123.19 99.06) (xy 123.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6948,7 +6948,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 144.78 99.06)
+			(xy 123.19 99.06) (xy 144.78 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8567,6 +8567,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 90.17 127 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04316252-e562-4135-9c7f-13e7b820c11d")
+		(property "Reference" "U3"
+			(at 92.964 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 93.218 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "299d6201-5cd8-43ba-ae20-9b5e0a9b5938")
+		)
+		(pin "2"
+			(uuid "fd6fe556-d4e7-422f-bc5a-491b86b88547")
+		)
+		(pin "3"
+			(uuid "a1dbdf2f-052d-413b-9930-bcf326aeba2a")
+		)
+		(pin "5"
+			(uuid "86826cc1-962f-4f08-86fe-a2fa7bf76189")
+		)
+		(pin "6"
+			(uuid "ed65160a-edef-4169-9a2d-5cf6cab5e989")
+		)
+		(pin "7"
+			(uuid "125c1504-ecb3-42f2-b1c2-5d67aa8ca813")
+		)
+		(pin "4"
+			(uuid "cf5e04b0-9ec0-4d6b-85a6-4e505447e541")
+		)
+		(pin "8"
+			(uuid "2fb2e1f2-d886-474e-bcda-ca04b1083969")
+		)
+		(instances
+			(project "Basic Stereo Amp v3"
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND2")
 		(at 142.24 185.42 0)
 		(unit 1)
@@ -8687,7 +8773,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ea48a15-86d9-477f-8852-1a4ba00796d8")
+			(uuid "0ea48a15-86d9-477f-8852-1a4ba00796d7")
 		)
 		(instances
 			(project ""
@@ -8968,91 +9054,6 @@
 				(path "/b79493f4-af43-48a2-8c7b-5ce2fbe1909f"
 					(reference "R2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 90.17 127 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15edb4d1-f6c8-4dbe-aa8e-a47d439d131e")
-		(property "Reference" "U3"
-			(at 93.472 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 92.964 122.428 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 90.17 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 90.17 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a34ab41-ae2a-41bb-849f-2b5357cf1434")
-		)
-		(pin "2"
-			(uuid "473dc860-4a44-43c2-894c-8b3fa790975c")
-		)
-		(pin "3"
-			(uuid "18939809-00e0-4ec4-b334-aca708cc7a4f")
-		)
-		(pin "5"
-			(uuid "d3dedaed-9cf1-4c06-9818-515b25d80b6f")
-		)
-		(pin "6"
-			(uuid "df277392-4be3-4cca-afde-a9219b59301c")
-		)
-		(pin "7"
-			(uuid "6e340924-b50f-488e-ad45-398e089c08c1")
-		)
-		(pin "4"
-			(uuid "cf5e04b0-9ec0-4d6b-85a6-4e505447e542")
-		)
-		(pin "8"
-			(uuid "2fb2e1f2-d886-474e-bcda-ca04b108396a")
-		)
-		(instances
-			(project "Class AB Stereo Amp SMD"
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "U3")
-					(unit 2)
 				)
 			)
 		)
@@ -10021,92 +10022,6 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 90.17 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3aa4e02f-17fe-4c16-abd9-eba6018a33c6")
-		(property "Reference" "U3"
-			(at 92.964 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 93.218 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "169fd582-1fe3-4ea5-aa0b-427c63ff5d69")
-		)
-		(pin "2"
-			(uuid "ae5f6415-7ee7-41e9-bf09-edf4fa63e258")
-		)
-		(pin "3"
-			(uuid "969ad3a6-40b1-4882-83b0-f4f189c3623d")
-		)
-		(pin "5"
-			(uuid "86826cc1-962f-4f08-86fe-a2fa7bf76189")
-		)
-		(pin "6"
-			(uuid "ed65160a-edef-4169-9a2d-5cf6cab5e989")
-		)
-		(pin "7"
-			(uuid "125c1504-ecb3-42f2-b1c2-5d67aa8ca813")
-		)
-		(pin "4"
-			(uuid "cf5e04b0-9ec0-4d6b-85a6-4e505447e541")
-		)
-		(pin "8"
-			(uuid "2fb2e1f2-d886-474e-bcda-ca04b1083969")
-		)
-		(instances
-			(project "Class AB Stereo Amp SMD"
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
 		(at 205.74 39.37 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -11047,6 +10962,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 90.17 144.78 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "539dc19d-9322-47f3-a4c3-b912c30d2d8b")
+		(property "Reference" "U3"
+			(at 93.472 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 92.964 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 90.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 90.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a34ab41-ae2a-41bb-849f-2b5357cf1434")
+		)
+		(pin "2"
+			(uuid "473dc860-4a44-43c2-894c-8b3fa790975c")
+		)
+		(pin "3"
+			(uuid "18939809-00e0-4ec4-b334-aca708cc7a4f")
+		)
+		(pin "5"
+			(uuid "86826cc1-962f-4f08-86fe-a2fa7bf7618a")
+		)
+		(pin "6"
+			(uuid "ed65160a-edef-4169-9a2d-5cf6cab5e98a")
+		)
+		(pin "7"
+			(uuid "125c1504-ecb3-42f2-b1c2-5d67aa8ca814")
+		)
+		(pin "4"
+			(uuid "cf5e04b0-9ec0-4d6b-85a6-4e505447e542")
+		)
+		(pin "8"
+			(uuid "2fb2e1f2-d886-474e-bcda-ca04b108396a")
+		)
+		(instances
+			(project "Basic Stereo Amp v3"
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 190.5 93.98 0)
 		(unit 1)
@@ -11238,7 +11238,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ea48a15-86d9-477f-8852-1a4ba00796d9")
+			(uuid "0ea48a15-86d9-477f-8852-1a4ba00796d7")
 		)
 		(instances
 			(project ""
@@ -12502,92 +12502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 87.63 179.07 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c9cb2e4-b95d-4c51-a261-f3ca4275e9e7")
-		(property "Reference" "U2"
-			(at 89.916 172.212 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 90.932 174.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 87.63 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 87.63 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1ba47e1-6c1a-40dc-a01f-9d3209a9369b")
-		)
-		(pin "2"
-			(uuid "7941bd73-04e9-4804-887d-70af6b774545")
-		)
-		(pin "3"
-			(uuid "e678796f-bc3d-4b6d-9db1-a3944ae005fc")
-		)
-		(pin "5"
-			(uuid "7bceb533-f9c9-49a9-adf2-705bd01e0e54")
-		)
-		(pin "6"
-			(uuid "059ec78e-29c3-4c17-8d5c-34f7253ee2a1")
-		)
-		(pin "7"
-			(uuid "e583360c-cdee-46e5-8bbb-1f1c0d983268")
-		)
-		(pin "4"
-			(uuid "8c58a3bf-b7d7-4a12-9f81-177dc9b4ef87")
-		)
-		(pin "8"
-			(uuid "723f24c9-9791-4d79-99f7-3263bd871d96")
-		)
-		(instances
-			(project "Class AB Stereo Amp SMD"
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 19.05 57.15 0)
 		(unit 1)
@@ -13815,7 +13729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 121.92 102.87 0)
+		(at 123.19 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13824,7 +13738,7 @@
 		(fields_autoplaced yes)
 		(uuid "a204626f-ddd9-4216-8116-62057dae80cd")
 		(property "Reference" "#PWR029"
-			(at 121.92 109.22 0)
+			(at 123.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13833,7 +13747,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 121.92 107.95 0)
+			(at 123.19 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13841,7 +13755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 102.87 0)
+			(at 123.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13850,7 +13764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 102.87 0)
+			(at 123.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13859,7 +13773,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 121.92 102.87 0)
+			(at 123.19 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14650,6 +14564,92 @@
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "#PWR018")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 87.63 179.07 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb0e6606-3a68-4260-933a-fc8e4e912ff6")
+		(property "Reference" "U2"
+			(at 90.424 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 90.932 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 87.63 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 87.63 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d3cc326-aa5a-4cc0-8444-06176abafc6b")
+		)
+		(pin "2"
+			(uuid "fde98ce7-4cc4-437f-b593-9916db10836f")
+		)
+		(pin "3"
+			(uuid "214dbcda-36e8-4808-aa06-3f6295ff10f2")
+		)
+		(pin "5"
+			(uuid "7bceb533-f9c9-49a9-adf2-705bd01e0e53")
+		)
+		(pin "6"
+			(uuid "059ec78e-29c3-4c17-8d5c-34f7253ee2a0")
+		)
+		(pin "7"
+			(uuid "e583360c-cdee-46e5-8bbb-1f1c0d983267")
+		)
+		(pin "4"
+			(uuid "8c58a3bf-b7d7-4a12-9f81-177dc9b4ef86")
+		)
+		(pin "8"
+			(uuid "723f24c9-9791-4d79-99f7-3263bd871d95")
+		)
+		(instances
+			(project "Basic Stereo Amp v3"
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
@@ -15546,6 +15546,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NE5532")
+		(at 86.36 91.44 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e179e4d9-51b8-4921-8c45-9ea16cecde43")
+		(property "Reference" "U2"
+			(at 88.646 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NE5532"
+			(at 89.662 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f318d8ee-32ed-48b6-bb4d-6af18b662cab")
+		)
+		(pin "2"
+			(uuid "8a2a04dd-e180-43d4-b0ff-f13acb31f389")
+		)
+		(pin "3"
+			(uuid "4e140315-fac1-4f8d-81de-db7a7bfda05a")
+		)
+		(pin "5"
+			(uuid "7bceb533-f9c9-49a9-adf2-705bd01e0e54")
+		)
+		(pin "6"
+			(uuid "059ec78e-29c3-4c17-8d5c-34f7253ee2a1")
+		)
+		(pin "7"
+			(uuid "e583360c-cdee-46e5-8bbb-1f1c0d983268")
+		)
+		(pin "4"
+			(uuid "8c58a3bf-b7d7-4a12-9f81-177dc9b4ef87")
+		)
+		(pin "8"
+			(uuid "723f24c9-9791-4d79-99f7-3263bd871d96")
+		)
+		(instances
+			(project "Basic Stereo Amp v3"
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 157.48 46.99 90)
 		(unit 1)
@@ -15678,92 +15764,6 @@
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "R18")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 86.36 91.44 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4435d93-07b1-4299-a75a-1c584cfc428a")
-		(property "Reference" "U2"
-			(at 89.154 85.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 89.662 87.376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d3cc326-aa5a-4cc0-8444-06176abafc6b")
-		)
-		(pin "2"
-			(uuid "fde98ce7-4cc4-437f-b593-9916db10836f")
-		)
-		(pin "3"
-			(uuid "214dbcda-36e8-4808-aa06-3f6295ff10f2")
-		)
-		(pin "5"
-			(uuid "b1f510ed-6566-4036-adc8-f3ab0f842d10")
-		)
-		(pin "6"
-			(uuid "36d2a8c5-1367-40e8-8262-83e373da3366")
-		)
-		(pin "7"
-			(uuid "36e1bc3a-b8a4-45dd-894e-61921eee5fe7")
-		)
-		(pin "4"
-			(uuid "8c58a3bf-b7d7-4a12-9f81-177dc9b4ef86")
-		)
-		(pin "8"
-			(uuid "723f24c9-9791-4d79-99f7-3263bd871d95")
-		)
-		(instances
-			(project "Class AB Stereo Amp SMD"
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
@@ -16370,7 +16370,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf3f0e7d-5da3-4b31-ab64-5e4c1cc19bf6")
+			(uuid "cf3f0e7d-5da3-4b31-ab64-5e4c1cc19bf5")
 		)
 		(instances
 			(project ""
