@@ -1,1 +1,1 @@
-# classabstereoamp_smd
+# Class AB Stereo Amplifier (SMD)
