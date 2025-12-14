@@ -1,6 +1,6 @@
 # Class AB Stereo Amplifier (SMD)
 
-_ This project is a fork of [classabstereoamp_smd](https://github.com/halherta/classabstereoamp_smd) project created by Hussam [Al-Hertani](https://github.com/halherta) ._
+*This project is a fork of [classabstereoamp_smd](https://github.com/halherta/classabstereoamp_smd) project created by Hussam [Al-Hertani](https://github.com/halherta).*
 
 A Class AB audio amplifier is a type of hybrid linear amplifier that combines characteristics of Class A (low distortion, high efficiency at low power) and Class B (higher efficiency at higher power) to achieve a balance between efficiency and distortion performance. Unlike pure Class A (100% conduction) or Class B (50% conduction), Class AB amplifiers operate with both transistors conducting partially during signal cycles, reducing crossover distortion while improving efficiency compared to Class A
 
