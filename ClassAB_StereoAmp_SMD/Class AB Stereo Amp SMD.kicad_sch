@@ -5263,7 +5263,7 @@
 		(uuid "f06a03d9-714a-4a8e-bd56-f689c33fd858")
 	)
 	(no_connect
-		(at 49.53 26.67)
+		(at 45.72 20.32)
 		(uuid "47ab1a51-432a-4447-824a-231759321823")
 	)
 	(wire
@@ -7025,6 +7025,16 @@
 			(type default)
 		)
 		(uuid "cda613db-097b-43f3-93e1-0388f0237169")
+	)
+	(wire
+		(pts
+			(xy 49.53 26.67) (xy 49.53 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb97622-63ee-46c6-8453-ceb59e851878")
 	)
 	(wire
 		(pts
@@ -12108,7 +12118,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 44.45 29.21 0)
+		(at 44.45 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12117,7 +12127,7 @@
 		(fields_autoplaced yes)
 		(uuid "8932f0c2-d1b4-4ab5-9cc0-f02e39434f42")
 		(property "Reference" "SW1"
-			(at 44.45 21.59 0)
+			(at 44.45 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12125,7 +12135,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 44.45 24.13 0)
+			(at 44.45 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12133,7 +12143,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
-			(at 44.45 29.21 0)
+			(at 44.45 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,7 +12152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 36.83 0)
+			(at 44.45 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12151,7 +12161,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 44.45 29.21 0)
+			(at 44.45 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12169,7 +12179,7 @@
 			(uuid "2b4e39a5-6a0e-4085-a840-bb72993b3571")
 		)
 		(instances
-			(project "Basic Stereo Amp v3"
+			(project "Class AB Stereo Amp SMD"
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "SW1")
 					(unit 1)
