@@ -1,5 +1,9 @@
 # Class AB Stereo Amplifier (SMD)
 
+A Class AB audio amplifier is a type of hybrid linear amplifier that combines characteristics of Class A (low distortion, high efficiency at low power) and Class B (higher efficiency at higher power) to achieve a balance between efficiency and distortion performance. Unlike pure Class A (100% conduction) or Class B (50% conduction), Class AB amplifiers operate with both transistors conducting partially during signal cycles, reducing crossover distortion while improving efficiency compared to Class A
+
+Class AB amplifiers are the most widely used in audio applications due to their optimal balance between efficiency, distortion performance, and reliability. While not as efficient as Class D amplifiers, they offer superior sound quality for their power level, making them ideal for Hi-Fi systems.
+
 ### Pre-Amp Output Signal
 
 Input signal: sinewave 1V(pp) @ 1kHz
