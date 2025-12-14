@@ -1,8 +1,8 @@
 # Class AB Stereo Amplifier (SMD)
 
-### Input Signal
+### Pre-Amp Output Signal
 
-Sinewave 1V(pp) @ 1kHz
+Input signal: sinewave 1V(pp) @ 1kHz
 
 ![Input Signal](https://raw.githubusercontent.com/alexandrebobkov/KiCAD-Projects/refs/heads/main/ClassAB_StereoAmp_SMD/dso_01_01_00_54_21.bmp)
 
