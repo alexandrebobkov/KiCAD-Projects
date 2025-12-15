@@ -6,6 +6,8 @@ A Class AB audio amplifier is a type of hybrid linear amplifier that combines ch
 
 Class AB amplifiers are the most widely used in audio applications due to their optimal balance between efficiency, distortion performance, and reliability. While not as efficient as Class D amplifiers, they offer superior sound quality for their power level, making them ideal for Hi-Fi systems.
 
+![PCB](https://raw.githubusercontent.com/alexandrebobkov/KiCAD-Projects/refs/heads/main/ClassAB_StereoAmp_SMD/Class AB Stereo Amp SMD.png)
+
 ### Pre-Amp Output Signal
 
 Input signal: sinewave 1V(pp) @ 1kHz
