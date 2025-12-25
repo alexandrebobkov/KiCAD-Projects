@@ -2215,6 +2215,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 73.66) (xy 41.91 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "512e8ef8-43f9-4750-ac8c-e1e5594452eb")
+	)
+	(wire
+		(pts
 			(xy 132.08 110.49) (xy 142.24 110.49)
 		)
 		(stroke
@@ -2532,6 +2542,16 @@
 			(type default)
 		)
 		(uuid "c534cf5a-7a67-4b3e-b00f-f04ea21ed256")
+	)
+	(wire
+		(pts
+			(xy 41.91 83.82) (xy 41.91 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6100636-518b-46b7-8aef-438ac8228520")
 	)
 	(wire
 		(pts
@@ -3911,6 +3931,142 @@
 			(project ""
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5446f490-5ec6-494d-9d7f-aac8bc5b9116")
+		(property "Reference" "#PWR07"
+			(at 41.91 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2552f08e-604a-4968-8cff-341e3bcd8aed")
+		)
+		(instances
+			(project ""
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 41.91 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66739968-4369-4be2-8ca4-45ebd5124742")
+		(property "Reference" "C15"
+			(at 45.72 77.8509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 45.72 80.3909 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 42.8752 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6563a114-d379-4a25-a353-c98a88458c18")
+		)
+		(pin "1"
+			(uuid "ca609d0b-fca6-4d95-81c2-07e368155b5a")
+		)
+		(instances
+			(project "Audio-Amplifier_TDA2822"
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "C15")
 					(unit 1)
 				)
 			)
