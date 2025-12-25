@@ -1992,7 +1992,7 @@
 		(uuid "924355ae-2028-4de8-b056-0ad4eccb60f3")
 	)
 	(junction
-		(at 139.7 123.19)
+		(at 132.08 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b7aa114-4fc3-4c13-8936-f44788755102")
@@ -2004,13 +2004,19 @@
 		(uuid "aabce4cc-9241-4964-b158-a76f2e940f56")
 	)
 	(junction
-		(at 130.81 105.41)
+		(at 158.75 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb31646a-cf1c-4d3b-8a5a-bb373364ba09")
+	)
+	(junction
+		(at 123.19 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4280c8a-f9de-4fb6-b1fa-59e01d0c5c23")
 	)
 	(junction
-		(at 139.7 144.78)
+		(at 132.08 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfae8de4-f740-4de0-8e70-cbe1a24b58c5")
@@ -2035,7 +2041,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 123.19) (xy 139.7 125.73)
+			(xy 132.08 123.19) (xy 132.08 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2185,7 +2191,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 144.78) (xy 171.45 144.78)
+			(xy 132.08 144.78) (xy 171.45 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2211,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 110.49) (xy 142.24 110.49)
+			(xy 132.08 110.49) (xy 142.24 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 140.97) (xy 139.7 144.78)
+			(xy 132.08 140.97) (xy 132.08 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2461,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 144.78) (xy 139.7 144.78)
+			(xy 123.19 144.78) (xy 132.08 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 105.41) (xy 130.81 105.41)
+			(xy 119.38 105.41) (xy 123.19 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2535,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 110.49) (xy 139.7 123.19)
+			(xy 132.08 110.49) (xy 132.08 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2565,6 +2571,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 123.19) (xy 139.7 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb22dc95-db0c-4f58-a13d-91cd82d766bb")
+	)
+	(wire
+		(pts
 			(xy 139.7 49.53) (xy 142.24 49.53)
 		)
 		(stroke
@@ -2585,7 +2601,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 130.81 144.78)
+			(xy 123.19 133.35) (xy 123.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2595,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 105.41) (xy 142.24 105.41)
+			(xy 123.19 105.41) (xy 142.24 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2605,13 +2621,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 105.41) (xy 130.81 125.73)
+			(xy 123.19 105.41) (xy 123.19 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d911e09f-0df5-41bd-8275-c761f4526f1c")
+	)
+	(wire
+		(pts
+			(xy 158.75 123.19) (xy 158.75 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da57a4e8-0f3a-4cc0-af6e-2af3c8b0fb43")
 	)
 	(wire
 		(pts
@@ -2731,7 +2757,7 @@
 	)
 	(global_label "RGT"
 		(shape input)
-		(at 127 105.41 180)
+		(at 119.38 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2741,7 +2767,7 @@
 		)
 		(uuid "d60d7cce-2a48-45e1-9149-e60d98f97a91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5072 105.41 0)
+			(at 112.8872 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2823,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 129.54 0)
+		(at 105.41 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2806,7 +2832,7 @@
 		(dnp no)
 		(uuid "05a57d81-9f77-4bd5-af29-550fa4efe6e8")
 		(property "Reference" "R9"
-			(at 146.05 129.54 90)
+			(at 111.76 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2840,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 143.51 129.54 90)
+			(at 109.22 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2848,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 141.478 129.54 90)
+			(at 107.188 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2857,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 129.54 0)
+			(at 105.41 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2866,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 129.54 0)
+			(at 105.41 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,6 +2950,74 @@
 			(project "Audio-Amplifier_TDA2822"
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 154.94 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5110d3-73a9-4666-944c-153f90655fdb")
+		(property "Reference" "C14"
+			(at 155.829 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 155.829 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 151.13 133.0452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 154.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "921a0a08-5625-4c32-a1cb-3e4179774a4c")
+		)
+		(pin "2"
+			(uuid "6330c848-340f-4a47-b06f-a3fae79f6555")
+		)
+		(instances
+			(project "Audio-Amplifier_TDA2822"
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3684,7 +3778,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 139.7 137.16 0)
+		(at 132.08 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3693,7 +3787,7 @@
 		(fields_autoplaced yes)
 		(uuid "368c20fe-1abf-4210-b293-82d47a913b75")
 		(property "Reference" "C10"
-			(at 143.51 135.0009 0)
+			(at 135.89 135.0009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3796,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 143.51 137.5409 0)
+			(at 135.89 137.5409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3805,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 140.6652 140.97 0)
+			(at 133.0452 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3814,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 137.16 0)
+			(at 132.08 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3823,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 139.7 137.16 0)
+			(at 132.08 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5237,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 130.81 129.54 0)
+		(at 123.19 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5152,7 +5246,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf9e3ccc-2981-451c-95dc-57fdcb40bac4")
 		(property "Reference" "R8"
-			(at 133.35 128.2699 0)
+			(at 125.73 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,7 +5255,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 133.35 130.8099 0)
+			(at 125.73 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5264,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 129.032 129.54 90)
+			(at 121.412 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +5273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 129.54 0)
+			(at 123.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +5282,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 130.81 129.54 0)
+			(at 123.19 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
