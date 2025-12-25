@@ -1950,12 +1950,6 @@
 		(uuid "0917c5d8-8545-4071-9b32-40463004f3eb")
 	)
 	(junction
-		(at 55.88 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d77644f-82df-4946-b72f-5558921bc9a4")
-	)
-	(junction
 		(at 171.45 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2092,6 +2086,16 @@
 			(type default)
 		)
 		(uuid "1d91ae4b-4351-4732-a518-e0833ab66356")
+	)
+	(wire
+		(pts
+			(xy 30.48 73.66) (xy 30.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebafeb7-0496-4f44-9525-4f11b0a57381")
 	)
 	(wire
 		(pts
@@ -2255,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 34.29) (xy 55.88 34.29)
+			(xy 53.34 34.29) (xy 63.5 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2475,16 +2479,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 34.29) (xy 63.5 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7dc357c-e547-494e-9331-e78aeda99731")
-	)
-	(wire
-		(pts
 			(xy 139.7 49.53) (xy 139.7 62.23)
 		)
 		(stroke
@@ -2642,6 +2636,16 @@
 			(type default)
 		)
 		(uuid "e1d4a020-97d1-4b53-abe8-758f2378b0a6")
+	)
+	(wire
+		(pts
+			(xy 30.48 83.82) (xy 30.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9636ade-7c31-4251-a8f1-0439f487a2ca")
 	)
 	(wire
 		(pts
@@ -3106,6 +3110,72 @@
 			(project ""
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 30.48 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16d61299-6b3a-4c7d-972c-4fffe37f3f26")
+		(property "Reference" "#PWR08"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 30.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdfb91e0-c7d5-477b-8d90-332bf7bfc498")
+		)
+		(instances
+			(project "Audio-Amplifier_TDA2822"
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4418,7 +4488,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 38.1 0)
+		(at 30.48 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4427,7 +4497,7 @@
 		(fields_autoplaced yes)
 		(uuid "976dc258-8b49-4dcc-968a-168440599240")
 		(property "Reference" "C9"
-			(at 59.69 36.8299 0)
+			(at 34.29 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,8 +4505,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 59.69 39.3699 0)
+		(property "Value" "100n"
+			(at 34.29 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 56.8452 41.91 0)
+			(at 31.4452 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 38.1 0)
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +4533,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 55.88 38.1 0)
+			(at 30.48 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,6 +4816,72 @@
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a70ddcdf-309c-413a-946f-a2bd988cba2f")
+		(property "Reference" "#PWR09"
+			(at 30.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6da49a7-224f-4cfb-b769-12235882aa58")
+		)
+		(instances
+			(project "Audio-Amplifier_TDA2822"
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "#PWR09")
+					(unit 1)
 				)
 			)
 		)
