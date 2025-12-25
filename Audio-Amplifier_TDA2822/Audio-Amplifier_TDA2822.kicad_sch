@@ -2075,6 +2075,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 34.29) (xy 43.18 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9c5d86-e764-474a-bae6-54f821e520db")
+	)
+	(wire
+		(pts
 			(xy 91.44 85.09) (xy 91.44 83.82)
 		)
 		(stroke
@@ -2252,6 +2262,16 @@
 			(type default)
 		)
 		(uuid "56a92765-d2f9-4b40-82db-4b14ff900c24")
+	)
+	(wire
+		(pts
+			(xy 31.75 50.8) (xy 43.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d73ea1e-ed87-47a6-8617-638562a9649e")
 	)
 	(wire
 		(pts
@@ -2752,6 +2772,50 @@
 			(justify right bottom)
 		)
 		(uuid "81c4c52d-ad82-4b16-ae77-035d5a965b66")
+	)
+	(global_label "LFT_IN"
+		(shape input)
+		(at 31.75 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36497398-13b5-4dc8-811f-8436216094c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7776 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGT_IN"
+		(shape input)
+		(at 31.75 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b58e441-2405-4d62-a616-3ede2c797eca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.3543 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "RGT"
 		(shape input)
