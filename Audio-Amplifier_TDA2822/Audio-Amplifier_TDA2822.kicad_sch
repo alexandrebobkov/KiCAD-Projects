@@ -2125,16 +2125,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 71.12) (xy 40.64 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24dadf45-222d-480a-8dea-23d934650363")
-	)
-	(wire
-		(pts
 			(xy 67.31 76.2) (xy 67.31 77.47)
 		)
 		(stroke
@@ -2305,16 +2295,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 82.55) (xy 31.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c944360-3ff1-45c2-8bc6-1795511b32ce")
-	)
-	(wire
-		(pts
 			(xy 171.45 83.82) (xy 180.34 83.82)
 		)
 		(stroke
@@ -2382,26 +2362,6 @@
 			(type default)
 		)
 		(uuid "8d115f15-035b-484b-9220-c865b5289d9e")
-	)
-	(wire
-		(pts
-			(xy 40.64 82.55) (xy 40.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d90020d-7068-4e42-9c03-ef65468c5e1a")
-	)
-	(wire
-		(pts
-			(xy 31.75 71.12) (xy 31.75 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fefac77-a7f2-4d9e-807a-7c2d80bd979f")
 	)
 	(wire
 		(pts
@@ -2705,28 +2665,6 @@
 	)
 	(global_label "RGT"
 		(shape input)
-		(at 40.64 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "48435908-0ba4-49ff-9dc6-d4f80210b4aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 64.6272 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RGT"
-		(shape input)
 		(at 83.82 55.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2787,28 +2725,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LFT"
-		(shape input)
-		(at 31.75 71.12 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e0416ee1-770f-4a5b-a35f-47cdc24e7a9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.75 65.0505 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3436,72 +3352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 40.64 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2372ce47-e8ef-4813-9f97-4c612ce164aa")
-		(property "Reference" "#PWR07"
-			(at 40.64 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5483f8e5-1dd2-4997-9993-f75ee8bd4fbf")
-		)
-		(instances
-			(project "Audio-Amplifier_TDA2822"
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 139.7 76.2 0)
 		(unit 1)
@@ -3931,76 +3781,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 31.75 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40cb5dcd-37ba-4af9-b850-aa8360a839a0")
-		(property "Reference" "R7"
-			(at 34.29 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 34.29 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.972 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8861c381-e56f-4561-b50b-626f0cf6899e")
-		)
-		(pin "1"
-			(uuid "167995c2-5a1e-4fc0-a788-ddd996057a4f")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 55.88 43.18 0)
 		(unit 1)
@@ -4131,76 +3911,6 @@
 			(project ""
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 40.64 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6193c9de-7743-4f39-8359-bdfff6c47935")
-		(property "Reference" "R12"
-			(at 43.18 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 43.18 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.862 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 40.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "09e6f2df-c8d7-4898-90f8-4a7229b7f6da")
-		)
-		(pin "1"
-			(uuid "65270b88-0246-479d-ba4f-0cb862aaebbd")
-		)
-		(instances
-			(project "Audio-Amplifier_TDA2822"
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4479,6 +4189,72 @@
 			(project ""
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 41.91 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84ed7467-b81c-4542-a03c-ed7200bd31f9")
+		(property "Reference" "#PWR03"
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 41.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bbe5767-6187-40d8-bcdb-bf0133231977")
+		)
+		(instances
+			(project ""
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5953,72 +5729,6 @@
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "U2")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 31.75 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbed9473-de4b-454d-9148-b5098492f05f")
-		(property "Reference" "#PWR03"
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe4e4990-5d77-4ffe-94e6-da8e88892cdc")
-		)
-		(instances
-			(project "Audio-Amplifier_TDA2822"
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "#PWR03")
-					(unit 1)
 				)
 			)
 		)
