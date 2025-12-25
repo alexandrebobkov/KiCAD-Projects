@@ -2087,6 +2087,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 125.73) (xy 132.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182d5a4d-796c-4e5e-a652-29bbbd740182")
+	)
+	(wire
+		(pts
 			(xy 74.93 77.47) (xy 74.93 76.2)
 		)
 		(stroke
@@ -2187,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 130.81) (xy 132.08 133.35)
+			(xy 132.08 133.35) (xy 132.08 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 140.97) (xy 132.08 144.78)
+			(xy 132.08 143.51) (xy 132.08 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +2889,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 127 0)
+		(at 132.08 129.54 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2888,7 +2898,7 @@
 		(dnp no)
 		(uuid "05a57d81-9f77-4bd5-af29-550fa4efe6e8")
 		(property "Reference" "R9"
-			(at 138.43 127 90)
+			(at 138.43 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2906,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 135.89 127 90)
+			(at 135.89 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2914,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 133.858 127 90)
+			(at 133.858 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 127 0)
+			(at 132.08 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2932,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 127 0)
+			(at 132.08 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +3844,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 132.08 137.16 0)
+		(at 132.08 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3843,15 +3853,6 @@
 		(fields_autoplaced yes)
 		(uuid "368c20fe-1abf-4210-b293-82d47a913b75")
 		(property "Reference" "C10"
-			(at 135.89 135.0009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
 			(at 135.89 137.5409 0)
 			(effects
 				(font
@@ -3860,8 +3861,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "100u"
+			(at 135.89 140.0809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 133.0452 140.97 0)
+			(at 133.0452 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 137.16 0)
+			(at 132.08 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3889,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 132.08 137.16 0)
+			(at 132.08 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
