@@ -265,6 +265,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ClassAB:1706714"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1706714"
+				(at -2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "1706714:PHOENIX_1706714"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "08.12.2022"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Phoenix Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1706714_0_0"
+				(rectangle
+					(start -3.81 -5.08)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Conn_Coaxial_x2_1"
 			(pin_names
 				(offset 1.016)
@@ -724,129 +915,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x01_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Socket"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5176,8 +5244,8 @@
 		(uuid 5c92b0da-b5f4-4198-a559-b7c2b242bfee)
 	)
 	(rectangle
-		(start 173.99 115.57)
-		(end 237.49 146.05)
+		(start 176.53 115.57)
+		(end 257.81 165.1)
 		(stroke
 			(width 1.016)
 			(type default)
@@ -5237,7 +5305,7 @@
 	)
 	(rectangle
 		(start 110.49 115.57)
-		(end 173.99 198.12)
+		(end 176.53 198.12)
 		(stroke
 			(width 1.016)
 			(type default)
@@ -5438,7 +5506,7 @@
 	)
 	(text "Left and right channel speaker quick terminals"
 		(exclude_from_sim no)
-		(at 199.898 119.38 0)
+		(at 202.438 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5497,10 +5565,22 @@
 		(uuid "28727272-dd92-4477-931d-362cef1761c2")
 	)
 	(junction
+		(at 228.6 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "290b1188-16da-4c64-b889-ba170d52b174")
+	)
+	(junction
 		(at 73.66 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2bc51ab1-bbe7-41e3-9770-9bad4d03b5c6")
+	)
+	(junction
+		(at 228.6 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cf196fa-0e1f-49c7-a834-98743f7cead4")
 	)
 	(junction
 		(at 59.69 54.61)
@@ -5549,12 +5629,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41bcbb65-febc-47f2-8f4f-bb8f51f9c634")
-	)
-	(junction
-		(at 187.96 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49ec936e-b8d8-4070-bed4-7fe0653f2744")
 	)
 	(junction
 		(at 96.52 165.1)
@@ -5635,6 +5709,12 @@
 		(uuid "7df34d7c-fe0c-4499-90be-24807d6c2866")
 	)
 	(junction
+		(at 190.5 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85e66925-5cb8-41b6-a4a0-13b61e8fa311")
+	)
+	(junction
 		(at 123.19 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5651,6 +5731,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8fdbc292-2cb8-4a91-b7f0-572a5f2ecc2f")
+	)
+	(junction
+		(at 190.5 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f4e9ae9-3822-43c2-a981-fcddf88fe394")
 	)
 	(junction
 		(at 161.29 46.99)
@@ -6058,6 +6144,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 143.51) (xy 193.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24aa58fd-18ce-4e29-8661-29fbb4ec1c94")
+	)
+	(wire
+		(pts
 			(xy 123.19 30.48) (xy 123.19 46.99)
 		)
 		(stroke
@@ -6228,16 +6324,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 127) (xy 187.96 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3946a8a2-2105-4a11-8138-a18f6bbc2684")
-	)
-	(wire
-		(pts
 			(xy 123.19 156.21) (xy 123.19 171.45)
 		)
 		(stroke
@@ -6265,6 +6351,16 @@
 			(type default)
 		)
 		(uuid "3a89b3bd-adb0-4ce5-bda5-4175c4eec288")
+	)
+	(wire
+		(pts
+			(xy 228.6 144.78) (xy 228.6 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9fc368-4812-40fa-bb9b-5a233f4bfd59")
 	)
 	(wire
 		(pts
@@ -6325,6 +6421,16 @@
 			(type default)
 		)
 		(uuid "3e74f1d2-7ce3-416b-beca-4dbc32f81c63")
+	)
+	(wire
+		(pts
+			(xy 190.5 144.78) (xy 190.5 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4e3e55-677a-4e65-be33-0cb8d54a18c4")
 	)
 	(wire
 		(pts
@@ -6458,6 +6564,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 143.51) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bf740cb-659c-410a-944a-884d4a6edb2c")
+	)
+	(wire
+		(pts
 			(xy 66.04 77.47) (xy 69.85 77.47)
 		)
 		(stroke
@@ -6535,16 +6651,6 @@
 			(type default)
 		)
 		(uuid "50915158-7fac-4e05-8af7-f2ece4c5fd61")
-	)
-	(wire
-		(pts
-			(xy 203.2 124.46) (xy 209.55 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e529f4-e11e-4711-aa19-ed4333780ebf")
 	)
 	(wire
 		(pts
@@ -6748,6 +6854,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 132.08) (xy 190.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655240f3-a511-4587-bd40-9e91b0a5be22")
+	)
+	(wire
+		(pts
 			(xy 67.31 40.64) (xy 67.31 41.91)
 		)
 		(stroke
@@ -6778,6 +6894,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 134.62) (xy 190.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6757d0c7-a55a-483d-a0a7-71efa80b3f13")
+	)
+	(wire
+		(pts
 			(xy 97.79 25.4) (xy 99.06 25.4)
 		)
 		(stroke
@@ -6785,6 +6911,16 @@
 			(type default)
 		)
 		(uuid "6b83db81-0c6a-4cc3-8d50-7f93ecf19617")
+	)
+	(wire
+		(pts
+			(xy 224.79 132.08) (xy 228.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da5af35-c9bb-49c9-8922-fe720f7531af")
 	)
 	(wire
 		(pts
@@ -6858,6 +6994,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 140.97) (xy 193.04 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782fffbf-9256-4dd2-8e70-5d897a47aaaa")
+	)
+	(wire
+		(pts
 			(xy 203.2 30.48) (xy 203.2 31.75)
 		)
 		(stroke
@@ -6875,16 +7021,6 @@
 			(type default)
 		)
 		(uuid "7b503634-af6c-4e98-a679-eb0a99faac14")
-	)
-	(wire
-		(pts
-			(xy 187.96 127) (xy 209.55 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b764f91-74e9-4cdb-95bc-f9a40eb8cdbe")
 	)
 	(wire
 		(pts
@@ -6968,16 +7104,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 129.54) (xy 187.96 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87c85bfa-f4c7-4604-8557-666916a1801e")
-	)
-	(wire
-		(pts
 			(xy 232.41 44.45) (xy 243.84 44.45)
 		)
 		(stroke
@@ -7005,16 +7131,6 @@
 			(type default)
 		)
 		(uuid "8a616054-8245-461d-aa97-d863269e576e")
-	)
-	(wire
-		(pts
-			(xy 203.2 132.08) (xy 209.55 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b504517-1e54-455d-80d3-e9a7a61d0c3c")
 	)
 	(wire
 		(pts
@@ -7178,6 +7294,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9653f72e-4784-45db-886e-e0b755ce7c7e")
+	)
+	(wire
+		(pts
 			(xy 135.89 135.89) (xy 135.89 139.7)
 		)
 		(stroke
@@ -7308,6 +7434,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 132.08) (xy 193.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a281613f-3898-4621-a202-9abf8591a732")
+	)
+	(wire
+		(pts
 			(xy 82.55 151.13) (xy 82.55 147.32)
 		)
 		(stroke
@@ -7415,6 +7551,16 @@
 			(type default)
 		)
 		(uuid "b317979a-39af-4444-aa0f-f88d0ed9cef0")
+	)
+	(wire
+		(pts
+			(xy 231.14 134.62) (xy 228.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a7951b-1a7c-411c-bf21-921650c079c2")
 	)
 	(wire
 		(pts
@@ -7565,6 +7711,16 @@
 			(type default)
 		)
 		(uuid "c336f629-a229-43d6-bf77-ad090850f8d2")
+	)
+	(wire
+		(pts
+			(xy 228.6 134.62) (xy 228.6 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3458fd7-053d-4a36-805b-1022283e0059")
 	)
 	(wire
 		(pts
@@ -7748,6 +7904,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 143.51) (xy 228.6 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d918f7be-046e-47d7-9002-0ab57b4d11ab")
+	)
+	(wire
+		(pts
 			(xy 24.13 173.99) (xy 24.13 166.37)
 		)
 		(stroke
@@ -7815,6 +7981,16 @@
 			(type default)
 		)
 		(uuid "df8d5bb5-681d-44fb-9095-72eb3c06e69d")
+	)
+	(wire
+		(pts
+			(xy 190.5 143.51) (xy 190.5 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0177d22-761a-44c1-9905-0d6a29802dde")
 	)
 	(wire
 		(pts
@@ -7958,6 +8134,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 140.97) (xy 231.14 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f270da25-9b57-4653-b5cb-7b809bf0e2f1")
+	)
+	(wire
+		(pts
 			(xy 135.89 139.7) (xy 135.89 147.32)
 		)
 		(stroke
@@ -8078,13 +8264,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 129.54) (xy 209.55 129.54)
+			(xy 228.6 132.08) (xy 231.14 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffa452b1-abfd-4c35-9063-ee7f6d009020")
+		(uuid "fff2defa-6d3c-4562-86b2-d5a64b3c2a5f")
 	)
 	(label "VIN2"
 		(at 49.53 31.75 0)
@@ -8276,28 +8462,6 @@
 			)
 		)
 	)
-	(global_label "LOUT"
-		(shape input)
-		(at 203.2 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4166d6f0-8b65-45b0-965c-347fb08b82b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.5581 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LIN2"
 		(shape input)
 		(at 120.65 156.21 180)
@@ -8474,6 +8638,28 @@
 			)
 		)
 	)
+	(global_label "LOUT"
+		(shape input)
+		(at 186.69 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0e85d1b-df99-4ca2-be5a-a4143ef8eb5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.0481 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LIN1"
 		(shape input)
 		(at 58.42 146.05 180)
@@ -8542,7 +8728,7 @@
 	)
 	(global_label "ROUT"
 		(shape input)
-		(at 203.2 124.46 180)
+		(at 224.79 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8550,9 +8736,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d8c08944-1ec5-4a2a-af84-499ace583505")
+		(uuid "c96aae18-74ff-4fb3-82e4-ce6efdfe94e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.3162 124.46 0)
+			(at 216.9062 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,6 +8811,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 228.6 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "008744e5-04b0-4192-b64c-42037b92690a")
+		(property "Reference" "#PWR032"
+			(at 228.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08b67944-4ceb-4d42-8530-22598a48cf9b")
+		)
+		(instances
+			(project "Class AB Stereo Amp SMD"
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "#PWR032")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -9237,6 +9489,117 @@
 			(project "Basic Stereo Amp v3"
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:1706714")
+		(at 238.76 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "206be673-a404-4456-9862-5104f3bc4110")
+		(property "Reference" "J12"
+			(at 245.11 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1706714"
+			(at 245.11 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "myparts:PHOENIX_1706714"
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 238.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_2"
+			(uuid "a139089f-ab20-4511-a991-46299be4d419")
+		)
+		(pin "1_1"
+			(uuid "a6053b62-d9a5-4760-81de-2baa81196038")
+		)
+		(instances
+			(project "Class AB Stereo Amp SMD"
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -10940,6 +11303,117 @@
 			(project "Basic Stereo Amp v3"
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:1706714")
+		(at 200.66 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dc884af-b6ee-4eff-a611-c3484dee41ef")
+		(property "Reference" "J13"
+			(at 207.01 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1706714"
+			(at 207.01 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "myparts:PHOENIX_1706714"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_2"
+			(uuid "b8afb693-a987-4df9-a744-0edfc3330d19")
+		)
+		(pin "1_1"
+			(uuid "b2163480-4fc3-4c70-8ba0-6cc0cb405f59")
+		)
+		(instances
+			(project "Class AB Stereo Amp SMD"
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -13710,72 +14184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 214.63 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9cb193bd-88f1-41bb-a99e-03ef74e4cd53")
-		(property "Reference" "J7"
-			(at 215.9 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ROUT"
-			(at 221.742 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprints:PHOENIX_1706714"
-			(at 214.63 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 214.63 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "419e4715-674e-4b39-b276-ad405184c7db")
-		)
-		(instances
-			(project ""
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 34.29 134.62 0)
 		(mirror x)
@@ -13923,6 +14331,72 @@
 			(project "Basic Stereo Amp v3"
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a29a8983-61ef-4576-a7f9-67ce4633bdd3")
+		(property "Reference" "#PWR033"
+			(at 190.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6a5c586-0aa5-465e-a7c8-9d55952f78c7")
+		)
+		(instances
+			(project "Class AB Stereo Amp SMD"
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14204,138 +14678,6 @@
 			(project "Basic Stereo Amp v3"
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 214.63 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa25fc2e-3ffc-4178-a1ee-727344e85baf")
-		(property "Reference" "J8"
-			(at 215.9 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 221.996 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprints:PHOENIX_1706714"
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 214.63 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "419e4715-674e-4b39-b276-ad405184c7dc")
-		)
-		(instances
-			(project ""
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 214.63 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa802998-1e52-49b6-ae12-db2e556c5e64")
-		(property "Reference" "J10"
-			(at 215.9 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LOUT"
-			(at 221.742 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprints:PHOENIX_1706714"
-			(at 214.63 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 214.63 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "419e4715-674e-4b39-b276-ad405184c7dd")
-		)
-		(instances
-			(project ""
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -14762,138 +15104,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Socket")
-		(at 214.63 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "af451bd4-34f9-43a3-bc6d-bc71eb20f83c")
-		(property "Reference" "J9"
-			(at 215.9 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprints:PHOENIX_1706714"
-			(at 214.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 214.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "419e4715-674e-4b39-b276-ad405184c7de")
-		)
-		(instances
-			(project ""
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 187.96 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af898d68-3f69-419d-a530-0de65198a37c")
-		(property "Reference" "#PWR030"
-			(at 187.96 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "566c7ced-afbf-4a67-81e8-07a1856c1f04")
-		)
-		(instances
-			(project "Class AB Stereo Amp SMD"
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 222.25 39.37 0)
 		(unit 1)
@@ -15034,6 +15244,117 @@
 			(project "RailSplitter"
 				(path "/b79493f4-af43-48a2-8c7b-5ce2fbe1909f"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:1706714")
+		(at 200.66 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84cf973-078f-4bb6-99fc-8170204364a3")
+		(property "Reference" "J14"
+			(at 207.01 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1706714"
+			(at 207.01 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "myparts:PHOENIX_1706714"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_2"
+			(uuid "cf49afa5-9127-484a-8bae-0e9b43827850")
+		)
+		(pin "1_1"
+			(uuid "b99e2db6-36ba-41ae-9158-e40b17d77f3f")
+		)
+		(instances
+			(project "Class AB Stereo Amp SMD"
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -17114,6 +17435,117 @@
 			(project "Basic Stereo Amp v3"
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:1706714")
+		(at 238.76 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9eab54f-40b5-4d30-884c-1557f1bff0bb")
+		(property "Reference" "J11"
+			(at 245.11 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1706714"
+			(at 245.11 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "myparts:PHOENIX_1706714"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "08.12.2022"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "15.53mm"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1_2"
+			(uuid "96d15dda-4fae-4579-ae1a-b6ddd76d9fc3")
+		)
+		(pin "1_1"
+			(uuid "7003277b-40c5-4adb-8015-5be825132702")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "J11")
 					(unit 1)
 				)
 			)
