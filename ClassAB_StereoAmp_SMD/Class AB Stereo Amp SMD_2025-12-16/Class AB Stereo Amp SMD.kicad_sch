@@ -456,6 +456,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ClassAB:Heatsink_Pad_Combo"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 4.318 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NPN_Heatsink_Pad_Combo"
+				(at 15.494 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.556 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+				(at -0.508 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_Pad_Combo_1_1"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -1.905 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.175) (xy -1.905 -6.985) (xy -1.905 -6.985)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.715) (xy 0 -7.62) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -5.08)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.858) (xy -0.762 -6.35) (xy -0.254 -7.366) (xy -1.27 -6.858) (xy -1.27 -6.858)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 0 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Heatsink_Pad_Combo_2_1"
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -1.27 0) (xy -1.27 2.54) (xy -1.905 2.54) (xy -1.905 0) (xy -2.54 0) (xy -2.54 2.54)
+						(xy -3.175 2.54) (xy -3.175 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -0.635 2.54) (xy 0 2.54) (xy 0 0) (xy 0.635 0) (xy 0.635 2.54) (xy 1.27 2.54)
+						(xy 1.27 0) (xy 1.905 0) (xy 1.905 2.54) (xy 2.54 2.54) (xy 2.54 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.81)
+					(name "HS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Conn_Coaxial_x2_1"
 			(pin_names
 				(offset 1.016)
@@ -5898,6 +6141,10 @@
 		(at 45.72 20.32)
 		(uuid "47ab1a51-432a-4447-824a-231759321823")
 	)
+	(no_connect
+		(at 251.46 67.31)
+		(uuid "6d7ca8ba-a863-4526-b783-dac88148c5bb")
+	)
 	(wire
 		(pts
 			(xy 99.06 144.78) (xy 99.06 151.13)
@@ -11086,9 +11333,9 @@
 		(at 207.01 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "428150e5-e5a5-402b-97ef-eb26288ce1d1")
 		(property "Reference" "HS1"
@@ -11109,7 +11356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_AAVID_573300D00010G_TO-263"
+		(property "Footprint" "PROJECT:Heatsink_Combo_2"
 			(at 207.3148 67.31 0)
 			(effects
 				(font
@@ -11773,79 +12020,6 @@
 		)
 	)
 	(symbol
-		(lib_id "myparts:NJVMJB41CT4G")
-		(at 148.59 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5970955c-99f3-4e73-a500-4d7bf918356e")
-		(property "Reference" "Q2"
-			(at 152.146 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NJVMJB41CT4G"
-			(at 152.146 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprints Library:Heatsink_AAVID_573300D10G_TO-263_A"
-			(at 148.59 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb743ed5-c817-4a35-80d3-88f962ca9fd2")
-		)
-		(pin "2"
-			(uuid "ac812030-1140-414f-859e-e457b25e473d")
-		)
-		(pin "3"
-			(uuid "7907f0c8-63b4-4bb4-a93a-87c26f6a01e6")
-		)
-		(instances
-			(project "Basic Stereo Amp v3"
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 218.44 67.31 0)
 		(unit 1)
@@ -12382,9 +12556,9 @@
 		(at 223.52 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "681f7d6e-e908-42cb-9bff-7a63a9b29dea")
 		(property "Reference" "HS3"
@@ -13909,9 +14083,9 @@
 		(at 223.52 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9086a528-dfa6-4983-ab0b-0f43d043b72b")
 		(property "Reference" "HS4"
@@ -14494,6 +14668,82 @@
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "R17")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:Heatsink_Pad_Combo")
+		(at 251.46 62.23 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d8298b8-7aee-4899-9b48-f67bfdb21a11")
+		(property "Reference" "HS5"
+			(at 255.27 60.3249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NJVMJB41CT4G"
+			(at 255.27 62.8649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PROJECT:Heatsink_Combo_2"
+			(at 251.7648 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.016 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 250.952 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b57ee1bb-aada-499a-b695-cf4ff9aeeaf7")
+		)
+		(pin "4"
+			(uuid "74f20b6d-afdd-4025-a401-f88383f03733")
+		)
+		(pin "1"
+			(uuid "afb370f5-5c22-476a-a28e-fa4da08e74fe")
+		)
+		(pin "3"
+			(uuid "48aa7462-3d23-4afd-a2fc-0fee3ed53811")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "HS5")
+					(unit 2)
 				)
 			)
 		)
@@ -15831,6 +16081,82 @@
 			(project "RailSplitter"
 				(path "/b79493f4-af43-48a2-8c7b-5ce2fbe1909f"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:Heatsink_Pad_Combo")
+		(at 148.59 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c553d35c-1b27-4c93-8d4e-64dd56786242")
+		(property "Reference" "HS5"
+			(at 151.13 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NJVMJB41CT4G"
+			(at 151.13 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PROJECT:Heatsink_Combo_2"
+			(at 148.8948 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.146 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 148.082 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b57ee1bb-aada-499a-b695-cf4ff9aeeaf7")
+		)
+		(pin "4"
+			(uuid "74f20b6d-afdd-4025-a401-f88383f03733")
+		)
+		(pin "1"
+			(uuid "afb370f5-5c22-476a-a28e-fa4da08e74fe")
+		)
+		(pin "3"
+			(uuid "48aa7462-3d23-4afd-a2fc-0fee3ed53811")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "HS5")
 					(unit 1)
 				)
 			)
@@ -17189,9 +17515,9 @@
 		(at 207.01 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e53d6b65-d7b9-4dfa-b58c-a1100b228c0d")
 		(property "Reference" "HS2"
