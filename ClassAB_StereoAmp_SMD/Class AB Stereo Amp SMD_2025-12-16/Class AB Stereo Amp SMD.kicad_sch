@@ -456,15 +456,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ClassAB:Heatsink_Pad_Combo"
+		(symbol "ClassAB:NPN_Heatsink_Pad_Combo"
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "HS"
-				(at 4.318 3.81 0)
+			(property "Reference" "Q"
+				(at 3.81 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -524,7 +524,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Heatsink_Pad_Combo_1_1"
+			(symbol "NPN_Heatsink_Pad_Combo_1_1"
 				(polyline
 					(pts
 						(xy -5.08 -5.08) (xy -1.905 -5.08)
@@ -651,7 +651,7 @@
 					)
 				)
 			)
-			(symbol "Heatsink_Pad_Combo_2_1"
+			(symbol "NPN_Heatsink_Pad_Combo_2_1"
 				(polyline
 					(pts
 						(xy -0.635 0) (xy -1.27 0) (xy -1.27 2.54) (xy -1.905 2.54) (xy -1.905 0) (xy -2.54 0) (xy -2.54 2.54)
@@ -6142,8 +6142,8 @@
 		(uuid "47ab1a51-432a-4447-824a-231759321823")
 	)
 	(no_connect
-		(at 251.46 67.31)
-		(uuid "6d7ca8ba-a863-4526-b783-dac88148c5bb")
+		(at 240.03 69.85)
+		(uuid "eb5fadcc-3c63-4af9-a77d-b155ef7cf41e")
 	)
 	(wire
 		(pts
@@ -9261,6 +9261,82 @@
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "#PWR032")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:NPN_Heatsink_Pad_Combo")
+		(at 240.03 64.77 0)
+		(unit 2)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0549d79d-b89c-4035-bff0-e1e5aae6cf8d")
+		(property "Reference" "Q2"
+			(at 243.84 62.8649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN_Heatsink_Pad_Combo"
+			(at 243.84 65.4049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.3348 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.586 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 239.522 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4085a9c-8e46-4537-a26f-8212049b8397")
+		)
+		(pin "3"
+			(uuid "82485a57-5979-4429-80d3-0ca57a430e81")
+		)
+		(pin "2"
+			(uuid "b32de441-6d6a-41ef-a6f7-2b7070146f54")
+		)
+		(pin "4"
+			(uuid "9f931f20-20e8-4a2a-a2ea-a47607fa8d52")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "Q2")
+					(unit 2)
 				)
 			)
 		)
@@ -14673,82 +14749,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ClassAB:Heatsink_Pad_Combo")
-		(at 251.46 62.23 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d8298b8-7aee-4899-9b48-f67bfdb21a11")
-		(property "Reference" "HS5"
-			(at 255.27 60.3249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NJVMJB41CT4G"
-			(at 255.27 62.8649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PROJECT:Heatsink_Combo_2"
-			(at 251.7648 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.016 56.134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
-			(at 250.952 49.022 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b57ee1bb-aada-499a-b695-cf4ff9aeeaf7")
-		)
-		(pin "4"
-			(uuid "74f20b6d-afdd-4025-a401-f88383f03733")
-		)
-		(pin "1"
-			(uuid "afb370f5-5c22-476a-a28e-fa4da08e74fe")
-		)
-		(pin "3"
-			(uuid "48aa7462-3d23-4afd-a2fc-0fee3ed53811")
-		)
-		(instances
-			(project ""
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "HS5")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 34.29 134.62 0)
 		(mirror x)
@@ -16087,82 +16087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ClassAB:Heatsink_Pad_Combo")
-		(at 148.59 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c553d35c-1b27-4c93-8d4e-64dd56786242")
-		(property "Reference" "HS5"
-			(at 151.13 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NJVMJB41CT4G"
-			(at 151.13 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PROJECT:Heatsink_Combo_2"
-			(at 148.8948 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.146 19.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
-			(at 148.082 12.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b57ee1bb-aada-499a-b695-cf4ff9aeeaf7")
-		)
-		(pin "4"
-			(uuid "74f20b6d-afdd-4025-a401-f88383f03733")
-		)
-		(pin "1"
-			(uuid "afb370f5-5c22-476a-a28e-fa4da08e74fe")
-		)
-		(pin "3"
-			(uuid "48aa7462-3d23-4afd-a2fc-0fee3ed53811")
-		)
-		(instances
-			(project ""
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "HS5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ClassAB:1706714")
 		(at 187.96 146.05 0)
 		(unit 1)
@@ -17368,6 +17292,82 @@
 			(project "Basic Stereo Amp v3"
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:NPN_Heatsink_Pad_Combo")
+		(at 148.59 25.4 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1aee512-fe91-4876-aad7-b00317501ffc")
+		(property "Reference" "Q2"
+			(at 151.13 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN_Heatsink_Pad_Combo"
+			(at 151.13 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.8948 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.146 19.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 148.082 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4085a9c-8e46-4537-a26f-8212049b8397")
+		)
+		(pin "3"
+			(uuid "82485a57-5979-4429-80d3-0ca57a430e81")
+		)
+		(pin "2"
+			(uuid "b32de441-6d6a-41ef-a6f7-2b7070146f54")
+		)
+		(pin "4"
+			(uuid "9f931f20-20e8-4a2a-a2ea-a47607fa8d52")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
