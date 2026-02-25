@@ -699,6 +699,249 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ClassAB:PNP_Heatsink_Pad_Combo"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PNP_Heatsink_Pad_Combo"
+				(at 15.494 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 3.556 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+				(at -0.508 13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PNP_Heatsink_Pad_Combo_1_1"
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy -1.905 -3.81)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -1.905 -5.715) (xy -1.905 -5.715)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.175) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.445) (xy 0 -6.35) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -3.81)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -5.588) (xy -0.762 -6.096) (xy -1.27 -5.08) (xy -0.254 -5.588) (xy -0.254 -5.588)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 0 1.27 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PNP_Heatsink_Pad_Combo_2_1"
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -1.27 0) (xy -1.27 2.54) (xy -1.905 2.54) (xy -1.905 0) (xy -2.54 0) (xy -2.54 2.54)
+						(xy -3.175 2.54) (xy -3.175 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -0.635 2.54) (xy 0 2.54) (xy 0 0) (xy 0.635 0) (xy 0.635 2.54) (xy 1.27 2.54)
+						(xy 1.27 0) (xy 1.905 0) (xy 1.905 2.54) (xy 2.54 2.54) (xy 2.54 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 3.81)
+					(name "HS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Conn_Coaxial_x2_1"
 			(pin_names
 				(offset 1.016)
@@ -4710,346 +4953,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "myparts:NJVMJB41CT4G"
-			(pin_names
-				(offset 0.002)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NJVMJB41CT4G"
-				(at -8.89 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NJVMJB41CT4G_0_1"
-				(polyline
-					(pts
-						(xy -1.905 1.905) (xy -1.905 -1.905) (xy -1.905 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -0.635) (xy 0 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.778) (xy -0.762 -1.27) (xy -0.254 -2.286) (xy -1.27 -1.778) (xy -1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "NJVMJB41CT4G_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "myparts:NJVMJB42CT4G"
-			(pin_names
-				(offset 0.002)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -5.08 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NJVMJB42CT4G"
-				(at -8.89 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NJVMJB42CT4G_0_1"
-				(polyline
-					(pts
-						(xy -0.635 1.905) (xy -0.635 -1.905) (xy -0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.635) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.635) (xy 1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.778) (xy 0.508 -2.286) (xy 0 -1.27) (xy 1.016 -1.778) (xy 1.016 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "NJVMJB42CT4G_1_1"
-				(pin input line
-					(at -6.35 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -6138,8 +6041,20 @@
 		(uuid "f06a03d9-714a-4a8e-bd56-f689c33fd858")
 	)
 	(no_connect
+		(at 240.03 80.01)
+		(uuid "07e41f92-f160-4fee-986b-47137c9b63b9")
+	)
+	(no_connect
 		(at 45.72 20.32)
 		(uuid "47ab1a51-432a-4447-824a-231759321823")
+	)
+	(no_connect
+		(at 240.03 91.44)
+		(uuid "74e93228-2c78-478a-b428-b7472cad6813")
+	)
+	(no_connect
+		(at 240.03 102.87)
+		(uuid "99178118-fc6b-4e05-a12d-a4030b8c4662")
 	)
 	(no_connect
 		(at 240.03 69.85)
@@ -9269,7 +9184,7 @@
 		(lib_id "ClassAB:NPN_Heatsink_Pad_Combo")
 		(at 240.03 64.77 0)
 		(unit 2)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9293,7 +9208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PROJECT:BJT_Heatsink_Combo"
 			(at 240.3348 66.04 0)
 			(effects
 				(font
@@ -9748,18 +9663,17 @@
 		)
 	)
 	(symbol
-		(lib_id "myparts:NJVMJB42CT4G")
-		(at 147.32 63.5 0)
-		(mirror x)
-		(unit 1)
+		(lib_id "ClassAB:PNP_Heatsink_Pad_Combo")
+		(at 240.03 86.36 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b48e8d7-be35-49e5-a941-ee9a1bfc1455")
+		(uuid "153c9174-6e51-4538-a162-c165d2ac89ec")
 		(property "Reference" "Q1"
-			(at 152.146 62.23 0)
+			(at 243.84 84.4549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,8 +9681,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NJVMJB42CT4G"
-			(at 152.146 64.77 0)
+		(property "Value" "PNP_Heatsink_Pad_Combo"
+			(at 243.84 86.9949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9776,8 +9690,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Alexander Footprints Library:Heatsink_AAVID_573300D10G_TO-263_A"
-			(at 147.32 63.5 0)
+		(property "Footprint" "PROJECT:BJT_Heatsink_Combo"
+			(at 240.3348 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,8 +9699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 147.32 63.5 0)
+		(property "Datasheet" "~"
+			(at 243.586 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9794,8 +9708,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 63.5 0)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 239.522 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9804,19 +9718,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d9c3bc6-1002-4b45-8d8e-3490d27f9a6f")
-		)
-		(pin "2"
-			(uuid "4ba5d88d-dcb6-46ed-8c48-049dd6daf51d")
+			(uuid "fb4b65fd-9cd4-48fb-ae37-eadf8246ba36")
 		)
 		(pin "3"
-			(uuid "92849310-80bf-4008-83d8-56c5fbb049b2")
+			(uuid "fdbf6b5a-a62a-417b-838d-93d312feb3a1")
+		)
+		(pin "4"
+			(uuid "129fc972-cf49-4014-a707-dd637918f050")
+		)
+		(pin "2"
+			(uuid "eb507b8c-d384-4685-a33c-cb338b55574e")
 		)
 		(instances
-			(project "Basic Stereo Amp v3"
+			(project ""
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "Q1")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -12695,79 +12612,6 @@
 		)
 	)
 	(symbol
-		(lib_id "myparts:NJVMJB41CT4G")
-		(at 148.59 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "682d3b34-39e2-4e18-976c-c5fd309a0307")
-		(property "Reference" "Q4"
-			(at 151.384 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NJVMJB41CT4G"
-			(at 151.384 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprints Library:Heatsink_AAVID_573300D10G_TO-263_A"
-			(at 148.59 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2394125-45bb-4caa-9f4f-d23ad773de5c")
-		)
-		(pin "2"
-			(uuid "c8fa4060-58c2-4312-8968-85947e14a137")
-		)
-		(pin "3"
-			(uuid "a3359f5b-708b-4542-a138-72b86494eef3")
-		)
-		(instances
-			(project "Basic Stereo Amp v3"
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 26.67 31.75 180)
 		(unit 1)
@@ -13414,6 +13258,82 @@
 		)
 	)
 	(symbol
+		(lib_id "ClassAB:NPN_Heatsink_Pad_Combo")
+		(at 240.03 74.93 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7753f07d-57cf-4ee8-b030-e57442b6ffa4")
+		(property "Reference" "Q4"
+			(at 243.84 73.0249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN_Heatsink_Pad_Combo"
+			(at 243.84 75.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PROJECT:BJT_Heatsink_Combo"
+			(at 240.3348 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.586 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 239.522 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e86aba3d-0464-41d9-9d35-817f65d4a8be")
+		)
+		(pin "4"
+			(uuid "731c7368-1f92-4dc4-b942-935c177605d8")
+		)
+		(pin "3"
+			(uuid "4a1eb0fe-32f3-41cb-b609-c5f22e30ad8a")
+		)
+		(pin "2"
+			(uuid "89be8aa3-4307-4e7b-90ca-e301429c339a")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "Q4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 17.78 147.32 0)
 		(unit 1)
@@ -13603,6 +13523,82 @@
 			(project "Basic Stereo Amp v3"
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:NPN_Heatsink_Pad_Combo")
+		(at 148.59 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "838a4af3-5204-4c65-80ee-3f58e7f18a23")
+		(property "Reference" "Q4"
+			(at 151.13 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN_Heatsink_Pad_Combo"
+			(at 151.13 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PROJECT:BJT_Heatsink_Combo"
+			(at 148.8948 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.146 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 148.082 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e86aba3d-0464-41d9-9d35-817f65d4a8bf")
+		)
+		(pin "4"
+			(uuid "731c7368-1f92-4dc4-b942-935c177605d9")
+		)
+		(pin "3"
+			(uuid "4a1eb0fe-32f3-41cb-b609-c5f22e30ad8b")
+		)
+		(pin "2"
+			(uuid "89be8aa3-4307-4e7b-90ca-e301429c339b")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -14902,6 +14898,82 @@
 		)
 	)
 	(symbol
+		(lib_id "ClassAB:PNP_Heatsink_Pad_Combo")
+		(at 148.59 67.31 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a14c05eb-90d0-4879-933c-d736a8610885")
+		(property "Reference" "Q1"
+			(at 151.13 64.7701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PNP_Heatsink_Pad_Combo"
+			(at 151.13 62.2301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PROJECT:BJT_Heatsink_Combo"
+			(at 148.8948 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.146 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 148.082 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb4b65fd-9cd4-48fb-ae37-eadf8246ba37")
+		)
+		(pin "3"
+			(uuid "fdbf6b5a-a62a-417b-838d-93d312feb3a2")
+		)
+		(pin "4"
+			(uuid "129fc972-cf49-4014-a707-dd637918f051")
+		)
+		(pin "2"
+			(uuid "eb507b8c-d384-4685-a33c-cb338b55574f")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 177.8 113.03 0)
 		(unit 1)
@@ -15810,6 +15882,82 @@
 				(path "/b79493f4-af43-48a2-8c7b-5ce2fbe1909f"
 					(reference "D2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:PNP_Heatsink_Pad_Combo")
+		(at 240.03 97.79 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b38da722-0023-4bab-9b9c-31a83b83e13a")
+		(property "Reference" "Q3"
+			(at 243.84 95.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PNP_Heatsink_Pad_Combo"
+			(at 243.84 98.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PROJECT:BJT_Heatsink_Combo"
+			(at 240.3348 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.586 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 239.522 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a849ec1-6147-45ee-8cc7-64d8173f0ecb")
+		)
+		(pin "3"
+			(uuid "ee7bcda3-1fc7-4601-973d-646dec10cd82")
+		)
+		(pin "4"
+			(uuid "57afdf46-e5e1-4a01-b133-83eabeb47ba5")
+		)
+		(pin "1"
+			(uuid "9de687fd-2c80-4058-abcf-86f12ede4297")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "Q3")
+					(unit 2)
 				)
 			)
 		)
@@ -17301,7 +17449,7 @@
 		(lib_id "ClassAB:NPN_Heatsink_Pad_Combo")
 		(at 148.59 25.4 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -17325,7 +17473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PROJECT:BJT_Heatsink_Combo"
 			(at 148.8948 26.67 0)
 			(effects
 				(font
@@ -17353,16 +17501,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4085a9c-8e46-4537-a26f-8212049b8397")
+			(uuid "f4085a9c-8e46-4537-a26f-8212049b8398")
 		)
 		(pin "3"
-			(uuid "82485a57-5979-4429-80d3-0ca57a430e81")
+			(uuid "82485a57-5979-4429-80d3-0ca57a430e82")
 		)
 		(pin "2"
-			(uuid "b32de441-6d6a-41ef-a6f7-2b7070146f54")
+			(uuid "b32de441-6d6a-41ef-a6f7-2b7070146f55")
 		)
 		(pin "4"
-			(uuid "9f931f20-20e8-4a2a-a2ea-a47607fa8d52")
+			(uuid "9f931f20-20e8-4a2a-a2ea-a47607fa8d53")
 		)
 		(instances
 			(project ""
@@ -17983,80 +18131,6 @@
 		)
 	)
 	(symbol
-		(lib_id "myparts:NJVMJB42CT4G")
-		(at 147.32 171.45 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efbee5ea-ab4d-4e73-ac09-8084a6fe6220")
-		(property "Reference" "Q3"
-			(at 151.384 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NJVMJB42CT4G"
-			(at 151.384 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Alexander Footprints Library:Heatsink_AAVID_573300D10G_TO-263_A"
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f8fb19a-3121-4eef-a4b9-784fc8f0c642")
-		)
-		(pin "2"
-			(uuid "7ee3ce56-0205-4d0a-8d0f-42769b21cf56")
-		)
-		(pin "3"
-			(uuid "aedf6b75-d043-4f2c-8fb9-ada7d77c7c7c")
-		)
-		(instances
-			(project "Basic Stereo Amp v3"
-				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 148.59 151.13 0)
 		(unit 1)
@@ -18520,6 +18594,82 @@
 				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ClassAB:PNP_Heatsink_Pad_Combo")
+		(at 148.59 175.26 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd7ab7ea-5cde-40e8-a42d-174dd99cd2c6")
+		(property "Reference" "Q3"
+			(at 151.13 172.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PNP_Heatsink_Pad_Combo"
+			(at 151.13 170.1801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PROJECT:BJT_Heatsink_Combo"
+			(at 148.8948 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.146 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN with heatsink with electrical connection, 4 pins"
+			(at 148.082 188.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a849ec1-6147-45ee-8cc7-64d8173f0ecc")
+		)
+		(pin "3"
+			(uuid "ee7bcda3-1fc7-4601-973d-646dec10cd83")
+		)
+		(pin "4"
+			(uuid "57afdf46-e5e1-4a01-b133-83eabeb47ba6")
+		)
+		(pin "1"
+			(uuid "9de687fd-2c80-4058-abcf-86f12ede4298")
+		)
+		(instances
+			(project ""
+				(path "/8e7f53c8-3c18-4186-a98c-f432ec8939ef"
+					(reference "Q3")
+					(unit 1)
 				)
 			)
 		)
