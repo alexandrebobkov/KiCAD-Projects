@@ -1501,6 +1501,12 @@
 		(uuid "3ae6b40a-5d59-4d26-a088-bfb7c6fd5e9d")
 	)
 	(junction
+		(at 139.7 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e6c1506-1085-4519-b5dd-e34ff3ad7221")
+	)
+	(junction
 		(at 189.23 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1553,12 +1559,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aedc1372-5fa4-438d-a4bb-24aa064fdd78")
-	)
-	(junction
-		(at 140.97 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4280c8a-f9de-4fb6-b1fa-59e01d0c5c23")
 	)
 	(junction
 		(at 149.86 140.97)
@@ -1846,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 68.58) (xy 148.59 80.01)
+			(xy 148.59 60.96) (xy 148.59 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1946,7 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 40.64) (xy 148.59 60.96)
+			(xy 148.59 40.64) (xy 148.59 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2066,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 140.97) (xy 149.86 140.97)
+			(xy 139.7 140.97) (xy 149.86 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2076,7 +2076,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 140.97 101.6)
+			(xy 137.16 101.6) (xy 139.7 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2113,6 +2113,16 @@
 			(type default)
 		)
 		(uuid "bcf06817-a5b8-4402-b972-3ad1827fdc8b")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be24d8d6-b5c5-4d39-99ef-ae3af3a29425")
 	)
 	(wire
 		(pts
@@ -2226,23 +2236,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 129.54) (xy 140.97 140.97)
+			(xy 139.7 123.19) (xy 139.7 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d4b69c8c-5e89-40f9-804e-da3c5cd1870f")
-	)
-	(wire
-		(pts
-			(xy 140.97 101.6) (xy 160.02 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f9b385-100b-4201-b8ba-97808b243285")
 	)
 	(wire
 		(pts
@@ -2256,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 101.6) (xy 140.97 121.92)
+			(xy 139.7 101.6) (xy 139.7 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +2541,7 @@
 		(dnp no)
 		(uuid "05a57d81-9f77-4bd5-af29-550fa4efe6e8")
 		(property "Reference" "R9"
-			(at 156.21 125.73 90)
+			(at 154.94 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,7 +2549,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 153.67 125.73 90)
+			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4078,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 64.77 0)
+		(at 148.59 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4087,7 +4087,7 @@
 		(fields_autoplaced yes)
 		(uuid "73ef8d7e-bb92-4b04-811d-26c3772b83a1")
 		(property "Reference" "R5"
-			(at 151.13 63.4999 0)
+			(at 151.13 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4096,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 151.13 66.0399 0)
+			(at 151.13 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 146.812 64.77 90)
+			(at 146.812 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4114,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 64.77 0)
+			(at 148.59 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4123,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 148.59 64.77 0)
+			(at 148.59 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4780,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 125.73 0)
+		(at 139.7 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4789,7 +4789,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf9e3ccc-2981-451c-95dc-57fdcb40bac4")
 		(property "Reference" "R8"
-			(at 143.51 124.4599 0)
+			(at 142.24 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4798,7 +4798,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 143.51 126.9999 0)
+			(at 142.24 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +4807,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 139.192 125.73 90)
+			(at 137.922 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,7 +4816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 125.73 0)
+			(at 139.7 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4825,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 125.73 0)
+			(at 139.7 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
