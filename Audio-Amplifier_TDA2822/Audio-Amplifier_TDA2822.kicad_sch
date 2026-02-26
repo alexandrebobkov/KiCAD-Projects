@@ -3117,7 +3117,7 @@
 				)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "1000u"
 			(at 180.721 38.1 90)
 			(effects
 				(font
@@ -3186,7 +3186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4R7"
 			(at 191.77 67.3099 0)
 			(effects
 				(font
@@ -3647,7 +3647,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "100u"
 			(at 161.29 72.7709 0)
 			(effects
 				(font
@@ -3786,7 +3786,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220n"
 			(at 168.91 53.34 90)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224G_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_PTV112-4_Dual_Vertical"
 			(at 73.025 55.88 0)
 			(effects
 				(font
@@ -4124,76 +4124,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 112.903 174.117 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "465c6447-1dda-473b-b298-bf2af0dd980c")
-		(property "Reference" "R2"
-			(at 111.6329 171.577 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 114.1729 171.577 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 112.903 175.895 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 112.903 174.117 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 112.903 174.117 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fe90ac0d-4373-4e34-bd82-f09cc63247b9")
-		)
-		(pin "1"
-			(uuid "a9de526e-fa5c-4f7f-8677-6aa97b2968d6")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 41.91 85.09 0)
 		(unit 1)
@@ -4416,7 +4346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100"
 			(at 151.13 66.0399 0)
 			(effects
 				(font
@@ -4462,146 +4392,6 @@
 			(project ""
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 96.52 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "770ae325-ac04-4b59-b5d7-111c06d426f0")
-		(property "Reference" "C6"
-			(at 98.6791 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 96.1391 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 92.71 176.2252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 96.52 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "479bae37-4dc5-46ea-a710-696055b51e69")
-		)
-		(pin "2"
-			(uuid "f9a91219-d434-4f94-b8ce-c0b1d2b10571")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 26.67 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81648f93-534a-4d09-bd02-619878956d9e")
-		(property "Reference" "C4"
-			(at 30.48 176.9109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 30.48 179.4509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 27.6352 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 26.67 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "479bae37-4dc5-46ea-a710-696055b51e6a")
-		)
-		(pin "2"
-			(uuid "f9a91219-d434-4f94-b8ce-c0b1d2b10572")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4761,7 +4551,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100"
 			(at 161.29 64.77 90)
 			(effects
 				(font
@@ -4806,76 +4596,6 @@
 			(project "Audio-Amplifier_TDA2822"
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d3c5a39-eced-43e9-a68e-4be9f2cf7edb")
-		(property "Reference" "C13"
-			(at 132.08 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 132.08 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 129.2352 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aebff379-b547-47b7-b817-e30de4e9b00d")
-		)
-		(pin "2"
-			(uuid "663b1215-d55c-40f7-8665-40716c2c2a69")
-		)
-		(instances
-			(project "Audio-Amplifier_TDA2822"
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5092,7 +4812,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 193.04 59.6899 0)
 			(effects
 				(font
@@ -5161,7 +4881,7 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "3K3"
 			(at 160.02 115.57 90)
 			(effects
 				(font
@@ -5280,75 +5000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 97.79 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6f4af10-d4ec-41ff-a8df-b03e4f7e531b")
-		(property "Reference" "C5"
-			(at 99.9491 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 97.4091 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 93.98 152.0952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "479bae37-4dc5-46ea-a710-696055b51e6b")
-		)
-		(pin "2"
-			(uuid "f9a91219-d434-4f94-b8ce-c0b1d2b10573")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 189.23 130.81 0)
 		(unit 1)
@@ -5413,92 +5064,6 @@
 			(project "Audio-Amplifier_TDA2822"
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 76.2 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c00bc7c6-cb33-49db-9a23-c8d3d71c5926")
-		(property "Reference" "U2"
-			(at 76.2 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 76.2 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 76.2 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 76.2 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "4d4838a9-6417-4953-954b-6729394c9c52")
-		)
-		(pin "6"
-			(uuid "b7d85aee-fa88-4da9-9c68-e5eda766edd0")
-		)
-		(pin "3"
-			(uuid "aec18618-da92-404e-8c5d-a3a16513b89f")
-		)
-		(pin "2"
-			(uuid "f05b872b-6493-499f-9e79-9a6313215e73")
-		)
-		(pin "1"
-			(uuid "6751e974-ffa4-4946-9c16-12c64f279a20")
-		)
-		(pin "7"
-			(uuid "daa8e41e-c3a5-466d-bb3d-d7cda0ecba1f")
-		)
-		(pin "8"
-			(uuid "27a792b8-53e5-4b59-9710-93895ee3cf27")
-		)
-		(pin "4"
-			(uuid "6ebd2108-9830-407c-81ac-95324f416a64")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5592,7 +5157,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "3K3"
 			(at 161.29 54.61 90)
 			(effects
 				(font
@@ -6187,92 +5752,6 @@
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "U1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 77.47 148.59 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f653ea87-dc9a-4fb1-9efc-9bf02222c59c")
-		(property "Reference" "U2"
-			(at 77.47 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 77.47 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 77.47 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "4d4838a9-6417-4953-954b-6729394c9c54")
-		)
-		(pin "6"
-			(uuid "b7d85aee-fa88-4da9-9c68-e5eda766edd2")
-		)
-		(pin "3"
-			(uuid "aec18618-da92-404e-8c5d-a3a16513b8a1")
-		)
-		(pin "2"
-			(uuid "f05b872b-6493-499f-9e79-9a6313215e75")
-		)
-		(pin "1"
-			(uuid "6751e974-ffa4-4946-9c16-12c64f279a22")
-		)
-		(pin "7"
-			(uuid "daa8e41e-c3a5-466d-bb3d-d7cda0ecba21")
-		)
-		(pin "8"
-			(uuid "27a792b8-53e5-4b59-9710-93895ee3cf29")
-		)
-		(pin "4"
-			(uuid "6ebd2108-9830-407c-81ac-95324f416a66")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "U2")
-					(unit 2)
 				)
 			)
 		)
