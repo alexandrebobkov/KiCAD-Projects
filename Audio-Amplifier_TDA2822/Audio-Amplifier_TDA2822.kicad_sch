@@ -1654,6 +1654,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 36.83) (xy 93.98 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9b17f5-6db0-43c9-a0ca-08d8721dc30c")
+	)
+	(wire
+		(pts
 			(xy 148.59 80.01) (xy 157.48 80.01)
 		)
 		(stroke
@@ -1834,6 +1844,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 57.15) (xy 92.71 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78adfede-430b-4ed9-9fd7-800b872070c0")
+	)
+	(wire
+		(pts
 			(xy 41.91 71.12) (xy 41.91 76.2)
 		)
 		(stroke
@@ -1901,6 +1921,16 @@
 			(type default)
 		)
 		(uuid "8d115f15-035b-484b-9220-c865b5289d9e")
+	)
+	(wire
+		(pts
+			(xy 92.71 57.15) (xy 92.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da817f5-e8ef-4178-8280-a2e260417631")
 	)
 	(wire
 		(pts
@@ -2024,6 +2054,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 39.37) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb08416b-e5ae-4b99-b37c-7c1fc934f48b")
+	)
+	(wire
+		(pts
 			(xy 157.48 45.72) (xy 157.48 58.42)
 		)
 		(stroke
@@ -2041,6 +2081,16 @@
 			(type default)
 		)
 		(uuid "be919705-0a3e-41b6-b6f1-618d97a00947")
+	)
+	(wire
+		(pts
+			(xy 92.71 59.69) (xy 92.71 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd7defc-af50-49a2-9628-c2e6bcb53a1e")
 	)
 	(wire
 		(pts
@@ -2204,6 +2254,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 59.69) (xy 92.71 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bff8dc-6a1a-438b-9502-a2c2bcfd4a62")
+	)
+	(wire
+		(pts
 			(xy 30.48 83.82) (xy 30.48 87.63)
 		)
 		(stroke
@@ -2304,6 +2364,28 @@
 			)
 		)
 	)
+	(global_label "RGT_IN"
+		(shape input)
+		(at 93.98 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65ee5edd-00d2-4340-af47-8d1c22880b67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.3757 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RGT"
 		(shape input)
 		(at 110.49 129.54 0)
@@ -2317,6 +2399,28 @@
 		(uuid "855868d3-6c8f-42de-ace7-7eeda63c52f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.9828 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LFT_IN"
+		(shape input)
+		(at 93.98 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "89491a4f-2482-4d7a-9e43-de5c91978b00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.9524 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,6 +2581,74 @@
 			(project "Audio-Amplifier_TDA2822"
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 77.47 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cb5a7a8-a27a-4362-9627-cd97d23efd74")
+		(property "Reference" "J4"
+			(at 78.105 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 78.105 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a768febe-bbd9-4b33-adaa-619e10cc0d92")
+		)
+		(pin "1"
+			(uuid "ee2be06e-7b58-4dca-998f-57bc4e548a9e")
+		)
+		(instances
+			(project ""
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3080,6 +3252,140 @@
 			(project ""
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 71.12 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26299cb8-d4ec-49bd-9a01-49269e8a07c4")
+		(property "Reference" "J3"
+			(at 71.755 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 71.755 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc261ca7-86ca-4c05-89f6-49eb465130c6")
+		)
+		(pin "2"
+			(uuid "cd15c84c-190f-42c2-9f19-8ac3dd67dd99")
+		)
+		(instances
+			(project ""
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 92.71 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28448c8c-0c3c-4344-b37b-eea44f64cf93")
+		(property "Reference" "#PWR04"
+			(at 92.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 92.71 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccafb5c8-57dc-4af4-a6a4-47c4587790ba")
+		)
+		(instances
+			(project "Audio-Amplifier_TDA2822"
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4452,6 +4758,72 @@
 			(project "Audio-Amplifier_TDA2822"
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b755a41e-88b9-49f5-89f0-044b8a7b599e")
+		(property "Reference" "#PWR05"
+			(at 92.71 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d039658-e1e0-4809-b1c3-3cc82f6cbecc")
+		)
+		(instances
+			(project "Audio-Amplifier_TDA2822"
+				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
