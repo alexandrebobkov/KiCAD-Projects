@@ -301,260 +301,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:NE5532"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NE5532"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NE5532_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NE5532_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NE5532_3_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1791,12 +1537,6 @@
 		(uuid "924355ae-2028-4de8-b056-0ad4eccb60f3")
 	)
 	(junction
-		(at 83.82 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aabce4cc-9241-4964-b158-a76f2e940f56")
-	)
-	(junction
 		(at 140.97 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1819,12 +1559,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dab91661-fb6f-4ee4-8eee-8acadb6d93f2")
-	)
-	(junction
-		(at 83.82 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e233c5a2-5099-4d97-ac7d-0f3ca3cd3ce6")
 	)
 	(wire
 		(pts
@@ -1878,16 +1612,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 85.09) (xy 91.44 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d91ae4b-4351-4732-a518-e0833ab66356")
-	)
-	(wire
-		(pts
 			(xy 30.48 73.66) (xy 30.48 76.2)
 		)
 		(stroke
@@ -1915,26 +1639,6 @@
 			(type default)
 		)
 		(uuid "23d3991f-c74c-4d35-9778-6cd7bf7b7645")
-	)
-	(wire
-		(pts
-			(xy 83.82 83.82) (xy 83.82 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dbf4145-2e0d-4749-8559-b78d4ae6c53c")
-	)
-	(wire
-		(pts
-			(xy 91.44 101.6) (xy 83.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34b0e905-6eec-47cb-95d5-47c478ea3413")
 	)
 	(wire
 		(pts
@@ -2138,16 +1842,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 100.33) (xy 91.44 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8392d13d-89ae-4836-855d-fadc062ab492")
-	)
-	(wire
-		(pts
 			(xy 149.86 139.7) (xy 149.86 140.97)
 		)
 		(stroke
@@ -2248,16 +1942,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 83.82 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6712b11-d467-4df7-9f07-16a1739c945d")
-	)
-	(wire
-		(pts
 			(xy 140.97 140.97) (xy 149.86 140.97)
 		)
 		(stroke
@@ -2308,16 +1992,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 83.82 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3001368-5133-48d4-821a-adf77cc3d50c")
-	)
-	(wire
-		(pts
 			(xy 149.86 106.68) (xy 149.86 119.38)
 		)
 		(stroke
@@ -2345,16 +2019,6 @@
 			(type default)
 		)
 		(uuid "c8e7aba9-b594-4dad-8e65-09a94fd98fc7")
-	)
-	(wire
-		(pts
-			(xy 83.82 102.87) (xy 83.82 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9a910b0-f689-4157-b6d1-84717242fd76")
 	)
 	(wire
 		(pts
@@ -2535,16 +2199,6 @@
 			(type default)
 		)
 		(uuid "f63a0cb4-2a9c-4668-b168-feb688b69ecc")
-	)
-	(wire
-		(pts
-			(xy 83.82 101.6) (xy 83.82 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb4e38f5-ac4b-44a0-94ff-071d5d1e8557")
 	)
 	(global_label "LFT_IN"
 		(shape input)
@@ -3273,72 +2927,6 @@
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "U1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e94d128-bf6b-4328-bdb8-345ee01e4411")
-		(property "Reference" "#PWR04"
-			(at 83.82 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c79cb990-168e-4879-9e3c-8c001787ccc1")
-		)
-		(instances
-			(project "Audio-Amplifier_TDA2822"
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "#PWR04")
-					(unit 1)
 				)
 			)
 		)
@@ -4522,132 +4110,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Alexander Symbols Library:TDA2822M_2")
-		(at 60.96 92.71 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a43baaab-b4cb-430f-9f9f-acf9e55448ac")
-		(property "Reference" "U1"
-			(at 60.96 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TDA2822M_2"
-			(at 60.96 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f48e38fd-6693-44a9-be6c-7dede0f988b7")
-		)
-		(pin "2"
-			(uuid "f21febac-080a-4d4c-91c1-a04409343d8a")
-		)
-		(pin "3"
-			(uuid "47bdd3c9-a256-4de1-aab9-14c4e3e422cf")
-		)
-		(pin "5"
-			(uuid "cb2be7b1-3a65-4aee-b362-5ba03e37e731")
-		)
-		(pin "6"
-			(uuid "03c9c757-31c1-485e-9f0d-714e8539791f")
-		)
-		(pin "1"
-			(uuid "29827bf0-e1e8-402d-847a-7632a71efdf8")
-		)
-		(pin "8"
-			(uuid "2f2651be-83ff-41df-ac01-8576e45978c2")
-		)
-		(pin "7"
-			(uuid "b054010a-ca22-4ada-8a29-8d7234759dd9")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 30.48 85.09 0)
 		(unit 1)
@@ -5128,94 +4590,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NE5532")
-		(at 93.98 92.71 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5b01f89-9616-4b44-8014-8978b3abaa98")
-		(property "Reference" "U2"
-			(at 92.71 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NE5532"
-			(at 92.71 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
-			(at 93.98 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 93.98 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 93.98 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "4d4838a9-6417-4953-954b-6729394c9c53")
-		)
-		(pin "6"
-			(uuid "b7d85aee-fa88-4da9-9c68-e5eda766edd1")
-		)
-		(pin "3"
-			(uuid "aec18618-da92-404e-8c5d-a3a16513b8a0")
-		)
-		(pin "2"
-			(uuid "f05b872b-6493-499f-9e79-9a6313215e74")
-		)
-		(pin "1"
-			(uuid "6751e974-ffa4-4946-9c16-12c64f279a21")
-		)
-		(pin "7"
-			(uuid "daa8e41e-c3a5-466d-bb3d-d7cda0ecba20")
-		)
-		(pin "8"
-			(uuid "27a792b8-53e5-4b59-9710-93895ee3cf28")
-		)
-		(pin "4"
-			(uuid "6ebd2108-9830-407c-81ac-95324f416a65")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 44.45 119.38 90)
 		(unit 1)
@@ -5344,72 +4718,6 @@
 			(project ""
 				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 83.82 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5d255dc-7052-4e11-bcc2-5918d3a5c355")
-		(property "Reference" "#PWR05"
-			(at 83.82 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 83.82 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 83.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2f99728-507a-449f-be53-77dc02947d3e")
-		)
-		(instances
-			(project ""
-				(path "/d8f162ef-54fe-4f90-a0f8-73912642dc08"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
