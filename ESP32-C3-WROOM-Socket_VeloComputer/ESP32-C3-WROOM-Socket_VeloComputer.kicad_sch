@@ -5447,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 91.44) (xy 223.52 91.44)
+			(xy 205.74 91.44) (xy 223.52 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5667,7 +5667,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 93.98) (xy 223.52 93.98)
+			(xy 205.74 93.98) (xy 223.52 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6132,6 +6132,26 @@
 			)
 		)
 	)
+	(label "GPIO4"
+		(at 209.55 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e439951-86de-4a91-92f1-8dafb7dbf9a1")
+	)
+	(label "GPIO5"
+		(at 209.55 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a78ae366-a7e4-473e-bb7b-c2332ec10271")
+	)
 	(label "3V3"
 		(at 46.99 90.17 0)
 		(effects
@@ -6265,28 +6285,6 @@
 		(uuid "0ee0dde6-8df8-4373-acf8-8bebfd499069")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 193.4187 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPEED"
-		(shape input)
-		(at 203.2 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1747e532-74e8-4a95-b8cf-e80403c3fd4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.1673 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,28 +6712,6 @@
 			)
 		)
 	)
-	(global_label "GPIO5"
-		(shape input)
-		(at 222.25 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6dc26f68-b0c0-426a-9825-a1c4d31ac6c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.58 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART-RX"
 		(shape input)
 		(at 203.2 60.96 180)
@@ -6749,6 +6725,28 @@
 		(uuid "743193f0-e787-4a94-80ad-b70776101f64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.5062 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPEED"
+		(shape input)
+		(at 205.74 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77fc76f1-5460-44b6-a0a2-ab7077b2bc13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.7073 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,28 +6818,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CADENCE"
-		(shape input)
-		(at 203.2 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "895f10d9-341d-45ab-89ad-b26c773a06d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.6877 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -6930,6 +6906,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CADENCE"
+		(shape input)
+		(at 205.74 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae1a313a-8187-46ed-9e48-98b847f10332")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.2277 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7084,28 +7082,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO4"
-		(shape input)
-		(at 222.25 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dafc160b-0dc5-438e-bbf4-2b7d8cf0ddbf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.58 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -7269,8 +7245,8 @@
 		(at 232.41 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "017484fb-b299-46ec-b988-36abedd55bc9")
@@ -8861,9 +8837,9 @@
 		(at 224.79 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5a5716b9-d143-4251-b7dc-26c0c145d238")
 		(property "Reference" "U1"
